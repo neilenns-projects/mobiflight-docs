@@ -40,5 +40,41 @@
 			"{{% overline %}}$1{{% /overline %}}"
 		],
 		"description": "Snippet for inserting overline shortcode."
+	},
+	"Steps snippet": {
+		"prefix": "steps",
+		"body": [
+			"{{% steps %}}",
+			"",
+			"{{% /steps %}}"
+		],
+		"description": "Snippet for inserting steps shortcode."
+	},
+	"Tabs snippet": {
+		"prefix": "tabs",
+		"body": [
+			"{{< tabs items=\"$1\" >}}",
+			"",
+			"{{< tab >}}",
+			"",
+			"$2",
+			"",
+			"{{< /tab >}}",
+			"",
+			"{{< /tabs >}}"
+		],
+		"description": "Snippet for inserting tabs shortcode with content."
+	},
+	"Tab snippet": {
+		"prefix": "tab",
+		"body": [
+			"{{< tab >}}",
+			"",
+			"$1",
+			"",
+			"{{< /tab >}}",
+		],
+		"description": "Snippet for inserting tab shortcode with content."
 	}
+
 }

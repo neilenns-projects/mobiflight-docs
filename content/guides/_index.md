@@ -17,6 +17,8 @@ description: Step-by-step guides to accomplish specific tasks with MobiFlight.
 
 {{< card link="/guides/sharing-logs/" title="Sharing logs" icon="clipboard-document-list" >}}
 
+{{< card link="/guides/wasm-module/" title="WASM module installation" icon="download" >}}
+
 {{< card link="/guides/taking-screenshots/" title="Taking screenshots" icon="camera" >}}
 
 {{< /cards >}}
