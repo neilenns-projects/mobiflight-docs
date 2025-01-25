@@ -2,6 +2,7 @@ language: "en-US"
 reviews:
   collapse_walkthrough: true
   sequence_diagrams: false
+  path_filters: ["!design-files/schematics/**"]
   path_instructions:
     - path: "**/*.*"
       instructions: |

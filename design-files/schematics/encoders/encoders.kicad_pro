@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "output-shift-register-wiring.kicad_pro",
+    "filename": "encoders.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -384,7 +384,7 @@
   },
   "sheets": [
     [
-      "c3e614cf-ee2f-446d-a398-13db26e7d65c",
+      "7c8314bd-9b03-479b-b75c-f88104884c84",
       "Root"
     ]
   ],
