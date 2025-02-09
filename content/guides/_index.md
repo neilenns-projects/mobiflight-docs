@@ -12,6 +12,8 @@ cascade:
 
 {{< card link="/guides/installing-drivers/" title="Installing board drivers" icon="download" >}}
 
+{{< card link="/guides/input-events-2024/" title="Finding input events in MSFS2024" icon="search" >}}
+
 {{< card link="/guides/flashing-ambiguous-boards/" title="Flashing ambiguous boards" icon="cpu-chip" >}}
 
 {{< card link="/guides/solving-flashing-errors/" title="Solving flashing errors" icon="cpu-chip" >}}
