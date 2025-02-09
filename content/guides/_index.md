@@ -20,6 +20,14 @@ cascade:
 
 {{< /cards >}}
 
+## Advanced device tutorials
+
+{{< cards >}}
+
+{{< card link="/guides/single-encoder-com-tuning/" title="Using a single encoder to tune COM1" icon="information" >}}
+
+{{< /cards >}}
+
 ## Troubleshooting devices
 
 {{< cards >}}

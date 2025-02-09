@@ -21,3 +21,7 @@ Rotary encoders are a popular device when building custom autopilot and G1000 pa
 The most popular encoders are based on the `EC11` design and include an integrated push button. Single encoders can be purchased as a bare encoder or with a breakout board attached.
 
 Dual encoders are typically only available as a bare encoder, but can be purchased with a breakout board from the [MobiFlight Shop](https://shop.mobiflight.com/product/dual-encoder-bundle).
+
+## Additional resources
+
+- [Using a single encoder to tune COM1](/guides/single-encoder-com-tuning/)

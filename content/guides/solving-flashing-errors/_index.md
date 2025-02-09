@@ -36,6 +36,6 @@ If the previous steps do not resolve the flashing error, start a thread in the [
 
 - The type of board being flashed.
 - A photo of the specific board, with the chips near the USB connector clearly visible.
-- The complete logs collected by following the [sharing logs guide](/guides/sharing-logs/).
+- The complete logs collected by following the [sharing logs guide](/guides/sharing-logs/). Set the log level to **Debug** when enabling logging.
 
 {{% /steps %}}

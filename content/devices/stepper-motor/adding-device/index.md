@@ -31,8 +31,6 @@ Set the **Pin 1**, **Pin 2**, **Pin 3**, and **Pin 4** dropdowns to the board pi
 
 Provide a meaningful name for the stepper in the **Name** field. This name is shown in the output configuration screens when assigning the stepper to a flight simulator output.
 
-Check the **Disable stepper when at target position** box. This setting is optional, and prevents the stepper from getting warm when in use.
-
 {{< screenshot image="device-configuration-28BYJ-half-step-mode.png" title="Screenshot of the settings for a stepper motor, with pin 2, 3, 4, and 5 selected, Stepper as the name, and the 28BYJ - Half-step mode (recommended) preset selected." >}}
 
 {{< /tab >}}

@@ -30,6 +30,7 @@ MobiFlight supports a wide range of different hardware components when connected
 {{< card link="lcd" title="LCDs" image="card-images/devices/lcd-20x4.png" >}}
 {{< card link="led" title="LEDs" image="card-images/devices/led.png" >}}
 {{< card link="mosfet" title="MOSFETs" image="card-images/devices/mosfet.png" >}}
+{{< card link="relay" title="Relays" image="card-images/devices/relay.png" >}}
 {{< card link="servo" title="Servos" image="card-images/devices/servo.png" >}}
 {{< card link="seven-segment-display" title="7-segment display modules" subtitle="Using the MAX7219 or TM1637 driver" image="card-images/devices/seven-segment-all-three.png" >}}
 {{< card link="stepper-motor" title="Stepper motors" image="card-images/devices/stepper-motor.png" >}}
