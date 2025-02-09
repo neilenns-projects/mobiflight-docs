@@ -35,11 +35,11 @@ When the behaviors window opens it will look like this:
 
 Aircraft often have hundreds of input events, sometimes with names that aren't clear, making it challenging to find the correct one. A simple way to quickly locate the correct event is to look it up with a keyboard shortcut.
 
-To find the input event for the parking brake place the mouse cursor over the parking brake handle in the cockpit then press **CTRL + G** on the keyboard.
+To find the input event for the parking brake, place the mouse cursor over the parking brake handle in the cockpit, then press **CTRL + G** on the keyboard.
 
 {{< screenshot image="parking-brake.png" title="Screenshot of the aircraft with the parking brake handle highlighted in red and CTRL + G next to it." >}}
 
-After pressing the keyboard shortcut the behaviors window will update to show basic information about the parking brake.
+After pressing the keyboard shortcut, the behaviors window will update to show basic information about the parking brake.
 
 {{< screenshot image="after-ctrl-g.png" title="Screenshot of the behaviors dialog with the Inspector tab open for the parking brake." >}}
 
@@ -53,7 +53,7 @@ Once the section is expanded, click the **LANDING_GEAR_PARKINGBRAKE** button to 
 
 ### Expand the input events tab
 
-By default, the **InputEvents** tab hides the important information in a collapsed section. To view all the input events associated with the parking brake click the **LANDING_GEAR_PARKINGBRAKE** header to expand the collapsed information.
+By default, the **InputEvents** tab hides the important information in a collapsed section. To view all the input events associated with the parking brake, click the **LANDING_GEAR_PARKINGBRAKE** header to expand the collapsed information.
 
 {{< screenshot image="input-events-tab-expanded.png" title="Screenshot of the Behaviors dialog InputEvents tab with the LANDING_GEAR_PARKINGBRAKE section highlighted with a red rectangle and expanded." >}}
 
