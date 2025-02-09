@@ -39,7 +39,7 @@ The **On Release** event fires when the button is released, as long as **On Long
 
 {{< tab >}}
 
-The **On Hold** event fires when the button is held for longer than the millisecond count specified in the **Delay** field.
+The **On Hold** event always fires when the button is held for longer than the millisecond count specified in the **Delay** field.
 
 If the **repeat every** value is non-zero, the event will fire repeatedly at the specified millisecond interval.
 
