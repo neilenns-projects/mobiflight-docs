@@ -5,7 +5,7 @@ ogimage: card-images/boards/arduino-uno-r4-minima.png
 ---
 
 > [!IMPORTANT]
-> This board is unsupported. Consider a [Mega 2560 Pro Mini](/boards/arduino-mega-2560-pro-mini/) instead.
+> This board is unsupported. Consider a [Mega 2560 Pro Mini](/boards/recommended/mega-2560-pro-mini/) instead.
 
 The Arduino Uno R4 is an Arduino board based on the Renesas RA4M1 microcontroller.
 While it bears the Arduino Uno name and is prominently featured on the Arduino website as the
