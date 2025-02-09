@@ -31,7 +31,7 @@ The **On Press** event fires immediately after the button is pressed.
 
 {{< tab >}}
 
-The **On Release** event fires when the button is released, as long as **On Long Release** is not configured. If **On Long Release** is configured, **On Release** will fire when teh button is held for less than the on long release duration.
+The **On Release** event fires when the button is released, as long as **On Long Release** is not configured. If **On Long Release** is configured, **On Release** will fire when the button is held for less than the on long release duration.
 
 {{< screenshot image="on-RELEASE.png" title="Screenshot of the button On Release event tab with the Action Type menu opened." >}}
 
@@ -42,9 +42,6 @@ The **On Release** event fires when the button is released, as long as **On Long
 The **On Hold** event fires when the button is held for longer than the millisecond count specified in the **Delay** field.
 
 If the **repeat every** value is non-zero, the event will fire repeatedly at the specified millisecond interval.
-
-> [!NOTE]
-> This event will not fire if the button is held long enough to trigger the **On Long Release** event.
 
 {{< screenshot image="on-hold.png" title="Screenshot of the button On Hold event tab with the delay set to 350 ms, repeat every set to 0 ms, and the Action Type menu opened." >}}
 
