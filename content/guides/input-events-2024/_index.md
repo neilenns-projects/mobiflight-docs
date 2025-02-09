@@ -13,7 +13,7 @@ The following steps illustrate how to find the input event for the parking brake
 
 ### Enable developer mode
 
-In Microsoft Flight Simulator 2024 settings, select the **Advanced Options** section then enable the **Developer Mode** option.
+In Microsoft Flight Simulator 2024 settings, select the **Advanced Options** section, then enable the **Developer Mode** option.
 
 {{< screenshot image="advanced-options.png" title="Screenshot of Microsoft Flight Simulator 2024 settings with the Advanced Options section and Developer Mode option highlighted." >}}
 
@@ -23,7 +23,7 @@ Use **Free Flight** mode to spawn the Cessna 172 at an airport.
 
 ### Open the behaviors window
 
-From the **Tools** menu select **Behaviors**.
+From the **Tools** menu, select **Behaviors**.
 
 {{< screenshot image="behaviors-menu.png" title="Screenshot of the Tools menu open with the Behaviors menu item highlighted." >}}
 
@@ -49,11 +49,11 @@ To view the input events associated with the parking brake, click the **InputEve
 
 {{< screenshot image="input-events-expanded.png" title="Screenshot of the behaviors dialog with the **InputEvents** section expanded and the input event highlighted with a red rectangle." >}}
 
-Once the section is expanded click the **LANDING_GEAR_PARKINGBRAKE** button to open the **InputEvents** tab with all the events associated with the parking brake handle.
+Once the section is expanded, click the **LANDING_GEAR_PARKINGBRAKE** button to open the **InputEvents** tab with all the events associated with the parking brake handle.
 
 ### Expand the input events tab
 
-By default the **InputEvents** tab hides the important information in a collapsed section. To view all the input events associated with the parking brake click the **LANDING_GEAR_PARKINGBRAKE** header to expand the collapsed information.
+By default, the **InputEvents** tab hides the important information in a collapsed section. To view all the input events associated with the parking brake click the **LANDING_GEAR_PARKINGBRAKE** header to expand the collapsed information.
 
 {{< screenshot image="input-events-tab-expanded.png" title="Screenshot of the Behaviors dialog InputEvents tab with the LANDING_GEAR_PARKINGBRAKE section highlighted with a red rectangle and expanded." >}}
 
@@ -61,7 +61,7 @@ By default the **InputEvents** tab hides the important information in a collapse
 
 Controls in Microsoft Flight Simulator have multiple input events, even for simple controls like a parking brake.
 
-The **Bindings** section lists the input events used with MobiFlight. In this example there are six different events shown:
+The **Bindings** section lists the input events used with MobiFlight. In this example, there are six different events shown:
 
 - LANDING_GEAR_PARKINGBRAKE_Inc
 - LANDING_GEAR_PARKINGBRAKE_Dec
@@ -86,11 +86,11 @@ This assumption can be tested by entering a **`1`** in the parameter box and pre
 
 ### Using the event in MobiFlight
 
-With the event tested and working it can now be converted to the correct format for use in MobiFlight. Copy the event name by right clicking on it and selecting **Copy to Clipboard**.
+With the event tested and working, it can now be converted to the correct format for use in MobiFlight. Copy the event name by right-clicking on it and selecting **Copy to Clipboard**.
 
 {{< screenshot image="copy-to-clipboard.png" title="Screenshot of the Behaviors dialog InputEvents tab with the context menu open on the LANDING_GEAR_PARKINGBRAKE_Set binding and Copy to Clipboard highlighted." >}}
 
-In MobiFlight create a new input configuration and select the appropriate switch as the device. Set the **Action Type** for **On Press** to **Microsoft Flight Simulator** and check the **Show Preset Code** box. The preset code box is where the event will go.
+In MobiFlight, create a new input configuration and select the appropriate switch as the device. Set the **Action Type** for **On Press** to **Microsoft Flight Simulator** and check the **Show Preset Code** box. The preset code box is where the event will go.
 
 {{< screenshot image="input-config-show-preset-code.png" title="Screenshot of a MobiFlight input configuration with the Show Preset Code checkbox checked." >}}
 
@@ -102,13 +102,13 @@ The event needs to be converted to [RPN](https://docs.flightsimulator.com/html/A
 
 {{< screenshot image="input-config-on-press.png" title="Screenshot of a MobiFlight input configuration with the custom code for setting the parking brake." >}}
 
-For the **On Release** event use the following custom code:
+For the **On Release** event, use the following custom code:
 
 ```RPN
 0 (>B:LANDING_GEAR_PARKINGBRAKE_Set)
 ```
 
-Notice how the event name discovered in the previous steps is wrapped with `(>B:` and `)`, and `1` and `0` are used to set and release the parking brake. This pattern applies for any input event that takes a value.
+Notice how the event name discovered in the previous steps is wrapped with `(>B:` and `)`, and `1` and `0` are used to set and release the parking brake. This pattern applies to any input event that takes a value.
 
 ### Close the dialog and try it out
 
