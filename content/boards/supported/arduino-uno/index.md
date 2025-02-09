@@ -8,7 +8,7 @@ weight: 20
 The Arduino Uno R3 is an older design that doesn't offer many IO pins and has a large size.
 Unless you already own one, we recommend purchasing a different board, either the
 [Mega 2560 Pro Mini](/boards/mega-2560-pro-mini) if you need more IO pins (up to 70) or the
-[Arduino Nano](/boards/arduino-nano) if space is at a premium.
+[Arduino Nano](/boards/recommended/arduino-nano) if space is at a premium.
 
 {{< cards >}}
 

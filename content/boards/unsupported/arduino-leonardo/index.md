@@ -5,7 +5,7 @@ ogimage: card-images/boards/arduino-leonardo.png
 ---
 
 > [!IMPORTANT]
-> This board is unsupported. Consider a [Mega 2560 Pro Mini](/boards/mega-2560-pro-mini/) instead.
+> This board is unsupported. Consider a [Mega 2560 Pro Mini](/boards/recommended/mega-2560-pro-mini/) instead.
 
 The Arduino Leonardo is an Arduino board based on the ATmega32U4 microcontroller.
 Despite its physical resemblance to the Arduino Uno, it is more closely related to the [Arduino Micro](/boards/unsupported/arduino-micro),
