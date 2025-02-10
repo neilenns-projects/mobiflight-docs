@@ -1,6 +1,8 @@
 # MobiFlight Documentation
 
-Documentation website for MobiFlight, written in [Hugo](https://gohugo.io/) with the [Hextra theme](https://imfing.github.io/hextra/docs/getting-started/).
+Documentation website for MobiFlight, written in [Hugo](https://gohugo.io/) with the [Hextra theme](https://imfing.github.io/hextra/docs/getting-started/). This documentation is deployed using CloudFlare Pages to the [MobiFlight documentation site](https://docs.mobiflight.com/). See the [deployment guide](DEPLOYMENT.md) for information on how to deploy.
+
+## Editing the documentation
 
 The documentation is set up for editing using Visual Studio Code dev containers:
 
@@ -17,7 +19,7 @@ To view the documentation press `F5` and it will automatically build and open in
 
 ## Style guidelines
 
-## General conventions
+### General conventions
 
 - Filenames are in lowercase, spaces are replaced with hyphens (-).
 - All Markdown files must pass markdownlint.
@@ -56,14 +58,14 @@ To view the documentation press `F5` and it will automatically build and open in
 - Store in the `assets/card-images` folder.
 - Reference using the `{{% card %}}` shortcode, accessible using the VSCode `board` and `device` snippets.
 
-## Pinout diagrams
+### Pinout diagrams
 
 - Use `.svg` format for all pinout diagrams.
 - Process the files using [svgomg](https://svgomg.net/) with the default options plus `Prefer viewBox to width/height` enabled.
 - Store in the page bundle for the associated board and name the file `pinout.svg`.
 - Reference using the `{{< pinout >}}` shortcode, accessible using the VSCode snippet `pinout`.
 
-## Schematics
+### Schematics
 
 - Use `.svg` format for all schematics.
 - Prefer net labels over global labels.
