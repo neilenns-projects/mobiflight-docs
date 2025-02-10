@@ -45,7 +45,7 @@ Go to the **Extras** menu and select **Settings**.
 
 On the **Peripherals** tab, uncheck the specific MIDI devices to disable.
 
-{{< screenshot image="disable-specific.png" title="Screenshot of the Peripherals tab in Settings with three FootSwitch joysticks disabled." >}}
+{{< screenshot image="disable-specific.png" title="Screenshot of the Peripherals tab in Settings with the MPK mini play device unchecked." >}}
 
 {{% /steps %}}
 
