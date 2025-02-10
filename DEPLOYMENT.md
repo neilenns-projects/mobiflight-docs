@@ -6,7 +6,7 @@ The documentation can be deployed to any hosting provider as a static website. T
 hugo -b <baseUrl>
 ```
 
-Where `<baseUrl>` is the base URL of the site. For example, the live site is deployed using this command:
+Where `<baseUrl>` is the base URL of the site. For example, the live site is built using this command:
 
 ```bash
 hugo -b https://docs.mobiflight.com/
