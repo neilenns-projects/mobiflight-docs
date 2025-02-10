@@ -16,3 +16,7 @@ MobiFlight supports several popular MIDI devices. While no drivers are required,
 - [Behringer X-TOUCH MINI](https://www.behringer.com/product.html?modelCode=P0B1V)
 - [Intech EF44](https://intech.studio/shop/ef44)
 - [KORG nanoKONTROL2](https://www.korg.com/us/products/computergear/nanokontrol2/)
+
+## Other devices
+
+MobiFlight supports other MIDI devices via [custom configuration files](/midi/adding-custom-device/).
