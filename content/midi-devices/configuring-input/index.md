@@ -21,6 +21,6 @@ When selecting the **Module** and **Device**, select the appropriate MIDI device
 {{< screenshot image="input-selected-knob.png" title="Screenshot of the input configuration dialog with a MIDI device and knob selected." >}}
 
 > [!TIP]
-> Preset that take analog values are typically designed for a potentiometer with a range of 0-–1023. Knobs and other analog MIDI inputs provide values from 0--127.
+> Presets that take analog values are typically designed for a potentiometer with a range of 0-–1023. Knobs and other analog MIDI inputs provide values from 0--127.
 >
 > Use the [HubHop potentiometer tool](https://hubhop.mobiflight.com/tools/) to generate the correct event code to map the range to the expected values for the input.
