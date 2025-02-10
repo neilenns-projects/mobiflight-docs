@@ -22,24 +22,22 @@ The Raspberry Pi Pico 1 is a compact board with a moderate number of IO pins. It
 - 23 digital IO pins, 16 with PWM support.
 - 3 analog inputs (can be used as digital IO pins).
 
-| Device                                                   | Limit | Notes                                                                                                                                                                                                         |
-| -------------------------------------------------------- | :---: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Analog input](/devices/potentiometer/)                  |   3   |                                                                                                                                                                                                               |
-| [Button](/devices/button-switch/)                        |  26   |                                                                                                                                                                                                               |
-| [Digital Input Multiplexer](/devices/multiplexer/)       |   6   |                                                                                                                                                                                                               |
-| [Encoder](/devices/encoder/)                             |  13   |                                                                                                                                                                                                               |
-| [Input shift register](/devices/input-shift-register/)   |   6   | Six _chains_ of shift registers, 32 bits each (2x16 or 4x8 bit shift registers).                                                                                                                              |
-| [LCD Display](/devices/lcd-display/)                     |   2   |                                                                                                                                                                                                               |
-| [LED / Output](/devices/led/)                            |  26   |                                                                                                                                                                                                               |
-| LED 7-Segment                                            |   6   | 6 [TM1637](/devices/seven-segment-tm1637/) modules, or 6 chains of [MAX7219](/devices/seven-segment-max7219/) modules, or a mix of both. A 5V power supply is required when connecting more than one display. |
-| [Output shift register](/devices/output-shift-register/) |   6   | Six _chains_ of shift registers, 32 bits each (2x16 or 4x8 bit shift registers).                                                                                                                              |
-| [Servo](/devices/servo/)                                 |   8   |                                                                                                                                                                                                               |
-| [Stepper](/devices/stepper-motor)                        |   6   |                                                                                                                                                                                                               |
-
 > [!WARNING]
-> The Raspberry Pi Pico uses 3.3V for its digital signals. Certain output devices, most notably the MAX7219
-> 7-segment LED driver chip, require 5V digital signals. If you plan to use those devices with the Pico, you will
-> need to add a level shifter to your build.
+> The Raspberry Pi Pico 1 uses 3.3V for its digital signals. Certain output devices, including the MAX7219 7-segment LED driver chip and all LCDs, require 5V digital signals. If you plan to use those devices with the Pico, you will need to add a level shifter to your build.
+
+| Device                                                   | Limit | Notes                                                                                                                                    |
+| -------------------------------------------------------- | :---: | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| [Analog input](/devices/potentiometer/)                  |   3   |                                                                                                                                          |
+| [Button](/devices/button-switch/)                        |  26   |                                                                                                                                          |
+| [Digital Input Multiplexer](/devices/multiplexer/)       |   6   |                                                                                                                                          |
+| [Encoder](/devices/encoder/)                             |  13   |                                                                                                                                          |
+| [Input shift register](/devices/input-shift-register/)   |   6   | Six _chains_ of shift registers, 32 bits each (2x16 or 4x8 bit shift registers).                                                         |
+| [LCD Display](/devices/lcd/)                             |   2   |                                                                                                                                          |
+| [LED / Output](/devices/led/)                            |  26   |                                                                                                                                          |
+| [LED 7-Segment](/devices/seven-segment-display/)         |   6   | 6 TM1637 modules, or 6 chains of MAX7219 modules, or a mix of both. A 5V power supply is required when connecting more than one display. |
+| [Output shift register](/devices/output-shift-register/) |   6   | Six _chains_ of shift registers, 32 bits each (2x16 or 4x8 bit shift registers).                                                         |
+| [Servo](/devices/servo/)                                 |   8   |                                                                                                                                          |
+| [Stepper](/devices/stepper-motor)                        |   6   |                                                                                                                                          |
 
 ## Pinout
 

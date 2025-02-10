@@ -1,7 +1,7 @@
 ---
 title: LCDs
 description: How to use LCDs with MobiFlight.
-ogimage: card-images/devices/lcd-display.png
+ogimage: card-images/devices/lcd-20x4.png
 next: /devices/lcd/wiring/
 ---
 
@@ -10,7 +10,7 @@ next: /devices/lcd/wiring/
 LCDs using a 1602 I^2^C driver board are a convenient way to display more than one simulator variable at a time.
 
 {{< cards >}}
-{{< card title="LCD" subtitle="16 characters per row, two rows" image="card-images/devices/lcd-20x4.png" >}}
+{{< card title="LCD" subtitle="16 characters per row, two rows" image="card-images/devices/lcd-16x2.png" >}}
 {{< card title="LCD" subtitle="20 characters per row, four rows" image="card-images/devices/lcd-20x4.png" >}}
 {{</ cards >}}
 

@@ -5,10 +5,10 @@ ogimage: card-images/boards/arduino-micro.png
 ---
 
 > [!IMPORTANT]
-> This board is unsupported. Consider an [Arduino Nano](/boards/arduino-nano) or [Pro Micro](/boards/pro-micro) instead.
+> This board is unsupported. Consider an [Arduino Nano](/boards/recommended/arduino-nano) or [Pro Micro (16 MHz)](/boards/recommended/pro-micro) instead.
 
 The Arduino Micro is an Arduino board based on the ATmega32U4 microcontroller.
-While very similar to the [Pro Micro](/boards/pro-micro), it is a different board with different
+While very similar to the [Pro Micro 16 Mhz](/boards/recommended/pro-micro), it is a different board with different
 features that cause incompatibilities.
 
 {{< cards >}}

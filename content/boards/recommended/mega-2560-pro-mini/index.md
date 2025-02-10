@@ -26,19 +26,19 @@ but in a smaller package. If you need many IO pins, this is the recommended boar
 - 54 digital IO pins, 15 with PWM support.
 - 16 analog inputs (can be used as digital inputs).
 
-| Device                                                   | Limit | Notes                                                                                                                                                                                                         |
-| -------------------------------------------------------- | :---: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Analog input](/devices/potentiometer/)                  |  16   |                                                                                                                                                                                                               |
-| [Button](/devices/button-switch/)                        |  68   |                                                                                                                                                                                                               |
-| [Digital Input Multiplexer](/devices/multiplexer/)       |   6   |                                                                                                                                                                                                               |
-| [Encoder](/devices/encoder/)                             |  20   |                                                                                                                                                                                                               |
-| [Input shift register](/devices/input-shift-register/)   |   6   | Six _chains_ of shift registers, 32 bits each (2x16 or 4x8 bit shift registers).                                                                                                                              |
-| [LCD Display](/devices/lcd-display/)                     |   2   |                                                                                                                                                                                                               |
-| [LED / Output](/devices/led/)                            |  68   |                                                                                                                                                                                                               |
-| LED 7-Segment                                            |   6   | 6 [TM1637](/devices/seven-segment-tm1637/) modules, or 6 chains of [MAX7219](/devices/seven-segment-max7219/) modules, or a mix of both. A 5V power supply is required when connecting more than one display. |
-| [Output shift register](/devices/output-shift-register/) |   6   | Six _chains_ of shift registers, 32 bits each (2x16 or 4x8 bit shift registers).                                                                                                                              |
-| [Servo](/devices/servo/)                                 |  12   |                                                                                                                                                                                                               |
-| [Stepper](/devices/stepper-motor)                        |  10   |                                                                                                                                                                                                               |
+| Device                                                   | Limit | Notes                                                                                                                                    |
+| -------------------------------------------------------- | :---: | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| [Analog input](/devices/potentiometer/)                  |  16   |                                                                                                                                          |
+| [Button](/devices/button-switch/)                        |  68   |                                                                                                                                          |
+| [Digital Input Multiplexer](/devices/multiplexer/)       |   6   |                                                                                                                                          |
+| [Encoder](/devices/encoder/)                             |  20   |                                                                                                                                          |
+| [Input shift register](/devices/input-shift-register/)   |   6   | Six _chains_ of shift registers, 32 bits each (2x16 or 4x8 bit shift registers).                                                         |
+| [LCD Display](/devices/lcd/)                             |   2   |                                                                                                                                          |
+| [LED / Output](/devices/led/)                            |  68   |                                                                                                                                          |
+| [LED 7-Segment](/devices/seven-segment-display/)         |   6   | 6 TM1637 modules, or 6 chains of MAX7219 modules, or a mix of both. A 5V power supply is required when connecting more than one display. |
+| [Output shift register](/devices/output-shift-register/) |   6   | Six _chains_ of shift registers, 32 bits each (2x16 or 4x8 bit shift registers).                                                         |
+| [Servo](/devices/servo/)                                 |  12   |                                                                                                                                          |
+| [Stepper](/devices/stepper-motor)                        |  10   |                                                                                                                                          |
 
 ## Pinout
 

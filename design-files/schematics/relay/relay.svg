@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 220 89.9">
+  <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke: #000084;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .st0, .st1, .st4, .st5, .st8, .st9, .st11 {
+        stroke-width: .4px;
+      }
+
+      .st1, .st10 {
+        stroke: #a90000;
+      }
+
+      .st2, .st6, .st7, .st10 {
+        font-family: ArialMT, Arial;
+        font-size: 4.8px;
+        stroke-width: .4px;
+      }
+
+      .st2, .st9 {
+        stroke: #0f0f0f;
+      }
+
+      .st3 {
+        stroke-width: .7px;
+      }
+
+      .st3, .st11 {
+        stroke: #840000;
+      }
+
+      .st12 {
+        letter-spacing: .6em;
+      }
+
+      .st13 {
+        letter-spacing: .4em;
+      }
+
+      .st14 {
+        letter-spacing: .8em;
+      }
+
+      .st15 {
+        letter-spacing: .6em;
+      }
+
+      .st4 {
+        stroke: #009600;
+      }
+
+      .st16 {
+        letter-spacing: .5em;
+      }
+
+      .st17 {
+        fill: #ffffc2;
+      }
+
+      .st18 {
+        letter-spacing: .5em;
+      }
+
+      .st5, .st7 {
+        stroke: #006464;
+      }
+
+      .st6, .st8 {
+        stroke: #0000c2;
+      }
+
+      .st19 {
+        isolation: isolate;
+        opacity: 0;
+      }
+
+      .st20 {
+        letter-spacing: .3em;
+      }
+
+      .st21 {
+        letter-spacing: .2em;
+      }
+
+      .st22 {
+        letter-spacing: .2em;
+      }
+
+      .st23 {
+        letter-spacing: .4em;
+      }
+
+      .st24 {
+        letter-spacing: .5em;
+      }
+    </style>
+  </defs>
+  <path class="st11" d="M191.4,71.5v3.6h3.6l-3.6,3.6-3.6-3.6h3.6"/>
+  <path class="st11" d="M191.4,71.5h0"/>
+  <g>
+    <g class="st19">
+      <text class="st7" transform="translate(185.4 87.1)"><tspan class="st22" x="0" y="0">GN</tspan><tspan x="9.4" y="0">D</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M188.6,84.2l-.3-.2"/>
+      <path class="st5" d="M188.3,84h-.5"/>
+      <path class="st5" d="M187.8,84l-.5.2"/>
+      <path class="st5" d="M187.2,84.2l-.3.3"/>
+      <path class="st5" d="M186.9,84.5l-.2.3"/>
+      <path class="st5" d="M186.7,84.8l-.2.7"/>
+      <path class="st5" d="M186.6,85.5v.5"/>
+      <path class="st5" d="M186.6,86l.2.7"/>
+      <path class="st5" d="M186.7,86.7l.2.3"/>
+      <path class="st5" d="M186.9,87.1l.3.3"/>
+      <path class="st5" d="M187.2,87.4l.5.2"/>
+      <path class="st5" d="M187.8,87.6h.3"/>
+      <path class="st5" d="M188.1,87.6l.5-.2"/>
+      <path class="st5" d="M188.6,87.4l.2-.2"/>
+      <path class="st5" d="M188.8,87.2v-1.2"/>
+      <path class="st5" d="M188.8,86h-.7"/>
+      <path class="st5" d="M190.3,87.6v-3.6"/>
+      <path class="st5" d="M190.3,84l2.1,3.6"/>
+      <path class="st5" d="M192.4,87.6v-3.6"/>
+      <path class="st5" d="M194.1,87.6v-3.6"/>
+      <path class="st5" d="M194.1,84h.9"/>
+      <path class="st5" d="M195,84l.5.2"/>
+      <path class="st5" d="M195.5,84.2l.3.3"/>
+      <path class="st5" d="M195.8,84.5l.2.3"/>
+      <path class="st5" d="M196,84.8l.2.7"/>
+      <path class="st5" d="M196.2,85.5v.5"/>
+      <path class="st5" d="M196.2,86l-.2.7"/>
+      <path class="st5" d="M196,86.7l-.2.3"/>
+      <path class="st5" d="M195.8,87.1l-.3.3"/>
+      <path class="st5" d="M195.5,87.4l-.5.2"/>
+      <path class="st5" d="M195,87.6h-.9"/>
+    </g>
+    <path class="st11" d="M182,13.9l2.2-3.6"/>
+    <path class="st11" d="M184.2,17.5v-7.2"/>
+    <path class="st11" d="M184.2,10.3l2.2,3.6"/>
+  </g>
+  <path class="st11" d="M184.2,17.5h0"/>
+  <g>
+    <g class="st19">
+      <text class="st7" transform="translate(179 4.3)"><tspan class="st18" x="0" y="0">+5</tspan><tspan x="10" y="0">V</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M179.5,3.4h2.7"/>
+      <path class="st5" d="M180.9,4.8v-2.7"/>
+      <path class="st5" d="M185.7,1.2h-1.7"/>
+      <path class="st5" d="M184,1.2l-.2,1.7"/>
+      <path class="st5" d="M183.8,2.9l.2-.2"/>
+      <path class="st5" d="M184,2.7l.3-.2"/>
+      <path class="st5" d="M184.3,2.6h.9"/>
+      <path class="st5" d="M185.2,2.6l.3.2"/>
+      <path class="st5" d="M185.5,2.7l.2.2"/>
+      <path class="st5" d="M185.7,2.9l.2.3"/>
+      <path class="st5" d="M185.9,3.2v.9"/>
+      <path class="st5" d="M185.9,4.1l-.2.3"/>
+      <path class="st5" d="M185.7,4.4l-.2.2"/>
+      <path class="st5" d="M185.5,4.6l-.3.2"/>
+      <path class="st5" d="M185.2,4.8h-.9"/>
+      <path class="st5" d="M184.3,4.8l-.3-.2"/>
+      <path class="st5" d="M184,4.6l-.2-.2"/>
+      <path class="st5" d="M186.9,1.2l1.2,3.6"/>
+      <path class="st5" d="M188.1,4.8l1.2-3.6"/>
+    </g>
+  </g>
+  <rect class="st17" x="61.8" y="17.5" width="108" height="54"/>
+  <g>
+    <rect class="st11" x="61.8" y="17.5" width="108" height="54"/>
+    <rect class="st11" x="76.2" y="28.3" width="38.9" height="32.4"/>
+    <path class="st11" d="M61.8,46.3h-7.2"/>
+  </g>
+  <g>
+    <g class="st19">
+      <text class="st7" transform="translate(62.5 47.5)"><tspan class="st21" x="0" y="0">CO</tspan><tspan x="9.4" y="0">M</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M66.4,47.6l-.2.2"/>
+      <path class="st5" d="M66.2,47.8l-.5.2"/>
+      <path class="st5" d="M65.7,48h-.3"/>
+      <path class="st5" d="M65.4,48l-.5-.2"/>
+      <path class="st5" d="M64.9,47.8l-.3-.3"/>
+      <path class="st5" d="M64.5,47.5l-.2-.3"/>
+      <path class="st5" d="M64.3,47.1l-.2-.7"/>
+      <path class="st5" d="M64.2,46.4v-.5"/>
+      <path class="st5" d="M64.2,45.9l.2-.7"/>
+      <path class="st5" d="M64.3,45.2l.2-.3"/>
+      <path class="st5" d="M64.5,44.9l.3-.3"/>
+      <path class="st5" d="M64.9,44.6l.5-.2"/>
+      <path class="st5" d="M65.4,44.4h.3"/>
+      <path class="st5" d="M65.7,44.4l.5.2"/>
+      <path class="st5" d="M66.2,44.6l.2.2"/>
+      <path class="st5" d="M68.6,44.4h.7"/>
+      <path class="st5" d="M69.3,44.4l.3.2"/>
+      <path class="st5" d="M69.7,44.6l.3.3"/>
+      <path class="st5" d="M70,44.9l.2.7"/>
+      <path class="st5" d="M70.2,45.6v1.2"/>
+      <path class="st5" d="M70.2,46.8l-.2.7"/>
+      <path class="st5" d="M70,47.5l-.3.3"/>
+      <path class="st5" d="M69.7,47.8l-.3.2"/>
+      <path class="st5" d="M69.3,48h-.7"/>
+      <path class="st5" d="M68.6,48l-.3-.2"/>
+      <path class="st5" d="M68.3,47.8l-.3-.3"/>
+      <path class="st5" d="M67.9,47.5l-.2-.7"/>
+      <path class="st5" d="M67.8,46.8v-1.2"/>
+      <path class="st5" d="M67.8,45.6l.2-.7"/>
+      <path class="st5" d="M67.9,44.9l.3-.3"/>
+      <path class="st5" d="M68.3,44.6l.3-.2"/>
+      <path class="st5" d="M71.7,48v-3.6"/>
+      <path class="st5" d="M71.7,44.4l1.2,2.6"/>
+      <path class="st5" d="M72.9,47l1.2-2.6"/>
+      <path class="st5" d="M74.1,44.4v3.6"/>
+    </g>
+  </g>
+  <path class="st11" d="M169.8,53.5h7.2"/>
+  <g>
+    <g class="st19">
+      <text class="st7" transform="translate(157.8 54.7)"><tspan class="st13" x="0" y="0">DC</tspan><tspan x="11" y="0">+</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M157.2,55.2v-3.6"/>
+      <path class="st5" d="M157.2,51.6h.9"/>
+      <path class="st5" d="M158.1,51.6l.5.2"/>
+      <path class="st5" d="M158.6,51.8l.3.3"/>
+      <path class="st5" d="M158.9,52.1l.2.3"/>
+      <path class="st5" d="M159.1,52.4l.2.7"/>
+      <path class="st5" d="M159.3,53.1v.5"/>
+      <path class="st5" d="M159.3,53.6l-.2.7"/>
+      <path class="st5" d="M159.1,54.3l-.2.3"/>
+      <path class="st5" d="M158.9,54.7l-.3.3"/>
+      <path class="st5" d="M158.6,55l-.5.2"/>
+      <path class="st5" d="M158.1,55.2h-.9"/>
+      <path class="st5" d="M162.9,54.8l-.2.2"/>
+      <path class="st5" d="M162.7,55l-.5.2"/>
+      <path class="st5" d="M162.2,55.2h-.3"/>
+      <path class="st5" d="M161.9,55.2l-.5-.2"/>
+      <path class="st5" d="M161.3,55l-.3-.3"/>
+      <path class="st5" d="M161,54.7l-.2-.3"/>
+      <path class="st5" d="M160.8,54.3l-.2-.7"/>
+      <path class="st5" d="M160.7,53.6v-.5"/>
+      <path class="st5" d="M160.7,53.1l.2-.7"/>
+      <path class="st5" d="M160.8,52.4l.2-.3"/>
+      <path class="st5" d="M161,52.1l.3-.3"/>
+      <path class="st5" d="M161.3,51.8l.5-.2"/>
+      <path class="st5" d="M161.9,51.6h.3"/>
+      <path class="st5" d="M162.2,51.6l.5.2"/>
+      <path class="st5" d="M162.7,51.8l.2.2"/>
+      <path class="st5" d="M164.4,53.8h2.7"/>
+      <path class="st5" d="M165.8,55.2v-2.7"/>
+    </g>
+  </g>
+  <path class="st11" d="M169.8,46.3h7.2"/>
+  <g>
+    <g class="st19">
+      <text class="st7" transform="translate(158.9 47.5)"><tspan class="st15" x="0" y="0">DC</tspan><tspan x="12.4" y="0">-</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M157.2,48v-3.6"/>
+      <path class="st5" d="M157.2,44.4h.9"/>
+      <path class="st5" d="M158.1,44.4l.5.2"/>
+      <path class="st5" d="M158.6,44.6l.3.3"/>
+      <path class="st5" d="M158.9,44.9l.2.3"/>
+      <path class="st5" d="M159.1,45.2l.2.7"/>
+      <path class="st5" d="M159.3,45.9v.5"/>
+      <path class="st5" d="M159.3,46.4l-.2.7"/>
+      <path class="st5" d="M159.1,47.1l-.2.3"/>
+      <path class="st5" d="M158.9,47.5l-.3.3"/>
+      <path class="st5" d="M158.6,47.8l-.5.2"/>
+      <path class="st5" d="M158.1,48h-.9"/>
+      <path class="st5" d="M162.9,47.6l-.2.2"/>
+      <path class="st5" d="M162.7,47.8l-.5.2"/>
+      <path class="st5" d="M162.2,48h-.3"/>
+      <path class="st5" d="M161.9,48l-.5-.2"/>
+      <path class="st5" d="M161.3,47.8l-.3-.3"/>
+      <path class="st5" d="M161,47.5l-.2-.3"/>
+      <path class="st5" d="M160.8,47.1l-.2-.7"/>
+      <path class="st5" d="M160.7,46.4v-.5"/>
+      <path class="st5" d="M160.7,45.9l.2-.7"/>
+      <path class="st5" d="M160.8,45.2l.2-.3"/>
+      <path class="st5" d="M161,44.9l.3-.3"/>
+      <path class="st5" d="M161.3,44.6l.5-.2"/>
+      <path class="st5" d="M161.9,44.4h.3"/>
+      <path class="st5" d="M162.2,44.4l.5.2"/>
+      <path class="st5" d="M162.7,44.6l.2.2"/>
+      <path class="st5" d="M164.4,46.6h2.7"/>
+    </g>
+  </g>
+  <path class="st11" d="M169.8,39.1h7.2"/>
+  <g>
+    <g class="st19">
+      <text class="st7" transform="translate(162.7 40.3)"><tspan class="st12" x="0" y="0">I</tspan><tspan x="4.1" y="0">N</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M163.4,40.8v-3.6"/>
+      <path class="st5" d="M165.1,40.8v-3.6"/>
+      <path class="st5" d="M165.1,37.2l2.1,3.6"/>
+      <path class="st5" d="M167.2,40.8v-3.6"/>
+    </g>
+  </g>
+  <path class="st11" d="M61.8,53.5h-7.2"/>
+  <g>
+    <g class="st19">
+      <text class="st7" transform="translate(62.5 54.7)"><tspan class="st24" x="0" y="0">N</tspan><tspan x="5.9" y="0">C</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M64.3,55.2v-3.6"/>
+      <path class="st5" d="M64.3,51.6l2.1,3.6"/>
+      <path class="st5" d="M66.4,55.2v-3.6"/>
+      <path class="st5" d="M70.2,54.8l-.2.2"/>
+      <path class="st5" d="M70,55l-.5.2"/>
+      <path class="st5" d="M69.5,55.2h-.3"/>
+      <path class="st5" d="M69.1,55.2l-.5-.2"/>
+      <path class="st5" d="M68.6,55l-.3-.3"/>
+      <path class="st5" d="M68.3,54.7l-.2-.3"/>
+      <path class="st5" d="M68.1,54.3l-.2-.7"/>
+      <path class="st5" d="M67.9,53.6v-.5"/>
+      <path class="st5" d="M67.9,53.1l.2-.7"/>
+      <path class="st5" d="M68.1,52.4l.2-.3"/>
+      <path class="st5" d="M68.3,52.1l.3-.3"/>
+      <path class="st5" d="M68.6,51.8l.5-.2"/>
+      <path class="st5" d="M69.1,51.6h.3"/>
+      <path class="st5" d="M69.5,51.6l.5.2"/>
+      <path class="st5" d="M70,51.8l.2.2"/>
+    </g>
+  </g>
+  <path class="st11" d="M61.8,39.1h-7.2"/>
+  <g>
+    <g class="st19">
+      <text class="st7" transform="translate(62.5 40.3)"><tspan class="st16" x="0" y="0">N</tspan><tspan x="5.8" y="0">O</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M64.3,40.8v-3.6"/>
+      <path class="st5" d="M64.3,37.2l2.1,3.6"/>
+      <path class="st5" d="M66.4,40.8v-3.6"/>
+      <path class="st5" d="M68.8,37.2h.7"/>
+      <path class="st5" d="M69.5,37.2l.3.2"/>
+      <path class="st5" d="M69.8,37.4l.3.3"/>
+      <path class="st5" d="M70.2,37.7l.2.7"/>
+      <path class="st5" d="M70.3,38.4v1.2"/>
+      <path class="st5" d="M70.3,39.6l-.2.7"/>
+      <path class="st5" d="M70.2,40.3l-.3.3"/>
+      <path class="st5" d="M69.8,40.6l-.3.2"/>
+      <path class="st5" d="M69.5,40.8h-.7"/>
+      <path class="st5" d="M68.8,40.8l-.3-.2"/>
+      <path class="st5" d="M68.5,40.6l-.3-.3"/>
+      <path class="st5" d="M68.1,40.3l-.2-.7"/>
+      <path class="st5" d="M67.9,39.6v-1.2"/>
+      <path class="st5" d="M67.9,38.4l.2-.7"/>
+      <path class="st5" d="M68.1,37.7l.3-.3"/>
+      <path class="st5" d="M68.5,37.4l.3-.2"/>
+    </g>
+    <path class="st11" d="M45.2,13.9l2.2-3.6"/>
+    <path class="st11" d="M47.4,17.5v-7.2"/>
+    <path class="st11" d="M47.4,10.3l2.2,3.6"/>
+  </g>
+  <path class="st11" d="M47.4,17.5h0"/>
+  <g>
+    <g class="st19">
+      <text class="st7" transform="translate(40.9 4.3)"><tspan class="st23" x="0" y="0">+24</tspan><tspan x="13.4" y="0">V</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M41,3.4h2.7"/>
+      <path class="st5" d="M42.4,4.8v-2.7"/>
+      <path class="st5" d="M45.3,1.5l.2-.2"/>
+      <path class="st5" d="M45.5,1.4l.3-.2"/>
+      <path class="st5" d="M45.8,1.2h.9"/>
+      <path class="st5" d="M46.7,1.2l.3.2"/>
+      <path class="st5" d="M47,1.4l.2.2"/>
+      <path class="st5" d="M47.2,1.5l.2.3"/>
+      <path class="st5" d="M47.4,1.9v.3"/>
+      <path class="st5" d="M47.4,2.2l-.2.5"/>
+      <path class="st5" d="M47.2,2.7l-2.1,2.1"/>
+      <path class="st5" d="M45.1,4.8h2.2"/>
+      <path class="st5" d="M50.4,2.4v2.4"/>
+      <path class="st5" d="M49.6,1l-.9,2.6"/>
+      <path class="st5" d="M48.7,3.6h2.2"/>
+      <path class="st5" d="M51.8,1.2l1.2,3.6"/>
+      <path class="st5" d="M53,4.8l1.2-3.6"/>
+    </g>
+  </g>
+  <rect class="st17" x="11.4" y="35.5" width="7.2" height="14.4"/>
+  <rect class="st3" x="11.4" y="35.5" width="7.2" height="14.4"/>
+  <g>
+    <circle class="st11" cx="15" cy="39.1" r="1.8"/>
+    <path class="st11" d="M16.5,40.1l-2.4-2.4"/>
+    <path class="st11" d="M16.5,47.3l-2.4-2.4"/>
+    <path class="st11" d="M16,40.6l-2.4-2.4"/>
+    <path class="st11" d="M16,47.8l-2.4-2.4"/>
+    <circle class="st11" cx="15" cy="46.3" r="1.8"/>
+    <path class="st11" d="M18.6,46.3h10.8"/>
+  </g>
+  <g>
+    <g class="st19">
+      <text class="st10" transform="translate(21.7 45)"><tspan x="0" y="0">1</tspan></text>
+    </g>
+    <g>
+      <path class="st1" d="M25,45.2h-2.1"/>
+      <path class="st1" d="M24,45.2v-3.6"/>
+      <path class="st1" d="M24,41.6l-.3.5"/>
+      <path class="st1" d="M23.6,42.1l-.3.3"/>
+      <path class="st1" d="M23.3,42.4l-.3.2"/>
+    </g>
+  </g>
+  <path class="st11" d="M18.6,39.1h10.8"/>
+  <g>
+    <g class="st19">
+      <text class="st10" transform="translate(21.7 37.8)"><tspan x="0" y="0">2</tspan></text>
+    </g>
+    <g>
+      <path class="st1" d="M22.9,34.7l.2-.2"/>
+      <path class="st1" d="M23.1,34.5l.3-.2"/>
+      <path class="st1" d="M23.4,34.4h.9"/>
+      <path class="st1" d="M24.3,34.4l.3.2"/>
+      <path class="st1" d="M24.6,34.5l.2.2"/>
+      <path class="st1" d="M24.8,34.7l.2.3"/>
+      <path class="st1" d="M25,35v.3"/>
+      <path class="st1" d="M25,35.4l-.2.5"/>
+      <path class="st1" d="M24.8,35.9l-2.1,2.1"/>
+      <path class="st1" d="M22.8,38h2.2"/>
+    </g>
+    <path class="st11" d="M40.2,71.5v3.6h3.6l-3.6,3.6-3.6-3.6h3.6"/>
+  </g>
+  <path class="st11" d="M40.2,71.5h0"/>
+  <g>
+    <g class="st19">
+      <text class="st7" transform="translate(34.2 87.1)"><tspan class="st22" x="0" y="0">GN</tspan><tspan x="9.4" y="0">D</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M37.4,84.2l-.3-.2"/>
+      <path class="st5" d="M37.1,84h-.5"/>
+      <path class="st5" d="M36.6,84l-.5.2"/>
+      <path class="st5" d="M36,84.2l-.3.3"/>
+      <path class="st5" d="M35.7,84.5l-.2.3"/>
+      <path class="st5" d="M35.5,84.8l-.2.7"/>
+      <path class="st5" d="M35.4,85.5v.5"/>
+      <path class="st5" d="M35.4,86l.2.7"/>
+      <path class="st5" d="M35.5,86.7l.2.3"/>
+      <path class="st5" d="M35.7,87.1l.3.3"/>
+      <path class="st5" d="M36,87.4l.5.2"/>
+      <path class="st5" d="M36.6,87.6h.3"/>
+      <path class="st5" d="M36.9,87.6l.5-.2"/>
+      <path class="st5" d="M37.4,87.4l.2-.2"/>
+      <path class="st5" d="M37.6,87.2v-1.2"/>
+      <path class="st5" d="M37.6,86h-.7"/>
+      <path class="st5" d="M39.1,87.6v-3.6"/>
+      <path class="st5" d="M39.1,84l2.1,3.6"/>
+      <path class="st5" d="M41.2,87.6v-3.6"/>
+      <path class="st5" d="M42.9,87.6v-3.6"/>
+      <path class="st5" d="M42.9,84h.9"/>
+      <path class="st5" d="M43.8,84l.5.2"/>
+      <path class="st5" d="M44.3,84.2l.3.3"/>
+      <path class="st5" d="M44.6,84.5l.2.3"/>
+      <path class="st5" d="M44.8,84.8l.2.7"/>
+      <path class="st5" d="M45,85.5v.5"/>
+      <path class="st5" d="M45,86l-.2.7"/>
+      <path class="st5" d="M44.8,86.7l-.2.3"/>
+      <path class="st5" d="M44.6,87.1l-.3.3"/>
+      <path class="st5" d="M44.3,87.4l-.5.2"/>
+      <path class="st5" d="M43.8,87.6h-.9"/>
+    </g>
+  </g>
+  <g>
+    <g class="st19">
+      <text class="st2" transform="translate(190.9 37.5)"><tspan x="0" y="0">TO</tspan><tspan class="st14" x="6.7" y="0"> </tspan><tspan x="11.8" y="0">BOARD</tspan></text>
+    </g>
+    <g>
+      <path class="st9" d="M189.7,34.1h2.1"/>
+      <path class="st9" d="M190.7,37.7v-3.6"/>
+      <path class="st9" d="M193.6,34.1h.7"/>
+      <path class="st9" d="M194.3,34.1l.3.2"/>
+      <path class="st9" d="M194.7,34.3l.3.3"/>
+      <path class="st9" d="M195,34.6l.2.7"/>
+      <path class="st9" d="M195.2,35.3v1.2"/>
+      <path class="st9" d="M195.2,36.5l-.2.7"/>
+      <path class="st9" d="M195,37.2l-.3.3"/>
+      <path class="st9" d="M194.7,37.5l-.3.2"/>
+      <path class="st9" d="M194.3,37.7h-.7"/>
+      <path class="st9" d="M193.6,37.7l-.3-.2"/>
+      <path class="st9" d="M193.3,37.5l-.3-.3"/>
+      <path class="st9" d="M193,37.2l-.2-.7"/>
+      <path class="st9" d="M192.8,36.5v-1.2"/>
+      <path class="st9" d="M192.8,35.3l.2-.7"/>
+      <path class="st9" d="M193,34.6l.3-.3"/>
+      <path class="st9" d="M193.3,34.3l.3-.2"/>
+      <path class="st9" d="M200.7,35.8l.5.2"/>
+      <path class="st9" d="M201.2,36l.2.2"/>
+      <path class="st9" d="M201.4,36.2l.2.3"/>
+      <path class="st9" d="M201.5,36.5v.5"/>
+      <path class="st9" d="M201.5,37l-.2.3"/>
+      <path class="st9" d="M201.4,37.4l-.2.2"/>
+      <path class="st9" d="M201.2,37.5l-.3.2"/>
+      <path class="st9" d="M200.8,37.7h-1.4"/>
+      <path class="st9" d="M199.5,37.7v-3.6"/>
+      <path class="st9" d="M199.5,34.1h1.2"/>
+      <path class="st9" d="M200.7,34.1l.3.2"/>
+      <path class="st9" d="M201,34.3l.2.2"/>
+      <path class="st9" d="M201.2,34.4l.2.3"/>
+      <path class="st9" d="M201.4,34.8v.3"/>
+      <path class="st9" d="M201.4,35.1l-.2.3"/>
+      <path class="st9" d="M201.2,35.5l-.2.2"/>
+      <path class="st9" d="M201,35.6l-.3.2"/>
+      <path class="st9" d="M200.7,35.8h-1.2"/>
+      <path class="st9" d="M203.8,34.1h.7"/>
+      <path class="st9" d="M204.4,34.1l.3.2"/>
+      <path class="st9" d="M204.8,34.3l.3.3"/>
+      <path class="st9" d="M205.1,34.6l.2.7"/>
+      <path class="st9" d="M205.3,35.3v1.2"/>
+      <path class="st9" d="M205.3,36.5l-.2.7"/>
+      <path class="st9" d="M205.1,37.2l-.3.3"/>
+      <path class="st9" d="M204.8,37.5l-.3.2"/>
+      <path class="st9" d="M204.4,37.7h-.7"/>
+      <path class="st9" d="M203.8,37.7l-.3-.2"/>
+      <path class="st9" d="M203.4,37.5l-.3-.3"/>
+      <path class="st9" d="M203.1,37.2l-.2-.7"/>
+      <path class="st9" d="M202.9,36.5v-1.2"/>
+      <path class="st9" d="M202.9,35.3l.2-.7"/>
+      <path class="st9" d="M203.1,34.6l.3-.3"/>
+      <path class="st9" d="M203.4,34.3l.3-.2"/>
+      <path class="st9" d="M206.7,36.7h1.7"/>
+      <path class="st9" d="M206.3,37.7l1.2-3.6"/>
+      <path class="st9" d="M207.5,34.1l1.2,3.6"/>
+      <path class="st9" d="M212,37.7l-1.2-1.7"/>
+      <path class="st9" d="M209.9,37.7v-3.6"/>
+      <path class="st9" d="M209.9,34.1h1.4"/>
+      <path class="st9" d="M211.3,34.1l.3.2"/>
+      <path class="st9" d="M211.6,34.3l.2.2"/>
+      <path class="st9" d="M211.8,34.4l.2.3"/>
+      <path class="st9" d="M212,34.8v.5"/>
+      <path class="st9" d="M212,35.3l-.2.3"/>
+      <path class="st9" d="M211.8,35.6l-.2.2"/>
+      <path class="st9" d="M211.6,35.8l-.3.2"/>
+      <path class="st9" d="M211.3,36h-1.4"/>
+      <path class="st9" d="M213.5,37.7v-3.6"/>
+      <path class="st9" d="M213.5,34.1h.9"/>
+      <path class="st9" d="M214.4,34.1l.5.2"/>
+      <path class="st9" d="M214.9,34.3l.3.3"/>
+      <path class="st9" d="M215.2,34.6l.2.3"/>
+      <path class="st9" d="M215.4,35l.2.7"/>
+      <path class="st9" d="M215.6,35.6v.5"/>
+      <path class="st9" d="M215.6,36.2l-.2.7"/>
+      <path class="st9" d="M215.4,36.8l-.2.3"/>
+      <path class="st9" d="M215.2,37.2l-.3.3"/>
+      <path class="st9" d="M214.9,37.5l-.5.2"/>
+      <path class="st9" d="M214.4,37.7h-.9"/>
+    </g>
+  </g>
+  <g>
+    <g class="st19">
+      <text class="st6" transform="translate(.2 22.3)"><tspan class="st20" x="0" y="0">Loa</tspan><tspan x="12.1" y="0">d</tspan></text>
+    </g>
+    <g>
+      <path class="st8" d="M2.5,22.8H.8"/>
+      <path class="st8" d="M.8,22.8v-3.6"/>
+      <path class="st8" d="M4.3,22.8l-.3-.2"/>
+      <path class="st8" d="M3.9,22.6l-.2-.2"/>
+      <path class="st8" d="M3.7,22.5l-.2-.3"/>
+      <path class="st8" d="M3.6,22.1v-1"/>
+      <path class="st8" d="M3.6,21.1l.2-.3"/>
+      <path class="st8" d="M3.7,20.7l.2-.2"/>
+      <path class="st8" d="M3.9,20.6l.3-.2"/>
+      <path class="st8" d="M4.3,20.4h.5"/>
+      <path class="st8" d="M4.8,20.4l.3.2"/>
+      <path class="st8" d="M5.1,20.6l.2.2"/>
+      <path class="st8" d="M5.3,20.7l.2.3"/>
+      <path class="st8" d="M5.5,21.1v1"/>
+      <path class="st8" d="M5.5,22.1l-.2.3"/>
+      <path class="st8" d="M5.3,22.5l-.2.2"/>
+      <path class="st8" d="M5.1,22.6l-.3.2"/>
+      <path class="st8" d="M4.8,22.8h-.5"/>
+      <path class="st8" d="M8.5,22.8v-1.9"/>
+      <path class="st8" d="M8.5,20.9l-.2-.3"/>
+      <path class="st8" d="M8.4,20.6l-.3-.2"/>
+      <path class="st8" d="M8,20.4h-.7"/>
+      <path class="st8" d="M7.3,20.4l-.3.2"/>
+      <path class="st8" d="M8.5,22.6l-.3.2"/>
+      <path class="st8" d="M8.2,22.8h-.9"/>
+      <path class="st8" d="M7.3,22.8l-.3-.2"/>
+      <path class="st8" d="M7,22.6l-.2-.3"/>
+      <path class="st8" d="M6.8,22.3v-.3"/>
+      <path class="st8" d="M6.8,21.9l.2-.3"/>
+      <path class="st8" d="M7,21.6l.3-.2"/>
+      <path class="st8" d="M7.3,21.4h.9"/>
+      <path class="st8" d="M8.2,21.4l.3-.2"/>
+      <path class="st8" d="M11.8,22.8v-3.6"/>
+      <path class="st8" d="M11.8,22.6l-.3.2"/>
+      <path class="st8" d="M11.5,22.8h-.7"/>
+      <path class="st8" d="M10.8,22.8l-.3-.2"/>
+      <path class="st8" d="M10.4,22.6l-.2-.2"/>
+      <path class="st8" d="M10.3,22.5l-.2-.3"/>
+      <path class="st8" d="M10.1,22.1v-1"/>
+      <path class="st8" d="M10.1,21.1l.2-.3"/>
+      <path class="st8" d="M10.3,20.7l.2-.2"/>
+      <path class="st8" d="M10.4,20.6l.3-.2"/>
+      <path class="st8" d="M10.8,20.4h.7"/>
+      <path class="st8" d="M11.5,20.4l.3.2"/>
+    </g>
+    <rect class="st8" x=".6" y="24.7" width="28.8" height="36"/>
+  </g>
+  <g>
+    <path class="st4" d="M177,39.1h39.6"/>
+    <path class="st4" d="M177,46.3h14.4"/>
+    <path class="st4" d="M184.2,17.5v36"/>
+    <path class="st4" d="M191.4,46.3v25.2"/>
+    <path class="st4" d="M177,53.5h7.2"/>
+    <path class="st4" d="M29.4,39.1h25.2"/>
+    <path class="st4" d="M47.4,46.3v-28.8"/>
+    <path class="st4" d="M54.6,46.3h-7.2"/>
+    <path class="st4" d="M29.4,46.3h10.8"/>
+    <path class="st4" d="M40.2,46.3v25.2"/>
+  </g>
+  <g>
+    <path class="st0" d="M52.8,51.8l3.5,3.5"/>
+    <path class="st0" d="M56.3,51.8l-3.5,3.5"/>
+  </g>
+  <path class="st11" d="M61.8,46.3h-7.2"/>
+  <g>
+    <g class="st19">
+      <text class="st7" transform="translate(62.5 47.5)"><tspan class="st21" x="0" y="0">CO</tspan><tspan x="9.4" y="0">M</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M66.4,47.6l-.2.2"/>
+      <path class="st5" d="M66.2,47.8l-.5.2"/>
+      <path class="st5" d="M65.7,48h-.3"/>
+      <path class="st5" d="M65.4,48l-.5-.2"/>
+      <path class="st5" d="M64.9,47.8l-.3-.3"/>
+      <path class="st5" d="M64.5,47.5l-.2-.3"/>
+      <path class="st5" d="M64.3,47.1l-.2-.7"/>
+      <path class="st5" d="M64.2,46.4v-.5"/>
+      <path class="st5" d="M64.2,45.9l.2-.7"/>
+      <path class="st5" d="M64.3,45.2l.2-.3"/>
+      <path class="st5" d="M64.5,44.9l.3-.3"/>
+      <path class="st5" d="M64.9,44.6l.5-.2"/>
+      <path class="st5" d="M65.4,44.4h.3"/>
+      <path class="st5" d="M65.7,44.4l.5.2"/>
+      <path class="st5" d="M66.2,44.6l.2.2"/>
+      <path class="st5" d="M68.6,44.4h.7"/>
+      <path class="st5" d="M69.3,44.4l.3.2"/>
+      <path class="st5" d="M69.7,44.6l.3.3"/>
+      <path class="st5" d="M70,44.9l.2.7"/>
+      <path class="st5" d="M70.2,45.6v1.2"/>
+      <path class="st5" d="M70.2,46.8l-.2.7"/>
+      <path class="st5" d="M70,47.5l-.3.3"/>
+      <path class="st5" d="M69.7,47.8l-.3.2"/>
+      <path class="st5" d="M69.3,48h-.7"/>
+      <path class="st5" d="M68.6,48l-.3-.2"/>
+      <path class="st5" d="M68.3,47.8l-.3-.3"/>
+      <path class="st5" d="M67.9,47.5l-.2-.7"/>
+      <path class="st5" d="M67.8,46.8v-1.2"/>
+      <path class="st5" d="M67.8,45.6l.2-.7"/>
+      <path class="st5" d="M67.9,44.9l.3-.3"/>
+      <path class="st5" d="M68.3,44.6l.3-.2"/>
+      <path class="st5" d="M71.7,48v-3.6"/>
+      <path class="st5" d="M71.7,44.4l1.2,2.6"/>
+      <path class="st5" d="M72.9,47l1.2-2.6"/>
+      <path class="st5" d="M74.1,44.4v3.6"/>
+    </g>
+  </g>
+  <path class="st11" d="M169.8,53.5h7.2"/>
+  <g>
+    <g class="st19">
+      <text class="st7" transform="translate(157.8 54.7)"><tspan class="st13" x="0" y="0">DC</tspan><tspan x="11" y="0">+</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M157.2,55.2v-3.6"/>
+      <path class="st5" d="M157.2,51.6h.9"/>
+      <path class="st5" d="M158.1,51.6l.5.2"/>
+      <path class="st5" d="M158.6,51.8l.3.3"/>
+      <path class="st5" d="M158.9,52.1l.2.3"/>
+      <path class="st5" d="M159.1,52.4l.2.7"/>
+      <path class="st5" d="M159.3,53.1v.5"/>
+      <path class="st5" d="M159.3,53.6l-.2.7"/>
+      <path class="st5" d="M159.1,54.3l-.2.3"/>
+      <path class="st5" d="M158.9,54.7l-.3.3"/>
+      <path class="st5" d="M158.6,55l-.5.2"/>
+      <path class="st5" d="M158.1,55.2h-.9"/>
+      <path class="st5" d="M162.9,54.8l-.2.2"/>
+      <path class="st5" d="M162.7,55l-.5.2"/>
+      <path class="st5" d="M162.2,55.2h-.3"/>
+      <path class="st5" d="M161.9,55.2l-.5-.2"/>
+      <path class="st5" d="M161.3,55l-.3-.3"/>
+      <path class="st5" d="M161,54.7l-.2-.3"/>
+      <path class="st5" d="M160.8,54.3l-.2-.7"/>
+      <path class="st5" d="M160.7,53.6v-.5"/>
+      <path class="st5" d="M160.7,53.1l.2-.7"/>
+      <path class="st5" d="M160.8,52.4l.2-.3"/>
+      <path class="st5" d="M161,52.1l.3-.3"/>
+      <path class="st5" d="M161.3,51.8l.5-.2"/>
+      <path class="st5" d="M161.9,51.6h.3"/>
+      <path class="st5" d="M162.2,51.6l.5.2"/>
+      <path class="st5" d="M162.7,51.8l.2.2"/>
+      <path class="st5" d="M164.4,53.8h2.7"/>
+      <path class="st5" d="M165.8,55.2v-2.7"/>
+    </g>
+  </g>
+  <path class="st11" d="M169.8,46.3h7.2"/>
+  <g>
+    <g class="st19">
+      <text class="st7" transform="translate(158.9 47.5)"><tspan class="st15" x="0" y="0">DC</tspan><tspan x="12.4" y="0">-</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M157.2,48v-3.6"/>
+      <path class="st5" d="M157.2,44.4h.9"/>
+      <path class="st5" d="M158.1,44.4l.5.2"/>
+      <path class="st5" d="M158.6,44.6l.3.3"/>
+      <path class="st5" d="M158.9,44.9l.2.3"/>
+      <path class="st5" d="M159.1,45.2l.2.7"/>
+      <path class="st5" d="M159.3,45.9v.5"/>
+      <path class="st5" d="M159.3,46.4l-.2.7"/>
+      <path class="st5" d="M159.1,47.1l-.2.3"/>
+      <path class="st5" d="M158.9,47.5l-.3.3"/>
+      <path class="st5" d="M158.6,47.8l-.5.2"/>
+      <path class="st5" d="M158.1,48h-.9"/>
+      <path class="st5" d="M162.9,47.6l-.2.2"/>
+      <path class="st5" d="M162.7,47.8l-.5.2"/>
+      <path class="st5" d="M162.2,48h-.3"/>
+      <path class="st5" d="M161.9,48l-.5-.2"/>
+      <path class="st5" d="M161.3,47.8l-.3-.3"/>
+      <path class="st5" d="M161,47.5l-.2-.3"/>
+      <path class="st5" d="M160.8,47.1l-.2-.7"/>
+      <path class="st5" d="M160.7,46.4v-.5"/>
+      <path class="st5" d="M160.7,45.9l.2-.7"/>
+      <path class="st5" d="M160.8,45.2l.2-.3"/>
+      <path class="st5" d="M161,44.9l.3-.3"/>
+      <path class="st5" d="M161.3,44.6l.5-.2"/>
+      <path class="st5" d="M161.9,44.4h.3"/>
+      <path class="st5" d="M162.2,44.4l.5.2"/>
+      <path class="st5" d="M162.7,44.6l.2.2"/>
+      <path class="st5" d="M164.4,46.6h2.7"/>
+    </g>
+  </g>
+  <path class="st11" d="M169.8,39.1h7.2"/>
+  <g>
+    <g class="st19">
+      <text class="st7" transform="translate(162.7 40.3)"><tspan class="st12" x="0" y="0">I</tspan><tspan x="4.1" y="0">N</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M163.4,40.8v-3.6"/>
+      <path class="st5" d="M165.1,40.8v-3.6"/>
+      <path class="st5" d="M165.1,37.2l2.1,3.6"/>
+      <path class="st5" d="M167.2,40.8v-3.6"/>
+    </g>
+  </g>
+  <path class="st11" d="M61.8,53.5h-7.2"/>
+  <g>
+    <g class="st19">
+      <text class="st7" transform="translate(62.5 54.7)"><tspan class="st24" x="0" y="0">N</tspan><tspan x="5.9" y="0">C</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M64.3,55.2v-3.6"/>
+      <path class="st5" d="M64.3,51.6l2.1,3.6"/>
+      <path class="st5" d="M66.4,55.2v-3.6"/>
+      <path class="st5" d="M70.2,54.8l-.2.2"/>
+      <path class="st5" d="M70,55l-.5.2"/>
+      <path class="st5" d="M69.5,55.2h-.3"/>
+      <path class="st5" d="M69.1,55.2l-.5-.2"/>
+      <path class="st5" d="M68.6,55l-.3-.3"/>
+      <path class="st5" d="M68.3,54.7l-.2-.3"/>
+      <path class="st5" d="M68.1,54.3l-.2-.7"/>
+      <path class="st5" d="M67.9,53.6v-.5"/>
+      <path class="st5" d="M67.9,53.1l.2-.7"/>
+      <path class="st5" d="M68.1,52.4l.2-.3"/>
+      <path class="st5" d="M68.3,52.1l.3-.3"/>
+      <path class="st5" d="M68.6,51.8l.5-.2"/>
+      <path class="st5" d="M69.1,51.6h.3"/>
+      <path class="st5" d="M69.5,51.6l.5.2"/>
+      <path class="st5" d="M70,51.8l.2.2"/>
+    </g>
+  </g>
+  <path class="st11" d="M61.8,39.1h-7.2"/>
+  <g>
+    <g class="st19">
+      <text class="st7" transform="translate(62.5 40.3)"><tspan class="st16" x="0" y="0">N</tspan><tspan x="5.8" y="0">O</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M64.3,40.8v-3.6"/>
+      <path class="st5" d="M64.3,37.2l2.1,3.6"/>
+      <path class="st5" d="M66.4,40.8v-3.6"/>
+      <path class="st5" d="M68.8,37.2h.7"/>
+      <path class="st5" d="M69.5,37.2l.3.2"/>
+      <path class="st5" d="M69.8,37.4l.3.3"/>
+      <path class="st5" d="M70.2,37.7l.2.7"/>
+      <path class="st5" d="M70.3,38.4v1.2"/>
+      <path class="st5" d="M70.3,39.6l-.2.7"/>
+      <path class="st5" d="M70.2,40.3l-.3.3"/>
+      <path class="st5" d="M69.8,40.6l-.3.2"/>
+      <path class="st5" d="M69.5,40.8h-.7"/>
+      <path class="st5" d="M68.8,40.8l-.3-.2"/>
+      <path class="st5" d="M68.5,40.6l-.3-.3"/>
+      <path class="st5" d="M68.1,40.3l-.2-.7"/>
+      <path class="st5" d="M67.9,39.6v-1.2"/>
+      <path class="st5" d="M67.9,38.4l.2-.7"/>
+      <path class="st5" d="M68.1,37.7l.3-.3"/>
+      <path class="st5" d="M68.5,37.4l.3-.2"/>
+    </g>
+    <g class="st19">
+      <text class="st7" transform="translate(40.9 4.3)"><tspan class="st23" x="0" y="0">+24</tspan><tspan x="13.4" y="0">V</tspan></text>
+    </g>
+    <g>
+      <path class="st5" d="M41,3.4h2.7"/>
+      <path class="st5" d="M42.4,4.8v-2.7"/>
+      <path class="st5" d="M45.3,1.5l.2-.2"/>
+      <path class="st5" d="M45.5,1.4l.3-.2"/>
+      <path class="st5" d="M45.8,1.2h.9"/>
+      <path class="st5" d="M46.7,1.2l.3.2"/>
+      <path class="st5" d="M47,1.4l.2.2"/>
+      <path class="st5" d="M47.2,1.5l.2.3"/>
+      <path class="st5" d="M47.4,1.9v.3"/>
+      <path class="st5" d="M47.4,2.2l-.2.5"/>
+      <path class="st5" d="M47.2,2.7l-2.1,2.1"/>
+      <path class="st5" d="M45.1,4.8h2.2"/>
+      <path class="st5" d="M50.4,2.4v2.4"/>
+      <path class="st5" d="M49.6,1l-.9,2.6"/>
+      <path class="st5" d="M48.7,3.6h2.2"/>
+      <path class="st5" d="M51.8,1.2l1.2,3.6"/>
+      <path class="st5" d="M53,4.8l1.2-3.6"/>
+    </g>
+  </g>
+  <path class="st11" d="M47.4,17.5h0"/>
+</svg>

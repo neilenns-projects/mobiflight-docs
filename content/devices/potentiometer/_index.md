@@ -14,3 +14,7 @@ The most common potentiometers used with MobiFlight are 10kΩ linear potentiomet
 {{< card title="Potentiometer" image="card-images/devices/potentiometer.png" >}}
 
 {{</ cards >}}
+
+## Other options
+
+[Dual concentric potentiometers](https://www.aliexpress.us/item/3256805208208523.html) integrate two potentiometers into a single shaft. They are useful for aircraft like the Cessna 172 where the glare shield brightness and instrument light brightness are controlled with a single dial.
