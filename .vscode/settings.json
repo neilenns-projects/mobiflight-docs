@@ -12,7 +12,7 @@
     ".gitignore": ".gitattributes, .hugoignore",
     "hugo.yaml": ".markdownlint.json, go.mod, go.sum, .coderabbit.yml, .prettierrc.json",
     "eslint.config.js": ".markdownlint.jsonc",
-    "README.md": "DEVELOPMENT.md"
+    "README.md": "DEVELOPMENT.md, DEPLOYMENT.md"
   },
   "files.associations": {
     "*.svg.html": "plaintext"
@@ -60,10 +60,12 @@
     "mfmc",
     "microcontroller",
     "Mobi",
+    "mobiflight",
     "Möbius",
     "mosfet",
     "MOSFETs",
     "MSFS",
+    "neilenns",
     "Nema",
     "Octavi",
     "ogimage",
