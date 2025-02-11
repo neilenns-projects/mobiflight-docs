@@ -72,9 +72,19 @@
 			"",
 			"$1",
 			"",
-			"{{< /tab >}}",
+			"{{< /tab >}}"
 		],
 		"description": "Snippet for inserting tab shortcode with content."
+	},
+	"Details snippet": {
+		"prefix": "details",
+		"body": [
+			"{{% details title=\"$1\" closed=\"true\" %}}",
+			"",
+			"$2",
+			"",
+			"{{% /details %}}"
+		],
+		"description": "Snippet for inserting a details shortcode with a title and hidden content."
 	}
-
 }

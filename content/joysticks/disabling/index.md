@@ -23,7 +23,7 @@ Go to the **Extras** menu and select **Settings**.
 
 ### Disable joystick support
 
-On the **Peripherals** tab uncheck the **Enable joystick support** checkbox.
+On the **Peripherals** tab, uncheck the **Enable joystick support** checkbox.
 
 {{< screenshot image="disable-all.png" title="Screenshot of the Peripherals tab in Settings with Enable joystick support unchecked." >}}
 
@@ -43,7 +43,7 @@ Go to the **Extras** menu and select **Settings**.
 
 ### Disable specific joysticks
 
-On the **Peripherals** tab uncheck the specific joysticks to disable.
+On the **Peripherals** tab, uncheck the specific joysticks to disable.
 
 {{< screenshot image="disable-specific.png" title="Screenshot of the Peripherals tab in Settings with three FootSwitch joysticks disabled." >}}
 

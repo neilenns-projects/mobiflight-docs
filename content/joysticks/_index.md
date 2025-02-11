@@ -1,7 +1,6 @@
 ---
 title: Joysticks
 description: Details on supported joysticks, yokes, and throttle quadrants, and how to use them with MobiFlight.
-toc: false
 weight: 30
 next: /joysticks/configuring-input/
 cascade:
