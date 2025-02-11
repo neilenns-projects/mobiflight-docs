@@ -37,6 +37,10 @@ Confirm the mapped WINWING joystick works correctly with the profile, then selec
 
 {{% /steps %}}
 
+## Creating custom profiles
+
+To learn how to make a custom profile for a WINWING device follow the [getting started guide](/getting-started/). WINWING devices show up automatically when creating input and output configurations.
+
 ## Troubleshooting
 
 If the WINWING device does not appear in the **Peripherals** tab of the **Settings** dialog, make sure the joystick has the latest firmware installed, and that the SIMAPP PRO application isn't running.
