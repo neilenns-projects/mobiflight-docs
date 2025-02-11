@@ -17,7 +17,7 @@ Many MobiFlight profiles for WINWING devices are available on [flightsim.to](htt
 
 ### Acknowledge the orphaned device warning
 
-When the profile is opened in MobiFlight the following warning dialog will show. Click **Ok**.
+When the profile is opened in MobiFlight, the following warning dialog will show. Click **Ok**.
 
 {{< screenshot image="orphaned-warning.png" title="Screenshot of the orphaned device warning dialog indicating the WINWING joystick in the profile is not found." >}}
 
@@ -39,7 +39,7 @@ Confirm the mapped WINWING joystick works correctly with the profile, then selec
 
 ## Creating custom profiles
 
-To learn how to make a custom profile for a WINWING device follow the [getting started guide](/getting-started/). WINWING devices show up automatically when creating input and output configurations.
+To learn how to make a custom profile for a WINWING device, follow the [getting started guide](/getting-started/). WINWING devices show up automatically when creating input and output configurations.
 
 ## Troubleshooting
 
