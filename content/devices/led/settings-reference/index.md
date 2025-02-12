@@ -26,7 +26,7 @@ weight: 40
 
 {{< tab >}}
 
-{{< screenshot image="multiple-output.png" title="Screenshot of the Display tab with the LED output type selected for multiple outputs." >}}
+{{< screenshot image="multiple-outputs.png" title="Screenshot of the Display tab with the LED output type selected for multiple outputs." >}}
 
 {{< /tab >}}
 {{< /tabs >}}
