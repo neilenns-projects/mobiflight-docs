@@ -40,6 +40,7 @@
     "EFIS",
     "Elegoo",
     "Elgato",
+    "flightsim",
     "FRACT",
     "FTDI",
     "goldmark",
@@ -62,6 +63,7 @@
     "KTIW",
     "KUAO",
     "localappdata",
+    "MCDU",
     "mfmc",
     "microcontroller",
     "Mobi",
@@ -82,6 +84,7 @@
     "pinouts",
     "plainify",
     "RCLK",
+    "SIMAPP",
     "SPDT",
     "SRCLK",
     "SSOP",
@@ -95,7 +98,8 @@
     "Unported",
     "vatis",
     "VATSIM",
-    "Verdana"
+    "Verdana",
+    "WINWING"
   ],
   "cSpell.enabledFileTypes": {
     ".svg.html": false,
