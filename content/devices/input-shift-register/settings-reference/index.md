@@ -11,9 +11,9 @@ weight: 40
 
 | Setting              | Description                                                                                                                                                    |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Latch                | The board pin connected to the latch input on the shift register. All digital and analog pins are supported.                                                   |
-| Clock                | The board pin connected to the clock input on the shift register. All digital and analog pins are supported.                                                   |
-| Data                 | The board pin connected to the data input on the shift register. All digital and analog pins are supported.                                                    |
+| Latch                | The board pin connected to the latch input of the shift register. All digital and analog pins are supported.                                                   |
+| Clock                | The board pin connected to the clock input of the shift register. All digital and analog pins are supported.                                                   |
+| Data                 | The board pin connected to the data input of the shift register. All digital and analog pins are supported.                                                    |
 | # of 8 bit registers | The number of 8-bit groups connected in series to the board. Chips with eight inputs count as one group. Chips with 16 inputs count as two groups.             |
 | Name                 | The name for the input shift register. Displayed in the input configuration dialog to identify the shift register when mapping the input to a simulator event. |
 
