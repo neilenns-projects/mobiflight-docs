@@ -18,7 +18,7 @@ weight: 60
 
 ## Output display configuration
 
-{{< screenshot image="output-configuration.png" title="Screenshot of the Display tab with the LcD output type selected." >}}
+{{< screenshot image="output-configuration.png" title="Screenshot of the Display tab with the LCD output type selected." >}}
 
 | Setting | Description                                                                                                                                                                                                       |
 | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
