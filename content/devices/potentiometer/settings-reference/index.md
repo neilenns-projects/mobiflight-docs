@@ -9,11 +9,11 @@ weight: 40
 
 {{< screenshot image="analog-input-configuration.png" title="Screenshot of the Modules dialog with the analog input configuration showing." >}}
 
-| Setting     | Description                                                                                                                                                                                                                                                   |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Pin         | The board pin connected to the button. Only analog pins are supported.                                                                                                                                                                                        |
-| Sensitivity | The amount of change in value required before MobiFlight will process a value change. Moving the slider towards **High** makes smaller value changes get processed. Moving the slider towards **Low** requires a larger value changes before it is processed. |
-| Name        | The name for the potentiometer. Displayed in the input configuration dialog to identify the potentiometer when mapping the input value to a simulator event.                                                                                                  |
+| Setting     | Description                                                                                                                                                                                                                 |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Pin         | The board pin connected to the button. Only analog pins are supported.                                                                                                                                                      |
+| Sensitivity | The amount of change in value required before MobiFlight will process a value change. For example, a sensitivity of **10** means a value change of 10 is required before MobiFlight will process a new potentiometer value. |
+| Name        | The name for the potentiometer. Displayed in the input configuration dialog to identify the potentiometer when mapping the input value to a simulator event.                                                                |
 
 > [!TIP]
 > Changes to the **Sensitivity** setting are not applied until uploaded to the board with the **Upload config** button.
