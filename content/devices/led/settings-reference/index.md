@@ -7,7 +7,7 @@ weight: 40
 
 ## Modules dialog
 
-{{< screenshot image="led-configuration.png" title="Screenshot of the Modules dialog with the led configuration showing." >}}
+{{< screenshot image="led-configuration.png" title="Screenshot of the Modules dialog with the LED configuration showing." >}}
 
 | Setting | Description                                                                                                                          |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------ |
