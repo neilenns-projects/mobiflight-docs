@@ -11,7 +11,7 @@ weight: 40
 
 | Setting     | Description                                                                                                                                                                                                                 |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Pin         | The board pin connected to the button. Only analog pins are supported.                                                                                                                                                      |
+| Pin         | The board pin connected to the potentiometer. Only analog pins are supported.                                                                                                                                               |
 | Sensitivity | The amount of change in value required before MobiFlight will process a value change. For example, a sensitivity of **10** means a value change of 10 is required before MobiFlight will process a new potentiometer value. |
 | Name        | The name for the potentiometer. Displayed in the input configuration dialog to identify the potentiometer when mapping the input value to a simulator event.                                                                |
 
@@ -24,7 +24,7 @@ weight: 40
 
 {{< tab >}}
 
-The **On Change** event fires when the new value from the potentiometer exceeds previous value by the sensitivity set in the [**Modules** dialog](#modules-dialog).
+The **On Change** event fires when the new value from the potentiometer exceeds the previous value by the sensitivity set in the [**Modules** dialog](#modules-dialog).
 
 The **@** symbol is replaced in the preset code with the value from the potentiometer. It can be used multiple times in the preset code, if necessary.
 
