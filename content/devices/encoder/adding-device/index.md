@@ -35,13 +35,12 @@ Select the **Type** dropdown to specify the type of the encoder.
 
 Provide a meaningful name for the encoder in the **Name** field. This name is shown in the input configuration screens when assigning the encoder to a flight simulator input.
 
-> [!TIP]
-> The encoder type usually isn't listed on the encoder datasheet.
-> Start with **1 detent per cycle (11)** and see how well it works.
-> If the encoder is missing steps when turned edit the device configuration and
-> try the other three types until the encoder accurately responds to each step.
-
 {{< screenshot image="device-configuration.png" title="Screenshot of the settings for an encoder, with pin 2 and 3 selected, type 11 selected, and Encoder as the name." >}}
+
+> [!TIP]
+> The most common encoder types are **1 detent per cycle (11)** and **2 detents per cycle (00, 11)**. [Encoders from the MobiFlight shop](https://shop.mobiflight.com/product/rotary-encoder-ec11) are **2 detents per cycle (00, 11)**.
+>
+> If the encoder skips steps or sends double inputs on each detent, try the other types until the correct one is identified.
 
 ### Upload the changes to the board
 
