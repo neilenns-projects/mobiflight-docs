@@ -9,13 +9,13 @@ weight: 40
 
 {{< screenshot image="encoder-configuration.png" title="Screenshot of the Modules dialog with the encoder configuration showing." >}}
 
-| Setting   | Description                                                                                                                                                                     |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Left pin  | The board pin connected to left output pin on the encoder. All digital and analog pins are supported.                                                                           |
-| Right pin | The board pin connected to right output pin on the encoder. All digital and analog pins are supported.                                                                          |
-| Swap      | When pressed, swaps the left and right pin assignments.                                                                                                                         |
-| Type      | The number of detents and data signal order of the encoder. If the encoder skips steps with the selected type, try each of the other types until the correct one is identified. |
-| Name      | The name for the encoder. Displayed in the input configuration dialog to identify the encoder when mapping the left and right inputs to simulator events.                       |
+| Setting   | Description                                                                                                                                                                                                                                                                    |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Left pin  | The board pin connected to the left output pin on the encoder. All digital and analog pins are supported.                                                                                                                                                                      |
+| Right pin | The board pin connected to the right output pin on the encoder. All digital and analog pins are supported.                                                                                                                                                                     |
+| Swap      | When pressed, swaps the left and right pin assignments.                                                                                                                                                                                                                        |
+| Type      | The number of detents and data signal order of the encoder. **1 detent per cycle (11)** and **1 detent per cycle (00)** are the most common encoder types. If the encoder skips steps with the selected type, try each of the other types until the correct one is identified. |
+| Name      | The name for the encoder. Displayed in the input configuration dialog to identify the encoder when mapping the left and right inputs to simulator events.                                                                                                                      |
 
 > [!TIP]
 > Changes to the **Type** setting are not applied until uploaded to the board with the **Upload config** button.
