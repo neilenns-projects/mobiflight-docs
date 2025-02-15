@@ -81,17 +81,6 @@
 					(type background)
 				)
 			)
-			(circle
-				(center -2.54 0)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(polyline
 				(pts
 					(xy 0.635 -1.778) (xy 0.635 1.778)
@@ -130,102 +119,6 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 0) (xy 7.239 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 1.016) (xy 7.62 -1.016)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -8.89 -6.35) (xy -7.62 -6.35) (xy -7.62 -5.842)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -8.89 -3.81) (xy -7.62 -3.81) (xy -7.62 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -8.89 3.81) (xy -7.62 3.81) (xy -7.62 3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -8.89 6.35) (xy -7.62 6.35) (xy -7.62 5.842)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 0) (xy -7.62 -1.27) (xy -8.89 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 0) (xy -7.62 1.27) (xy -8.89 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 1.524 -3.048) (xy 0.762 -2.794) (xy 1.397 -2.413)
 				)
 				(stroke
@@ -242,54 +135,6 @@
 				)
 				(stroke
 					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -2.54) (xy 8.128 -2.54) (xy 8.128 -1.016)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 2.54) (xy 8.128 2.54) (xy 8.128 1.016)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 0) (xy -2.54 0) (xy -2.54 -1.016) (xy -2.032 -2.032)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.048 0) (xy -2.54 0) (xy -2.54 1.016) (xy -2.032 2.032)
-				)
-				(stroke
-					(width 0)
 					(type default)
 				)
 				(fill
@@ -319,32 +164,10 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 8.128 -1.016)
-				(radius 0.127)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 8.128 1.016)
-				(radius 0.127)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 		)
 		(symbol "DualRotaryEncoder_Switch_1_0"
 			(pin passive line
-				(at -11.43 3.81 0)
+				(at 11.43 6.35 180)
 				(length 2.54)
 				(name "A'"
 					(effects
@@ -362,7 +185,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 -6.35 0)
+				(at 11.43 1.27 180)
 				(length 2.54)
 				(name "B'"
 					(effects
@@ -380,7 +203,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 -1.27 0)
+				(at 11.43 3.81 180)
 				(length 2.54)
 				(name "C'"
 					(effects
@@ -400,7 +223,7 @@
 		)
 		(symbol "DualRotaryEncoder_Switch_1_1"
 			(pin passive line
-				(at -11.43 6.35 0)
+				(at -11.43 2.54 0)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -418,7 +241,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 -3.81 0)
+				(at -11.43 -2.54 0)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -436,7 +259,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 1.27 0)
+				(at -11.43 0 0)
 				(length 2.54)
 				(name "C"
 					(effects
@@ -454,7 +277,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 2.54 180)
+				(at 11.43 -3.81 180)
 				(length 2.54)
 				(name "S1"
 					(effects
@@ -472,7 +295,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -2.54 180)
+				(at 11.43 -6.35 180)
 				(length 2.54)
 				(name "S2"
 					(effects
