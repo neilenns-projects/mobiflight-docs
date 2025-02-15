@@ -5,8 +5,6 @@ ogimage: card-images/devices/encoder-both.png
 weight: 40
 ---
 
-## Troubleshooting rotary encoders
-
 It is important that your encoder type is set correctly. Incorrect setting will
 cause double or half events per encoder click, or missed events when changing
 the direction of the turn.  Most single-knob encoders are of the default type
