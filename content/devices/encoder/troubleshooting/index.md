@@ -5,13 +5,17 @@ ogimage: card-images/devices/encoder-both.png
 weight: 40
 ---
 
+While most rotary encoders produce a phase-shifted signal on two pins, there are
+variations based on how the signals of the pins connect and disconnect in relation
+to the detent rest position. This is a bit similar to think of a rotary switch -
+does the new position connect before the old one disconnects and so on. For this
+reason there are a few different variants to choose from.
+
 It is important that your encoder type is set correctly. Incorrect setting will
 cause double or half events per encoder click, or missed events when changing
 the direction of the turn.  Most single-knob encoders are of the default type
-`1 detent per cycle (11)` , and the dual concentric encoders are most likely
-of the type `2 detents per cycle (00, 11)`, but of course there are variations
-based on how the signals of the pins connect and disconnect in relation to the
-detent rest position.
+`1 detent per cycle (11)` , and the commonly used dual concentric encoders are
+usually of the type `2 detents per cycle (00, 11)`, but of course this might vary.
 
 {{% steps %}}
 
