@@ -5,7 +5,7 @@ ogimage: card-images/devices/encoder-both.png
 weight: 40
 ---
 
-While most rotary encoders work the same, there can be subtle differences. 
+While most rotary encoders work the same, there can be subtle differences.
 It is important that your encoder type is set properly, or your encoders
 will not register the inputs correctly.
 
@@ -36,7 +36,7 @@ If you need two clicks to see one event on the log, change the encoder type to
 If you get missed clicks, or you get events in the wrong direction when you turn
 the knob in the other direction, use the other variant with the same number of detents.
 
-If everything works exactly right, congratulations! Don't forget to *Upload config* so your
-correct setting is saved!
+If everything works exactly right, congratulations! Don't forget to *Upload config* 
+so your correct setting is saved!
 
 {{% /steps %}}
