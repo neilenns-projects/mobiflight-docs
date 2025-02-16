@@ -8,7 +8,7 @@ weight: 40
 It is important that your encoder type is set correctly. Incorrect setting will
 cause double or half events per encoder click, or missed events when changing
 the direction of the turn.  Most single-knob encoders are of the default type
-`1 detent per cycle (11)` , and the commonly used dual concentric encoders are
+`1 detent per cycle (11)`, and the commonly used dual concentric encoders are
 usually of the type `2 detents per cycle (00, 11)`.
 
 If your encoder has issues with incorrect events, use the following steps to
