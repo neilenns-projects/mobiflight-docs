@@ -24,9 +24,10 @@ Some boards require additional driver installation before they can be used with 
 
 Many other applications open the COM port to connected boards automatically, preventing MobiFlight from communicating with the board. Common apps with this issue include:
 
-- CURA
 - Arduino IDE
+- CURA
 - Joystick configuration software
+- Sim Racing Studio
 
 Close any of these applications that may be running. A PC reboot may be necessary to ensure the conflicting applications are fully closed. Then, try flashing the board again.
 
