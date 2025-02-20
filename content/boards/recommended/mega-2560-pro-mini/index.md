@@ -45,7 +45,7 @@ but in a smaller package. If you need many IO pins, this is the recommended boar
 {{< pinout >}}
 
 > [!NOTE]
-> Pins D0 and D1 are not available for use, as they are reserved for USB serial communication.
+> Pins D0 and D1 are not available for use, as they are reserved for USB serial communication. Pin D13 should only be used for output, as it is used for the onboard LED.
 
 ## Additional resources
 
