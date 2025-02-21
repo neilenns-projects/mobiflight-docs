@@ -69,9 +69,7 @@ Repeat steps 4 and 5 for the **On Release** tab, selecting **Standby battery - O
 {{% steps %}}
 
 ### Create a new row in the inputs tab of the main window
-
-Double-click on the bottom row where the description says **Double-click row to add new config...** and enter a description for the input. For example, enter **Standby battery - down** for a switch that will control the standby battery switch up position.
-
+Double-click on the bottom row where the description says **Double-click row to add new config...** and enter a description for the input. For example, enter **Standby battery - down** for a switch that will control the standby battery switch down position.
 ### Open the input configuration dialog
 
 Click the button with three dots in the **Edit** column for the row created in the previous step.
