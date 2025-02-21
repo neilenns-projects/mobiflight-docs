@@ -10,13 +10,12 @@
     download
     target="_blank"
     rel="noopener noreferrer"
-    >Download schematic as PDF</a
-  >
+    >
 {{ end }}
 
-{{ with $.Page.Resources.Get $image }}
-<img src="{{ .RelPermalink }}" alt="{{ $title }} " title="{{ $title }}" />
-{{ end }}
+  {{ with $.Page.Resources.Get $image }}
+  <img src="{{ .RelPermalink }}" alt="{{ $title }} " title="{{ $title }}" />
+  {{ end }}
 
 {{ with $.Page.Resources.Get $download }}
 </a>
