@@ -19,7 +19,7 @@ The following components are required for an output shift register or LED driver
 {{< tab >}}
 Pay close attention to the orientation of the LEDs: the anode (long leg) should be connected to the chip and the cathode (short leg) should be connected to GND. This is the opposite of how LEDs are connected to LED driver chips. The 200Ω resistors are required on every output pin with an LED attached.
 
-{{< schematic image="74hc595.svg" title="Schematic for wiring a single 74HC595 chip." >}}
+{{< schematic image="74hc595.svg" download="74hc595.pdf" title="Schematic for wiring a single 74HC595 chip." >}}
 
 > [!TIP]
 > Using a DM13A or other similar LED driver chip is a better choice than using the 74HC595 for driving LEDs.
@@ -29,7 +29,7 @@ Pay close attention to the orientation of the LEDs: the anode (long leg) should 
 {{< tab >}}
 Pay close attention to the orientation of the LEDs: the anode (long leg) should be connected to +5V and the cathode (short leg) should be connected to the chip. This is the opposite of how LEDs are connected to a 74HC595.
 
-{{< schematic image="dm13a.svg" title="Schematic for wiring a single DM13A chip." >}}
+{{< schematic image="dm13a.svg" download="dm13a.pdf" title="Schematic for wiring a single DM13A chip." >}}
 
 The value of $R_{\text{ext}}$ determines the amount of current for the LEDs. A 5kΩ resistor results in approximately 12mA per LED, a good brightness level for most situations.
 
@@ -41,7 +41,7 @@ The value of $R_{\text{ext}}$ determines the amount of current for the LEDs. A 5
 {{< tab >}}
 Pay close attention to the orientation of the LEDs: the anode (long leg) should be connected to +5V and the cathode (short leg) should be connected to the chip. This is the opposite of how LEDs are connected to a 74HC165.
 
-{{< schematic image="tlc5917.svg" title="Schematic for wiring a single TLC5917 chip." >}}
+{{< schematic image="tlc5917.svg" download="tlc5917.pdf" title="Schematic for wiring a single TLC5917 chip." >}}
 
 The value of $R_{\text{ext}}$ determines the amount of current for the LEDs. A 1.6kΩ resistor results in approximately 12mA per LED, a good brightness level for most situations.
 

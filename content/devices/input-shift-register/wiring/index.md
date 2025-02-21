@@ -21,13 +21,13 @@ The following components are required to wire buttons to an input shift register
 {{< tab >}}
 The 10kΩ resistors are required on every input pin, even if you aren't attaching a button to that pin, to avoid false input events.
 
-{{< schematic image="single-chip.svg" title="Schematic for wiring a single 74HC165 chip." >}}
+{{< schematic image="single-chip.svg" download="single-chip.pdf" title="Schematic for wiring a single 74HC165 chip." >}}
 {{< /tab >}}
 
 {{< tab >}}
 MobiFlight supports up to four 74HC165 chips connected in series. When wiring the chips it is important to wire them with the right most chip in the series one connected to the board's data input line. The clock and latch pins are shared across all chips.
 
-{{< schematic image="multiple-chips.svg" title="Schematic for wiring four 74HC165 chips in series." >}}
+{{< schematic image="multiple-chips.svg" download="multiple-chips.pdf" title="Schematic for wiring four 74HC165 chips in series." >}}
 
 (Buttons and pull-up resistors omitted for clarity)
 {{< /tab >}}

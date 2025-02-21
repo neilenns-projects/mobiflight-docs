@@ -10,4 +10,4 @@ Potentiometers have three pins. The outer two pins are connected to +5V and GND 
 > [!TIP]
 > See the [boards page](/boards/) for pinout diagrams with the available analog pins on each supported board.
 
-{{< schematic image="potentiometer.svg" title="Schematic for wiring a potentiometer." >}}
+{{< schematic image="potentiometer.svg" download="potentiometer.pdf" title="Schematic for wiring a potentiometer." >}}

@@ -1,9 +1,24 @@
 {{- $title := .Get "title" -}}
 {{- $image := .Get "image" -}}
-{{ with
-  $.Page.Resources.Get $image
-}}
-  <div class="schematic-container">
-    <img src="{{ .RelPermalink }}" alt="{{ $title }} " title="{{ $title }}" />
-  </div>
+{{- $download := .Get "download" -}}
+
+<div class="schematic-container">
+{{ with $.Page.Resources.Get $download }}
+  <a
+    href="{{ .RelPermalink }}"
+    aria-label="Download schematic as PDF"
+    download
+    target="_blank"
+    rel="noopener noreferrer"
+    >
 {{ end }}
+
+  {{ with $.Page.Resources.Get $image }}
+  <img src="{{ .RelPermalink }}" alt="{{ $title }} " title="{{ $title }}" />
+  {{ end }}
+
+{{ with $.Page.Resources.Get $download }}
+</a>
+{{ end }}
+</div>
+

@@ -12,7 +12,7 @@ prev: /devices/seven-segment-display/
 
 The **DIN**, **CS**, and **CLK** pins can be connected to any digital or analog input pin on the board.
 
-{{< schematic image="max7219.svg" title="Schematic for wiring up to eight MAX7219 display modules in series." >}}
+{{< schematic image="max7219.svg" download="max7219.pdf" title="Schematic for wiring up to eight MAX7219 display modules in series." >}}
 
 > [!WARNING]
 > MAX7219 modules are sensitive to poor electrical connections and low voltage.
@@ -25,7 +25,7 @@ The **DIN**, **CS**, and **CLK** pins can be connected to any digital or analog 
 
 The **DIO** and **CLK** pins can be connected to any digital or analog input pin on the board. TM1637 modules cannot be connected in series.
 
-{{< schematic image="tm1637.svg" title="Schematic for wiring a TM1637 display module." >}}
+{{< schematic image="tm1637.svg" download="tm1637.pdf" title="Schematic for wiring a TM1637 display module." >}}
 
 {{< /tab >}}
 
