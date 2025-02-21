@@ -2,7 +2,7 @@
 	"Schematic snippet": {
 		"prefix": "schematic",
 		"body": [
-			"{{< schematic image=\"$1\" title=\"$2\" >}}"
+			"{{< schematic image=\"$1.svg\" download=\"$1.pdf\" title=\"$2\" >}}"
 		],
 		"description": "Snippet for inserting a schematic image with a title."
 	},
