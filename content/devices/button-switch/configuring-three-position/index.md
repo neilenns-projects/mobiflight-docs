@@ -1,7 +1,7 @@
 ---
 title: Configuring three-position switch input
 description: Step-by-step guide for configuring a three-position switch as an input in MobiFlight.
-ogimage: card-images/devices/switch.png
+ogimage: card-images/devices/switch-three-position.png
 weight: 40
 ---
 
@@ -12,6 +12,9 @@ weight: 40
 Three-position switches are typically mapped to three different simulator variables that expect either `0` (for off) or `1` (for on). Despite controlling three different variables, only two input configurations are used in MobiFlight to create the mapping between the switch and simulator.
 
 The following steps demonstrate how to configure a three-position switch to control the STBY BATT switch in a Cessna 172 in Microsoft Flight Simulator 2024.
+
+> [!TIP]
+> The steps for using a switch or button with X-Plane are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
 
 {{< tabs items="Switch up position,Switch down position" >}}
 
@@ -69,7 +72,9 @@ Repeat steps 4 and 5 for the **On Release** tab, selecting **Standby battery - O
 {{% steps %}}
 
 ### Create a new row in the inputs tab of the main window
+
 Double-click on the bottom row where the description says **Double-click row to add new config...** and enter a description for the input. For example, enter **Standby battery - down** for a switch that will control the standby battery switch down position.
+
 ### Open the input configuration dialog
 
 Click the button with three dots in the **Edit** column for the row created in the previous step.
