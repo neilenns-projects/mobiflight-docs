@@ -10,4 +10,4 @@ prev: /devices/relay/
 
 The following schematic illustrates how to wire a relay to close a +24V circuit when a `1` output value is sent from MobiFlight. The circuit is open when a `0` output is sent.
 
-{{< schematic image="schematic.svg" title="Schematic for wiring a relay." >}}
+{{< schematic image="schematic.svg" download="schematic.pdf" title="Schematic for wiring a relay." >}}

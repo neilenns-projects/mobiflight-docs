@@ -14,7 +14,7 @@ The following components are required to wire a 74HC4067 breakout board:
 > [!IMPORTANT]
 > MobiFlight only supports connecting buttons to multiplexers. Encoders must be connected directly to a board.
 
-{{< schematic image="schematic.svg" title="Schematic for wiring a 74HC4067 breakout board." >}}
+{{< schematic image="schematic.svg" download="schematic.svg" title="Schematic for wiring a 74HC4067 breakout board." >}}
 
 The +5V power can come directly from the connected board. The 10kΩ resistor between DATA and +5V is optional, however it can help if there are issues with button presses being detected correctly.
 
