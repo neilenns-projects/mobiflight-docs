@@ -2,7 +2,7 @@
 {{- $image := .Get "image" -}}
 {{- $download := .Get "download" -}}
 
-<div class="pinout-container">
+<div class="schematic-container">
 {{ with $.Page.Resources.Get $download }}
   <a
     href="{{ .RelPermalink }}"
