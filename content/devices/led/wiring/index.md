@@ -13,4 +13,4 @@ The following components are required to wire an LED:
 
 Connect the anode end of the LED (usually the longer leg) to the resistor, then connect the resistor to one of the digital pins of your board and the cathode end (usually the shorter leg) to GND.
 
-![Wiring diagram for an LED with a resistor and an Arduino](wiring.png)
+{{< schematic image="led.svg" download="led.pdf" title="Diagram of wiring an LED with a 220Ω resistor to a board." >}}
