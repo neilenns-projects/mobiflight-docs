@@ -1,5 +1,6 @@
 ---
 title: Getting started
+breadcrumbs: false
 description: How to start using MobiFlight with flight simulators
 weight: 10
 ---

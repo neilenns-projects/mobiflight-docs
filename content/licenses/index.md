@@ -2,6 +2,7 @@
 title: Licenses
 description: Licenses for documentation content
 toc: false
+breadcrumbs: false
 weight: 100
 ---
 

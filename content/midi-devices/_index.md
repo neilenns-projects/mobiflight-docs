@@ -2,6 +2,7 @@
 title: MIDI devices
 description: Details on supported MIDI devices and how to use them with MobiFlight.
 weight: 40
+breadcrumbs: false
 next: /midi-devices/configuring-device/
 cascade:
   type: docs

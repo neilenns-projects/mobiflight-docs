@@ -1,6 +1,7 @@
 ---
 title: Donate to MobiFlight
 description: How to support ongoing MobiFlight development
+breadcrumbs: false
 sidebar:
   exclude: true
 ---
