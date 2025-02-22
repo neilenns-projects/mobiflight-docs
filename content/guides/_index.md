@@ -2,6 +2,7 @@
 title: Guides
 description: Step-by-step guides to accomplish specific tasks with MobiFlight.
 weight: 60
+breadcrumbs: false
 cascade:
   type: docs
 ---

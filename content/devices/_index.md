@@ -3,6 +3,7 @@ title: Devices
 description: Details on supported devices and how to use them with MobiFlight.
 ogimage: card-images/devices/buttons-switches.png
 toc: false
+breadcrumbs: false
 weight: 30
 cascade:
   type: docs
