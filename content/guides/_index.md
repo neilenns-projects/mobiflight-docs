@@ -17,6 +17,8 @@ cascade:
 
 {{< card link="/guides/flashing-ambiguous-boards/" title="Flashing ambiguous boards" icon="cpu-chip" >}}
 
+{{< card link="/guides/modifiers/" title="Output value modifiers" icon="adjustments" >}}
+
 {{< card link="/guides/solving-flashing-errors/" title="Solving flashing errors" icon="cpu-chip" >}}
 
 {{< card link="https://github.com/MobiFlight/MobiFlight-Connector/wiki" title="Legacy guides" icon="information" >}}
