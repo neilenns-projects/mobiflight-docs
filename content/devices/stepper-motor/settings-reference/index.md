@@ -20,21 +20,21 @@ weight: 40
 | Name                                    | The name for the stepper motor. Displayed in the output configuration dialog to identify the device when mapping the simulator output. |
 | Select a preset                         | The preset for the type of driver connected to the motor.                                                                              |
 | Mode                                    | The type of driver mode used.                                                                                                          |
-| Backlash value                          | The number of steps to apply to compensate for backlash in the motor.                                                                  |
+| Backlash value                          | The number of steps to apply to compensate for backlash in the stepper motor.                                                          |
 | Disable stepper when at target position | When checked, turns off power to the stepper motor once it reaches the target position.                                                |
 
 ## Output display configuration
 
 {{< screenshot image="output-configuration.png" title="Screenshot of the Display tab with the stepper output type selected." >}}
 
-| Setting                | Description                                                                                                     |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------- |
-| Stepper                | Selects the stepper motor to display the value on.                                                              |
-| Display scale          |                                                                                                                 |
-| Compass Mode - Enabled | When checked,                                                                                                   |
-| Full revolution        | The number of steps required to make a 360 degree revolution of the shaft.                                      |
-| Max speed              |                                                                                                                 |
-| Acceleration           |                                                                                                                 |
-| Move Steps             | The number of steps to move the motor when clicking the **Move** button when setting the stepper zero position. |
-| Move                   | When clicked, moves the stepper motor by the number of steps specified by **Move Steps**.                       |
-| Set Zero               | When clicked, sets the zero position of the stepper motor to the current shaft position.                        |
+| Setting                | Description                                                                                                       |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Stepper                | Selects the stepper motor to display the value on.                                                                |
+| Display scale          |                                                                                                                   |
+| Compass Mode - Enabled | When checked, ensures the motor takes the shortest path to the new value when crossing the 0/360 degree boundary. |
+| Full revolution        | The number of steps required to make a 360 degree revolution of the shaft.                                        |
+| Max speed              | The maximum number of steps per second to move the stepper motor.                                                 |
+| Acceleration           | The acceleration in steps per second, per second, to reach the **Max speed**.                                     |
+| Move Steps             | The number of steps to move the motor when clicking the **Move** button when setting the stepper zero position.   |
+| Move                   | When clicked, moves the stepper motor by the number of steps specified by **Move Steps**.                         |
+| Set Zero               | When clicked, sets the zero position of the stepper motor to the current shaft position.                          |
