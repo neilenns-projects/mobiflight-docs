@@ -6,12 +6,12 @@ next: /guides/modifiers/blink/
 
 Modifiers provide a way to adjust values received from the simulator before they are displayed on an output [device](/devices/). The following modifiers are supported:
 
-- [Blink](blink/)
-- [Compare](compare/)
-- [Interpolation](interpolation/)
-- [Padding](padding/)
-- [Substring](substring/)
-- [Transform](transform/)
+- [Blink](/guides/modifiers/blink/)
+- [Compare](/guides/modifiers/compare/)
+- [Interpolation](/guides/modifiers/interpolation/)
+- [Padding](/guides/modifiers/padding/)
+- [Substring](/guides/modifiers/substring/)
+- [Transform](/guides/modifiers/transform/)
 
 ## Adding a modifier
 
@@ -29,7 +29,7 @@ Every modifier has settings that control how the output value is changed. To edi
 
 Output configurations can have multiple modifiers assigned. Modifiers are processed in order, from top to bottom, with the modifier result passed to the next modifier in the list.
 
-To re-order the modifiers use the up and down arrows. To disable an individual modifier, uncheck the **use** checkbox next to the modifier name.
+To re-order the modifiers, use the up and down arrows. To disable an individual modifier, uncheck the **use** checkbox next to the modifier name.
 
 {{< screenshot image="multiple-modifiers.png" title="Screenshot of an output configuration with the Modify tab selected, and the substring and padding modifiers added." >}}
 
