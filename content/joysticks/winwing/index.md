@@ -15,6 +15,22 @@ Many MobiFlight profiles for WINWING devices are available on [flightsim.to](htt
 
 {{% steps %}}
 
+### Extract the downloaded profile
+
+Using **File Explorer**, select the downloaded zip file and click **Extract all** in the ribbon to extract the profile.
+
+{{< screenshot image="file-explorer.png" title="Screenshot of the Windows File Explorer with a downloaded profile zip file selected and the Extract all button highlighted." >}}
+
+### Open the profile in MobiFlight
+
+In the MobiFlight application, go to the **File** menu and select **Open...**.
+
+{{< screenshot image="file-menu.png" title="Screenshot of the MobiFlight main window with the File menu open and the Open...menu item highlighted." >}}
+
+In the resulting file dialog, select the extracted .mcc file then click **Open**.
+
+{{< screenshot image="file-dialog.png" title="Screenshot of the Windows file dialog with a downloaded .mcc file and the Open button highlighted." >}}
+
 ### Acknowledge the orphaned device warning
 
 When the profile is opened in MobiFlight, the following warning dialog will show. Click **Ok**.
