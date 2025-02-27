@@ -23,7 +23,7 @@ Using **File Explorer**, select the downloaded zip file and click **Extract all*
 
 ### Open the profile in MobiFlight
 
-In the MobiFlight application, go to the **File** menu and select **Open..**.
+In the MobiFlight application, go to the **File** menu and select **Open...**.
 
 {{< screenshot image="file-menu.png" title="Screenshot of the MobiFlight main window with the File menu open and the Open...menu item highlighted." >}}
 
