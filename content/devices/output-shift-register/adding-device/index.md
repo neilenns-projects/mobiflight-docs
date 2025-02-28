@@ -29,8 +29,8 @@ Use the **Latch**, **Clock**, and **Data** dropdowns to specify the board pins u
 
 | MobiFlight setting | Pin name | Pin number |
 | ------------------ | -------- | ---------- |
-| Latch              | RCLK     | 11         |
-| Clock              | SRCLK    | 12         |
+| Latch              | RCLK     | 12         |
+| Clock              | SRCLK    | 11         |
 | Data               | SER      | 14         |
 
 {{< /tab >}}
