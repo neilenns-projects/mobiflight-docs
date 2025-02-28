@@ -7,6 +7,10 @@ weight: 40
 
 Potentiometers are generally reliable components, but slight variations between the different devices may cause problems when using standard events. This guide will help you troubleshoot common issues with potentiometers.
 
+## Adjust the sensitivity
+
+If the simulator input is changing value even when the potentiometer is stationary, try reducing the **Sensitivity** setting in the [**Modules** dialog](/devices/potentiometer/settings-reference/#modules-dialog).
+
 ## Verify the potentiometer range
 
 While most 10kΩ linear potentiometers have a range of 0--1023, some may have a slightly different range. To verify the range of your potentiometer, [connect it to your board](/devices/potentiometer/wiring/), then take these steps.
