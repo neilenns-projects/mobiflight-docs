@@ -54,6 +54,9 @@ Since compass values are from 0--360, set the **Display scale** to **360** steps
 
 {{< screenshot image="display-tab-display-scale.png" title="Screenshot of the display tab in the output dialog with display scale set to 360." >}}
 
+> [!TIP]
+> For smoother stepper motor movement, set the **Display scale** to **3600** and use a [transform modifier](/guides/modifiers/transform/) to multiply the simulator value by **10** using the **`$*10`** transform.
+
 ### Set the stepper zero position
 
 The zero position is the position MobiFlight will reset the stepper motor to when the connection to the simulator is lost.
