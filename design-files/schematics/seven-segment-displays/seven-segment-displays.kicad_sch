@@ -1,135 +1,19 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "a80d9ce9-5b9c-4041-88a3-ba482251d801")
 	(paper "A4")
 	(lib_symbols
-		(symbol "power:+5C"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5C"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5C\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5C_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5C_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -201,7 +85,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -213,7 +97,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -244,12 +128,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -340,6 +229,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "symbols:4-digit TM1637 display module"
 			(exclude_from_sim no)
@@ -875,6 +765,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "symbols:8-digit-MAX7219"
 			(exclude_from_sim no)
@@ -1643,24 +1534,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 49.53 -5.08 180)
-					(length 2.54)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -48.26 2.54 0)
 					(length 2.54)
@@ -1805,6 +1678,24 @@
 						)
 					)
 				)
+				(pin output line
+					(at 49.53 -5.08 180)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "8-digit-MAX7219_0_1"
 				(circle
@@ -1898,7 +1789,74 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Dedicated +5V power,\nnot from a +5V pin on the board."
+		(exclude_from_sim no)
+		(at 28.956 23.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e2820e6-87a2-4c6b-945c-66a539bbb702")
+	)
+	(text "Dedicated +5V power,\nnot from a +5V pin on the board."
+		(exclude_from_sim no)
+		(at 44.196 65.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e250545-376f-42a7-913a-1e488923253f")
+	)
+	(text "Dedicated +5V power,\nnot from a +5V pin on the board."
+		(exclude_from_sim no)
+		(at 217.424 104.648 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44050845-1f84-457b-aa11-26bdcac4ea3c")
+	)
+	(text "To additional modules, maximum eight per chain.\nAll boards must have a direct +5V power input."
+		(exclude_from_sim no)
+		(at 137.16 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53370bd0-dc46-4e87-ac64-190744a0e101")
+	)
+	(text "Do not use the VCC and GND pins on\nthe right side of the module."
+		(exclude_from_sim no)
+		(at 121.92 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c5038ef-f49a-414b-a16b-4f71bf9bb887")
+	)
+	(text "Do not use the VCC and GND pins on\nthe right side of the module."
+		(exclude_from_sim no)
+		(at 137.16 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d859b6ab-f919-4fee-b6e4-bde6089eadf1")
 	)
 	(no_connect
 		(at 124.46 36.83)
@@ -2296,72 +2254,6 @@
 		)
 		(uuid "feb0add5-dc42-493c-ad63-f957faa02561")
 	)
-	(text "Dedicated +5V power,\nnot from a +5V pin on the board."
-		(exclude_from_sim no)
-		(at 28.956 23.622 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1e2820e6-87a2-4c6b-945c-66a539bbb702")
-	)
-	(text "Dedicated +5V power,\nnot from a +5V pin on the board."
-		(exclude_from_sim no)
-		(at 44.196 65.532 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3e250545-376f-42a7-913a-1e488923253f")
-	)
-	(text "Dedicated +5V power,\nnot from a +5V pin on the board."
-		(exclude_from_sim no)
-		(at 217.424 104.648 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "44050845-1f84-457b-aa11-26bdcac4ea3c")
-	)
-	(text "To additional modules, maximum eight per chain.\nAll boards must have a direct +5V power input."
-		(exclude_from_sim no)
-		(at 137.16 98.044 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "53370bd0-dc46-4e87-ac64-190744a0e101")
-	)
-	(text "Do not use the VCC and GND pins on\nthe right side of the module."
-		(exclude_from_sim no)
-		(at 121.92 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8c5038ef-f49a-414b-a16b-4f71bf9bb887")
-	)
-	(text "Do not use the VCC and GND pins on\nthe right side of the module."
-		(exclude_from_sim no)
-		(at 137.16 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d859b6ab-f919-4fee-b6e4-bde6089eadf1")
-	)
 	(label "CS"
 		(at 19.05 41.91 0)
 		(effects
@@ -2413,7 +2305,7 @@
 		(uuid "ccc295b9-a1b0-4fb4-803e-3aec3df8561b")
 	)
 	(symbol
-		(lib_id "power:+5C")
+		(lib_id "power:+5V")
 		(at 24.13 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2421,8 +2313,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "015c085c-b311-455a-b549-5d46efa7c9d1")
-		(property "Reference" "#PWR01"
+		(uuid "0e16ebc2-94fe-4fd7-b06f-dc0729cec704")
+		(property "Reference" "#PWR07"
 			(at 24.13 30.48 0)
 			(effects
 				(font
@@ -2431,7 +2323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5C"
+		(property "Value" "+5V"
 			(at 24.13 21.59 0)
 			(effects
 				(font
@@ -2457,7 +2349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5C\""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 24.13 26.67 0)
 			(effects
 				(font
@@ -2467,78 +2359,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "73f88579-bf97-4600-9bc2-450f4b9ba1b6")
-		)
-		(instances
-			(project ""
-				(path "/a80d9ce9-5b9c-4041-88a3-ba482251d801"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5C")
-		(at 39.37 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "051a2290-a809-4ebe-94cb-d04bfbb5c81d")
-		(property "Reference" "#PWR03"
-			(at 39.37 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5C"
-			(at 39.37 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5C\""
-			(at 39.37 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e0ebe26-1c91-42cc-841f-a3c7084a6bb3")
+			(uuid "28f0844e-8297-4a54-a432-ff85ae5f64c8")
 		)
 		(instances
 			(project "seven-segment-displays"
 				(path "/a80d9ce9-5b9c-4041-88a3-ba482251d801"
-					(reference "#PWR03")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2836,6 +2662,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 39.37 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e95f61e-a229-4c24-b03c-37ee75d38139")
+		(property "Reference" "#PWR08"
+			(at 39.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 39.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 39.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f992bf0-91ed-4cc8-874e-a2c8c7c08d45")
+		)
+		(instances
+			(project "seven-segment-displays"
+				(path "/a80d9ce9-5b9c-4041-88a3-ba482251d801"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 24.13 52.07 0)
 		(unit 1)
@@ -3075,4 +2967,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
