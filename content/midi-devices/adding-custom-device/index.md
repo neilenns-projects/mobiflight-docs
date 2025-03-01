@@ -10,7 +10,7 @@ MIDI devices other than the ones supported by MobiFlight can be added by creatin
 
 ### Enable logging
 
-Follow the steps in the [enabling logging guide](/guides/enabling-logging) to enable **Info** logging in MobiFlight.
+Follow the steps in the [sharing logs guide](/guides/sharing-logs) to enable **Info** logging in MobiFlight.
 
 ### Identify Note and CC for each input
 
@@ -19,6 +19,12 @@ Launch MobiFlight and take note of the **Midi device** name reported when the de
 Then, use each input on the board and take note of the name, **Note** and **CC** values received by MobiFlight.
 
 {{< screenshot image="logs.png" title="Screenshot of the MobiFlight main window with logging enabled. The MPK mini play, Note 1_65, and CC 1_50 log entries are highlighted." >}}
+
+For example, the following log entry indicates a **Note** message type on channel **1** with **MessageId** 15:
+
+`
+02/28/2025 14:33:15(659): Razer Stream Controller => Note 1_15  => PRESS =>  No config found.
+`
 
 ### Create the configuration file
 
