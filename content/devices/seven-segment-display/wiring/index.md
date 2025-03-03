@@ -6,6 +6,9 @@ weight: 10
 prev: /devices/seven-segment-display/
 ---
 
+<!-- Two GitHub info blocks in a row trigger this markdownlint warning. -->
+<!-- markdownlint-disable MD028 -->
+
 {{< tabs items="MAX7219 modules,TM1637 modules" >}}
 
 {{< tab >}}
@@ -18,6 +21,9 @@ The **DIN**, **CS**, and **CLK** pins can be connected to any digital or analog 
 > MAX7219 modules are sensitive to poor electrical connections and low voltage.
 >
 > Always use high-quality cables and an external +5V power source when connecting these modules to a board. When chaining multiple MAX7219 modules do not daisy-chain the +5V power.
+
+> [!IMPORTANT]
+> The **DIN**, **CS**, and **CLK** signals must be +5V. If connected to a [Raspberry Pi Pico 1](/boards/recommended/raspberry-pi-pico/) board, make sure to use a level shifter.
 
 {{< /tab >}}
 
