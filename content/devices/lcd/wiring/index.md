@@ -11,4 +11,4 @@ prev: /devices/lcd/
 > [!IMPORTANT]
 > LCDs can only be connected to specific pins on a board, typically labeled **SDA** and **SCL**. Check the pinout diagram on the [boards](/boards/) page and verify the LCD is connected to the appropriate pins.
 >
-> The data signals must be +5V. If connected to a [Raspberry Pi Pico 1](/boards/recommended/raspberry-pi-pico/) board, make sure to use a level shifter.
+> The **SDA** and **SDL** signals must be +5V. If connected to a [Raspberry Pi Pico 1](/boards/recommended/raspberry-pi-pico/) board, make sure to use a level shifter.
