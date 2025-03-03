@@ -1,15 +1,19 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "b0b403ac-15f9-4333-8a62-4fee02bf44d3")
 	(paper "A4")
 	(lib_symbols
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -81,7 +85,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -93,7 +97,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -124,12 +128,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -220,6 +229,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "symbols:LCD"
 			(exclude_from_sim no)
@@ -368,7 +378,18 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Back of display"
+		(exclude_from_sim no)
+		(at 107.188 112.014 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d523df9b-5d2d-49b7-8a25-cedf5e91b7f5")
 	)
 	(wire
 		(pts
@@ -382,16 +403,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 90.17) (xy 144.78 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "281a8689-3a80-42a5-864b-f2fcca9d8152")
-	)
-	(wire
-		(pts
 			(xy 133.35 85.09) (xy 138.43 85.09)
 		)
 		(stroke
@@ -399,6 +410,16 @@
 			(type default)
 		)
 		(uuid "4deba5f0-587f-4a65-8d32-097bdcdd1677")
+	)
+	(wire
+		(pts
+			(xy 133.35 92.71) (xy 140.97 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b2603b-d704-4acc-8509-0e10cfe56c37")
 	)
 	(wire
 		(pts
@@ -412,13 +433,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 92.71) (xy 144.78 92.71)
+			(xy 133.35 90.17) (xy 140.97 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4156b50-3d37-45f1-90d2-a7abc01676fc")
+		(uuid "dd9a84b5-3386-4ae8-a261-b377a5115406")
 	)
 	(wire
 		(pts
@@ -430,46 +451,49 @@
 		)
 		(uuid "e878f6ef-c791-450c-af43-99992678bc9f")
 	)
-	(text "Dedicated +5V power,\nnot from a +5V pin on the board."
-		(exclude_from_sim no)
-		(at 134.874 78.74 0)
+	(global_label "SDA PIN ON BOARD"
+		(shape passive)
+		(at 140.97 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "54315f95-0fd5-46de-9fc4-350fba5e0ace")
+		(uuid "0e1f16f7-269f-4470-80f8-a806ee37707b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.4102 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(text "Back of display"
-		(exclude_from_sim no)
-		(at 107.188 112.014 0)
+	(global_label "SCL PIN ON BOARD"
+		(shape passive)
+		(at 140.97 92.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(uuid "d523df9b-5d2d-49b7-8a25-cedf5e91b7f5")
-	)
-	(label "SCL"
-		(at 144.78 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "8fb137fd-8195-4bc0-b4ab-d1425a3a149e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.3497 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
 			)
-			(justify right bottom)
 		)
-		(uuid "3667b8d1-9231-40ee-81a3-b3610f034b1f")
-	)
-	(label "SDA"
-		(at 144.78 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7ed17ba8-cc46-4f43-90ae-6a1c8d5b5ee7")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -683,4 +707,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
