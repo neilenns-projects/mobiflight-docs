@@ -13,7 +13,7 @@ LCDs can only be connected to specific pins on a board, typically labeled **SDA*
 
 ## Ensure adequate power
 
-LCDs require +5V power. They should be connected to a dedicated +5V power supply, not the +5V pin of a [board](/boards/).
+LCDs require +5V power. When using a [Raspberry Pi Pico 1](/boards/raspberry-pi-pico/), an external +5V power supply should be connected to the LCD.
 
 ## Adjust the contrast
 
