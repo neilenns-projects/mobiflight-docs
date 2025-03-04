@@ -11,10 +11,6 @@ LCDs are generally straightforward to use with MobiFlight. After connecting the 
 
 LCDs can only be connected to specific pins on a board, typically labeled **SDA** and **SCL**. Check the pinout diagram on the [boards](/boards/) page and verify the LCD is connected to the appropriate pins.
 
-## Ensure adequate power
-
-LCDs require +5V power. They should be connected to a dedicated +5V power supply, not the +5V pin of a [board](/boards/).
-
 ## Adjust the contrast
 
 All LCD driver boards have a potentiometer mounted to the back to adjust the contrast. LCDs often come with the contrast set so low it appears that the display isn't on at all.
