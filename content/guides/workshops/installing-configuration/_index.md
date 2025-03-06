@@ -1,7 +1,7 @@
 ---
 title: Installing the board configuration
 description: How to install the workshop board configuration with MobiFlight.
-weight: 20
+weight: 10
 ---
 
 MobiFlight workshops use a [Mega 2560 Pro Mini](/boards/recommended/mega-2560-pro-mini) board with a pre-defined device configuration. This configuration maps the devices to the appropriate pins for use with a [prototyping board v2](https://shop.mobiflight.com/product/prototyping-board-v2).
