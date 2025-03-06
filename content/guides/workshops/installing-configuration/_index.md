@@ -29,12 +29,12 @@ Click on the **MobiFlight Mega** board in the list of connected boards.
 
 Click on the **Upload** button and select **Prototyping Board (Latest Version)**.
 
-{{< screenshot image="upload-default-config.png" title="Screenshot of the MobiFlight Modules dialog with the Upload button selected " >}}
+{{< screenshot image="upload-default-config.png" title="Screenshot of the MobiFlight Modules dialog with the Upload button selected." >}}
 
 When prompted to confirm the upload, click **OK**.
 
 {{% /steps %}}
 
-After the upload completes the board will be named **ProtoBoard-v2** and all the devices will be configured.
+After the upload completes, the board will be named **ProtoBoard-v2** and all the devices will be configured.
 
 {{< screenshot image="configured-board.png" title="Screenshot of the MobiFlight Modules dialog with a ProtoBoard-v2 configuration loaded on a Mega 2560 Pro Mini." >}}

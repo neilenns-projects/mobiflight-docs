@@ -1,6 +1,6 @@
 ---
 title: Beginner workshop
-description: Ste-by-step guide to configuring the beginner workshop project with MobiFlight.
+description: Step-by-step guide to configuring the beginner workshop project with MobiFlight.
 ogimage: card-images/guides/workshop-beginner.png
 weight: 20
 ---
@@ -25,9 +25,9 @@ The following components are required for the project:
 | XH-JST 4-pin wire                                                                          | 1        |
 | M3x5mm screw                                                                               | 12       |
 
-## 3D printed enclosure parts
+## 3D-printed enclosure parts
 
-The following parts make up the 3D printed enclosure:
+The following parts make up the 3D-printed enclosure:
 
 - [Base](https://github.com/MobiFlight/MobiFlight-Connector/wiki/images/workshops/beginner/stl/workshop-beginner-base.stl)
 - [Dual push button lid](https://github.com/MobiFlight/MobiFlight-Connector/wiki/images/workshops/beginner/stl/workshop-dual-pushbutton.stl)
@@ -101,7 +101,7 @@ The switches are connected using two XH-JST 3-pin cables. Connect the first swit
 
 Assemble the encoder into the case using M5 screws to attach the PCB to the back of the lid. Pass the cable through the hole in the back of the case, then close the lid.
 
-The encoder is connected using one XH-JST 4-pin cable. Connect the encoder PCB `INNER SHAFT` connector to `Encocder 1` on the breakout board.
+The encoder is connected using one XH-JST 4-pin cable. Connect the encoder PCB `INNER SHAFT` connector to `Encoder 1` on the breakout board.
 
 {{< screenshot image="encoder-connections.png" title="Photo of a prototype board with the encoder connection highlighted." >}}
 
