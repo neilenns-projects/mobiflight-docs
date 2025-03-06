@@ -1,5 +1,5 @@
 ---
-title: Workshop
+title: Workshops
 description: Step-by-step guides to MobiFlight workshop projects.
 next: /guides/workshops/installing-configuration/
 og-image: card-images/guides/workshop-beginner.png
