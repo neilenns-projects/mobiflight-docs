@@ -104,3 +104,20 @@ Assemble the encoder into the case using M5 screws to attach the PCB to the back
 The encoder is connected using one XH-JST 4-pin cable. Connect the encoder PCB `INNER SHAFT` connector to `Encocder 1` on the breakout board.
 
 {{< screenshot image="encoder-connections.png" title="Photo of a prototype board with the encoder connection highlighted." >}}
+
+## Configuring MobiFlight
+
+The inputs and outputs are configured in MobiFlight by following the guides for each device type:
+
+| Device description | Device name | Guide                                                                    |
+| ------------------ | ----------- | ------------------------------------------------------------------------ |
+| Red button LED     | LED 1       | [LEDs](/devices/led/configuring-output/)                                 |
+| Red button         | Button 3    | [Buttons and switches](/devices/button-switch/configuring-two-position/) |
+| Toggle switch      | Button 3    | [Buttons and switches](/devices/button-switch/configuring-two-position/) |
+| Encoder            | Encoder 1   | [Rotary encoder](/devices/encoder/configuring-input/)                    |
+
+## Next steps
+
+With the project assembled, run Microsoft Flight Simulator, spawn in an aircraft like the Cessna 172, ensure the **Run** button is active in the MobiFlight toolbar, and try everything out.
+
+Learn more about using MobiFlight in the [getting started guide](/getting-started/), discover additional supported [devices](/devices/), and join the [MobiFlight Discord](https://github.com/mobiflight) to share your project with other enthusiasts.
