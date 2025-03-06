@@ -1,6 +1,7 @@
 ---
 title: Beginner workshop
 description: Ste-by-step guide to configuring the beginner workshop project with MobiFlight.
+ogimage: card-images/guides/workshop-beginner.png
 weight: 20
 ---
 
@@ -73,3 +74,33 @@ Follow the [flashing ambiguous boards guide](/guides/flashing-ambiguous/boards/)
 Use the [installing configuration guide](/guides/workshops/installing-configuration/) to upload the standard configuration for a prototype board to the Mega.
 
 {{% /steps %}}
+
+## Assembling and connecting the LED buttons
+
+{{< screenshot image="led-assembly.png" title="Photo of the beginner project with the two square LED buttons highlighted." >}}
+
+Assemble the LED buttons into the case by removing the fastener from the back of the buttons, inserting the button into the lid with the two large holes, then re-attaching the fasteners. Pass the cable through the hole in the back of the case, then close the lid.
+
+The buttons are connected using four XH-JST 2-pin cables. Connect the red button light to `LED 1 PWM`, the orange button light to `LED 2 PWM`, the red button to `Button 1`, and the orange button to `Button 2` on the breakout board.
+
+{{< screenshot image="led-button-connections.png" title="Photo of a prototype board with the four connections for the LED buttons highlighted." >}}
+
+## Assembling and connecting the toggle switches
+
+{{< screenshot image="toggle-switch-assembly.png" title="Photo of the beginner project with the two toggle switches highlighted." >}}
+
+Assemble the toggle switches into the case by screwing a nut halfway down the threads on each switch. Place both switches on the PCB, then use M5 screws to attach the PCB to the back of the lid. Pass the cable through the hole in the back of the case, then close the lid.
+
+The switches are connected using two XH-JST 3-pin cables. Connect the first switch to `SWITCH 1 ON-ON` and the second switch to `SWITCH 2 ON-ON` on the breakout board.
+
+{{< screenshot image="toggle-switch-connections.png" title="Photo of a prototype board with the two toggle switch connections highlighted." >}}
+
+## Assembling and connecting the encoder
+
+{{< screenshot image="encoder-assembly.png" title="Photo of the beginner project with the encoder highlighted." >}}
+
+Assemble the encoder into the case using M5 screws to attach the PCB to the back of the lid. Pass the cable through the hole in the back of the case, then close the lid.
+
+The encoder is connected using one XH-JST 4-pin cable. Connect the encoder PCB `INNER SHAFT` connector to `Encocder 1` on the breakout board.
+
+{{< screenshot image="encoder-connections.png" title="Photo of a prototype board with the encoder connection highlighted." >}}
