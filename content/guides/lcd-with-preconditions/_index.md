@@ -10,7 +10,7 @@ ogimage: card-images/devices/lcd-16x2.png
 MobiFlight preconditions, when combined with two buttons and an LCD, can be used to page between different screens of content on the display. This tutorial demonstrates how to use two buttons to page up and down through two pages, showing COM1 frequencies and COM2 frequencies for a Cessna 172 on an LCD.
 
 > [!NOTE]
-> This guide assumes the buttons and LCD are already added as MobiFlight devices, following the [button](/devices/button-switch/) and [encoder](/devices/encoder/) guides. It also assumes basic familiarity with creating MobiFlight input configurations.
+> This guide assumes the buttons and LCD are already added as MobiFlight devices, following the [button](/devices/button-switch/) and [encoder](/devices/encoder/) guides. It also assumes basic familiarity with creating MobiFlight input and output configurations.
 
 {{% steps %}}
 
@@ -54,7 +54,7 @@ The output configurations are not mapped to any output device. Only the **Sim Va
 
 ### Create an output configuration to display COM1 frequencies
 
-Create a new output configuration named **COM1 display**. On the **Modify** tab click the **Add reference** button to add references to the **COM1 active** and **COM1 standby** configurations created in the prior step.
+Create a new output configuration named **COM1 display**. On the **Modify** tab, click the **Add reference** button to add references to the **COM1 active** and **COM1 standby** configurations created in the prior step.
 
 {{< screenshot image="com1-config-references.png" title="Screenshot of the output configuration dialog with the Modify tab selected and references added to COM1 active and COM1 standby." >}}
 
@@ -78,7 +78,7 @@ This will ensure the **COM1 display** output configuration is only active when t
 
 ### Create an output configuration to display COM2 frequencies
 
-Create a new output configuration named **COM2 display**. On the **Modify** tab click the **Add reference** button to add references to the **COM2 active** and **COM2 standby** configurations created in the prior step.
+Create a new output configuration named **COM2 display**. On the **Modify** tab, click the **Add reference** button to add references to the **COM2 active** and **COM2 standby** configurations created in the prior step.
 
 {{< screenshot image="com2-config-references.png" title="Screenshot of the output configuration dialog with the Modify tab selected and references added to COM2 active and COM2 standby." >}}
 
