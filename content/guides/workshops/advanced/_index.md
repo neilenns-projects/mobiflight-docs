@@ -105,6 +105,12 @@ The encoder is connected using two XH-JST 4-pin cables. Connect the encoder PCB 
 
 The inputs and outputs are configured in MobiFlight by following the guides for each device type:
 
+| Device description        | Device name      | Guide                                                             | Preset category             | Preset name                                 |
+| ------------------------- | ---------------- | ----------------------------------------------------------------- | --------------------------- | ------------------------------------------- |
+| Dual encoder - outer knob | `ENCODER 1`      | [Configuring encoders](/devices/encoder/configuring-input/)       | Microsoft / Generic / Radio | COM_RADIO_WHOLE_DEC and COM_RADIO_WHOLE_INC |
+| Dual encoder - inner knob | `ENCODER 2`      | [Configuring encoders](/devices/encoder/configuring-input/)       | Microsoft / Generic / Radio | COM_RADIO_FRACT_DEC and COM_RADIO_FRACT_INC |
+| Dual encoder - button     | `ENCODER 2 PUSH` | [Configuring buttons](/devices/button-switch/configuring-button/) | Microsoft / Generic / Radio | COM_STBY_RADIO_SWAP                         |
+
 ## Next steps
 
 With the project assembled, run Microsoft Flight Simulator, spawn in an aircraft like the Cessna 172, ensure the **Run** button is active in the MobiFlight toolbar, and try everything out.
