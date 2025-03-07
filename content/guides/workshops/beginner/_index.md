@@ -46,12 +46,12 @@ Devices connect to the prototype board as follows:
 | Device                 | Connector          |
 | ---------------------- | ------------------ |
 | LED - Push button 1    | `LED 1 PWM`        |
-| Button - Push button 1 | `Button 1`         |
+| Button - Push button 1 | `BUTTON 1`         |
 | LED - Push button 2    | `LED 2 PWM`        |
-| Button - Push button 2 | `Button 2`         |
-| Switch - Toggle 1      | `Switch 1 (ON-ON)` |
-| Switch - Toggle 2      | `Switch 2 (ON-ON)` |
-| Encoder                | `Encoder 1`        |
+| Button - Push button 2 | `BUTTON 2`         |
+| Switch - Toggle 1      | `SWITCH 1 (ON-ON)` |
+| Switch - Toggle 2      | `SWITCH 2 (ON-ON)` |
+| Encoder                | `ENCODER 1`        |
 
 ## Assembling the boards
 
@@ -89,7 +89,7 @@ The buttons are connected using four XH-JST 2-pin cables. Connect the red button
 
 {{< screenshot image="toggle-switch-assembly.png" title="Photo of the beginner project with the two toggle switches highlighted." >}}
 
-Assemble the toggle switches into the case by screwing a nut halfway down the threads on each switch. Place both switches on the PCB, then use M5 screws to attach the PCB to the back of the lid. Pass the cable through the hole in the back of the case, then close the lid.
+Assemble the toggle switches into the case by screwing a nut halfway down the threads on each switch. Place both switches on the PCB, then use M3 screws to attach the PCB to the back of the lid. Pass the cable through the hole in the back of the case, then close the lid.
 
 The switches are connected using two XH-JST 3-pin cables. Connect the first switch to `SWITCH 1 ON-ON` and the second switch to `SWITCH 2 ON-ON` on the breakout board.
 
@@ -99,7 +99,7 @@ The switches are connected using two XH-JST 3-pin cables. Connect the first swit
 
 {{< screenshot image="encoder-assembly.png" title="Photo of the beginner project with the encoder highlighted." >}}
 
-Assemble the encoder into the case using M5 screws to attach the PCB to the back of the lid. Pass the cable through the hole in the back of the case, then close the lid.
+Assemble the encoder into the case using M3 screws to attach the PCB to the back of the lid. Pass the cable through the hole in the back of the case, then close the lid.
 
 The encoder is connected using one XH-JST 4-pin cable. Connect the encoder PCB `INNER SHAFT` connector to `Encoder 1` on the breakout board.
 
