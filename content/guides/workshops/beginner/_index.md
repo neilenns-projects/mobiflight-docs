@@ -109,12 +109,12 @@ The encoder is connected using one XH-JST 4-pin cable. Connect the encoder PCB `
 
 The inputs and outputs are configured in MobiFlight by following the guides for each device type:
 
-| Device description | Device name | Guide                                                                    |
-| ------------------ | ----------- | ------------------------------------------------------------------------ |
-| Red button LED     | LED 1       | [LEDs](/devices/led/configuring-output/)                                 |
-| Red button         | Button 3    | [Buttons and switches](/devices/button-switch/configuring-two-position/) |
-| Toggle switch      | Button 3    | [Buttons and switches](/devices/button-switch/configuring-two-position/) |
-| Encoder            | Encoder 1   | [Rotary encoder](/devices/encoder/configuring-input/)                    |
+| Device description | Device name | Guide                                                                                 |
+| ------------------ | ----------- | ------------------------------------------------------------------------------------- |
+| Red button LED     | LED 1       | [Configuring LEDs](/devices/led/configuring-output/)                                  |
+| Red button         | Button 3    | [Configuring buttons](/devices/button-switch/configuring-button/)                     |
+| Toggle switch      | Button 3    | [Configuring two-position switches](/devices/button-switch/configuring-two-position/) |
+| Encoder            | Encoder 1   | [Configuring encoders](/devices/encoder/configuring-input/)                           |
 
 ## Next steps
 
