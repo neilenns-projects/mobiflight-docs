@@ -2,7 +2,7 @@
 title: Configuring three-position switch input
 description: Step-by-step guide for configuring a three-position switch as an input in MobiFlight.
 ogimage: card-images/devices/switch-three-position.png
-weight: 40
+weight: 50
 ---
 
 <!-- Because tabs are used in this document the headings across tabs are duplicate. Disable the markdownlint -->
@@ -14,7 +14,7 @@ Three-position switches are typically mapped to three different simulator variab
 The following steps demonstrate how to configure a three-position switch to control the STBY BATT switch in a Cessna 172 in Microsoft Flight Simulator 2024.
 
 > [!TIP]
-> The steps for using a switch or button with X-Plane are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
+> The steps for using a switch with X-Plane are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
 
 {{< tabs items="Switch up position,Switch down position" >}}
 
