@@ -2,7 +2,7 @@
 title: Settings reference
 description: Description of all available settings for button devices and input configurations using buttons.
 ogimage: card-images/devices/switch.png
-weight: 50
+weight: 60
 ---
 
 ## Modules dialog

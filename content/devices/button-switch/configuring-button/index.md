@@ -1,11 +1,11 @@
 ---
-title: Configuring two-position switch input
-description: Step-by-step guide for configuring a two-position switch as an input in MobiFlight.
+title: Configuring button input
+description: Step-by-step guide for configuring a button as an input in MobiFlight.
 ogimage: card-images/devices/switch.png
-weight: 40
+weight: 30
 ---
 
-Switches are typically mapped to simulator variables that expect either `0` (for off) or `1` (for on). The following steps demonstrate how to configure a two-position switch to control the parking brake in a Cessna 172 in Microsoft Flight Simulator 2020 and Microsoft Flight Simulator 2024.
+Buttons are typically mapped to simulator variables that expect either `0` (for off) or `1` (for on). The following steps demonstrate how to configure a two-position switch to toggle the parking brake in a Cessna 172 in Microsoft Flight Simulator 2020 and Microsoft Flight Simulator 2024.
 
 > [!TIP]
 > The steps for using a switch or button with X-Plane are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
@@ -38,25 +38,19 @@ On the **Input** tab, select the **On Press** input setting tab. Use the **Actio
 
 {{< screenshot image="sim-events-filtered-list.png" title="Screenshot of the on press filter preset list filtered by Microsoft / Generic / Controls." >}}
 
-### Select the parking brake on preset
+### Select the parking brake toggle
 
-Use the **Select Preset** dropdown to select the **PARKING_BRAKES_ON** preset.
+Use the **Select Preset** dropdown to select the **PARKING BRAKES TOGGLE** preset.
 
-{{< screenshot image="input-event-parking-brakes-on.png" title="Screenshot of the input tab on press event with the PARKING_BRAKES_ON preset selected." >}}
-
-### Configure the On Release action
-
-Repeat steps 4 and 5 for the **On Release** tab, selecting **PARKING_BRAKES_OFF** for the preset.
-
-{{< screenshot image="input-event-parking-brakes-off.png" title="Screenshot of the input tab on release event with the PARKING_BRAKES_OFF preset selected." >}}
+{{< screenshot image="input-event-parking-brakes-toggle.png" title="Screenshot of the input tab on press event with the PARKING BRAKES TOGGLE preset selected." >}}
 
 ### Close the dialog and try it out
 
 Click the **OK** button to close the dialog, then spawn an airplane in Microsoft Flight Simulator.
 
-Make sure the MobiFlight **Run** button is clicked in the toolbar, then try toggling the parking brake with the switch. The parking brake in the simulator should toggle.
+Make sure the MobiFlight **Run** button is clicked in the toolbar, then try toggling the parking brake with the BUTTON. The parking brake in the simulator should toggle.
 
 {{% /steps %}}
 
 > [!TIP]
-> Even though these steps are for a Cessna 172, the same parking brake input events should work for most planes in Microsoft Flight Simulator.
+> Even though these steps are for a Cessna 172, the same parking brake input event should work for most planes in Microsoft Flight Simulator.
