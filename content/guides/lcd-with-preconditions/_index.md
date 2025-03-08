@@ -10,7 +10,7 @@ ogimage: card-images/devices/lcd-16x2.png
 MobiFlight preconditions, when combined with two buttons and an LCD, can be used to page between different screens of content on the display. This tutorial demonstrates how to use two buttons to page up and down through two pages, showing COM1 frequencies and COM2 frequencies for a Cessna 172 on an LCD.
 
 > [!NOTE]
-> This guide assumes the buttons and LCD are already added as MobiFlight devices, following the [button](/devices/button-switch/) and [encoder](/devices/encoder/) guides. It also assumes basic familiarity with creating MobiFlight input and output configurations.
+> This guide assumes the buttons and LCD are already added as MobiFlight devices, following the [button](/devices/button-switch/) and [LCD](/devices/LCD/) guides. It also assumes basic familiarity with creating MobiFlight input and output configurations.
 
 {{% steps %}}
 
@@ -18,21 +18,21 @@ MobiFlight preconditions, when combined with two buttons and an LCD, can be used
 
 Name the configuration **Page up** and assign the **Device** to the first button. Set the **On Press** action to **MobiFlight - Variable** and the **Name** to **Current LCD page**.
 
-In the **Value** field, enter `($+1)%2`. This will cause the value of the variable to alternate between `0` and `1` on each button press.
+In the **Value** field, enter `if($<1,$+1,0)`. This supports two pages, numbered `0` and `1`, and will cycle through the values on each button press.
 
 {{< screenshot image="input-variable-page-up.png" title="Screenshot of an input configuration mapped to a button, configured as a MobiFlight - Variable action type." >}}
 
 > [!TIP]
-> The **Value** results in the variable value alternating between `0` and `1`, supporting two display pages. To increase the number of display pages, change the **2** to the number of desired pages. For example, `($+1)%4` will support four pages.
+> To increase the number of display pages, change the first **1** to the number of desired pages minus one. For example, `if($<3,$+1,0)` will support four pages numbered `0`, `1`, `2`, and `3`.
 
 ### Create an input configuration for the page down button
 
-Repeat the prior step for the second button, naming the configuration **Page down**. The variable name is the same, **Current LCD page**. The **Value** is `($-1+2)%2`.
+Repeat the prior step for the second button, naming the configuration **Page down**. The variable name is the same, **Current LCD page**. The **Value** is `if($>0,$-1,1)`.
 
 {{< screenshot image="input-variable-page-down.png" title="Screenshot of an input configuration mapped to a button, configured as a MobiFlight - Variable action type." >}}
 
 > [!TIP]
-> The **Value** results in the variable value alternating between `0` and `1`, supporting two display pages. To increase the number of display pages, change **2** to the number of desired pages. For example, `($-1+4)%4` will support four pages.
+> To increase the number of display pages, change the second **1** to the number of desired pages minus one. For example, `if($>0,$-1,3)` will support four pages numbered `0`, `1`, `2`, and `3`.
 
 ### Create output configurations for COM frequencies
 
