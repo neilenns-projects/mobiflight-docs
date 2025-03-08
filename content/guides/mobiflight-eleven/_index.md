@@ -50,4 +50,4 @@ To edit a configuration, click the {{< icon "pencil-alt" >}} button at the far r
 
 Rows can be re-ordered by dragging the row using the handle on the left edge of the row.
 
-{{< screenshot image="main-window-reorder-handle.png" title="Screenshot of the main window with the re-order handle on a row higlighted." >}}
+{{< screenshot image="main-window-reorder-handle.png" title="Screenshot of the main window with the re-order handle on a row highlighted." >}}
