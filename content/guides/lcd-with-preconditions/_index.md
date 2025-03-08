@@ -23,7 +23,7 @@ In the **Value** field, enter `if($<1,$+1,0)`. This supports two pages, numbered
 {{< screenshot image="input-variable-page-up.png" title="Screenshot of an input configuration mapped to a button, configured as a MobiFlight - Variable action type." >}}
 
 > [!TIP]
-> To increase the number of display pages, change the first **1** to the number of desired pages minus one. For example, `if($<3,$+1,0)` will support four pages numbered `0`, `1`, `2`, and `3`.
+> To increase the number of display pages, change the first **1** to the desired number of pages minus one. For example, `if($<3,$+1,0)` will support four pages numbered `0`, `1`, `2`, and `3`.
 
 ### Create an input configuration for the page down button
 
@@ -32,7 +32,7 @@ Repeat the prior step for the second button, naming the configuration **Page dow
 {{< screenshot image="input-variable-page-down.png" title="Screenshot of an input configuration mapped to a button, configured as a MobiFlight - Variable action type." >}}
 
 > [!TIP]
-> To increase the number of display pages, change **1** to the number of desired pages minus one. For example, `if($>0,$-1,3)` will support four pages numbered `0`, `1`, `2`, and `3`.
+> To increase the number of display pages, change **1** to the desired number of pages minus one. For example, `if($>0,$-1,3)` will support four pages numbered `0`, `1`, `2`, and `3`.
 
 ### Create output configurations for COM frequencies
 
