@@ -1,6 +1,7 @@
 ---
 title: MobiFlight 11 preview
 description: Using the MobiFlight 11 preview.
+ogimage: card-images/guides/mobiflight-eleven.png
 ---
 
 MobiFlight 11 is a major update to the MobiFlight interface, providing new ways to manage large configuration files. It is currently a preview release, primarily focused on obtaining feedback on the new main window layout.
