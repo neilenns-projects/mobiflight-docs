@@ -31,6 +31,7 @@ cascade:
 
 {{< cards >}}
 
+{{< card link="/guides/multiple-page-lcd/" title="Showing multiple display pages on an LCD" icon="information" >}}
 {{< card link="/guides/single-encoder-com-tuning/" title="Using a single encoder to tune COM1" icon="information" >}}
 
 {{< /cards >}}

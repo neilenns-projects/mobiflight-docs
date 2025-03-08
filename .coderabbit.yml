@@ -23,7 +23,7 @@ reviews:
           - Voltages that aren't whole numbers should be described with periods, e.g. 3.3V instead of 3V3.
           - All leaf pages should be in their own folder as a page bundle.
           - Device and board intro pages should always have an opening descriptive paragraph before a card with an image of the device or board.
-          - Require GitHub alerts instead of callout shortcodes.
+          - Do not use {{< callout >}} shortcodes.
           - "Arduino Pro Micro" and "SparkFun Pro Micro" should always be called "Pro Micro" instead.
           - "Arduino Mega 2560 Pro Mini" should always be called "Mega 2560 Pro Mini" instead.
           - References to click or select an item in the UI should have the UI item in bold.

@@ -11,7 +11,7 @@ MobiFlight supports the WINWING FCU, MCDU, and PFP3N (buttons only).
 
 ## Using pre-made MobiFlight profiles
 
-Many MobiFlight profiles for WINWING devices are available on [flightsim.to](https://flightsim.to/discover/winwing%20mobiflight). Take the following steps to use the pre-made profile:
+Many MobiFlight profiles for WINWING devices are available on [flightsim.to](https://flightsim.to/discover/winwing). Take the following steps to use the pre-made profile:
 
 {{% steps %}}
 
