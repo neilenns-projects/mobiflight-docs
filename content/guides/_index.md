@@ -23,6 +23,8 @@ cascade:
 
 {{< card link="https://github.com/MobiFlight/MobiFlight-Connector/wiki" title="Legacy guides" icon="information" >}}
 
+{{< card link="/guides/workshops" title="Workshop walkthroughs" icon="cog" >}}
+
 {{< /cards >}}
 
 ## Advanced device tutorials
