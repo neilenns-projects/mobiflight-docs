@@ -95,6 +95,9 @@ The inputs and outputs are configured in MobiFlight by following the guides for 
 | Dual encoder - outer knob | `ENCODER 1`      | [Configuring encoders](/devices/encoder/configuring-input/)       | Microsoft / Generic / Radio | COM_RADIO_WHOLE_DEC and COM_RADIO_WHOLE_INC |
 | Dual encoder - inner knob | `ENCODER 2`      | [Configuring encoders](/devices/encoder/configuring-input/)       | Microsoft / Generic / Radio | COM_RADIO_FRACT_DEC and COM_RADIO_FRACT_INC |
 | Dual encoder - button     | `ENCODER 2 PUSH` | [Configuring buttons](/devices/button-switch/configuring-button/) | Microsoft / Generic / Radio | COM_STBY_RADIO_SWAP                         |
+| LCD                       | `LCD 1`          | [Showing multiple pages on an LCD](/guides/multiple-page-lcd/)    | See guide                   | See guide                                   |
+| Micro-switch - up         | `Switch 1-1`     | [Showing multiple pages on an LCD](/guides/multiple-page-lcd/)    | See guide                   | See guide                                   |
+| Micro-switch - down       | `Switch 1-3`     | [Showing multiple pages on an LCD](/guides/multiple-page-lcd/)    | See guide                   | See guide                                   |
 
 ## Next steps
 
