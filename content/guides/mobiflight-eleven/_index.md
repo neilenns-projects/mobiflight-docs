@@ -6,8 +6,10 @@ ogimage: card-images/guides/mobiflight-eleven.png
 
 MobiFlight 11 is a major update to the MobiFlight interface, providing new ways to manage large configuration files. It is currently a preview release, primarily focused on obtaining feedback on the new main window layout.
 
-> [!WARNING]
-> MobiFlight 11 uses a different file format compared to earlier versions of MobiFlight. Configuration files from MobiFlight 10 will get updated automatically when opened, and when saved will be saved in the new format. Changes made in MobiFlight 11 are not backwards compatible with MobiFlight 10, and MobiFlight 11 files cannot be opened in earlier versions of the application.
+> [!TIP]
+> MobiFlight 11 uses a different file format compared to earlier versions of MobiFlight. Configuration files from prior versions will get updated automatically when opened, and when saved will be saved in the new format.
+>
+> Changes made in MobiFlight 11 are not backwards compatible, and MobiFlight 11 files cannot be opened in earlier versions of the application.
 
 ## The main window
 
