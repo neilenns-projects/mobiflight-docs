@@ -1,7 +1,7 @@
 ---
 title: Showing multiple pages on an LCD
 description: Step-by-step guide to using preconditions to show multiple pages of content on an LCD.
-ogimage: card-images/devices/lcd-16x2.png
+ogimage: card-images/guides/multiple-page-lcd.png
 ---
 
 <!-- markdownlint thinks <none>, which is a value in MobiFlight UI, is inline HTML, so disable the rule in this file. -->
