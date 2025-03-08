@@ -34,21 +34,6 @@ The following parts make up the 3D-printed enclosure:
 - [Dual encoder lid](https://github.com/MobiFlight/MobiFlight-Connector/wiki/images/workshops/advanced/stl/workshop-dual-encoder-lid.stl)
 - [Honeycomb/Saitek adapter](https://github.com/MobiFlight/MobiFlight-Connector/wiki/images/workshops/beginner/stl/honeycomb-adapter-short.stl) (optional)
 
-## The prototyping board
-
-The advanced workshop uses a [MobiFlight prototyping board](https://shop.mobiflight.com/product/prototyping-board-v2) to connect devices to the [Mega 2560 Pro Mini](/boards/recommended/mega-2560-pro-mini) board.
-
-{{< screenshot image="advanced-connections.png" title="Photo of the MobiFlight prototype board v2 with the advanced workshop connections highlighted." >}}
-
-Devices connect to the prototype board as follows:
-
-| Device               | Connector          |
-| -------------------- | ------------------ |
-| LCD                  | `LCD 1`            |
-| Dual encoder - inner | `ENCODER 1`        |
-| Dual encoder - outer | `ENCODER 2`        |
-| Micro-switch PCB 1   | `SWITCH 1 (ON-ON)` |
-
 ## Assembling the boards
 
 To assemble the prototyping board and Mega 2560 Pro Mini, connect the Mega to the back of the prototyping board. Then, connect one end of the USB cable to the Mega and the other end of the cable to your computer.
@@ -79,7 +64,7 @@ Insert the micro-switches into the lid and attach the PCB from behind with M3 sc
 
 The micro-switches are connected using XH-JST 3-pin cables. Connect the top switch to `SWITCH 1 (ON-ON)` on the breakout board.
 
-{{< screenshot image="micro-switch-connections.png" title="Photo of a prototype board with the four connections for the LED buttons highlighted." >}}
+{{< screenshot image="micro-switch-connection.png" title="Photo of a prototype board with the connection for the micro-switches highlighted." >}}
 
 ## Assembling and connecting the LCD
 

@@ -35,24 +35,6 @@ The following parts make up the 3D-printed enclosure:
 - [Encoder lid](https://github.com/MobiFlight/MobiFlight-Connector/wiki/images/workshops/beginner/stl/workshop-encoder.stl)
 - [Honeycomb/Saitek adapter](https://github.com/MobiFlight/MobiFlight-Connector/wiki/images/workshops/beginner/stl/honeycomb-adapter-short.stl) (optional)
 
-## The prototyping board
-
-The beginner workshop uses a [MobiFlight prototyping board](https://shop.mobiflight.com/product/prototyping-board-v2) to connect devices to the [Mega 2560 Pro Mini](/boards/recommended/mega-2560-pro-mini) board.
-
-{{< screenshot image="beginner-connections.png" title="Photo of the MobiFlight prototype board v2 with the beginner workshop connections highlighted." >}}
-
-Devices connect to the prototype board as follows:
-
-| Device                 | Connector          |
-| ---------------------- | ------------------ |
-| LED - Push button 1    | `LED 1 PWM`        |
-| Button - Push button 1 | `BUTTON 1`         |
-| LED - Push button 2    | `LED 2 PWM`        |
-| Button - Push button 2 | `BUTTON 2`         |
-| Switch - Toggle 1      | `SWITCH 1 (ON-ON)` |
-| Switch - Toggle 2      | `SWITCH 2 (ON-ON)` |
-| Encoder                | `ENCODER 1`        |
-
 ## Assembling the boards
 
 To assemble the prototyping board and Mega 2560 Pro Mini, connect the Mega to the back of the prototyping board. Then, connect one end of the USB cable to the Mega and the other end of the cable to your computer.
