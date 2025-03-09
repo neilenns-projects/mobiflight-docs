@@ -19,14 +19,14 @@ The main window lists all configurations in the open project. Unlike prior versi
 
 The main window shows the following information for each configuration row:
 
-| Name               | Description                                                                                                                                                                         |
-| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Active             | A toggle switch that controls whether the configuration is active. To disable a row, turn off the toggle switch.                                                                    |
-| Name / Description | The name and description for the configuration. The sort order can be changed by clicking on {{< icon "switch-vertical" >}} in the column header.                                   |
-| Device             | The [device](/devices/), [joystick](/joysticks/) component, or [MIDI device](/midi-devices/) input assigned to the configuration.                                                   |
-| Status             | Icons indicating the status for the row. These are not currently implemented, and will always show as disabled.                                                                     |
-| Raw Value          | For output configurations, the value received from the simulator prior to applying any assigned [modifiers](/guides/modifiers/). Input configurations will always show **Waiting**. |
-| Final Value        | For output configurations, the value for display after applying any assigned [modifiers](/guides/modifiers/). Input configurations will always show **Waiting**.                    |
+| Name               | Description                                                                                                                                                                       |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Active             | A toggle switch that controls whether the configuration is active. To disable a row, turn off the toggle switch.                                                                  |
+| Name / Description | The name and description for the configuration. The sort order can be changed by clicking on {{< icon "switch-vertical" >}} in the column header.                                 |
+| Device             | The [device](/devices/), [joystick](/joysticks/) component, or [MIDI device](/midi-devices/) input assigned to the configuration.                                                 |
+| Status             | Icons indicating the status for the row. These are not currently implemented, and will always show as disabled.                                                                   |
+| Raw Value          | For output configurations, the value received from the simulator before applying any assigned [modifiers](/guides/modifiers/). Input configurations will always show **Waiting**. |
+| Final Value        | For output configurations, the value for display after applying any assigned [modifiers](/guides/modifiers/). Input configurations will always show **Waiting**.                  |
 
 ## Adding configurations
 
@@ -38,7 +38,7 @@ The new configurations will be added in sorted order to the list, named either *
 
 {{< screenshot image="main-window-new-configs-added.png" title="Screenshot of the main window with a New Output Config and New Input Config row." >}}
 
-To rename the configuration, hover over the name and click the {{< icon "pencil-alt" >}} button. Type the new name then press the enter key to apply the change.
+To rename the configuration, hover over the name and click the {{< icon "pencil-alt" >}} button. Type the new name, then press the enter key to apply the change.
 
 {{< screenshot image="main-window-edit-name.png" title="Screenshot of the main window with the edit name icon for the New Input Config row highlighted." >}}
 
