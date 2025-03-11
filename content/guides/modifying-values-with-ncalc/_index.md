@@ -37,7 +37,7 @@ For different ranges replace `3` with the desired maximum value. The minimum val
 
 ## Outputting a string based on a value
 
-MobiFlight supports string values for display on [LCDs](/devices/lcd/). A [transform](/guides/modifiers/transform/) modifier with the following formula will output `ABC` if the simulator variable is `1`, otherwise it will output `DEF`:
+MobiFlight supports string values for display on [LCDs](/devices/lcd/). A [transform](/guides/modifiers/transform/) modifier with the following formula outputs `ABC` if the simulator variable is `1`; otherwise, it outputs `DEF`:
 
 `if($=1,'ABC','DEF')`
 
@@ -46,7 +46,7 @@ MobiFlight supports string values for display on [LCDs](/devices/lcd/). A [trans
 
 ## Round or truncate values to adjust the decimal precision
 
-Simulator variables often have more digits after the decimal point than required for display. For example, the barometer value has four values after the decimal point, when only two are required.
+Simulator variables often have more digits after the decimal point than required for display. For example, the barometer value has four values after the decimal point when only two are required.
 
 The `Round()` function can be used in a [transform](/guides/modifiers/transform/) modifier on an output configuration to adjust the value for display:
 
