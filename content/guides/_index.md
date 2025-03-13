@@ -12,17 +12,12 @@ cascade:
 {{< cards >}}
 
 {{< card link="/guides/installing-drivers/" title="Installing board drivers" icon="download" >}}
-
 {{< card link="/guides/input-events-2024/" title="Finding input events in MSFS2024" icon="search" >}}
-
 {{< card link="/guides/flashing-ambiguous-boards/" title="Flashing ambiguous boards" icon="cpu-chip" >}}
-
+{{< card link="/guides/modifying-values-with-ncalc/" title="Modifying values with NCalc" icon="calculator" >}}
 {{< card link="/guides/modifiers/" title="Output value modifiers" icon="adjustments" >}}
-
 {{< card link="/guides/solving-flashing-errors/" title="Solving flashing errors" icon="cpu-chip" >}}
-
 {{< card link="https://github.com/MobiFlight/MobiFlight-Connector/wiki" title="Legacy guides" icon="information" >}}
-
 {{< card link="/guides/workshops" title="Workshop walkthroughs" icon="cog" >}}
 
 {{< /cards >}}
@@ -41,9 +36,7 @@ cascade:
 {{< cards >}}
 
 {{< card link="/devices/lcd/troubleshooting/" title="LCDs" icon="information" >}}
-
 {{< card link="/devices/seven-segment-display/troubleshooting/" title="7-segment displays" icon="information" >}}
-
 {{< card link="/devices/potentiometer/troubleshooting/" title="Potentiometers" icon="information" >}}
 
 {{< /cards >}}
@@ -53,9 +46,7 @@ cascade:
 {{< cards >}}
 
 {{< card link="/guides/sharing-logs/" title="Sharing logs" icon="clipboard-document-list" >}}
-
 {{< card link="/guides/taking-screenshots/" title="Taking screenshots" icon="camera" >}}
-
 {{< card link="/guides/wasm-module/" title="WASM module installation" icon="download" >}}
 
 {{< /cards >}}
