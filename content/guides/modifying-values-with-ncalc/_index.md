@@ -34,7 +34,7 @@ MobiFlight variables are often used to store a value within a range. The followi
 | Increment | `if($<3,$+1,0)`         | `if($<3,$+1,3)`            |
 | Decrement | `if($>0,$-1,3)`         | `if($>0,$-1,0)`            |
 
-For different ranges replace `3` with the desired maximum value. The minimum value with the above formulas is always `0`.
+For different ranges, replace `3` with the desired maximum value. The minimum value with the above formulas is always `0`.
 
 ## Outputting a string based on a value
 
