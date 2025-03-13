@@ -5,8 +5,9 @@ description: How to use NCalc to modify values in MobiFlight.
 
 MobiFlight supports NCalc expressions to adjust values received from the simulator. Expressions can be used in:
 
-- Value fields for input configurations
-- [Transform](/guides/modifiers/transform/) modifiers for output configurations
+- Value fields for input configurations.
+- [Transform](/guides/modifiers/transform/) modifiers on output configurations.
+- Value fields in [compare](/guides/modifiers/compare/) modifiers on output configurations.
 
 See the [NCalc documentation](https://ncalc.github.io/ncalc/articles/index.html) for a list of supported operators and functions. Several common tasks are accomplished using NCalc. See the following sections for examples.
 
