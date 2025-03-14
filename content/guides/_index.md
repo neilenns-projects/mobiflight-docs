@@ -31,6 +31,14 @@ cascade:
 
 {{< /cards >}}
 
+## MobiFlight 11
+
+{{< cards >}}
+
+{{< card link="/guides/mobiflight-eleven/" title="Using the MobiFlight 11 preview" icon="sparkles" >}}
+
+{{< /cards >}}
+
 ## Troubleshooting devices
 
 {{< cards >}}
