@@ -56,7 +56,7 @@ Rows can be re-ordered by dragging the row using the handle on the left edge of 
 
 ## Reverting to the non-beta build
 
-To go back to the non-beta version of MobiFlight take the following steps.
+To go back to the non-beta version of MobiFlight, take the following steps.
 
 {{% steps %}}
 
