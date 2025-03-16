@@ -68,7 +68,7 @@ From the **Extras** menu, select **Settings**. Uncheck the **Yes, I would like t
 
 ### Uninstall the beta version
 
-Ensure MobiFlight is closed by going to the **File** menu and selecting **Exit**. Then uninstall MobiFlight from the Windows **Add or remove programs** control panel.
+Ensure MobiFlight is closed by going to the **File** menu and selecting **Exit**. Then uninstall MobiFlight from the Windows [**Installed apps**](ms-settings:appsfeatures) control panel.
 
 ### Install the non-beta version
 
