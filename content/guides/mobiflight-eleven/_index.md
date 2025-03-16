@@ -53,3 +53,25 @@ To edit a configuration, click the {{< icon "pencil-alt" >}} button at the far r
 Rows can be re-ordered by dragging the row using the handle on the left edge of the row.
 
 {{< screenshot image="main-window-reorder-handle.png" title="Screenshot of the main window with the re-order handle on a row highlighted." >}}
+
+## Reverting to the non-beta build
+
+To go back to the non-beta version of MobiFlight take the following steps.
+
+{{% steps %}}
+
+### Opt out of beta releases
+
+From the **Extras** menu, select **Settings**. Uncheck the **Yes, I would like to receive beta version updates** option, then click **OK** to close the dialog.
+
+{{< screenshot image="beta-version-off.png" title="Screenshot of the settings dialog with the beta version updates checkbox unchecked." >}}
+
+### Uninstall the beta version
+
+Ensure MobiFlight is closed by going to the **File** menu and selecting **Exit**. Then uninstall MobiFlight from the Windows **Add or remove programs** control panel.
+
+### Install the non-beta version
+
+Install the non-beta version of MobiFlight from the [MobiFlight download page](https://www.mobiflight.com/en/download.html).
+
+{{% /steps %}}
