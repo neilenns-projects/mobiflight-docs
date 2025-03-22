@@ -16,7 +16,7 @@ LCDs using a 1602 I^2^C driver board are a convenient way to display more than o
 
 ## Popular options
 
-The [16x2 display](https://shop.mobiflight.com/product/lcd-display) and [40x4 display](https://www.amazon.com/s?k=lcd+hd44780+20x4) are common choices for cockpit builds.
+The [16x2 display](https://shop.mobiflight.com/product/lcd-display) and [20x4 display](https://www.amazon.com/s?k=lcd+hd44780+20x4) are common choices for cockpit builds.
 
 > [!WARNING]
 > LCDs are sometimes sold as just the display without the 1602 I^2^C driver board attached. Both are required to connect the LCD to MobiFlight. When ordering the display, ensure it also comes with the driver board.
