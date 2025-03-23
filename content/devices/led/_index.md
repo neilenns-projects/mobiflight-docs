@@ -11,6 +11,8 @@ LEDs are the most common output device used with MobiFlight. They are used as in
 {{< card title="LEDs" image="card-images/devices/led.png" >}}
 {{</ cards >}}
 
+For information on how many LEDs can be connected to a board, see the [boards](/boards/) documentation.
+
 ## Popular options
 
 5mm LEDs are inexpensive, available in a wide range of colors, and are easy to work with. 3mm LEDs are smaller and a good choice when space is tight.
