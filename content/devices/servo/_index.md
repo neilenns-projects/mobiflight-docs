@@ -15,4 +15,4 @@ For information on how many servos can be connected to a board, see the [boards]
 
 ## Popular options
 
-The most widely used servo with MobiFlight is often referred to as a "[9g micro servo](https://www.amazon.com/s?k=micro+servo+motor)" and is sold in multi-packs.
+The most widely used servo with MobiFlight is often referred to as a "[9g micro servo](https://www.amazon.com/s?k=micro+servo+motor)" and is sold in multipacks.

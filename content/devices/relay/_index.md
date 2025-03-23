@@ -14,7 +14,7 @@ Relays are commonly used to switch electrical circuits running at more than +5V.
 {{< card title="Relays" image="card-images/devices/relay.png" >}}
 {{</ cards >}}
 
-To use relays with MobiFlight, follow the [LED guide](/devices/leds/) to configure them as outputs. For information on how many relays can be connected to a board, see the [boards](/boards/) documentation and look at the LED limits.
+To use relays with MobiFlight, follow the [LED guide](/devices/led/) to configure them as outputs. For information on how many relays can be connected to a board, see the [boards](/boards/) documentation and look at the LED limits.
 
 > [!TIP]
 > Make sure to purchase 5V relays. Many listings include different variations, such as 12V, that will not work with [supported boards](/boards/).
