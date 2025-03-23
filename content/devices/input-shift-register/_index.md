@@ -11,7 +11,7 @@ When building panels, you may encounter situations where you have more buttons f
 {{< card title="Input shift registers" image="card-images/devices/input-shift-register.png" >}}
 {{</ cards >}}
 
-MobiFlight supports up to 32 bits of shift registers in a chain (typically four 8-bit chips), and up to six chains of input shifters can be connected to a single board.
+For information on how many input shift registers can be connected to a board, see the [boards](/boards/) documentation.
 
 > [!IMPORTANT]
 > MobiFlight only supports connecting buttons to input shift registers. Encoders must be connected directly to a board.

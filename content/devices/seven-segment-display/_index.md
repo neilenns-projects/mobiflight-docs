@@ -19,5 +19,7 @@ Modules using the MAX7219 driver chip are the most popular. MobiFlight also supp
 
 {{< /cards >}}
 
+For information on how many 7-segment displays can be connected to a board, see the [boards](/boards/) documentation.
+
 > [!WARNING]
 > Some 8-digit boards use the 74HC595 chip as the driver, particularly when ordered from AliExpress. These boards are not supported by MobiFlight. Pay close attention when ordering and only purchase boards that use the MAX7219 or TM1637 chip.

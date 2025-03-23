@@ -16,6 +16,8 @@ Rotary encoders are a popular device when building custom autopilot and G1000 pa
 
 {{< /cards >}}
 
+For information on how many encoders can be connected to a board, see the [boards](/boards/) documentation.
+
 ## Popular options
 
 The most popular encoders are based on the `EC11` design and include an integrated push button. Single encoders can be purchased as a bare encoder or with a breakout board attached.

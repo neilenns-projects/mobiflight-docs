@@ -12,7 +12,7 @@ LEDs are the most common output device when building panels, and it is often the
 {{< card title="DM13A" subtitle="LED driver for 16 LEDs" image="card-images/devices/output-shift-register-dm13a.png" >}}
 {{< /cards >}}
 
-MobiFlight supports up to 32 bits of shift registers in a chain (typically four 8-bit or two 16-bit chips), and up to six chains of output shifters can be connected to a single board.
+For information on how many output shift registers can be connected to a board, see the [boards](/boards/) documentation.
 
 ## Popular options
 
