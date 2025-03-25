@@ -16,7 +16,7 @@ The **FSUIPC - Offset** action type provides a way to set simulator values via [
 | Use preset      | Selects a preset for common aircraft variables.                                                                                   |
 | Use             | When clicked, loads the preset from the **Use preset** dropdown.                                                                  |
 | Offset          | The FSUIPC offset to set.                                                                                                         |
-| Value Type      | The type of offset, either **Int**, **Float** or **String**                                                                       |
+| Value Type      | The type of offset, either **Int**, **Float** or **String**.                                                                      |
 | Size in Bytes   | The size of the value, in bytes. Either **1**, **2**, **4** or **8** for **Int** values, and **4** or **8** for **Float** values. |
 | Mask value with | The mask to apply to the value before setting via FSUIPC. Useful when the same offset is used to store more than one state.       |
 | ...             | Opens a bit mask editor for visual editing of the mask value.                                                                     |

@@ -7,7 +7,7 @@ weight: 80
 The **FSUIPC - PMDG - Event ID** action type provides a way to set values in PMDG aircraft that are not accessible via the [Microsoft Flight Simulator](/guides/input-action-types/microsoft-flight-simulator/) or [X-Plane (all versions)](/guides/input-action-types/x-plane-all-versions/) action type.
 
 > [!WARNING]
-> This action type is only for controlling specific events in PMDG aircraft that cannot be accessed using other action types.
+> This action type is only for controlling specific events in PMDG aircraft that are inaccessible using other action types.
 
 {{< screenshot image="fsuipc-pmdg.png" title="Screenshot of a button input with the FSUIPC - PMDG - Event ID action type selected." >}}
 
