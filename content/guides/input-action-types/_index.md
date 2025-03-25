@@ -4,7 +4,7 @@ description: How to use action types to map input to flight simulators in MobiFl
 next: /guides/input-action-types/microsoft-flight-simulator
 ---
 
-MobiFlight supports several different methods to map inputs to a flight simulator control. While there are many options available, the most commonly-used are:
+MobiFlight supports several different methods to map inputs to a flight simulator control. While there are many options available, the most commonly used are:
 
 - [Microsoft Flight Simulator](/guides/input-action-types/microsoft-flight-simulator/), for controlling aircraft in Microsoft Flight Simulator 2020 and 2024.
 - [X-Plane (all versions)](/guides/input-action-types/x-plane-all-versions/), for controlling aircraft in all versions of X-Plane.
