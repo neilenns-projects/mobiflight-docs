@@ -13,7 +13,7 @@ The **X-Plane (all versions)** action type is the preferred way to send events t
 
 {{< tab >}}
 
-{{< screenshot image="x-plane-all-versions.png" title="Screenshot of a button input with the X-Plane (all versions) action type selected" >}}
+{{< screenshot image="x-plane-all-versions.png" title="Screenshot of a button input with the X-Plane (all versions) action type selected." >}}
 
 {{< /tab >}}
 

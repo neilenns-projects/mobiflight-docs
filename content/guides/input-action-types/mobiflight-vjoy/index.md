@@ -9,7 +9,7 @@ The **MobiFlight - Virtual Joystick input (vJoy)** action type triggers a vJoy i
 > [!IMPORTANT]
 > This action type requires vJoy. Many versions are available online, not all of which work with modern versions of Windows. The [BrunnerInnovation fork](https://github.com/BrunnerInnovation/vJoy) is known to work on both Windows 10 and Windows 11.
 
-{{< screenshot image="mobiflight-vjoy.png" title="Screenshot of a button input with the MobiFlight - Virutal Joystick input (vJoy) action type selected." >}}
+{{< screenshot image="mobiflight-vjoy.png" title="Screenshot of a button input with the MobiFlight - Virtual Joystick input (vJoy) action type selected." >}}
 
 | Setting     | Description                                                                                                  |
 | ----------- | ------------------------------------------------------------------------------------------------------------ |
