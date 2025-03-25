@@ -4,7 +4,7 @@ description: How to use the MobiFlight - Keyboard Input action type with MobiFli
 weight: 50
 ---
 
-The MobiFlight - Keyboard Input action type sends a key command when triggered.
+The **MobiFlight - Keyboard Input** action type sends a key command when triggered.
 
 > [!WARNING]
 > Keyboard input is not supported with Microsoft Flight Simulator 2020. This is a simulator limitation that was removed in Microsoft Flight Simulator 2024.
