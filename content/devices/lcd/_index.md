@@ -14,6 +14,8 @@ LCDs using a 1602 I^2^C driver board are a convenient way to display more than o
 {{< card title="LCD" subtitle="20 characters per row, four rows" image="card-images/devices/lcd-20x4.png" >}}
 {{</ cards >}}
 
+For information on how many LCDs can be connected to a board, see the [boards](/boards/) documentation.
+
 ## Popular options
 
 The [16x2 display](https://shop.mobiflight.com/product/lcd-display) and [20x4 display](https://www.amazon.com/s?k=lcd+hd44780+20x4) are common choices for cockpit builds.

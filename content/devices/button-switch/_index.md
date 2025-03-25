@@ -15,6 +15,8 @@ Buttons and switches are the most common input hardware used with MobiFlight.
 {{< card title="Toggle switches" image="card-images/devices/switch.png" >}}
 {{< /cards >}}
 
+For information on how many buttons can be connected to a board, see the [boards](/boards/) documentation.
+
 ## Popular options
 
 ### Tactile buttons

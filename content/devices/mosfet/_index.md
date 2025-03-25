@@ -11,7 +11,7 @@ MOSFETs are a popular option for controlling backlights in a cockpit build. They
 {{< card title="MOSFETs" subtitle="Breakout board for the IFR520 MOSFET" image="card-images/devices/mosfet.png" >}}
 {{</ cards >}}
 
-To use MOSFETs with MobiFlight, follow the [LED guide](/devices/leds/) to configure them as outputs.
+To use MOSFETs with MobiFlight, follow the [LED guide](/devices/led/) to configure them as outputs. For information on how many MOSFETs can be connected to a board, see the [boards](/boards/) documentation and look at the LED limits.
 
 ## Popular options
 

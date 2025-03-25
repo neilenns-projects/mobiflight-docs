@@ -11,6 +11,8 @@ Stepper motors are an advanced device that, when used with MobiFlight, can displ
 {{< card title="Stepper motor" subtitle="28BYJ-48 for use with ULN2003 driver board" image="card-images/devices/stepper-motor.png" >}}
 {{< /cards >}}
 
+For information on how many stepper motors can be connected to a board, see the [boards](/boards/) documentation.
+
 ## Popular options
 
 There is a wide range of stepper motors and driver boards available, most of which work with MobiFlight. A [28BYJ-48 small stepper motor with a ULN2003 driver](https://www.amazon.com/s?k=28BYJ-48) is a popular option to get started experimenting with stepper motors in a cockpit build.
