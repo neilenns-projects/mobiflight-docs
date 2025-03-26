@@ -9,11 +9,11 @@ Potentiometers are generally reliable components, but slight variations between 
 
 ## Handling potentiometer noise
 
-Potentiometers are sensitive devices that can pick up  electrical noise from the environment. This noise can cause the potentiometer to send random values to the simulator, even when the potentiometer is stationary.
+Potentiometers are sensitive devices that can pick up electrical noise from the environment. This noise can cause the potentiometer to send random values to the simulator, even when the potentiometer is stationary.
 
 If the simulator input is changing value even when the potentiometer is stationary, try reducing the **Sensitivity** setting in the [**Modules** dialog](/devices/potentiometer/settings-reference/#modules-dialog).
 
-7-segment displays are a frequent source of interference that is challenging to eliminate. It can be reduced by installing capacitors on the display power input and the potentiometer. To completely eliminate noise from displays, move them to a separate board, away from the potentiometer.
+7-segment displays are a frequent source of interference that is challenging to eliminate. It can be reduced by installing capacitors on the display power input and the potentiometer. To completely eliminate noise from displays, move them to a separate board.
 
 ## Adjusting the potentiometer range
 
