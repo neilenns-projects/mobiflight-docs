@@ -21,7 +21,7 @@ In the [**Modules** dialog](/devices/potentiometer/settings-reference/#modules-d
 
 ### Add capacitors to the devices
 
-Install capacitors on the 7-segment display power input and potentiometer. When combined with reducing the sensitivity, this should help eliminate the noise.
+Install capacitors on both the 7‑segment display and the potentiometer power inputs. Combined with reduced sensitivity in the Modules dialog, these changes should eliminate the noise.
 
 ### Move the displays
 
