@@ -30,7 +30,7 @@ The higher end of the temperature range may be necessary when soldering ground p
 
 ### Use high-quality solder
 
-Solder from sites like AliExpress, while inexpensive, are generally low-quality and are frustrating to use when soldering. Always buy a reputable brand with high ratings and good reviews.
+Solder purchased from sites like AliExpress, although inexpensive, is often low in quality and can lead to frustrating soldering experiences. Always choose a reputable brand with high ratings and positive reviews.
 
 ### Add flux
 
@@ -62,7 +62,7 @@ To resolve the issue, apply a bit of flux to the existing connections and reheat
 
 ## Shorted connections
 
-Shorted connections result when too much solder was applied, resulting in a bridge between two adjacent pins. These connections are sometimes subtle, resulting from a small solder connection between the pins. Excess solder on a pin can also cause intermittent bridging when the board is flexed or moved.
+Shorted connections occur when too much solder is applied, forming a bridge between two adjacent pins. These connections are sometimes subtle, resulting from a small solder connection between the pins. Excess solder on a pin can also cause intermittent bridging when the board is flexed or moved.
 
 {{< screenshot image="solder-bridge.png" title="Photo of a board with four incorrectly soldered joints. Two are bridged with solder, and two have an excess amount of solder." >}}
 
