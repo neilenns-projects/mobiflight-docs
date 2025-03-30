@@ -42,7 +42,7 @@ Regularly wiping the tip on a damp sponge or [brass wool](https://www.amazon.com
 
 ### Apply heat to the joints
 
-Make sure the soldering iron is applying heat directly to the component lead and the board pad prior to applying the solder. Heating the solder directly with the iron, and not heating the leads or board pad, results in a poor quality connection.
+Make sure the soldering iron is applying heat directly to the component lead and the board pad before applying the solder. Heating the solder directly with the iron, and not heating the leads or board pad, results in a poor quality connection.
 
 {{% /steps %}}
 
@@ -58,8 +58,8 @@ To resolve the issue, apply a bit of flux to the existing connections and reheat
 
 ## Shorted connections
 
-Shorted connections result when too much solder was applied, resulting in a bridge between two adjacent pins. These connections are sometimes subtle, resulting from a very small solder connection between the pins. Excess solder on a pin can also cause intermittent bridging when the board is flexed or moved.
+Shorted connections result when too much solder was applied, resulting in a bridge between two adjacent pins. These connections are sometimes subtle, resulting from a small solder connection between the pins. Excess solder on a pin can also cause intermittent bridging when the board is flexed or moved.
 
 {{< screenshot image="solder-bridge.png" title="Photo of a board with four incorrectly soldered joints. Two are bridged with solder, and two have an excess amount of solder." >}}
 
-To resolve the issue, apply a bit of flux to the shorted connections and reheat the joints with a clean soldering iron tip. Pull the iron away from the joint, taking some of the excess solder, and repeat as necessary until the short is removed. Make sure to clean the soldering iron tip every time prior to reheating the shorted connection.
+To resolve the issue, apply a bit of flux to the shorted connections and reheat the joints with a clean soldering iron tip. Pull the iron away from the joint, taking some of the excess solder, and repeat as necessary until the short is removed. Make sure to clean the soldering iron tip every time before reheating the shorted connection.
