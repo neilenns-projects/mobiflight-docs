@@ -1,11 +1,12 @@
 ---
 title: Developer instructions
+description: Developer instructions for contributing Python scripts to interface with MobiFlight.
 weight: 70
 ---
 
 ## General concept
 
-For each supported plane, a Python script will be shipped with MobiFlight. The Python script fetches the data from the plane interface and pushes it to the MobiFlight websocket interface. Everyone can contribute those Python scripts and after an evaluation, we might add them. For questions, ask in the MobiFlight Discord using the **development channel**.
+For each supported plane, a Python script will be provided with MobiFlight. The Python script fetches the data from the plane interface and pushes it to the MobiFlight websocket interface. Everyone can contribute those Python scripts and after an evaluation, we might add them. For questions, ask in the MobiFlight Discord using the **development channel**.
 
 The currently provided scripts can be found in the MobiFlight installation folder in `\Scripts\Winwing`. For example, `\Scripts\Winwing\fenix_winwing_cdu.py`
 
@@ -21,7 +22,7 @@ ws://localhost:8320/winwing/cdu-observer
 
 ## Data format to be sent
 
-JSON structure with a list of 336 elements in the Data section for the 336 possible chars on the CDU.
+JSON structure with a list of 336 elements in the Data section for the 336 possible characters on the CDU.
 
 - Each list element is a triplet.
     1. The character to be shown as UTF-8 string.
@@ -54,10 +55,12 @@ For special chars like <- or -> use the unicode syntax. For example, in Python:
 '\u2193'  # down arrow
 '\u2192'  # right arrow
 '\u2190'  # left arrow
-'\u0394'  # greek delta for overfly
+'\u0394'  # Greek Delta for overfly
 ```
 
 ## Example json
+
+The ellipsis (...) represents omitted elements from a longer list.
 
 ```json
 {
