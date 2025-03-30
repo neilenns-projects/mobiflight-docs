@@ -17,5 +17,5 @@ The **FSUIPC - PMDG - Event ID** action type provides a way to set values in PMD
 | Use preset   | Selects a preset for the specified aircraft.                                                                           |
 | Use          | When clicked, loads the preset from the **Use preset** dropdown.                                                       |
 | Event ID     | The Event ID to invoke.                                                                                                |
-| Mouse Param  |                                                                                                                        |
+| Mouse Param  | The mouse event to invoke.                                                                                             |
 | Custom Param | The parameter to send to the Event ID. Supports value modification with [NCalc](/guides/modifying-values-with-ncalc/). |
