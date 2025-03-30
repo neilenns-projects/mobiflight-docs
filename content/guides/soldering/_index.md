@@ -5,7 +5,11 @@ description: Tips and tricks to making good solder connections when working with
 
 Good soldering connections are key to a successful custom cockpit build. Poor quality solder joints result in intermittent issues, particularly when working with [7-segment displays](/devices/seven-segment-display/).
 
-Use the following tips to ensure good quality solder joints.
+High-quality connections look like this:
+
+{{< screenshot image="good-soldering.png" title="Photo of a board with four good quality solder connections." >}}
+
+## Soldering tips
 
 {{% steps %}}
 
@@ -19,6 +23,10 @@ A soldering iron set to too low a temperature makes it difficult to melt the sol
 | Lead-free   | 350--400° | 660--750°  |
 
 The higher end of the temperature range may be necessary when soldering ground pins.
+
+### Use high-quality solder
+
+Solder from sites like AliExpress, while inexpensive, are generally low-quality and are frustrating to use when soldering. Always buy a reputable brand with high ratings and good reviews.
 
 ### Add flux
 
@@ -42,12 +50,16 @@ The two most common issues with soldered connections are **cold or incomplete co
 
 ## Cold or incomplete joints
 
-Cold or incomplete connections occur when the soldering iron temperature was set too low, or the soldering iron tip was dirty. These joints look like this:
+Cold or incomplete connections occur when the soldering iron temperature was set too low, the soldering iron tip was dirty, or enough solder wasn't applied. These joints look like this:
+
+{{< screenshot image="cold-joint.png" title="Photo of a board with four incorrectly soldered joints that lack enough solder to make a reliable connection." >}}
 
 To resolve the issue, apply a bit of flux to the existing connections and reheat the joints, applying more solder as necessary.
 
 ## Shorted connections
 
-Shorted connections result when too much solder was applied, resulting in a bridge between two adjacent pins. These connections are sometimes subtle, resulting from a very small solder connection between the pins:
+Shorted connections result when too much solder was applied, resulting in a bridge between two adjacent pins. These connections are sometimes subtle, resulting from a very small solder connection between the pins. Excess solder on a pin can also cause intermittent bridging when the board is flexed or moved.
+
+{{< screenshot image="solder-bridge.png" title="Photo of a board with four incorrectly soldered joints. Two are bridged with solder, and two have an excess amount of solder." >}}
 
 To resolve the issue, apply a bit of flux to the shorted connections and reheat the joints with a clean soldering iron tip. Pull the iron away from the joint, taking some of the excess solder, and repeat as necessary until the short is removed. Make sure to clean the soldering iron tip every time prior to reheating the shorted connection.
