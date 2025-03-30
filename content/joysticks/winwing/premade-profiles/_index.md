@@ -1,15 +1,7 @@
 ---
-title: Using WINWING devices with MobiFlight
-description: Tips and troubleshooting steps for using WINWING devices with MobiFlight.
+title: Using pre-made MobiFlight profiles
 weight: 50
 ---
-
-MobiFlight supports the WINWING FCU, MCDU, and PFP3N (buttons only).
-
-> [!TIP]
-> WINWING devices are automatically shown in the input and output configuration dialogs. They will not appear in the **Modules** tab of the **Settings** dialog as they are not [boards](/boards/). To confirm the WINWING device is seen by MobiFlight, use the **Peripherals** tab of the **Settings** dialog.
-
-## Using pre-made MobiFlight profiles
 
 Many MobiFlight profiles for WINWING devices are available. See [flightsim.to](https://flightsim.to/discover/winwing) for Microsoft Flight Simulator profiles, and the [X-Plane forums](https://forums.x-plane.org/index.php?/search/&q=winwing&quick=1) for X-Plane profiles.
 
@@ -54,10 +46,6 @@ After selecting the WINWING joystick to use, click the **Assign** button.
 Confirm the mapped WINWING joystick works correctly with the profile, then select **Save** from the main window toolbar to ensure the downloaded profile maintains the new joystick mapping.
 
 {{% /steps %}}
-
-## Creating custom profiles
-
-To learn how to make a custom profile for a WINWING device, follow the [getting started guide](/getting-started/). WINWING devices show up automatically when creating input and output configurations.
 
 ## Troubleshooting
 
