@@ -1,5 +1,5 @@
 ---
-title: Soldering
+title: Making good solder connections
 description: Tips and tricks to making good solder connections when working with devices.
 ---
 
