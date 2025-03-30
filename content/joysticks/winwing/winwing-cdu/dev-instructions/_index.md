@@ -5,11 +5,11 @@ weight: 70
 
 ## General concept
 
-For each supported plane a Python script will be shipped with MobiFlight. The python script fetches the data from the plane interface and pushes it to the MobiFlight websocket interface. Everyone can contribute those python scripts and after an evaluation, we might add them. For questions, ask in the MobiFlight Discord using the **development channel**.
+For each supported plane, a Python script will be shipped with MobiFlight. The python script fetches the data from the plane interface and pushes it to the MobiFlight websocket interface. Everyone can contribute those python scripts and after an evaluation, we might add them. For questions, ask in the MobiFlight Discord using the **development channel**.
 
-The currently provided scripts can be found in the MobiFlight installation folder in `\Scripts\Winwing`. For example `\Scripts\Winwing\fenix_winwing_cdu.py`
+The currently provided scripts can be found in the MobiFlight installation folder in `\Scripts\Winwing`. For example, `\Scripts\Winwing\fenix_winwing_cdu.py`
 
-Please try to minimize the use of extra python packages. Use the same packages as already used in other existing scripts. For example "websockets" or "gql" in the fenix example. Also put everything in one python file.
+Please try to minimize the use of extra python packages. Use the same packages as already used in other existing scripts. For example, "websockets" or "gql" in the fenix example. Also put everything in one python file.
 
 MobiFlight websocket Interface:
 
@@ -27,7 +27,7 @@ JSON structure with a list of 336 elements in the Data section for the 336 possi
     1. The character to be shown as UTF-8 string
     2. The color as UTF-8 string
     3. The size as a number (0 large, 1 small).
-- For empty character "SPACE", also an empty list element [] can be used, instead of [" ", "w", 0].
+- For the empty character "SPACE", also an empty list element [] can be used, instead of [" ", "w", 0].
 
 ## Color identifiers
 
