@@ -9,15 +9,13 @@ High-quality connections look like this:
 
 {{< screenshot image="good-soldering.png" title="Photo of a board with four good quality solder connections." >}}
 
-## Soldering tips
-
-{{% steps %}}
-
-### Follow a YouTube tutorial
-
 YouTube has several tutorials that provide a short but thorough introduction to proper soldering technique. The following video is a good reference for soldering through-hole components.
 
 {{< youtube id="vAx89WhpZ3k" title="Soldering through-hole components" >}}
+
+## Soldering tips
+
+{{% steps %}}
 
 ### Use the correct soldering iron temperature
 
