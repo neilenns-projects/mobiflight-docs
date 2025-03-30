@@ -13,6 +13,12 @@ High-quality connections look like this:
 
 {{% steps %}}
 
+### Follow a YouTube tutorial
+
+YouTube has several tutorials that provide a short but thorough introduction to proper soldering technique. The following video is a good reference for soldering through-hole components.
+
+{{< youtube id="vAx89WhpZ3k" title="Soldering through-hole components" >}}
+
 ### Use the correct soldering iron temperature
 
 A soldering iron set to too low a temperature makes it difficult to melt the solder and results in pins that are poorly connected to the board pads. These temperatures are a good starting point:
