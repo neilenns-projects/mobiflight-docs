@@ -27,13 +27,13 @@ weight: 50
 
 ### Information for manual setup in case of issues
 
-To enable the data communication, the file `737_Options.ini / 777_Options.ini`, located in the 737 / 777 persistent storage folder, needs to extended.
+To enable the data communication, the file `737_Options.ini / 777_Options.ini`, located in the 737/777 persistent storage folder, needs to extended.
 
 - For Microsoft Store distribution, it is located at `%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\pmdg-aircraft-737\work\`.
 - For Steam distribution, it is located at `%APPDATA%\Microsoft Flight Simulator\Packages\pmdg-aircraft-737\work\`.
 - For 777 the folder is called `pmdg-aircraft-77w`
 
-The following lines need to added to the bottom of the file:
+The following lines need to be added to the bottom of the file:
 
 ```ini
 [SDK]

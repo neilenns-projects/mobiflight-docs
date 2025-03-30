@@ -5,7 +5,7 @@ weight: 70
 
 ## General concept
 
-For each supported plane a python script will be shipped with MobiFlight. The python script fetches the data from the plane interface and pushes it to the MobiFlight websocket interface. Everyone can contribute those python scripts and after an evaluation, we might add them. For questions ask in the MobiFlight discord using the "development channel".
+For each supported plane a Python script will be shipped with MobiFlight. The python script fetches the data from the plane interface and pushes it to the MobiFlight websocket interface. Everyone can contribute those python scripts and after an evaluation, we might add them. For questions, ask in the MobiFlight Discord using the **development channel**.
 
 The currently provided scripts can be found in the MobiFlight installation folder in `\Scripts\Winwing`. For example `\Scripts\Winwing\fenix_winwing_cdu.py`
 
@@ -19,9 +19,9 @@ ws://localhost:8320/winwing/cdu-co-pilot
 ws://localhost:8320/winwing/cdu-observer
 ```
 
-## Data format to be send
+## Data format to be sent
 
-Json structure with a list of 336 elements in the Data section for the 336 possible chars on the CDU.
+JSON structure with a list of 336 elements in the Data section for the 336 possible chars on the CDU.
 
 - Each list element is a triplet.
     1. The character to be shown as UTF-8 string
@@ -41,12 +41,12 @@ Json structure with a list of 336 elements in the Data section for the 336 possi
 "y" // yellow            
 "o" // brown
 "e" // grey 
-"k" // kahki
+"k" // khaki
 ```
 
 ## Special chars
 
-For special chars like <- or -> use the unicode syntax. For example in python:
+For special chars like <- or -> use the unicode syntax. For example, in python:
 
 ```python
 '\u2610'  # ballot box

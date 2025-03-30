@@ -23,7 +23,7 @@ Python is the external MobiFlight scripting language, e.g. needed to connect cus
 
 ### Install the following Python packages via command line
 
-(It does not matter in which folder you are, just execute on the command line.)
+(Regardless of your current directory, simply run the command in your terminal.)
 
 ```text
 pip install websockets gql simconnect
@@ -35,7 +35,7 @@ List and check all installed packages and versions with:
 pip freeze
 ```
 
-Minimum required version for websockets is v14.0. If list shows lower version, update with:
+Minimum required version for the websockets package is v14.0. If the output from `pip freeze` shows a lower version, update with:
 
 ```text
 pip install websockets --upgrade
