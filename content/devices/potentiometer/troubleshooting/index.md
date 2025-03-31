@@ -7,11 +7,29 @@ weight: 40
 
 Potentiometers are generally reliable components, but slight variations between the different devices may cause problems when using standard events. This guide will help you troubleshoot common issues with potentiometers.
 
-## Adjust the sensitivity
+## Handling potentiometer noise
 
-If the simulator input is changing value even when the potentiometer is stationary, try reducing the **Sensitivity** setting in the [**Modules** dialog](/devices/potentiometer/settings-reference/#modules-dialog).
+Potentiometers can be affected by electrical noise from the environment. This noise can cause the potentiometer to send random values to the simulator, even when the potentiometer is stationary. This is especially common when the potentiometer is near 7-segment displays.
 
-## Verify the potentiometer range
+If you notice that the simulator input is changing value even when the potentiometer is stationary, try these steps:
+
+{{% steps %}}
+
+### Reduce the sensitivity
+
+In the [**Modules** dialog](/devices/potentiometer/settings-reference/#modules-dialog), reduce the **Sensitivity** setting for the potentiometer.
+
+### Add capacitors to the devices
+
+Install capacitors on both the 7‑segment display and the potentiometer power inputs. Combined with reduced sensitivity in the Modules dialog, these changes should eliminate the noise.
+
+### Move the displays
+
+If the potentiometer is still affected by noise, move the 7-segment displays to a separate board.
+
+{{% /steps %}}
+
+## Adjusting the potentiometer range
 
 While most 10kΩ linear potentiometers have a range of 0--1023, some may have a slightly different range. To verify the range of your potentiometer, [connect it to your board](/devices/potentiometer/wiring/), then take these steps.
 
