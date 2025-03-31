@@ -1,6 +1,7 @@
 ---
 title: Using pre-made MobiFlight profiles
-weight: 50
+description: Step-by-step instructions for using-premade WINWING profiles with MobiFlight.
+weight: 10
 ---
 
 Many MobiFlight profiles for WINWING devices are available. See [flightsim.to](https://flightsim.to/discover/winwing) for Microsoft Flight Simulator profiles, and the [X-Plane forums](https://forums.x-plane.org/index.php?/search/&q=winwing&quick=1) for X-Plane profiles.
@@ -46,7 +47,3 @@ After selecting the WINWING joystick to use, click the **Assign** button.
 Confirm the mapped WINWING joystick works correctly with the profile, then select **Save** from the main window toolbar to ensure the downloaded profile maintains the new joystick mapping.
 
 {{% /steps %}}
-
-## Troubleshooting
-
-If the WINWING device does not appear in the **Peripherals** tab of the **Settings** dialog, make sure the joystick has the latest firmware installed, and that the SIMAPP PRO application isn't running. Also, try restarting MobiFlight: devices plugged in after MobiFlight is launched are not automatically detected.

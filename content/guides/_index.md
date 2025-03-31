@@ -12,6 +12,7 @@ cascade:
 {{< cards >}}
 
 {{< card link="/guides/installing-drivers/" title="Installing board drivers" icon="download" >}}
+{{< card link="/guides/installing-python/" title="Installing Python" icon="download" >}}
 {{< card link="/guides/input-events-2024/" title="Finding input events in MSFS2024" icon="search" >}}
 {{< card link="/guides/flashing-ambiguous-boards/" title="Flashing ambiguous boards" icon="cpu-chip" >}}
 {{< card link="/guides/modifying-values-with-ncalc/" title="Modifying values with NCalc" icon="calculator" >}}

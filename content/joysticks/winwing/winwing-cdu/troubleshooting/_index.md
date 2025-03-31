@@ -9,7 +9,7 @@ Disable it in **Extras->Settings->Peripherals**.
 
 #### A Python message keeps popping up
 
-Install Python and needed packages exactly as described in the [guide](/guides/installing-python/). Or if no MobiFlight support is needed, disable the CDU in **Extras->Settings->Peripherals**.
+Install Python and needed packages exactly as described in the [guide](/guides/installing-python/). Or if no MobiFlight support is needed, disable the CDU by following the [disabling joysticks](/joysticks/disabling/) guide.
 
 #### Plane xy does not work
 
@@ -17,7 +17,7 @@ See the list of currently [supported aircraft](/joysticks/winwing/winwing-cdu/su
 
 #### Buttons and LEDs do not work
 
-Button and LED support is not automatic. For each plane, a MobiFlight profile needs to be loaded. See [using pre-made profiles](/joysticks/winwing/premade-profiles/) or [create custom profiles](/joysticks/winwing/custom-profiles/)
+Button and LED support is not automatic. For each plane, a MobiFlight profile needs to be loaded. Use a [pre-made profile](/joysticks/winwing/premade-profiles/), or [create a custom profile](/joysticks/winwing/custom-profiles/).
 
 #### The font on the display is misaligned or display borders are wrong
 

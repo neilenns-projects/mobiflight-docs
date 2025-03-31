@@ -1,5 +1,6 @@
 ---
-title: WINWING
+title: WINWING devices
+description: How to use WINWING devices with MobiFlight.
 weight: 50
 ---
 
