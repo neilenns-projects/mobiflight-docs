@@ -23,3 +23,9 @@ For information on how many 7-segment displays can be connected to a board, see 
 
 > [!WARNING]
 > Some 8-digit boards use the 74HC595 chip as the driver, particularly when ordered from AliExpress. These boards are not supported by MobiFlight. Pay close attention when ordering and only purchase boards that use the MAX7219 or TM1637 chip.
+
+## Other options
+
+While pre-made modules are the easiest way to use 7-segment displays, it is possible to wire separate displays to MAX7219 or TM1637 chips. This is a more advanced option, typically only used when making custom PCBs.
+
+When purchasing 7-segment displays, make sure to select common cathode displays when using a MAX7219 driver chip. Use common anode displays when connecting to a TM1637 driver chip.
