@@ -1,6 +1,8 @@
 ---
 title: Detailed aircraft information
 description: Additional information regarding setup, restrictions and specialties of certain aircraft.
+aliases:
+  - /joysticks/winwing/winwing-cdu/detailed-aircraft-information/
 weight: 50
 ---
 

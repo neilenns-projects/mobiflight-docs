@@ -23,7 +23,7 @@ The main window shows the following information for each configuration row:
 | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Active             | A toggle switch that controls whether the configuration is active. To disable a row, turn off the toggle switch.                                                                  |
 | Name / Description | The name and description for the configuration. The sort order can be changed by clicking on {{< icon "switch-vertical" >}} in the column header.                                 |
-| Device             | The [device](/devices/), [joystick](/joysticks/) component, or [MIDI device](/midi-devices/) input assigned to the configuration.                                                 |
+| Device             | The [device](/devices/), [game controller](/game-controller/) component, or [MIDI device](/midi-devices/) input assigned to the configuration.                                    |
 | Status             | Icons indicating the status for the row. These are not currently implemented, and will always show as disabled.                                                                   |
 | Raw Value          | For output configurations, the value received from the simulator before applying any assigned [modifiers](/guides/modifiers/). Input configurations will always show **Waiting**. |
 | Final Value        | For output configurations, the value for display after applying any assigned [modifiers](/guides/modifiers/). Input configurations will always show **Waiting**.                  |
