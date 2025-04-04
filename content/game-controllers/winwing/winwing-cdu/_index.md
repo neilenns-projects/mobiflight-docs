@@ -1,6 +1,7 @@
 ---
 title: WINWING CDU
 description: Instructions on how to use the WINWING CDU with MobiFlight.
+next: /game-controllers/winwing/winwing-cdu/detailed-aircraft-information/
 aliases:
   - /joysticks/winwing/winwing-cdu/
 weight: 30
@@ -52,14 +53,3 @@ MobiFlight relies on the CDU default power-on display settings. If SimAppPro is 
 If multiple CDUs are connected, they need to be assigned separate modes. Use SimAppPro to set each CDU to CAPTAIN, OBSERVER or CO-PILOT mode.
 
 Only **default font** is supported.
-
-## Further information
-
-{{< cards >}}
-
-{{< card link="/game-controllers/winwing/winwing-cdu/troubleshooting/" title="Troubleshooting" icon="information" >}}
-{{< card link="/game-controllers/winwing/#winwing-cdu-supported-aircraft" title="Supported aircraft" icon="information" >}}
-{{< card link="/game-controllers/winwing/winwwing-cdu/detailed-aircraft-information" title="Detailed aircraft information" icon="information" >}}
-{{< card link="/game-controllers/winwing/winwing-cdu/dev-instructions/" title="Developer instructions" icon="information" >}}
-
-{{< /cards >}}
