@@ -7,7 +7,7 @@ aliases:
 weight: 30
 ---
 
-MobiFlight supports WINWING CDU devices in the most recent beta build. The keys are automatically available as [game controller inputs](/game-controllers/configuring-input/), however using the display for output requires additional setup and is only supported with the following aircraft:
+MobiFlight supports WINWING CDU devices in the most recent beta build. The keys are automatically available as [game controller inputs](/game-controllers/configuring-input/); however, using the display for output requires additional setup and is only supported with the following aircraft:
 
 | Platform | Aircraft    | Supported configurations | Comment                                                                                                   |
 | -------- | ----------- | ------------------------ | --------------------------------------------------------------------------------------------------------- |
@@ -18,13 +18,13 @@ MobiFlight supports WINWING CDU devices in the most recent beta build. The keys 
 | MSFS     | iFly 737    | CPT or FO or CPT+FO      | CPT+FO untested so far                                                                                    |
 | MSFS     | TFDi MD-11  | CPT or FO or CPT+FO      |                                                                                                           |
 
-To get the beta build and install pre-requisites for CDU display support take the following steps:
+To get the beta build and install pre-requisites for CDU display support, take the following steps:
 
 {{% steps %}}
 
 ### Install the beta build
 
-Opt in to MobiFlight beta builds by going selecting **Settings** from the **Extras** menu, then check the **Yes, I would like to receive beta version updates** option. Select **OK** to close the dialog, then restart MobiFlight. The app will prompt to download and install the latest beta.
+Opt in to MobiFlight beta builds by selecting **Settings** from the **Extras** menu, then checking the **Yes, I would like to receive beta version updates** option. Click **OK** to close the dialog, then restart MobiFlight. The app will prompt to download and install the latest beta.
 
 {{< screenshot image="beta-opt-in.png" title="Screenshot of the Settings dialog with the Yes, I would like to receive beta version updates option checked." >}}
 
@@ -48,7 +48,7 @@ Run MobiFlight, then check the CDU display. If MobiFlight detects the CDU on sta
 
 Do not run SimAppPro at the same time as MobiFlight.
 
-MobiFlight relies on the CDU default power-on display settings. If SimAppPro is run before MobiFlight the display settings are modified and will result in misaligned content. To resolve the issue, close SimAppPro, then disconnect and reconnect the CDU from USB to reset the display settings to defaults.
+MobiFlight relies on the CDU default power-on display settings. If SimAppPro is run before MobiFlight, the display settings are modified and will result in misaligned content. To resolve the issue, close SimAppPro, then disconnect and reconnect the CDU from USB to reset the display settings to defaults.
 
 If multiple CDUs are connected, they need to be assigned separate modes. Use SimAppPro to set each CDU to CAPTAIN, OBSERVER or CO-PILOT mode.
 

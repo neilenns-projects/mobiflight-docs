@@ -19,4 +19,4 @@ Button and LED support is not automatic. For each plane, a MobiFlight profile ne
 
 ## The font on the display is misaligned or display borders are wrong
 
-MobiFlight relies on the CDU default power-on display settings. If SimAppPro is run before MobiFlight the display settings are modified and will result in misaligned content. To resolve the issue, close SimAppPro, then disconnect and reconnect the CDU from USB to reset the display settings to defaults.
+MobiFlight relies on the CDU default power-on display settings. If SimAppPro is run before MobiFlight, the display settings are modified and will result in misaligned content. To resolve the issue, close SimAppPro, then disconnect and reconnect the CDU from USB to reset the display settings to defaults.
