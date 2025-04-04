@@ -1,6 +1,8 @@
 ---
 title: WINWING devices
 description: How to use WINWING devices with MobiFlight.
+aliases:
+  - /joysticks/winwing/
 weight: 50
 ---
 
@@ -11,14 +13,14 @@ MobiFlight supports the WINWING FCU, MCDU, and PFP3N.
 
 ## WINWING CDU supported aircraft
 
-| Platform | Aircraft    | Supported configurations | Comment                     |
-|----------|-------------|--------------------------|-----------------------------|
-| MSFS     | Fenix A3xx  | CPT or FO or CPT+FO      |                             |
-| MSFS     | FSLabs A321 | CPT                      |                             |
-| MSFS     | PMDG 737    | CPT or FO or CPT+FO      |                             |
-| MSFS     | PMDG 777    | CPT or FO or CPT+FO      |                             |
-| MSFS     | iFly 737    | CPT or FO or CPT+FO      | CPT+FO untested so far      |
-| MSFS     | TFDi MD-11  | CPT or FO or CPT+FO      |                             |
+| Platform | Aircraft    | Supported configurations | Comment                |
+| -------- | ----------- | ------------------------ | ---------------------- |
+| MSFS     | Fenix A3xx  | CPT or FO or CPT+FO      |                        |
+| MSFS     | FSLabs A321 | CPT                      |                        |
+| MSFS     | PMDG 737    | CPT or FO or CPT+FO      |                        |
+| MSFS     | PMDG 777    | CPT or FO or CPT+FO      |                        |
+| MSFS     | iFly 737    | CPT or FO or CPT+FO      | CPT+FO untested so far |
+| MSFS     | TFDi MD-11  | CPT or FO or CPT+FO      |                        |
 
 ### Work in progress
 

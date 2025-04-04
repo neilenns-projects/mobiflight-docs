@@ -1,18 +1,20 @@
 ---
 title: Configuring outputs
-description: Step-by-step guide for configuring joysticks as an output in MobiFlight.
+description: Step-by-step guide for configuring game controllers as an output in MobiFlight.
+aliases:
+  - /joysticks/configuring-output/
 weight: 20
 ---
 
-MobiFlight supports using joystick LEDs as output devices for a select set of joysticks, including the Honeycomb Bravo Throttle Quadrant, Octavi, and VKBsim controllers.
+MobiFlight supports using game controller LEDs as output devices for a select set of joysticks, including the Honeycomb Bravo Throttle Quadrant, Octavi, and VKBsim controllers.
 
-Joystick outputs are configured in MobiFlight using [the LED device configuration process](/devices/led/configuring-input).
+Game controller outputs are configured in MobiFlight using [the LED device configuration process](/devices/led/configuring-input).
 
 {{% steps %}}
 
 ### Select the board and device type for the output
 
-On the **Display** tab, use the **Module** and **Use type of** dropdowns to select your connected joystick and the **LED / Output** device type.
+On the **Display** tab, use the **Module** and **Use type of** dropdowns to select your connected game controller and the **LED / Output** device type.
 
 {{< screenshot image="output-config-select-device.png" title="Screenshot of the display tab in the output dialog with a joystick and LED / Output type selected." >}}
 

@@ -1,9 +1,11 @@
 ---
-title: Joysticks
+title: Game controllers
 description: Details on supported joysticks, yokes, and throttle quadrants, and how to use them with MobiFlight.
 breadcrumbs: false
 weight: 30
-next: /joysticks/configuring-input/
+next: /game-controllers/configuring-input/
+aliases:
+  - /joysticks/
 cascade:
   type: docs
 ---

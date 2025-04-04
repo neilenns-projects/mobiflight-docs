@@ -1,5 +1,7 @@
 ---
 title: Creating custom profiles
+aliases:
+  - /joysticks/winwing/custom-profiles/
 weight: 20
 ---
 
