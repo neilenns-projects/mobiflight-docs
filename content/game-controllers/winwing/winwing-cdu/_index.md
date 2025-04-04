@@ -25,7 +25,7 @@ WINWING CDU display support is automatic on run, if a supported plane and a CDU 
 {{< cards >}}
 
 {{< card link="/game-controllers/winwing/winwing-cdu/troubleshooting/" title="Troubleshooting" icon="information" >}}
-{{< card link="/game-controllers/winwing/#winwwing-cdu-supported-aircraft" title="Supported aircraft" icon="information" >}}
+{{< card link="/game-controllers/winwing/#winwing-cdu-supported-aircraft" title="Supported aircraft" icon="information" >}}
 {{< card link="/game-controllers/winwing/winwwing-cdu/detailed-aircraft-information" title="Detailed aircraft information" icon="information" >}}
 {{< card link="/game-controllers/winwing/winwing-cdu/dev-instructions/" title="Developer instructions" icon="information" >}}
 

@@ -9,7 +9,7 @@ weight: 40
 <!-- markdownlint-disable MD024 -->
 <!-- markdown lint doesn't understand third level headings when used as headings in steps within tabs -->
 
-You may want to disable MobiFlight's game controller support in certain situations. This can be done either for all game controllers or for specific devices. Disabling game controller support is useful when other software controls these devices and MobiFlight should ignore them.
+You may want to disable MobiFlight's game controller support in certain situations. This can be done either for all game controllers or for specific devices. Disabling game controller support is useful when other software controls these devices, and MobiFlight should ignore them.
 
 {{< tabs items="Disable all game controllers,Disable specific game controllers" >}}
 
