@@ -1,6 +1,7 @@
 ---
 title: Using pre-made MobiFlight profiles
 description: Step-by-step instructions for using pre-made WINWING profiles with MobiFlight.
+prev: /game-controllers/winwing/
 aliases:
   - /joysticks/winwing/premade-profiles/
 weight: 10
