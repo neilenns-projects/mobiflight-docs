@@ -6,19 +6,52 @@ aliases:
 weight: 30
 ---
 
-WINWING CDU display support is automatic on run, if a supported plane and a CDU are detected. To prevent MobiFlight from taking over the CDU, disable it by following the [disabling game controllers](/game-controllers/disabling/) guide.
+MobiFlight supports WINWING CDU devices in the most recent beta build. The keys are automatically available as [game controller inputs](/game-controllers/configuring-input/), however using the display for output requires additional setup and is only supported with the following aircraft:
 
-## Installing Python
+| Platform | Aircraft    | Supported configurations | Comment                                                                                                   |
+| -------- | ----------- | ------------------------ | --------------------------------------------------------------------------------------------------------- |
+| MSFS     | Fenix A3xx  | CPT or FO or CPT+FO      |                                                                                                           |
+| MSFS     | FSLabs A321 | CPT                      |                                                                                                           |
+| MSFS     | PMDG 737    | CPT or FO or CPT+FO      | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
+| MSFS     | PMDG 777    | CPT or FO or CPT+FO      | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
+| MSFS     | iFly 737    | CPT or FO or CPT+FO      | CPT+FO untested so far                                                                                    |
+| MSFS     | TFDi MD-11  | CPT or FO or CPT+FO      |                                                                                                           |
 
-> [!IMPORTANT]
-> WINWING CDU support depends on Python. See the [Python installation guide](/guides/installing-python/) for steps on how to install Python for use with MobiFlight.
+To get the beta build and install pre-requisites for CDU display support take the following steps:
 
-## General remarks
+{{% steps %}}
 
-- If MobiFlight has detected the CDU on startup, it will show `->MobiFlight<-` on the display.
-- Do not run SimAppPro in parallel. After using SimAppPro, reconnect device to the USB port. MobiFlight currently relies on the CDU default power-on display settings, which might have been changed by a running SimAppPro instance.
-- If multiple CDUs are connected, they need to be assigned separate modes. Use SimAppPro to set each CDU to CAPTAIN, OBSERVER or CO-PILOT mode.
-- Only **default font** is supported.
+### Install the beta build
+
+Opt in to MobiFlight beta builds by going selecting **Settings** from the **Extras** menu, then check the **Yes, I would like to receive beta version updates** option. Select **OK** to close the dialog, then restart MobiFlight. The app will prompt to download and install the latest beta.
+
+{{< screenshot image="beta-opt-in.png" title="Screenshot of the Settings dialog with the Yes, I would like to receive beta version updates option checked." >}}
+
+### Install Python
+
+CDU support in MobiFlight requires Python and additional support libraries. Follow the [Python installation guide](/guides/installing-python/) to install the necessary components, then restart MobiFlight.
+
+### Configure the aircraft
+
+Some aircraft, such as the PMDG 737 and PMDG 777, require additional configuration. See the [detailed aircraft information](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) and follow the appropriate steps for the relevant airplane.
+
+### Verify the CDU is detected
+
+Run MobiFlight, then check the CDU display. If MobiFlight detects the CDU on startup, the CDU display will show **-->MobiFlight<--**.
+
+{{< screenshot image="cdu-display.png" title="Photo of a WINWING PFP 3N with -->MobiFlight<-- showing on the display." >}}
+
+{{% /steps %}}
+
+## Tips
+
+Do not run SimAppPro at the same time as MobiFlight.
+
+MobiFlight relies on the CDU default power-on display settings. If SimAppPro is run before MobiFlight the display settings are modified and will result in misaligned content. To resolve the issue, close SimAppPro, then disconnect and reconnect the CDU from USB to reset the display settings to defaults.
+
+If multiple CDUs are connected, they need to be assigned separate modes. Use SimAppPro to set each CDU to CAPTAIN, OBSERVER or CO-PILOT mode.
+
+Only **default font** is supported.
 
 ## Further information
 
