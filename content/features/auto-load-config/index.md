@@ -1,13 +1,13 @@
 ---
 title: Auto-loading configurations
-description: How to automatically load a configurations when an aircraft spawns.
+description: How to automatically load a configuration file when an aircraft spawns.
 ---
 
 MobiFlight supports linking configuration files with specific aircraft. Linked configurations can be automatically loaded when the associated aircraft is spawned in the simulator.
 
 ## Linking a profile
 
-To link a profile to an aircraft do the following steps:
+To link a profile to an aircraft, do the following steps:
 
 {{% steps %}}
 
@@ -34,7 +34,7 @@ The aircraft name will show a green checkmark next to it when the open configura
 
 ## Unlinking a profile
 
-To remove the link between a profile and an aircraft do the following steps:
+To remove the link between a profile and an aircraft, do the following steps:
 
 {{% steps %}}
 
@@ -50,13 +50,13 @@ Select the down arrow next to the aircraft in the main window status bar, and cl
 
 {{% /steps %}}
 
-## Enabling auto-load
+## Enabling auto-loading
 
 To enable automatic configuration loading, after linking a configuration with an aircraft, select the down arrow next to the aircraft name in the main window status bar, and check the **Auto-load linked config** menu item.
 
 {{< screenshot image="auto-load-linked-config-checked.png" title="Screenshot of the main MobiFlight window with the aircraft menu open and the Auto-load linked config menu item checked and highlighted." >}}
 
-## Disabling auto-load
+## Disabling auto-loading
 
 To disable automatic configuration loading, select the down arrow next to the aircraft name in the main window status bar, and uncheck the **Auto-load linked config** menu item.
 
