@@ -1,6 +1,8 @@
 ---
 title: FSUIPC - Jeehell - Events
 description: How to use the FSUIPC - Jeehell - Events input action type with MobiFlight.
+aliases:
+  - /guides/input-action-types/fsuipc-jeehell/
 weight: 100
 ---
 

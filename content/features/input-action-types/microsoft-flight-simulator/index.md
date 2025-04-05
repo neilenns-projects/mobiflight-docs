@@ -1,6 +1,8 @@
 ---
 title: Microsoft Flight Simulator
 description: How to use the Microsoft Flight Simulator action type with MobiFlight.
+aliases:
+  - /guides/input-action-types/microsoft-flight-simulator/
 weight: 10
 ---
 

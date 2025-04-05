@@ -1,13 +1,15 @@
 ---
 title: FSUIPC - Event ID
 description: How to use the FSUIPC - Event ID input action type with MobiFlight.
+aliases:
+  - /guides/input-action-types/fsuipc-event-id/
 weight: 70
 ---
 
 The **FSUIPC - Event ID** action type provides a way to trigger SimConnect events via [FSUIPC](https://www.fsuipc.com/).
 
 > [!WARNING]
-> This action type is not commonly used. Use the [Microsoft Flight Simulator](/guides/input-action-types/microsoft-flight-simulator/) or [X-Plane (all versions)](/guides/input-action-types/x-plane-all-versions/) action type instead.
+> This action type is not commonly used. Use the [Microsoft Flight Simulator](/features/input-action-types/microsoft-flight-simulator/) or [X-Plane (all versions)](/features/input-action-types/x-plane-all-versions/) action type instead.
 
 {{< screenshot image="fsuipc-event-id.png" title="Screenshot of a button input with the FSUIPC - Event ID action type selected." >}}
 

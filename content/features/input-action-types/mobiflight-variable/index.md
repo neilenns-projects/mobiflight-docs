@@ -1,6 +1,8 @@
 ---
 title: MobiFlight - Variable
 description: How to use the MobiFlight - Variable input action type with MobiFlight.
+aliases:
+  - /guides/input-action-types/mobiflight-variable/
 weight: 30
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: X-Plane (all versions)
 description: How to use the X-Plane (all versions) action type with MobiFlight.
+aliases:
+  - /guides/input-action-types/x-plane-all-versions/
 weight: 20
 ---
 

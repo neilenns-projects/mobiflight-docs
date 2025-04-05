@@ -1,6 +1,8 @@
 ---
 title: MobiFlight - Virtual Joystick input (vJoy)
 description: How to use the MobiFlight - Virtual Joystick input (vJoy) action type with MobiFlight.
+aliases:
+  - /guides/input-action-types/mobiflight-vjoy/
 weight: 50
 ---
 

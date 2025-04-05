@@ -1,13 +1,15 @@
 ---
 title: FSUIPC - Offset
 description: How to use the FSUIPC - Offset input action type with MobiFlight.
+aliases:
+  - /guides/input-action-types/fsuipc-offset/
 weight: 60
 ---
 
 The **FSUIPC - Offset** action type provides a way to set simulator values via [FSUIPC](https://www.fsuipc.com/).
 
 > [!WARNING]
-> This action type is not commonly used. Use the [Microsoft Flight Simulator](/guides/input-action-types/microsoft-flight-simulator/) or [X-Plane (all versions)](/guides/input-action-types/x-plane-all-versions/) action type instead.
+> This action type is not commonly used. Use the [Microsoft Flight Simulator](/features/input-action-types/microsoft-flight-simulator/) or [X-Plane (all versions)](/features/input-action-types/x-plane-all-versions/) action type instead.
 
 {{< screenshot image="fsuipc-offset.png" title="Screenshot of a button input with the FSUIPC - Offset action type selected." >}}
 

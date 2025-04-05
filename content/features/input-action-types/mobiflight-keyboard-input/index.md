@@ -1,6 +1,8 @@
 ---
 title: MobiFlight - Keyboard Input
 description: How to use the MobiFlight - Keyboard Input action type with MobiFlight.
+aliases:
+  - /guides/input-action-types/mobiflight-keyboard-input/
 weight: 50
 ---
 

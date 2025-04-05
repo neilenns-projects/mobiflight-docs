@@ -1,6 +1,8 @@
 ---
 title: MobiFlight - Retrigger switches
 description: How to use the MobiFlight - Retrigger switches action type with MobiFlight.
+aliases:
+  - /guides/input-action-types/mobiflight-retrigger-switches/
 weight: 40
 ---
 
