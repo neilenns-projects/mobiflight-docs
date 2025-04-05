@@ -19,8 +19,7 @@ Python is the external MobiFlight scripting language, e.g., needed to connect cu
 
 [Download](https://www.python.org/downloads/) and install the official Python release. Make sure to enable adding Python to the PATH during the installation process.
 
-> [!WARNING]
-> **Do not forget to set checkmark for adding python.exe to PATH**
+> [!WARNING] > **Do not forget to set checkmark for adding python.exe to PATH**
 
 {{< screenshot image="python-installer.png" title="Screenshot of the Python installer with the Add python.exe to PATH option enabled." >}}
 
@@ -31,5 +30,7 @@ Open **Windows Terminal** or **Command Prompt**, then enter the following comman
 ```powershell
 pip install gql simconnect websockets --upgrade
 ```
+
+{{< screenshot image="pip-install.png" title="Screenshot of Windows Terminal with the pip install command entered." >}}
 
 {{% /steps %}}

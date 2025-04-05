@@ -2,7 +2,7 @@
 title: Troubleshooting
 aliases:
   - /joysticks/winwing/winwing-cdu/troubleshooting/
-weight: 30
+weight: 80
 ---
 
 ## I do not want MobiFlight to take over the CDU
@@ -19,4 +19,4 @@ Button and LED support is not automatic. For each plane, a MobiFlight profile ne
 
 ## The font on the display is misaligned or display borders are wrong
 
-Do not run SimAppPro in parallel. After using SimAppPro, reconnect the CDU to the USB port. MobiFlight currently relies on the CDU default power-on display settings, which might have been changed by a running SimAppPro instance.
+MobiFlight relies on the CDU default power-on display settings. If SimAppPro is run before MobiFlight, the display settings are modified and will result in misaligned content. To resolve the issue, close SimAppPro, then disconnect and reconnect the CDU from USB to reset the display settings to defaults.
