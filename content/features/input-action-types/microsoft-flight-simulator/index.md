@@ -6,7 +6,7 @@ aliases:
 weight: 10
 ---
 
-The **Microsoft Flight Simulator** action type is the preferred way to send events to Microsoft Flight Simulator 2020 and 20204. It provides access to over 20,000 presets from [HubHop](https://www.hubhop.com/) to interface with nearly every aircraft supported by the simulator.
+The **Microsoft Flight Simulator** action type is the preferred way to send events to Microsoft Flight Simulator 2020 and 2024. It provides access to over 20,000 presets from [HubHop](https://www.hubhop.com/) to interface with nearly every aircraft supported by the simulator.
 
 > [!TIP]
 > To update the HubHop event list, select the **Download Latest Presets** menu item from the **Extras** > **HubHop** menu.

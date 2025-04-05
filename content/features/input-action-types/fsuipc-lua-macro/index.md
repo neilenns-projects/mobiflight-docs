@@ -11,7 +11,7 @@ The **FSUIPC - Lua Macro** action type provides a way to run a Lua script config
 > [!WARNING]
 > This action type is not commonly used. Use the [Microsoft Flight Simulator](/features/input-action-types/microsoft-flight-simulator/) or [X-Plane (all versions)](/features/input-action-types/x-plane-all-versions/) action type instead.
 
-{{< screenshot image="fsuipc-lua-macro.png" title="Screenshot of a button input with the FSUIPC - PMDG - Event ID action type selected." >}}
+{{< screenshot image="fsuipc-lua-macro.png" title="Screenshot of a button input with the FSUIPC - Lua Macro action type selected." >}}
 
 | Setting    | Description                                                                                                     |
 | ---------- | --------------------------------------------------------------------------------------------------------------- |
