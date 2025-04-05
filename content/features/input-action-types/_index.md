@@ -1,5 +1,5 @@
 ---
-title: Input action types reference
+title: Input action types
 description: How to use action types to map input to flight simulators in MobiFlight.
 aliases:
   - /guides/input-action-types/
