@@ -40,7 +40,7 @@ Some aircraft, such as the PMDG 737 and PMDG 777, require additional configurati
 
 Run MobiFlight, then check the CDU display. If MobiFlight detects the CDU on startup, the CDU display will show **-->MobiFlight<--**.
 
-{{< screenshot image="cdu-display.png" title="Photo of a WINWING PFP 3N with -->MobiFlight<-- showing on the display." >}}
+{{< screenshot image="cdu-display.png" title="Photo of a WINWING CDU with -->MobiFlight<-- showing on the display." >}}
 
 {{% /steps %}}
 

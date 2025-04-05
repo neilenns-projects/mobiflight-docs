@@ -39,6 +39,7 @@ reviews:
           - Page titles are in sentence case and do not end in a period.
           - uF should use the µ symbol (µF).
           - All files under the boards and devices folders should have an ogimage specified in the front matter.
+          - The "WINWING PFP 3N" and "WINWING MCDU" should always use the more generic "WINWING CDU" instead.
     - path: "**/*.png"
       instructions: |
         Review all PNGs that are screenshots and ensure that:
