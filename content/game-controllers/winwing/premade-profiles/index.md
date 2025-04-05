@@ -17,6 +17,9 @@ Take the following steps to use the pre-made profile:
 
 Using **File Explorer**, select the downloaded zip file and click **Extract all** in the ribbon to extract the profile.
 
+> [!TIP]
+> Extract the profile to a location other than the Downloads folder. For example, extract to the **Documents\MobiFlight** folder.
+
 {{< screenshot image="file-explorer.png" title="Screenshot of the Windows File Explorer with a downloaded profile zip file selected and the Extract all button highlighted." >}}
 
 ### Open the profile in MobiFlight
