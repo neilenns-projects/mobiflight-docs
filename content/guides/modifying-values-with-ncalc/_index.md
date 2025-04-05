@@ -6,14 +6,14 @@ description: How to use NCalc to modify values in MobiFlight.
 MobiFlight supports NCalc expressions to adjust values received from the simulator. Expressions can be used in:
 
 - Input configurations that have value fields, most commonly **[MobiFlight - Variable](/features/input-action-types/mobiflight-variable/)** configurations.
-- [Transform](/guides/modifiers/transform/) modifiers on output configurations.
-- Value fields in [compare](/guides/modifiers/compare/) modifiers on output configurations.
+- [Transform](/features/modifiers/transform/) modifiers on output configurations.
+- Value fields in [compare](/features/modifiers/compare/) modifiers on output configurations.
 
 See the [NCalc documentation](https://ncalc.github.io/ncalc/articles/index.html) for a list of supported operators and functions. Several common tasks are accomplished using NCalc. See the following sections for examples.
 
 ## Convert a Zulu time in seconds to hours, minutes and seconds (HHMMSS)
 
-Simulators often provide times in number of seconds, but for display it should be formatted as `HH:MM:SS`. Use the [transform](/guides/modifiers/transform/) modifier with the following formula:
+Simulators often provide times in number of seconds, but for display it should be formatted as `HH:MM:SS`. Use the [transform](/features/modifiers/transform/) modifier with the following formula:
 
 `Floor($/3600)*10000+Floor($/60)%60*100+$%60`
 
@@ -38,7 +38,7 @@ For different ranges, replace `3` with the desired maximum value. The minimum va
 
 ## Outputting a string based on a value
 
-MobiFlight supports string values for display on [LCDs](/devices/lcd/). A [transform](/guides/modifiers/transform/) modifier with the following formula outputs `ABC` if the simulator variable is `1`; otherwise, it outputs `DEF`:
+MobiFlight supports string values for display on [LCDs](/devices/lcd/). A [transform](/features/modifiers/transform/) modifier with the following formula outputs `ABC` if the simulator variable is `1`; otherwise, it outputs `DEF`:
 
 `if($=1,'ABC','DEF')`
 
@@ -49,7 +49,7 @@ MobiFlight supports string values for display on [LCDs](/devices/lcd/). A [trans
 
 Simulator variables often have more digits after the decimal point than required for display. For example, the barometer value has four values after the decimal point when only two are required.
 
-The `Round()` function can be used in a [transform](/guides/modifiers/transform/) modifier on an output configuration to adjust the value for display:
+The `Round()` function can be used in a [transform](/features/modifiers/transform/) modifier on an output configuration to adjust the value for display:
 
 `Round($,2)`
 

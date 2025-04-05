@@ -1,6 +1,8 @@
 ---
 title: Blink
 description: How to use the blink modifier to change output values in MobiFlight.
+aliases:
+  - /guides/modifiers/blink/
 ---
 
 The blink modifier alternates the output value between **0** and **1** when the original value is **1**.

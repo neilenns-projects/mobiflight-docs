@@ -1,6 +1,8 @@
 ---
 title: Padding
 description: How to use the padding modifier to change output values in MobiFlight.
+aliases:
+  - /guides/modifiers/padding/
 ---
 
 The padding modifier adds additional characters to the input value to ensure it is always the specified length.

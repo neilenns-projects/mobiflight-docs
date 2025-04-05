@@ -1,6 +1,8 @@
 ---
 title: Compare
 description: How to use the compare modifier to change output values in MobiFlight.
+aliases:
+  - /guides/modifiers/compare/
 ---
 
 The compare modifier changes a value based on a boolean logic test of the original value.

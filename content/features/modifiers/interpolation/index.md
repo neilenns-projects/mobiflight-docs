@@ -1,6 +1,8 @@
 ---
 title: Interpolation
 description: How to use the interpolation modifier to change output values in MobiFlight.
+aliases:
+  - /guides/modifiers/interpolation/
 ---
 
 The interpolation modifier scales the input value to a range of new output values. It is useful when the range of values from the simulator does not match the range of values expected by the output device.

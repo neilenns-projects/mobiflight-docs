@@ -1,6 +1,8 @@
 ---
 title: Transform
 description: How to use the transform modifier to change output values in MobiFlight.
+aliases:
+  - /guides/modifiers/transform/
 ---
 
 The transform modifier provides advanced value changes using [NCalc expressions](https://ncalc.github.io/ncalc/articles/index.html). The specified expression is applied to the current value, which is represented by the **$** character.

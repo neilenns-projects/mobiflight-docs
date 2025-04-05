@@ -11,5 +11,6 @@ cascade:
 
 {{< card link="/features/auto-load-config/" title="Auto-loading configurations" icon="information" >}}
 {{< card link="/features/input-action-types/" title="Input action types reference" icon="information" >}}
+{{< card link="/features/modifiers/" title="Output value modifiers" icon="adjustments" >}}
 
 {{< /cards >}}

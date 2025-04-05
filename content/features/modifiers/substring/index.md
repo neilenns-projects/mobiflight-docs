@@ -1,6 +1,8 @@
 ---
 title: Substring
 description: How to use the substring modifier to change output values in MobiFlight.
+aliases:
+  - /guides/modifiers/substring/
 ---
 
 The substring modifier extracts a range of characters from a string. The characters are extracted starting from the left end of the string, using the specified range.

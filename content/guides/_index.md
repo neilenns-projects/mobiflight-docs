@@ -17,7 +17,6 @@ cascade:
 {{< card link="/guides/flashing-ambiguous-boards/" title="Flashing ambiguous boards" icon="cpu-chip" >}}
 {{< card link="/guides/soldering/" title="Making good solder connections" icon="cpu-chip" >}}
 {{< card link="/guides/modifying-values-with-ncalc/" title="Modifying values with NCalc" icon="calculator" >}}
-{{< card link="/guides/modifiers/" title="Output value modifiers" icon="adjustments" >}}
 {{< card link="/guides/solving-flashing-errors/" title="Solving flashing errors" icon="cpu-chip" >}}
 {{< card link="https://github.com/MobiFlight/MobiFlight-Connector/wiki" title="Legacy guides" icon="information" >}}
 {{< card link="/guides/workshops" title="Workshop walkthroughs" icon="cog" >}}

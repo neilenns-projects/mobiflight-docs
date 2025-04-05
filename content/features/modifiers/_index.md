@@ -1,17 +1,19 @@
 ---
 title: Modifiers
 description: How to use modifiers to change output values in MobiFlight.
-next: /guides/modifiers/blink/
+aliases:
+  - /guides/modifiers/
+next: /features/modifiers/blink/
 ---
 
 Modifiers provide a way to adjust values received from the simulator before they are displayed on an output [device](/devices/). The following modifiers are supported:
 
-- [Blink](/guides/modifiers/blink/)
-- [Compare](/guides/modifiers/compare/)
-- [Interpolation](/guides/modifiers/interpolation/)
-- [Padding](/guides/modifiers/padding/)
-- [Substring](/guides/modifiers/substring/)
-- [Transform](/guides/modifiers/transform/)
+- [Blink](/features/modifiers/blink/)
+- [Compare](/features/modifiers/compare/)
+- [Interpolation](/features/modifiers/interpolation/)
+- [Padding](/features/modifiers/padding/)
+- [Substring](/features/modifiers/substring/)
+- [Transform](/features/modifiers/transform/)
 
 ## Adding a modifier
 
