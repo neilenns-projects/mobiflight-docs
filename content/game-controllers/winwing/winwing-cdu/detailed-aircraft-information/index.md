@@ -6,16 +6,23 @@ aliases:
 weight: 50
 ---
 
+Certain aircraft require additional steps for the WINWING CDU display to work properly. See the below section for the necessary steps for each aircraft.
+
+{{% details title="FlyByWire A320NX" closed="true" %}}
+
+The FlyByWire A32NX support requires FBW SimBridge.
+
+To install SimBridge, run the FlyByWire installer, select the **Aircraft** section, then the **FBW SimBridge** feature. Click **Install** to complete the installation.
+
+{{< screenshot image="fbw-simbridge.png" title="Screenshot of the FlyByWire installer with the FBW SimBridge feature highlighted." >}}
+
+{{% /details %}}
+
 {{% details title="PMDG 737 and 777" closed="true" %}}
 
-### PMDG Setup
+The additional steps for PMDG aircraft happen automatically on first run in MobiFlight.
 
-> [!NOTE]
-> Necessary adaptions should happen automatically on first run.
-
-### Information for manual setup in case of issues
-
-To enable the data communication, the file `737_Options.ini / 777_Options.ini`, located in the 737/777 persistent storage folder, needs to extended.
+If the aircraft fails to work, enable the data communication manually by editing the file `737_Options.ini / 777_Options.ini`, located in the 737/777 persistent storage folder.
 
 - For Microsoft Store distribution, it is located at `%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\pmdg-aircraft-737\work\`.
 - For Steam distribution, it is located at `%APPDATA%\Microsoft Flight Simulator\Packages\pmdg-aircraft-737\work\`.
