@@ -6,7 +6,7 @@ aliases:
 weight: 50
 ---
 
-Certain aircraft require additional steps for the WINWING CDU display to work properly. See the below section for the necessary steps for each aircraft.
+Certain aircraft require additional steps for the WINWING CDU display to work properly. See the section below for the necessary steps for each aircraft.
 
 {{% details title="FlyByWire A320NX" closed="true" %}}
 
@@ -16,7 +16,7 @@ Run the FlyByWire installer, select the **Aircraft** section, then the **FBW Sim
 
 {{< screenshot image="fbw-simbridge.png" title="Screenshot of the FlyByWire installer with the FBW SimBridge feature highlighted." >}}
 
-When prompted during the install process, toggle the **Autostart Disabled** option to the on position.
+When prompted during the installation process, toggle the **Autostart Disabled** option to the on position.
 
 {{< screenshot image="autostart-enabled.png" title="Screenshot of the FlyByWire installer with the Autostart enabled option turned on." >}}
 
