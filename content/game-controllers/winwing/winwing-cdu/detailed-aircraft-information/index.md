@@ -8,7 +8,7 @@ weight: 50
 
 Certain aircraft require additional steps for the WINWING CDU display to work properly. See the section below for the necessary steps for each aircraft.
 
-{{% details title="FlyByWire A320NX" closed="true" %}}
+{{% details title="FlyByWire A32NX" closed="true" %}}
 
 The FlyByWire A32NX support requires FBW SimBridge.
 
