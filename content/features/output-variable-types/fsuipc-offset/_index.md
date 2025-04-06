@@ -9,7 +9,7 @@ The **FSUIPC Offset** output variable type provides a way to read simulator valu
 > [!WARNING]
 > This variable type is not commonly used. Use [SimConnect (MSFS)](/features/output-variable-types/simconnect-msfs/) or [X-Plane (DataRef)](/features/output-variable-types/x-plane-dataref/) instead.
 
-{{< screenshot image="fsuipc-offset.png" title="Screenshot of an output configuration the FSUIPC Offset output variable type selected." >}}
+{{< screenshot image="fsuipc-offset.png" title="Screenshot of an output configuration with the FSUIPC Offset output variable type selected." >}}
 
 | Setting         | Description                                                                                                                       |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------- |
