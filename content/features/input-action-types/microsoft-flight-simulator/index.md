@@ -21,7 +21,7 @@ The **Microsoft Flight Simulator** action type is the preferred way to send even
 
 {{< tab >}}
 
-{{< screenshot image="x-plane-show-preset-code.png" title="Screenshot of a button input with the X-Plane (all versions) action type selected and the Show Preset Code checkbox checked. " >}}
+{{< screenshot image="msfs-show-preset-code.png" title="Screenshot of a button input with the Microsoft Flight Simulator action type selected and the Show Preset Code checkbox checked." >}}
 
 {{< /tab >}}
 

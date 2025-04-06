@@ -17,4 +17,4 @@ The **MobiFlight - Variable** action type sets a MobiFlight variable when trigge
 | Value   | Specifies the value to set the variable to. Supports value modification with [NCalc](/guides/modifying-values-with-ncalc/). |
 
 > [!TIP]
-> To view the current value of a variable, create an output configuration that displays the variable, then look at the **Output Value** column in the main MobiFlight window.
+> To view the current value of a variable, create an [output configuration that displays the variable](/features/output-variable-types/mobiflight-variable/), then look at the **Output Value** column in the main MobiFlight window.
