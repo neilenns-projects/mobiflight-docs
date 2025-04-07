@@ -13,9 +13,10 @@ MobiFlight supports WINWING CDU devices in the most recent beta build. The keys 
 | -------- | ----------- | ------------------------ | --------------------------------------------------------------------------------------------------------- |
 | MSFS     | Fenix A3xx  | CPT or FO or CPT+FO      |                                                                                                           |
 | MSFS     | FSLabs A321 | CPT                      |                                                                                                           |
+| MSFS     | iFly 737    | CPT or FO or CPT+FO      | CPT+FO untested so far                                                                                    |
+| MSFS     | Maddog X    | CPT or FO or CPT+FO      | CPT+FO untested so far                                                                                    |
 | MSFS     | PMDG 737    | CPT or FO or CPT+FO      | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
 | MSFS     | PMDG 777    | CPT or FO or CPT+FO      | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
-| MSFS     | iFly 737    | CPT or FO or CPT+FO      | CPT+FO untested so far                                                                                    |
 | MSFS     | TFDi MD-11  | CPT or FO or CPT+FO      |                                                                                                           |
 
 To get the beta build and install pre-requisites for CDU display support, take the following steps:
