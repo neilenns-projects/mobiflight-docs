@@ -1,6 +1,6 @@
 ---
-title: Controlling 7-segment brightness
-description: How to control 7-segment display brightness with an output variable.
+title: Turning 7-Segment displays on and off
+description: How to turn 7-segment displays on and off using an output configuration.
 ---
 
 7-segment displays can have their brightness set using the value of an output configuration. This is most often used to turn the displays off and on based on whether the avionics have power.
@@ -28,6 +28,8 @@ On the **Modify** tab for the output created in the previous step, add a [**Tran
 
 > [!TIP]
 > 7-segment displays support 1--15 for brightness values. Adjust the brightness of the display when on by changing `5` to the desired brightness level.
+>
+> To get a dynamic brightness level, add a config reference on the **Modify** tab to an output configuration that returns a value of 1--15, and use it in place of the fixed `5` value.
 
 ### Use the avionics power output to control the brightness
 

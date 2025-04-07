@@ -26,7 +26,7 @@ cascade:
 ## Advanced device tutorials
 
 {{< cards >}}
-{{< card link="/guides/seven-segment-brightness/" title="Controlling 7-segment brightness" icon="information" >}}
+{{< card link="/guides/seven-segment-brightness/" title="Turning 7-Segment displays on and off" icon="information" >}}
 {{< card link="/guides/multiple-page-lcd/" title="Showing multiple display pages on an LCD" icon="information" >}}
 {{< card link="/guides/single-encoder-com-tuning/" title="Using a single encoder to tune COM1" icon="information" >}}
 
