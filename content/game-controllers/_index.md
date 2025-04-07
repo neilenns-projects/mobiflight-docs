@@ -21,3 +21,4 @@ For popular devices, MobiFlight displays friendly names during input and output 
 - [VKBsim flight simulation controllers](https://www.vkbcontrollers.com/)
 - [WinWing Flight Control Unit (FCU)](https://us.winwingsim.com/view/goods-details.html?id=550)
 - [WinWing EFIS Left display](https://us.winwingsim.com/view/goods-details.html?id=845) and [WinWing EFIS Right display](https://us.winwingsim.com/view/goods-details.html?id=865)
+- [WINWING MCDU](https://us.winwingsim.com/view/goods-details.html?id=945) and [WINWING PFP 3N](https://us.winwingsim.com/view/goods-details.html?id=965)
