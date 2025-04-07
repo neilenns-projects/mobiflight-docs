@@ -7,7 +7,7 @@ next: /game-controllers/winwing/premade-profiles/
 weight: 50
 ---
 
-MobiFlight supports the WINWING WINWING FCU, EFIS, MCDU and PFP 3N.
+MobiFlight supports the WINWING FCU, EFIS, MCDU and PFP 3N.
 
 WINWING devices are automatically shown in the input and output configuration dialogs. They will not appear in the **Modules** tab of the **Settings** dialog as they are not [boards](/boards/).
 
