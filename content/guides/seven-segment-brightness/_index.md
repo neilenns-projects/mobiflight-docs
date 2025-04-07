@@ -20,7 +20,7 @@ This preset is `0` when the avionics do not have power and `1` when they do.
 
 {{< screenshot image="display-brightness-output-config.png" title="Screenshot of an output configuration with the CIRCUIT GENERAL PANEL ON preset highlighted." >}}
 
-### Add a transform modifier to battery output
+### Add a transform modifier to avionics power output
 
 On the **Modify** tab for the output created in the previous step, add a [**Transform** modifier](/features/modifiers/transform/) and set the value to `$*5`. This multiplies the value from the simulator (either `0` or `1`) by five to provide a brightness value of `5` when the avionics have power.
 
