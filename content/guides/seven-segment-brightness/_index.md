@@ -31,12 +31,12 @@ On the **Modify** tab for the output created in the previous step, add a [**Tran
 
 Edit the output configuration for the 7-segment display. On the **Modify** tab, click the **Add Reference** button to add the output configuration defined in the previous step.
 
-{{< screenshot image="modify-config-reference.png" title="Screenshot of the 7-segment display output configuration with the Modify tab selected and the Display brightness output configuration added." >}}
+{{< screenshot image="modify-config-reference.png" title="Screenshot of the 7-segment display output configuration with the Modify tab selected, and the Display brightness output configuration added." >}}
 
 ### Use the config reference to control the brightness
 
 On the **Display** tab for the 7-segment display output configuration, set the **Brightness ref.** dropdown to the output added on the **Modify** tab.
 
-{{< screenshot image="brightness-ref.png" title="Screenshot of the 7-segment display output configuration with the Display tab selected and the Brightness ref dropdown set to Display brightness." >}}
+{{< screenshot image="brightness-ref.png" title="Screenshot of the 7-segment display output configuration with the Display tab selected, and the Brightness ref dropdown set to Display brightness." >}}
 
 {{% /steps %}}
