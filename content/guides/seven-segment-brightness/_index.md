@@ -1,6 +1,6 @@
 ---
 title: Controlling 7-Segment display brightness
-description: How to control 7-segment display brightness an output configuration.
+description: How to control 7-segment display brightness via an output configuration.
 ---
 
 <!-- Because steps are used in this document the headings across steps are duplicate. Disable the markdownlint -->
@@ -86,7 +86,7 @@ To adjust the range, on the **Modify** tab for the **Display brightness** config
 
 {{< screenshot image="modify-interpolation.png" title="Screenshot of an output configuration with an Interpolate modifier added to the Modify tab." >}}
 
-### Ensure the brightness is 0 when power is off
+### Ensure the brightness is 0 when the power is off
 
 When the aircraft is cold and dark, the brightness sim variable may still report the actual position of the knob instead of `0`.
 
