@@ -14,9 +14,14 @@ The following steps demonstrate how to use an airplane's master battery switch s
 
 ### Create an output configuration for the brightness
 
-Add an output configuration named **Display brightness**. Select the **ELECTRICAL MASTER BATTERY** preset. This preset is `0` when the master battery is off and `1` when the master battery is on.
+Add an output configuration named **Display brightness**. Select the **ELECTRICAL MASTER BATTERY:index** preset, and when prompted set the index to **2**.
 
-{{< screenshot image="display-brightness-output-config.png" title="Screenshot of an output configuration with the ELECTRICAL MASTER BATTERY preset selected." >}}
+This preset is `0` when the master battery is off and `1` when the master battery is on.
+
+{{< screenshot image="display-brightness-output-config.png" title="Screenshot of an output configuration with the ELECTRICAL MASTER BATTERY:index preset selected." >}}
+
+> [!TIP]
+> The index value will vary depending on the aircraft.
 
 ### Add a transform modifier to battery output
 
