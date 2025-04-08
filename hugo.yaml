@@ -43,7 +43,7 @@ menu:
         type: search
     - name: Discord
       weight: 3
-      url: "https://discord.gg/yUaBqMbz"
+      url: "https://mobiflight.com/discord"
       params:
         icon: discord
     - name: GitHub
