@@ -6,16 +6,31 @@ aliases:
 weight: 50
 ---
 
+Certain aircraft require additional steps for the WINWING CDU display to work properly. See the section below for the necessary steps for each aircraft.
+
+{{% details title="FlyByWire A32NX" closed="true" %}}
+
+The FlyByWire A32NX support requires FBW SimBridge.
+
+Run the FlyByWire installer, select the **Aircraft** section, then the **FBW SimBridge** feature. Click **Install** to complete the installation.
+
+{{< screenshot image="fbw-simbridge.png" title="Screenshot of the FlyByWire installer with the FBW SimBridge feature highlighted." >}}
+
+When prompted during the installation process, toggle the **Autostart Disabled** option to the on position.
+
+{{< screenshot image="autostart-enabled.png" title="Screenshot of the FlyByWire installer with the Autostart enabled option turned on." >}}
+
+If autostart was disabled during installation, it can be re-enabled by selecting the **{{< icon "cog" >}} Autostart...** button in the FlyByWire installer.
+
+{{< screenshot image="autostart-button.png" title="Screenshot of the FlyByWire installer with the Autostart... button highlighted." >}}
+
+{{% /details %}}
+
 {{% details title="PMDG 737 and 777" closed="true" %}}
 
-### PMDG Setup
+The additional steps for PMDG aircraft happen automatically on first run in MobiFlight.
 
-> [!NOTE]
-> Necessary adaptions should happen automatically on first run.
-
-### Information for manual setup in case of issues
-
-To enable the data communication, the file `737_Options.ini / 777_Options.ini`, located in the 737/777 persistent storage folder, needs to extended.
+If the aircraft fails to work, enable the data communication manually by editing the file `737_Options.ini / 777_Options.ini`, located in the 737/777 persistent storage folder.
 
 - For Microsoft Store distribution, it is located at `%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\pmdg-aircraft-737\work\`.
 - For Steam distribution, it is located at `%APPDATA%\Microsoft Flight Simulator\Packages\pmdg-aircraft-737\work\`.
