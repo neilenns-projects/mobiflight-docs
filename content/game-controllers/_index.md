@@ -21,9 +21,9 @@ For popular devices, MobiFlight displays friendly names during input and output 
 | [Octavi flight simulation controls](https://www.octavi.net/)                                                                                                                     | {{< icon "check" >}} | {{< icon "check" >}} |
 | [Thrustmaster TCA Sidestick Airbus Edition controller](https://www.thrustmaster.com/en-us/products/tca-sidestick-airbus-edition/)                                                | {{< icon "check" >}} |                      |
 | [VKBsim flight simulation controllers](https://www.vkbcontrollers.com/)                                                                                                          | {{< icon "check" >}} | {{< icon "check" >}} |
-| [WINWING Flight Control Unit (FCU)](https://us.winwingsim.com/view/goods-details.html?id=550)                                                                                    | {{< icon "check" >}} |                      |
-| [WINWING EFIS Left display](https://us.winwingsim.com/view/goods-details.html?id=845) and [WINWING EFIS Right display](https://us.winwingsim.com/view/goods-details.html?id=865) | {{< icon "check" >}} |                      |
-| [WINWING MCDU](https://us.winwingsim.com/view/goods-details.html?id=945) and [WINWING PFP 3N](https://us.winwingsim.com/view/goods-details.html?id=965)                          | {{< icon "check" >}} |                      |
+| [WINWING Flight Control Unit (FCU)](https://us.winwingsim.com/view/goods-details.html?id=550)                                                                                    | {{< icon "check" >}} | {{< icon "check" >}} |
+| [WINWING EFIS Left display](https://us.winwingsim.com/view/goods-details.html?id=845) and [WINWING EFIS Right display](https://us.winwingsim.com/view/goods-details.html?id=865) | {{< icon "check" >}} | {{< icon "check" >}} |
+| [WINWING MCDU](https://us.winwingsim.com/view/goods-details.html?id=945) and [WINWING PFP 3N](https://us.winwingsim.com/view/goods-details.html?id=965)                          | {{< icon "check" >}} | {{< icon "check" >}} |
 
 > [!TIP]
-> Other game controllers may display with generic names for inputs, however their outputs are not supported. Unlisted WINWING devices are not supported.
+> Other game controllers may work and show generic names for inputs, however their outputs are not supported. Unlisted WINWING devices are not supported.
