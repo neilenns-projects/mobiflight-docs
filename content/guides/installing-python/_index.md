@@ -3,18 +3,16 @@ title: Installing Python
 description: Installing Python for use with MobiFlight.
 ---
 
-Python is the external MobiFlight scripting language, e.g., needed to connect custom aircraft APIs to the WinWing CDUs.
+Python is the external MobiFlight scripting language, used to connect custom aircraft APIs to [WinWing CDUs](/game-controllers/winwing/winwing-cdu/). The following must be installed for MobiFlight to work with Python:
 
-#### Required Python environment (all three are checked by MobiFlight)
+- Python version `v3.10` or later.
+- The `websockets`, `gql` and `SimConnect` Python packages.
 
-- Minimum installed Python version: `v3.10`
-- Installed Python packages: `websockets, gql, SimConnect`
-
-## Installation instructions
+## Python installation instructions
 
 {{% steps %}}
 
-### Install Python
+### Install from the Microsoft Store
 
 [Install Python from the Microsoft Store](https://apps.microsoft.com/detail/9PNRBTZXMB4Z?hl=en-us&gl=US&ocid=pdpshare).
 
