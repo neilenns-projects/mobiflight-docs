@@ -4,15 +4,14 @@ description: How to manually install the WASM module when automatic installation
 weight: 30
 ---
 
+<!-- markdownlint doesn't know about steps and duplicate headings within that are fine, Hugo gives them unique links. -->
+<!-- markdownlint-disable MD024 -->
+
 [Reinstalling the WASM module](/guides/wasm-reinstall/) is the preferred method of installing the module. However, in some cases MobiFlight cannot determine the correct install location for the module. In that situation, the module can be manually installed into the flight simulator community folder.
 
-## Find the community folder
+Before installing the WASM module, determine the location of the community folder.
 
-The WASM module is installed in the flight simulator community folder. The method for determining its location depends on the version of Microsoft Flight Simulator.
-
-{{< tabs items="Microsoft Flight Simulator 2020,Microsoft Flight Simulator 2024" >}}
-
-{{< tab >}}
+## Finding the community folder in Microsoft Flight Simulator 2020
 
 {{% steps %}}
 
@@ -30,11 +29,13 @@ From the **Tools** menu, select **Virtual File System**. Expand the **Packages F
 
 A File Explorer window will open to the community folder location.
 
+### Proceed with module installation
+
+[Follow the steps below](#install-the-wasm-module) to install the WASM module.
+
 {{% /steps %}}
 
-{{< /tab >}}
-
-{{< tab >}}
+## Finding the community folder in Microsoft Flight Simulator 2024
 
 {{% steps %}}
 
@@ -60,11 +61,11 @@ Then click the **gear icon** next to the search box to open settings.
 
 A File Explorer window will open to the community folder location.
 
+### Proceed with module installation
+
+[Follow the steps below](#install-the-wasm-module) to install the WASM module.
+
 {{% /steps %}}
-
-{{< /tab >}}
-
-{{< /tabs >}}
 
 ## Install the WASM module
 
