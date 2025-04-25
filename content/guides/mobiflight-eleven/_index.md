@@ -7,7 +7,7 @@ ogimage: card-images/guides/mobiflight-eleven.png
 MobiFlight 11 is a major update to the MobiFlight interface, providing new ways to manage large configuration files. It is currently a preview release, primarily focused on obtaining feedback on the new main window layout.
 
 > [!TIP]
-> MobiFlight 11 uses a different file format (.mfproj) compared to earlier versions of MobiFlight (.mcc). Configuration files from prior versions will get updated automatically when opened, and when saved will be saved in the new format.
+> MobiFlight 11 uses a different file format (.mfproj) than earlier versions of MobiFlight (.mcc). Configuration files from prior versions will get updated automatically when opened, and when saved will be saved in the new format.
 >
 > Changes made in MobiFlight 11 are not backwards compatible, and MobiFlight 11 files cannot be opened in earlier versions of the application.
 
@@ -55,6 +55,11 @@ Rows can be re-ordered by dragging the row using the handle on the left edge of 
 {{< screenshot image="main-window-reorder-handle.png" title="Screenshot of the main window with the re-order handle on a row highlighted." >}}
 
 ## Reverting to the non-beta build
+
+> [!WARNING]
+> MobiFlight 11 uses a different file format (.mfproj) than earlier versions of MobiFlight (.mcc).
+>
+> Changes made to profiles in MobiFlight 11 are not backwards compatible, and cannot be opened in prior versions of MobiFlight after opting out of the beta.
 
 To go back to the non-beta version of MobiFlight, take the following steps.
 
