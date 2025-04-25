@@ -9,9 +9,9 @@ weight: 50
 
 MobiFlight supports the WINWING FCU, EFIS, MCDU and PFP 3N.
 
-WINWING devices are automatically shown in the input and output configuration dialogs. They will not appear in the **Modules** tab of the **Settings** dialog as they are not [boards](/boards/).
+WINWING devices are automatically shown in the [input](/game-controllers/configuring-input/) and [output](/game-controllers/configuring-output/) configuration dialogs. They will not appear in the **Modules** tab of the **Settings** dialog as they are not [boards](/boards/).
 
-The WINWING CDU display requires additional configuration and is only supported with specific aircraft. See the [WINWING CDU documentation](/game-controllers/winwing/winwing-cdu/) for more information.
+The WINWING CDU requires the MobiFlight 11 beta, and its inputs work like any other [game controller input](/game-controllers/configuring-input/). The display portion of the CDU with MobiFlight requires additional configuration, and is only supported with specific aircraft. See the [WINWING CDU documentation](/game-controllers/winwing/winwing-cdu/) for more information.
 
 > [!TIP]
 > To confirm WINWING devices are seen by MobiFlight, use the **Peripherals** tab of the **Settings** dialog.

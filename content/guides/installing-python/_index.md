@@ -20,12 +20,21 @@ Python is the primary scripting language used by MobiFlight to connect custom ai
 
 ### Install required Python packages
 
-Open **Windows Terminal** or **Command Prompt**, then run the following command:
+Open a **Command Prompt**:
+
+{{< screenshot image="command-prompt.png" title="Screenshot of Windows start menu with the Command Prompt application highlighted." >}}
+
+Then run the following command:
 
 ```powershell
 pip install gql websockets simconnect --upgrade --no-warn-script-location
 ```
 
-{{< screenshot image="pip-install.png" title="Screenshot of Windows Terminal with the pip install command entered." >}}
+{{< screenshot image="pip-install.png" title="Screenshot of Command Prompt with the pip install command entered." >}}
+
+> [!IMPORTANT]
+> The command must be run from a **Command Prompt**, not from within Python.
+>
+> If the result of the command is `SyntaxError: invalid syntax`, it means it was run from within Python instead of a command prompt.
 
 {{% /steps %}}
