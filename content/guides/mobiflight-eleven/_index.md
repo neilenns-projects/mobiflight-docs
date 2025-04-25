@@ -57,7 +57,7 @@ Rows can be re-ordered by dragging the row using the handle on the left edge of 
 ## Reverting to the non-beta build
 
 > [!WARNING]
-> MobiFlight 11 uses a different file format (.mfproj) than earlier versions of MobiFlight (.mcc).
+> MobiFlight 11 uses a different file format (.mfproj) than prior versions of MobiFlight.
 >
 > Changes made to profiles in MobiFlight 11 are not backwards compatible, and cannot be opened in prior versions of MobiFlight after opting out of the beta.
 
