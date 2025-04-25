@@ -30,7 +30,7 @@ Then run the following command:
 pip install gql websockets simconnect --upgrade --no-warn-script-location
 ```
 
-{{< screenshot image="pip-install.png" title="Screenshot of Windows Terminal with the pip install command entered." >}}
+{{< screenshot image="pip-install.png" title="Screenshot of Command Prompt with the pip install command entered." >}}
 
 > [!IMPORTANT]
 > The command must be run from a **Command Prompt**, not from within Python.

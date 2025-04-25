@@ -7,7 +7,7 @@ aliases:
 weight: 30
 ---
 
-MobiFlight supports WINWING CDU devices with the MobiFlight 11 beta builds. All buttons are are automatically available as [game controller inputs](/game-controllers/configuring-input/); however, using the display for output requires additional setup and is only supported with the following aircraft:
+MobiFlight supports WINWING CDU devices with the MobiFlight 11 beta builds. All buttons are automatically available as [game controller inputs](/game-controllers/configuring-input/); however, using the display for output requires additional setup and is only supported with the following aircraft:
 
 | Platform | Aircraft        | Supported configurations | Comment                                                                                                   |
 | -------- | --------------- | ------------------------ | --------------------------------------------------------------------------------------------------------- |
@@ -26,7 +26,7 @@ To get the beta build and install pre-requisites for CDU display support, take t
 
 ### Install the beta build
 
-Opt in to MobiFlight beta builds by selecting **Settings** from the **Extras** menu, then checking the **Yes, I would like to receive beta version updates** option. Click **OK** to close the dialog, then restart MobiFlight. The app will prompt to download and install the latest beta.
+Opt in to the MobiFlight beta by selecting **Settings** from the **Extras** menu, then checking the **Yes, I would like to receive beta version updates** option. Click **OK** to close the dialog, then restart MobiFlight. The app will prompt to download and install the latest beta.
 
 {{< screenshot image="beta-opt-in.png" title="Screenshot of the Settings dialog with the Yes, I would like to receive beta version updates option checked." >}}
 
