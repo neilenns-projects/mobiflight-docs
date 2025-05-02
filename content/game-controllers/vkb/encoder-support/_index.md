@@ -18,6 +18,7 @@ Close any running instance of MobiFlight Connector. Otherwise, you will need to 
 ### Verify controller firmware
 
 Ensure your controller firmware is updated to version 2.18.5 or newer. If not, download zBootloader and the firmware files from the [VKB website](https://www.vkbcontrollers.com/pages/downloads) and follow VKB's guides to upgrade your controller.
+
 ### Access configuration in VKBDevCfg
 
 In [VKBDevCfg](https://www.vkbcontrollers.com/pages/downloads), select your device, then open the **Global** tab at the bottom and the **External** tab at the top:
