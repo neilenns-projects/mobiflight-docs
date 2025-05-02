@@ -10,12 +10,14 @@ To help with the creation of such files, the [VKB/Mobiflight Definer tool](https
 
 To create the definition file for a device, first select the USB device in question. Continue by choosing the base (which may include some grips and modules to streamline the process, depending on the hardware). When selecting different add-on controllers, it is generally recommended to follow the following order to get good defaults for button and LED numbers:
 
-- Base, including everything listed in the description.
-- Grips, starting from left to right for throttle grips.
-- SEMs, including SEM-Vs.
-- THQs, including THQ-Vs. If one of the THQs has a WW2 throttle grip, choose that one last.
-- STEM
-- FSM.GA
+| Module | Notes                                                                                                                                 |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Base   | Including modules listed in the base description.                                                                                     |
+| Grips  | Starting from left to right for throttle grips. {{< br >}}  Not including WW2 throttle grip, which is part of its associated THQ.     |
+| SEMs   | Including both standard SEM and vertical SEM-V units.                                                                                 |
+| THQs   | Including both standard THQ and vertical THQ-V modules. {{< br >}} If one of the THQs has a WW2 throttle grip, choose that one last.  |
+| STEM   | Only one module per device.                                                                                                           |
+| FSM.GA |                                                                                                                                       |
 
 It is best to verify button numbers in a button tester application.
 
