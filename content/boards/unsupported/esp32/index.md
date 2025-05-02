@@ -5,7 +5,7 @@ ogimage: card-images/boards/arduino-nano-esp32.png
 ---
 
 > [!IMPORTANT]
-> These boards are unsupported. Consider a [Raspberry Pi Pico 1](/boards/raspberry-pi-pico) instead.
+> These boards are unsupported. Consider a [Raspberry Pi Pico 1](/boards/recommended/raspberry-pi-pico) instead.
 
 While various boards with ESP32 chips are available as a pin-compatible replacement for other
 microcontroller boards, the different architecture of the ESP32 processor requires a firmware
