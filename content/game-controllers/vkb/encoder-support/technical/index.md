@@ -1,6 +1,6 @@
 ---
-title: Encoder Technical Details
-description: Technical details of VKB encoder integration
+title: Encoder technical details
+description: Technical details of VKB encoder integration.
 prev: /game-controllers/vkb/
 weight: 10
 ---
