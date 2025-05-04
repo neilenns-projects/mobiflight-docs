@@ -1,7 +1,7 @@
 ---
 title: VKB devices
 description: How to use VKB devices with MobiFlight.
-next: /game-controllers/vkb/encoder-support
+next: /game-controllers/vkb/encoder-support/
 weight: 60
 ---
 MobiFlight supports all VKB controllers and their axes, buttons and hat switches as generic game controller inputs. Limited encoder functionality is also available as a generic game controller.

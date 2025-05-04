@@ -1,7 +1,7 @@
 ---
 title: Create definition file
 description: Creating a definition file for new devices.
-prev: /game-controllers/vkb/encoder-support
+prev: /game-controllers/vkb/encoder-support/encoder-ids/
 weight: 20
 ---
 Not every combination of VKB modules has a pre-made definition file available. To enable support for LED outputs and friendly names in such a configuration, it is necessary to create a new definition file.
