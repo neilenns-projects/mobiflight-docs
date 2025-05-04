@@ -1,6 +1,6 @@
 ---
 title: Finding encoder IDs
-description: Technical details of VKB encoder integration.
+description: How to find the ID corresponding to a physical encoder using the Encoder Visualizer tool.
 prev: /game-controllers/vkb/encoder-support/
 next: /game-controllers/vkb/encoder-support/technical/
 weight: 10

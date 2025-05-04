@@ -1,9 +1,9 @@
 ---
 title: Encoder support
 description: How to enable advanced encoder support.
-prev: /game-controllers/vkb/
+prev: /game-controllers/vkb/led-support/technical/
 next: /game-controllers/vkb/encoder-support/encoder-ids/
-weight: 10
+weight: 20
 ---
 While encoders are always available as joystick buttons out of the box, this indirect form of support suffers from limitations: Since each turn of the knob has to be turned into a button push and release, delays are incurred as the button pressing action catches up to the encoder position.
 
