@@ -115,6 +115,6 @@ The utility will inform you that the file has been created. You can find it in t
 Copy the file to the `Joysticks` folder in your MobiFlight installation directory.
 
 > [!TIP]
-> If you used the Mobiflight Setup from the MobiFlight website, you can find the destination folder by entering `%LOCALAPPDATA%\MobiFlight\MobiFlight Connector\Joysticks` into the address bar.
+> If you used the MobiFlight Setup from the MobiFlight website, you can find the destination folder by entering `%LOCALAPPDATA%\MobiFlight\MobiFlight Connector\Joysticks` into the address bar.
 
 {{% /steps %}}
