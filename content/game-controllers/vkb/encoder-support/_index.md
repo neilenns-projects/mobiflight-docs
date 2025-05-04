@@ -23,13 +23,13 @@ Ensure your controller firmware is updated to version 2.18.5 or newer. If not, d
 
 In [VKBDevCfg](https://www.vkbcontrollers.com/pages/downloads), select your device, then open the **Global** tab at the bottom and the **External** tab at the top:
 
-{{< screenshot image="vkb_tab.png" title="Location of the Global and External tabs." >}}
+{{< screenshot image="vkb-external-tab.png" title="Location of the Global and External tabs." >}}
 
 ### Edit configuration
 
 Make sure the checkboxes **Virtual BUS over USB** and **External device encoders virtualization** are both checked. Then write the configuration to the device by pressing the **Set** button in the **Action** bar.
 
-{{< screenshot image="vkb_usb.png" title="Boxes to check." >}}
+{{< screenshot image="vkb-usb-settings.png" title="Boxes to check." >}}
 
 After you press **Set**, your device will disconnect and immediately reconnect to the PC.
 
