@@ -12,7 +12,7 @@ To help with the creation of such files, the [VKB/MobiFlight Definer tool](https
 
 ### Startup
 
-Ensure that your VKB controller is connected and MobiFlight Connector is not running.
+Ensure that your VKB controller is connected and MobiFlight is not running.
 
 Download, extract and run the latest release of the definer tool from the link above.
 
@@ -65,7 +65,7 @@ Since the STECS MTG-R allows for swappable button modules, this menu allows you 
 
 {{< screenshot image="definer_stecsbutmod.png" title="List of STECS button modules." >}}
 
-If you selected a custom preset, you will be prompted which modules is installed in each slot. Enter the number in the list and continue. The list will change between modules to reflect the valid modules for each slot.
+If you selected a custom preset, you will be prompted which modules are installed in each slot. Enter the number in the list and continue. The list will change between modules to reflect the valid modules for each slot.
 
 Repeat this step until all module slots are filled.
 
@@ -95,9 +95,9 @@ If any of your controller components feature rotary encoders, you will be asked 
 
 ### Enter encoder IDs
 
-{{< screenshot image="definer_encoderid.png" title="Enable the encoder API." >}}
+{{< screenshot image="definer_encoderid.png" title="Encoder ID prompt." >}}
 
-Enter the ID of the first button of the current module. A label to find that button is shown in the prompt.
+Enter the ID of the encoder described in the prompt.
 
 If you are following the controller order mentioned in [step 4, **Select add-on modules**](#select-add-on-modules), the default is usually correct.
 
