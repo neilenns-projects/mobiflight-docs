@@ -10,7 +10,7 @@ weight: 10
 
 {{< screenshot image="vkb-leds-basenumber.png" title="Location of the LED settings for modules." >}}
 
-In VKBDevCfg, navigate to **Global** on the bottom tab bar, then **External** on the top tab bar. Select the **External devices** tab on the left. For each connected module, there will be two spin boxes labeled **LedsN** and **Base** next to each other. The LedsN box contains the number of LEDs present on the module, the Base box contains the ID of the first LED of that module. The other LEDs follow in sequence.
+In VKBDevCfg, navigate to **Global** on the bottom tab bar, then **External** on the top tab bar. Select the **External devices** tab on the left. For each connected module, there will be two spin boxes labeled **LedsN** and **Base** next to each other. The LedsN box contains the number of LEDs present on the module. The Base box contains the ID of the first LED of that module. The other LEDs follow in sequence.
 
 ### Identifying a specific LED
 
