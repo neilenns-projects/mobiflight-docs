@@ -18,11 +18,11 @@ A few LEDs on VKB controllers only support a single color. These are integrated 
 
 ### Bi-color LEDs
 
-The bi-color LED is the most common type of LED used in MobiFlight configurations for VKB devices. The power/status LED on most VKB controllers is bi-color blue/red, and the numerous indicator LEDs on the GNX module series all use green/red bi-color LEDs.
+The bi-color LED is the most common type of LED for VKB devices - especially on control panels, which are the most relevant target for MobiFlight configurations. The power/status LED on most VKB controllers is bi-color blue/red, and the numerous indicator LEDs on the GNX module series all use green/red bi-color LEDs.
 
-Bi-color LEDs have each physical color assigned to one of the internal color channels, being able to display either color, as well as a mix of the two. Each color channel is integrated as a distinct LED output in MobiFlight. The intensity sent to the controller is controlled such that if both the red and green channels of a GNX LED are on, the resulting mix will result in an amber color.
+Bi-color LEDs have each physical color assigned to one of the internal color channels, being able to display either color, as well as a mix of the two. Each color channel is integrated as a distinct LED output in MobiFlight. The intensity sent to the controller is tuned such that if both the red and green channels of a GNX LED are on, the resulting mix will result in an amber color.
 
-When both the red and green channels of the LEDs are off, zero brightness is sent instead of an off event to override the default green of unused LEDs on GNX modules.
+When both the red and green channels of the LEDs are off, zero brightness is sent instead of an off event. This overrides the default green color that GNX modules show on idle LEDs.
 
 ### RGB LEDs
 

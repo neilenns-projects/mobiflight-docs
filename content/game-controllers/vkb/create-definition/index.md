@@ -81,7 +81,7 @@ If you are following the controller order mentioned in [step 4, **Select add-on 
 
 {{< screenshot image="definer-module-leds.png" title="LED ID prompt." >}}
 
-Enter the base LED ID of the first module. It can be looked up in the VKBDevCfg external controller tab.
+Enter the base LED ID of the first module. It can be [looked up](/game-controllers/vkb/led-support/led-ids/) in the VKBDevCfg external controller tab.
 
 If you are following the controller order mentioned in [step 4, **Select add-on modules**](#select-add-on-modules), the default is usually correct.
 
@@ -101,7 +101,7 @@ Enter the ID of the encoder described in the prompt.
 
 If you are following the controller order mentioned in [step 4, **Select add-on modules**](#select-add-on-modules), the default is usually correct.
 
-When in doubt (perhaps because you have added shift states to encoders in VKBDevCfg), an encoder visualizer application is available to test which encoder ID represents which encoder. Complete this step until all encoders are assigned an ID.
+When in doubt (perhaps because you have added shift states to encoders in VKBDevCfg), an [encoder visualizer application](/game-controllers/vkb/encoder-support/encoder-ids/) is available to test which encoder ID represents which encoder. Complete this step until all encoders are assigned an ID.
 
 ### Copy file
 
