@@ -48,7 +48,7 @@ It is generally recommended to follow the order in this list:
 
 For STECS split throttle grips, choose the left grip first. If one of your THQs has a WW2 throttle grip, choose that one last. There is no distinction between SEM and SEM-V, or between THQ and THQ-V.
 
-Once all modules have been added, select option zero and proceed with [step 9, **Enable encoder API**](#enable-encoder-api)
+Once all modules have been added, select **0** and proceed with [step 9, **Enable encoder API**](#enable-encoder-api).
 
 ### Select grip preset
 

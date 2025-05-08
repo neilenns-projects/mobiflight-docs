@@ -20,11 +20,11 @@ To identify individual LEDs, you must first enable miscellaneous test functional
 
 {{< screenshot image="vkb-leds-test-misc.png" title="Test Misc menu, including LED tests." >}}
 
-In VKBDevCfg, when you select the **Test** tab at the bottom, you will see a **Misc** tab on top. Enter it and the LED test appears in the left half of the plane. In the top row, check the **Select** box and enter the ID of the LED you want to identify in the **LED #** box.
+In VKBDevCfg, when you select the **Test** tab at the bottom, you will see a **Misc** tab on top. Enter it and the LED test appears in the left half of the pane. In the top row, check the **Select** box and enter the ID of the LED you want to identify in the **LED #** box.
 
 > [!TIP]
 > To find out which ID belongs to a physical LED, try out the LED numbers belonging to its module. Be sure to set LEDs you already tried back to a neutral setting such as **OFF**.
 
-For **LED MODE**, choose something recognizable like **Ultra Fast**, which will cause the LED to blink rapidly. **COLOR MODE** can be **Color1** with **COLOR 1** set to **7:7:7**, i.e. white at maximum brightness. This will cause RGB LEDs to flash white, while monochrome and bi-color LEDs will flash in their primary color.
+For **LED MODE**, choose something recognizable like **Ultra Fast**, which will cause the LED to blink rapidly. **COLOR MODE** can be **Color1** with **COLOR 1** set to **7:7:7**, i.e. white at maximum brightness. This will cause RGB LEDs to flash white, bi-color LEDs to flash in their primary color (e.g. green for green/red LEDs) and monochrome LEDs to flash in their only color.
 
 Press the **Set Leds** button to make the light flash. To turn it off afterwards, change **LED MODE** to **OFF** and press **Set Leds** again.
