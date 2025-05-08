@@ -39,7 +39,13 @@ Start MobiFlight Connector and create an input configuration.
 
 If your controller does not have a definition file (i.e. all buttons are listed as button numbers), the new encoder events will appear towards the end of the button list.
 
-If your controller has a definition file with outputs and friendly input names, the new encoder events will replace the buttons used for the encoder. Note that the original button events are still available with a **Legacy DirectInput** mark for compatibility reasons.
+{{< screenshot image="encoder-no-definition.png" title="Encoder inputs without definition file." >}}
+
+If your controller has a definition file with outputs and friendly input names, the new encoder events will replace the buttons used for the encoder. Note that the original button events are still available with a **Legacy DirectInput** mark for compatibility reasons. For any definition file with advanced encoder support, both the advanced and the legacy version will be available in the input list, even if the controller is not configured for advanced encoders.
+
+{{< screenshot image="encoder-with-definition.png" title="Encoder inputs without definition file." >}}
+
+Be sure to select the full-featured encoders (green frame) instead of the legacy encoders (red frame) to benefit from advanced encoders. If the press event works on these, advanced encoder support is functioning correctly on your controller.
 
 {{% /steps %}}
 
