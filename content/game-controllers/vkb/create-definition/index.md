@@ -28,7 +28,7 @@ Select your VKB controller from the list of controllers shown by entering the nu
 
 Select your base from the list by typing the corresponding number and pressing enter.
 
-Some bases may contain extension modules like grips or the ATEM. That is because these modules affect the button mapping on the base or act as an extension to the base.
+Some bases may contain extension modules like grips or the ATEM. That is because these modules affect the button mapping on the base or act as a part of the base.
 
 If your controller is a GNX throttle combo, the base unit is the GNX-HID USB Controller.
 
@@ -36,7 +36,7 @@ If your controller is a GNX throttle combo, the base unit is the GNX-HID USB Con
 
 {{< screenshot image="definer-addons.png" title="List of modules as shown in definer tool." >}}
 
-Select each module that is part of your controller. If you have multiples of the same module, add the same module type multiple times.
+Select each extension module that is part of your controller. If you have multiples of the same module, add the same module type multiple times.
 
 It is generally recommended to follow the order in this list:
 
@@ -65,15 +65,15 @@ Since the STECS MTG-R allows for swappable button modules, this menu allows you 
 
 {{< screenshot image="definer-stecs-button-modules.png" title="List of STECS button modules." >}}
 
-If you selected a custom preset, you will be prompted which modules are installed in each slot. Enter the number in the list and continue. The list will change between modules to reflect the valid modules for each slot.
+If you selected a custom preset, you will be prompted which button modules are installed in each slot. Enter the number in the list and continue. The list will change between button module slots to reflect the valid button modules for each slot.
 
-Repeat this step until all module slots are filled.
+Repeat this step until all button module slots are filled.
 
 ### Enter first button ID
 
 {{< screenshot image="definer-module-buttons.png" title="Button ID prompt." >}}
 
-Enter the ID of the first button of the current module. A label to find that button is shown in the prompt.
+Enter the ID of the first button of the current extension module. A label to find that button is shown in the prompt.
 
 If you are following the controller order mentioned in [step 4, **Select add-on modules**](#select-add-on-modules), the default is usually correct, but you can always verify in a button tester application.
 
