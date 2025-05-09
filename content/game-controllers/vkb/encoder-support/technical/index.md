@@ -1,8 +1,9 @@
 ---
 title: Encoder technical details
 description: Technical details of VKB encoder integration.
-prev: /game-controllers/vkb/
-weight: 10
+prev: /game-controllers/vkb/encoder-support/encoder-ids/
+next: /game-controllers/vkb/create-definition/
+weight: 20
 ---
 Each encoder detected on the controller is added as a pair of virtual buttons. To avoid conflict with standard game controller buttons, which are in the range from 1 to 128, the virtual encoder buttons are mapped to the range of 1000-1319.
 
