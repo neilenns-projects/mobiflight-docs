@@ -2,7 +2,7 @@
 title: Input shift registers
 description: How to use input shift registers with MobiFlight.
 ogimage: card-images/devices/input-shift-register.png
-next: /devices/input-shift-register/wiring/
+next: /devices/input-shift-register/wiring
 ---
 
 When building panels, you may encounter situations where you have more buttons for input than available pins on your board. Input shift registers like the [74HC165](https://www.ti.com/product/SN74HC165) allow you to read input from eight buttons while only using three pins on the board.
