@@ -61,11 +61,33 @@ Use the [installing configuration guide](/guides/workshops/installing-configurat
 
 {{< screenshot image="led-assembly.png" title="Photo of the beginner project with the two square LED buttons highlighted." >}}
 
+{{< tabs items="Separate Buttons,Circuit Board (2 images),Circuit Board (composite image)">}}
+
+{{< tab >}}
+
 Assemble the LED buttons into the case by removing the fastener from the back of the buttons, inserting the button into the lid with the two large holes, then re-attaching the fasteners. Pass the cable through the hole in the back of the case, then close the lid.
 
 The buttons are connected using four XH-JST 2-pin cables. Connect the red button light to `LED 1 PWM`, the orange button light to `LED 2 PWM`, the red button to `Button 1`, and the orange button to `Button 2` on the breakout board.
 
 {{< screenshot image="led-button-connections.png" title="Photo of a prototype board with the four connections for the LED buttons highlighted." >}}
+
+{{< /tab >}}
+
+{{< tab >}}
+
+{{< screenshot image="mf-dual-pushbutton-led-matched-buttons.png" title="Photo of a prototype board with the four connections for the LED buttons highlighted." >}}
+
+{{< screenshot image="led-button-connections.png" title="Photo of a prototype board with the four connections for the LED buttons highlighted." >}}
+
+{{< /tab >}}
+
+{{< tab >}}
+
+{{< screenshot image="prototyping-board-led-buttons.png" title="Photo of a prototype board with the four connections for the LED buttons highlighted." >}}
+
+{{< /tab >}}
+
+{{< /tabs>}}
 
 ## Assembling and connecting the toggle switches
 
