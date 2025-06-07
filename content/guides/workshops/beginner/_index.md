@@ -13,7 +13,7 @@ There are two versions of the workshop kit, which differ in the included LED pus
 
 {{< card title="Separate Buttons" image="card-images/guides/led-button.png" >}}
 
-{{< card title="Circuit board" image="card-images/guides/led-button-pcb.png" >}}
+{{< card title="Circuit Board" image="card-images/guides/led-button-pcb.png" >}}
 
 {{< /cards >}}
 
@@ -117,7 +117,7 @@ Begin by connecting the buttons. The wires for the buttons are connected to two 
 
 {{< screenshot image="prototyping-ledswitches-switch-buttons.png" title="Prototype board with the two connections for the buttons and the corresponding button contacts highlighted." >}}
 
-Then connect the LEDs. The wires for the LEDs are connected to the two contacts on the outer edges of the switches. Connect the red LED to `PWM LED 1`, the one underneath to `PWM LED 2`
+Then connect the LEDs. The wires for the LEDs are connected to the two contacts on the outer edges of the switches. Connect the red LED to `PWM LED 1`, the one underneath to `PWM LED 2`.
 
 {{< screenshot image="prototyping-ledswitches-switch-leds.png" title="Prototype board with the two connections for the LEDs and the corresponding LED contacts highlighted." >}}
 
@@ -145,7 +145,7 @@ With all wires connected, push the lid into the case such that the labels on the
 
 {{< /tab >}}
 
-{{< /tabs>}}
+{{< /tabs >}}
 
 ## Assembling and connecting the toggle switches
 
