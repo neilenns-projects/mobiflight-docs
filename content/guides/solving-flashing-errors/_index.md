@@ -22,7 +22,11 @@ Some boards require additional driver installation before they can be used with 
 
 ### Ensure other apps aren't using the COM port
 
-Many other applications open the COM port to connected boards automatically, preventing MobiFlight from communicating with the board. Common apps with this issue include:
+Many other applications open the COM port to connected boards automatically, preventing MobiFlight from communicating with the board. This cause can be confirmed by looking for the following error in [debug level logs](#collect-logs-for-additional-support):
+
+`avrdude: opening programmer "arduino" on port "COM8" failed`
+
+Common apps causing this issue include:
 
 - Arduino IDE
 - CURA
@@ -30,6 +34,8 @@ Many other applications open the COM port to connected boards automatically, pre
 - Sim Racing Studio
 
 Close any of these applications that may be running. A PC reboot may be necessary to ensure the conflicting applications are fully closed. Then, try flashing the board again.
+
+If it still fails, try moving the board to a different COM port, or uninstall it using Windows Device Manager then plug it in again.
 
 ### Collect logs for additional support
 
