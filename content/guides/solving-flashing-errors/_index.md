@@ -22,7 +22,7 @@ Some boards require additional driver installation before they can be used with 
 
 ### Ensure other apps aren't using the COM port
 
-Many other applications open the COM port to connected boards automatically, preventing MobiFlight from communicating with the board. This cause can be confirmed by looking for the following error in [debug level logs](#collect-logs-for-additional-support):
+Many other applications open the COM port to connected boards automatically, preventing MobiFlight from communicating with the board. This can be confirmed by looking for the following error in [debug level logs](#collect-logs-for-additional-support):
 
 `avrdude: opening programmer "arduino" on port "COM8" failed`
 
