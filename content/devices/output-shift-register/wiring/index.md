@@ -28,7 +28,7 @@ Pay close attention to the orientation of the LEDs: the anode (long leg) should 
 > Using a DM13A or other similar LED driver chip is a better choice than using the 74HC595 for driving LEDs.
 
 > [!TIP]
-> To daisy-chain 74HC595 chips, connect the `QH'` pin (9) from one chip to the `SER` pin (14) of the next chip. `VCC`, `GND`, and the other input pins can be shared between all chained shift registers.
+> To daisy-chain 74HC595 chips, connect the `QH'` pin (9) from one chip to the `SER` pin (14) of the next chip. All other control signals, including `SRCLK` (11) and `RCLK` (12), must be shared across all chained shift registers.
 
 {{< /tab >}}
 
@@ -43,7 +43,7 @@ The value of $R_{\text{ext}}$ determines the amount of current for the LEDs. A 5
 > Connecting pin 21, {{% overline %}}EN{{% /overline %}}, to a PWM pin on a board enables brightness control of the LEDs as a group from MobiFlight.
 
 > [!TIP]
-> To daisy-chain DM13A chips, connect the `DAO` pin (22) from one chip to the `DAI` pin (2) of the next chip. Use a dedicated resistor for the `REXT` pin on each chip. `VCC`, `GND`, and the other input pins can be shared between all chained shift registers.
+> To daisy-chain DM13A chips, connect the `DAO` pin (22) from one chip to the `DAI` pin (2) of the next chip. Use a dedicated resistor for the `REXT` pin on each chip. All other control signals, including `DCK` and `LAT`, must be shared between all chained shift registers.
 
 {{< /tab >}}
 
@@ -58,7 +58,7 @@ The value of $R_{\text{ext}}$ determines the amount of current for the LEDs. A 1
 > Connecting pin 13, {{% overline %}}OE{{% /overline %}}(ED2), to a PWM pin on a board enables brightness control of the LEDs as a group from MobiFlight.
 
 > [!TIP]
-> To daisy-chain TLC5917 chips, connect the `SDO` pin (14) from one chip to the `SDI` pin (2) of the next chip. Use a dedicated resistor for the `R-EXT` pin on each chip. `VCC`, `GND`, and the other input pins can be shared between all chained shift registers.
+> To daisy-chain TLC5917 chips, connect the `SDO` pin (14) from one chip to the `SDI` pin (2) of the next chip. Use a dedicated resistor for the `R-EXT` pin on each chip. All other control signals, including `CLK` and `LE(ED1)`, must be shared between all chained shift registers.
 
 {{< /tab >}}
 
