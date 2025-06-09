@@ -12,6 +12,7 @@ cascade:
 {{< card link="/features/auto-load-config/" title="Auto-loading configurations" icon="information" >}}
 {{< card link="/features/command-line-parameters/" title="Command line parameters" icon="information" >}}
 {{< card link="/features/input-action-types/" title="Input action types" icon="information" >}}
+{{< card link="/features/file-types/" title="File types" icon="adjustments" >}}
 {{< card link="/features/modifiers/" title="Output value modifiers" icon="adjustments" >}}
 {{< card link="/features/output-variable-types/" title="Output variable types" icon="information" >}}
 
