@@ -13,8 +13,8 @@ To open a .mcc file, use the **File** > **Open...** menu in the main MobiFlight 
 
 ## MobiFlight module configuration (.mfmc)
 
-These files contain the device configuration for a specific board. They are saved from the MobiFlight Modules dialog, and are typically used to create backups of board configurations. They do not provide mappings of the devices to simulator events. They only define how devices are connected to a board.
+These files contain the device configuration for a specific board and are saved from the MobiFlight Modules dialog. Typically used to create backups, these files define device-to-board connections without providing simulator event mappings.
 
 ## MobiFlight projects (.mfproj)
 
-These files are specific to the [MobiFlight 11 beta](/guides/mobiflight-eleven/), and replace .mcc files in those releases. They are not compatible with earlier versions of MobiFlight. Any changes made in .mfproj files can only be used in MobiFlight 11 or later.
+These files are specific to the [MobiFlight 11 beta](/guides/mobiflight-eleven/), and replace .mcc files in those releases. They are incompatible with earlier versions of MobiFlight. Any changes made in .mfproj files can only be used in MobiFlight 11 or later.
