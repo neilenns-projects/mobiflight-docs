@@ -37,6 +37,10 @@ Close any of these applications that may be running. A PC reboot may be necessar
 
 If it still fails, try moving the board to a different COM port, or uninstall it using Windows Device Manager then plug it in again.
 
+### Try flashing with all connected hats and devices removed
+
+Low-quality Arduino screw terminal hats may interfere with flashing. Flashing problems can also be caused by incorrectly connected devices that cause shorts. Try removing all hats and disconnecting all devices from the board, then flash again.
+
 ### Collect logs for additional support
 
 If the previous steps do not resolve the flashing error, start a thread in the [#MobiFlight](https://discord.com/channels/608690978081210392/1028767888242376794) support channel in [Discord](https://discord.gg/yUaBqMbz). Include the following information:
