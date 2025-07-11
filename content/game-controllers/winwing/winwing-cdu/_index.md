@@ -9,29 +9,28 @@ weight: 30
 
 MobiFlight supports WINWING CDU devices with the MobiFlight 11 beta builds. All buttons are automatically available as [game controller inputs](/game-controllers/configuring-input/); however, using the display for output requires additional setup and is only supported with the following aircraft:
 
-| Platform | Aircraft           | Supported configurations | Comment                                                                                                   |
-| -------- | ------------------ | ------------------------ | --------------------------------------------------------------------------------------------------------- |
-| MSFS     | Aerosoft CRJ       | CPT or FO or CPT+FO      |                                                                                                           |
-| MSFS     | Fenix A3xx         | CPT or FO or CPT+FO      |                                                                                                           |
-| MSFS     | FlyByWire A32NX    | CPT or FO or CPT+FO      | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
-| MSFS     | FSLabs A321        | CPT                      |                                                                                                           |
-| MSFS     | Headwind A339x     | CPT or FO                | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
-| MSFS     | iFly 737           | CPT or FO or CPT+FO      | CPT+FO untested so far                                                                                    |
-| MSFS     | Maddog X           | CPT or FO or CPT+FO      |                                                                                                           |
-| MSFS     | PMDG 737           | CPT or FO or CPT+FO      | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
-| MSFS     | PMDG 777           | CPT or FO or CPT+FO      | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
-| MSFS     | TFDi MD-11         | CPT or FO or CPT+FO      |                                                                                                           |
-| X-Plane  | FlightFactor 757   | CPT or FO or CPT+FO      |                                                                                                           |
-| X-Plane  | FlightFactor 767   | CPT or FO or CPT+FO      |                                                                                                           |
-| X-Plane  | FlightFactor 777v2 | CPT or FO or CPT+FO      |                                                                                                           |
-| X-Plane  | Laminar 737        | CPT or FO or CPT+FO      |                                                                                                           |
-| X-Plane  | LevelUp 737        | CPT or FO or CPT+FO      |                                                                                                           |
-| X-Plane  | ToLiss A319        | CPT or FO or CPT+FO      |                                                                                                           |
-| X-Plane  | ToLiss A320        | CPT or FO or CPT+FO      |                                                                                                           |
-| X-Plane  | ToLiss A321        | CPT or FO or CPT+FO      |                                                                                                           |
-| X-Plane  | ToLiss A330        | CPT or FO or CPT+FO      |                                                                                                           |
-| X-Plane  | ToLiss A340        | CPT or FO or CPT+FO      |                                                                                                           |
-| X-Plane  | Zibo 737           | CPT or FO or CPT+FO      |                                                                                                           |
+| Platform | Aircraft           | Supported configurations                 | Comment                                                                                                   |
+| -------- | ------------------ | ---------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| MSFS     | Aerosoft CRJ       | CPT or FO or CPT+FO                      |                                                                                                           |
+| MSFS     | Fenix A3xx         | CPT or FO or CPT+FO                      |                                                                                                           |
+| MSFS     | FlyByWire A32NX    | CPT or FO or CPT+FO                      | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
+| MSFS     | FSLabs A321        | CPT                                      |                                                                                                           |
+| MSFS     | Headwind A339x     | CPT or FO                                | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
+| MSFS     | iFly 737           | CPT or FO or CPT+FO                      | CPT+FO untested so far                                                                                    |
+| MSFS     | Maddog X           | CPT or FO or CPT+FO                      |                                                                                                           |
+| MSFS     | PMDG 737           | CPT or FO or CPT+FO                      | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
+| MSFS     | PMDG 777           | CPT or FO or CPT+FO                      | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
+| MSFS     | TFDi MD-11         | CPT or FO or CPT+FO                      |                                                                                                           |
+| X-Plane  | FlightFactor 757   | CPT or FO or CPT+FO                      |                                                                                                           |
+| X-Plane  | FlightFactor 767   | CPT or FO or CPT+FO                      |                                                                                                           |
+| X-Plane  | FlightFactor 777v2 | CPT or FO or Observer or CPT+FO+Observer |                                                                                                           |
+| X-Plane  | LevelUp 737        | CPT or FO or CPT+FO                      |                                                                                                           |
+| X-Plane  | ToLiss A319        | CPT or FO or CPT+FO                      |                                                                                                           |
+| X-Plane  | ToLiss A320        | CPT or FO or CPT+FO                      |                                                                                                           |
+| X-Plane  | ToLiss A321        | CPT or FO or CPT+FO                      |                                                                                                           |
+| X-Plane  | ToLiss A330        | CPT or FO or CPT+FO                      |                                                                                                           |
+| X-Plane  | ToLiss A340        | CPT or FO or CPT+FO                      |                                                                                                           |
+| X-Plane  | Zibo 737           | CPT or FO or CPT+FO                      |                                                                                                           |
 
 To get the beta build and install pre-requisites for CDU display support, take the following steps:
 
