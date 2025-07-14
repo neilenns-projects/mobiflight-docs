@@ -10,7 +10,7 @@ weight: 50
 <!-- Markdownlint doesn't know about consecutive GitHub tip blocks -->
 <!-- markdownlint-disable MD028-->
 
-MobiFlight supports the WINWING FCU, EFIS, MCDU, PAP 3, PFP 3N, PFP 4 and PFP 7.
+MobiFlight supports the WINWING FCU, EFIS, MCDU, PAP 3, PFP 3N, and PFP 7.
 
 The WINWING CDU requires the MobiFlight 11 beta, and its inputs work like any other [game controller input](/game-controllers/configuring-input/). The display portion of the CDU with MobiFlight requires additional configuration, and is only supported with specific aircraft. See the [WINWING CDU documentation](/game-controllers/winwing/winwing-cdu/) for more information.
 
