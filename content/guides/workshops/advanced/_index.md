@@ -25,14 +25,9 @@ The following components are required for the project:
 
 ## 3D-printed enclosure parts
 
-The following parts make up the 3D-printed enclosure:
+The files for 3D printing the enclosure are available in the [MobiFlight Workshops GitHub repo](https://github.com/MobiFlight/workshops/tree/main/advanced).
 
-- [Base](https://github.com/MobiFlight/MobiFlight-Connector/wiki/images/workshops/advanced/stl/workshop-advanced-base.stl)
-- [Two-button lid](https://github.com/MobiFlight/MobiFlight-Connector/wiki/images/workshops/advanced/stl/workshop-lid-buttons-2.stl)
-- [Two-button insert](https://github.com/MobiFlight/MobiFlight-Connector/wiki/images/workshops/advanced/stl/workshop-lid-buttons-2-insert.stl)
-- [LCD lid](https://github.com/MobiFlight/MobiFlight-Connector/wiki/images/workshops/advanced/stl/workshop-lid-lcd.stl)
-- [Dual encoder lid](https://github.com/MobiFlight/MobiFlight-Connector/wiki/images/workshops/advanced/stl/workshop-dual-encoder-lid.stl)
-- [Honeycomb/Saitek adapter](https://github.com/MobiFlight/MobiFlight-Connector/wiki/images/workshops/beginner/stl/honeycomb-adapter-short.stl) (optional)
+The [workshop-advanced.3mf](https://raw.githubusercontent.com/MobiFlight/workshops/main/advanced/workshop-advanced.3mf) file contains all the parts laid out on a build plate for easy printing. Individual `.stl` files are also available for printing each part separately.
 
 ## Assembling the boards
 
