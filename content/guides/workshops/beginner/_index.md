@@ -34,9 +34,9 @@ The following components are required for the project:
 | [Encoder with breakout board](https://shop.mobiflight.com/product/single-encoder-bundle)   | 1        |
 | [ON-ON switch](https://shop.mobiflight.com/product/switch-12mm-panel-mount)                | 2        |
 | MobiFlight switch breakout board                                                           | 1        |
-| XH-JST 2-pin wire {{< br >}} (soldered to push button)                                     | 4        |
-| XH-JST 3-pin wire                                                                          | 2        |
-| XH-JST 4-pin wire                                                                          | 1        |
+| JST XH 2-pin wire {{< br >}} (soldered to push button)                                     | 4        |
+| JST XH 3-pin wire                                                                          | 2        |
+| JST XH 4-pin wire                                                                          | 1        |
 | M3x5mm screw                                                                               | 8        |
 
 {{< /tab >}}
@@ -52,9 +52,9 @@ The following components are required for the project:
 | [Encoder with breakout board](https://shop.mobiflight.com/product/single-encoder-bundle)   | 1        |
 | [ON-ON switch](https://shop.mobiflight.com/product/switch-12mm-panel-mount)                | 2        |
 | MobiFlight switch breakout board                                                           | 1        |
-| XH-JST 2-pin wire                                                                          | 4        |
-| XH-JST 3-pin wire                                                                          | 2        |
-| XH-JST 4-pin wire                                                                          | 1        |
+| JST XH 2-pin wire                                                                          | 4        |
+| JST XH 3-pin wire                                                                          | 2        |
+| JST XH 4-pin wire                                                                          | 1        |
 | M3x5mm screw                                                                               | 12       |
 
 {{< /tab >}}
@@ -149,7 +149,7 @@ With all wires connected, push the lid into the case such that the labels on the
 
 Assemble the toggle switches into the case by screwing a nut halfway down the threads on each switch. Place both switches on the PCB, then use M3 screws to attach the PCB to the back of the lid. Pass the cable through the hole in the back of the case, then close the lid.
 
-The switches are connected using two XH-JST 3-pin cables. Connect the first switch to `SWITCH 1 ON-ON` and the second switch to `SWITCH 2 ON-ON` on the breakout board.
+The switches are connected using two JST XH 3-pin cables. Connect the first switch to `SWITCH 1 ON-ON` and the second switch to `SWITCH 2 ON-ON` on the breakout board.
 
 {{< screenshot image="toggle-switch-connections.png" title="Photo of a prototype board with the two toggle switch connections highlighted." >}}
 
@@ -159,7 +159,7 @@ The switches are connected using two XH-JST 3-pin cables. Connect the first swit
 
 Assemble the encoder into the case using M3 screws to attach the PCB to the back of the lid. Pass the cable through the hole in the back of the case, then close the lid.
 
-The encoder is connected using one XH-JST 4-pin cable. Connect the encoder PCB `INNER SHAFT` connector to `Encoder 1` on the breakout board.
+The encoder is connected using one JST XH 4-pin cable. Connect the encoder PCB `INNER SHAFT` connector to `Encoder 1` on the breakout board.
 
 {{< screenshot image="encoder-connections.png" title="Photo of a prototype board with the encoder connection highlighted." >}}
 
