@@ -19,20 +19,15 @@ The following components are required for the project:
 | [LED push button](/devices/button-switch/)                                                  | 2        |
 | [Dual encoder with breakout board](https://shop.mobiflight.com/product/dual-encoder-bundle) | 1        |
 | Micro-switch PCB                                                                            | 1        |
-| XH-JST 3-pin wire                                                                           | 1        |
-| XH-JST 4-pin wire                                                                           | 3        |
+| JST XH 3-pin wire                                                                           | 1        |
+| JST XH 4-pin wire                                                                           | 3        |
 | M3x5mm screw                                                                                | 12       |
 
 ## 3D-printed enclosure parts
 
-The following parts make up the 3D-printed enclosure:
+The files for 3D printing the enclosure are available in the [MobiFlight workshops GitHub repo](https://github.com/MobiFlight/workshops/tree/main/advanced).
 
-- [Base](https://github.com/MobiFlight/MobiFlight-Connector/wiki/images/workshops/advanced/stl/workshop-advanced-base.stl)
-- [Two-button lid](https://github.com/MobiFlight/MobiFlight-Connector/wiki/images/workshops/advanced/stl/workshop-lid-buttons-2.stl)
-- [Two-button insert](https://github.com/MobiFlight/MobiFlight-Connector/wiki/images/workshops/advanced/stl/workshop-lid-buttons-2-insert.stl)
-- [LCD lid](https://github.com/MobiFlight/MobiFlight-Connector/wiki/images/workshops/advanced/stl/workshop-lid-lcd.stl)
-- [Dual encoder lid](https://github.com/MobiFlight/MobiFlight-Connector/wiki/images/workshops/advanced/stl/workshop-dual-encoder-lid.stl)
-- [Honeycomb/Saitek adapter](https://github.com/MobiFlight/MobiFlight-Connector/wiki/images/workshops/beginner/stl/honeycomb-adapter-short.stl) (optional)
+The [`workshop-advanced.3mf`](https://raw.githubusercontent.com/MobiFlight/workshops/main/advanced/workshop-advanced.3mf) file contains all the parts laid out on a build plate for easy printing. Individual `.stl` files are also available for printing each part separately.
 
 ## Assembling the boards
 
@@ -60,9 +55,9 @@ Use the [installing configuration guide](/guides/workshops/installing-configurat
 
 {{< screenshot image="micro-switch-assembly.png" title="Photo of the advanced project with the two micro-switches highlighted." >}}
 
-Insert the micro-switches into the lid and attach the PCB from behind with M3 screws. Plug in the XH-JST 3-pin cable, and pass it through the back of the case.
+Insert the micro-switches into the lid and attach the PCB from behind with M3 screws. Plug in the JST XH 3-pin cable, and pass it through the back of the case.
 
-The micro-switches are connected using XH-JST 3-pin cables. Connect the top switch to `SWITCH 1 (ON-ON)` on the breakout board.
+The micro-switches are connected using JST XH 3-pin cables. Connect the top switch to `SWITCH 1 (ON-ON)` on the breakout board.
 
 {{< screenshot image="micro-switch-connection.png" title="Photo of a prototype board with the connection for the micro-switches highlighted." >}}
 
@@ -70,9 +65,9 @@ The micro-switches are connected using XH-JST 3-pin cables. Connect the top swit
 
 {{< screenshot image="lcd-assembly.png" title="Photo of the advanced project with the LCD highlighted." >}}
 
-Assemble the LCD into the case lid with M3 screws. Connect the XH-JST 4-pin cable to the back of the LCD, making sure to connect the black wire to **GND**, then pass the wire through the back of the case.
+Assemble the LCD into the case lid with M3 screws. Connect the JST XH 4-pin cable to the back of the LCD, making sure to connect the black wire to **GND**, then pass the wire through the back of the case.
 
-The LCD is connected using a XH-JST 4-pin cable. Connect the display to `LCD 1` on the breakout board.
+The LCD is connected using a JST XH 4-pin cable. Connect the display to `LCD 1` on the breakout board.
 
 {{< screenshot image="lcd-connection.png" title="Photo of a prototype board with the LCD connection highlighted." >}}
 
@@ -82,7 +77,7 @@ The LCD is connected using a XH-JST 4-pin cable. Connect the display to `LCD 1` 
 
 Assemble the encoder into the case using M3 screws to attach the PCB to the back of the lid. Pass the cable through the hole in the back of the case, then close the lid. Bending the cable 90 degrees, close to the PCB, helps make everything fit.
 
-The encoder is connected using two XH-JST 4-pin cables. Connect the encoder PCB `INNER SHAFT` connector to `ENCODER 1`, and the `OUTER SHAFT` connector to `ENCODER 2`, on the breakout board.
+The encoder is connected using two JST XH 4-pin cables. Connect the encoder PCB `INNER SHAFT` connector to `ENCODER 1`, and the `OUTER SHAFT` connector to `ENCODER 2`, on the breakout board.
 
 {{< screenshot image="dual-encoder-connections.png" title="Photo of a prototype board with the dual encoder connections highlighted." >}}
 
