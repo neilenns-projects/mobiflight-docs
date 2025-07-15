@@ -25,9 +25,9 @@ The following components are required for the project:
 
 ## 3D-printed enclosure parts
 
-The files for 3D printing the enclosure are available in the [MobiFlight Workshops GitHub repo](https://github.com/MobiFlight/workshops/tree/main/advanced).
+The files for 3D printing the enclosure are available in the [MobiFlight workshops GitHub repo](https://github.com/MobiFlight/workshops/tree/main/advanced).
 
-The [workshop-advanced.3mf](https://raw.githubusercontent.com/MobiFlight/workshops/main/advanced/workshop-advanced.3mf) file contains all the parts laid out on a build plate for easy printing. Individual `.stl` files are also available for printing each part separately.
+The [`workshop-advanced.3mf`](https://raw.githubusercontent.com/MobiFlight/workshops/main/advanced/workshop-advanced.3mf) file contains all the parts laid out on a build plate for easy printing. Individual `.stl` files are also available for printing each part separately.
 
 ## Assembling the boards
 
