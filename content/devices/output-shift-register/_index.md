@@ -49,7 +49,6 @@ There are many chips that function as an output shift register, including many d
 - TLC5927
 - TLC5928
 - TLC59283
-- TLC5940
 
 ## Additional resources
 
