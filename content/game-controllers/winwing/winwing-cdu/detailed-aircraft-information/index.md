@@ -32,9 +32,12 @@ The additional steps for PMDG aircraft happen automatically on first run in Mobi
 
 If the aircraft fails to work, enable the data communication manually by editing the file `737_Options.ini / 777_Options.ini`, located in the 737/777 persistent storage folder.
 
-- For Microsoft Store distribution, it is located at `%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\pmdg-aircraft-737\work\`.
-- For Steam distribution, it is located at `%APPDATA%\Microsoft Flight Simulator\Packages\pmdg-aircraft-737\work\`.
-- For 777 the folder is called `pmdg-aircraft-77w`
+- For Microsoft Store distribution, it is located at
+  - MSFS 2020: `%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\pmdg-aircraft-<version>\work\`.
+  - MSFS 2024: `%LOCALAPPDATA%\Packages\Microsoft.Limitless_8wekyb3d8bbwe\LocalState\WASM\MSFS2024\pmdg-aircraft-<version>\work\`.
+- For Steam distribution, it is located at
+  - MSFS 2020: `%APPDATA%\Microsoft Flight Simulator\Packages\pmdg-aircraft-<version>\work\`.
+  - MSFS 2024: `%APPDATA%\Microsoft Flight Simulator 2024\WASM\MSFS2024\pmdg-aircraft-<version>\work\`.
 
 The following lines need to be added to the bottom of the file:
 
