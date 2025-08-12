@@ -44,7 +44,7 @@ If the aircraft fails to work, enable the data communication manually by editing
 - 738
 - 77w
 
-For any aircraft type featuring a maximum of 2 CDUs, the following lines need to be added to the bottom of the file:
+For any aircraft type featuring up to 2 CDUs, the following lines need to be added to the bottom of the file:
 
 ```ini
 [SDK]
