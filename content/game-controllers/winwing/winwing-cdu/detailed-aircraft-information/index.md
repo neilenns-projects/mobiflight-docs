@@ -44,12 +44,21 @@ If the aircraft fails to work, enable the data communication manually by editing
 - 738
 - 77w
 
-The following lines need to be added to the bottom of the file:
+For any aircraft type featuring a maximum of 2 CDUs, the following lines need to be added to the bottom of the file:
 
 ```ini
 [SDK]
 EnableCDUBroadcast.0=1
 EnableCDUBroadcast.1=1
+```
+
+If you're using an aircraft with 3 CDUs, such as a 777, the following lines instead need to be added to the bottom of the file:
+
+```ini
+[SDK]
+EnableCDUBroadcast.0=1
+EnableCDUBroadcast.1=1
+EnableCDUBroadcast.2=1
 ```
 
 {{% /details %}}
