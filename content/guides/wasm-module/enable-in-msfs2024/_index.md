@@ -29,7 +29,7 @@ Use the filters on the left to show only community packages by checking **Commun
 
 Expand the **COMMUNITY CONTENT** section if necessary, and verify the **EVENT MODULE** is enabled. In the below screenshot, the module is disabled.
 
-To enable the module, select it in the list then click the **Enable** button.
+To enable the module, select it in the list, then click the **Enable** button.
 
 {{< screenshot image="msfs2024-event-module-disabled.png" title="Screenshot of the Microsoft Flight Simulator 2024 My Library with the Event Module disabled." >}}
 
