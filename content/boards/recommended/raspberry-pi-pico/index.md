@@ -23,7 +23,7 @@ The Raspberry Pi Pico 1 is a compact board with a moderate number of IO pins. It
 - 3 analog inputs (can be used as digital IO pins).
 
 > [!WARNING]
-> The Raspberry Pi Pico 1 uses 3.3V for its digital signals. Certain output devices, including the MAX7219 7-segment LED driver chip and all LCDs, require 5V digital signals. If you plan to use those devices with the Pico, you will need to add a level shifter to your build.
+> The Raspberry Pi Pico 1 uses 3.3V for its digital signals and analog inputs. Certain output devices, including the MAX7219 7-segment LED driver chip and all LCDs, require 5V digital signals. If you plan to use those devices with the Pico, you will need to add a level shifter to your build. For analog devices like potentiometers, ensure they are powered with 3.3V rather than 5V to prevent damage to the board.
 
 | Device                                                   | Limit | Notes                                                                                                                                    |
 | -------------------------------------------------------- | :---: | ---------------------------------------------------------------------------------------------------------------------------------------- |
