@@ -7,7 +7,3 @@ resources/
 
 # Node.js
 node_modules/
-
-# Hugo binary
-hugo
-hugo.tar.gz
