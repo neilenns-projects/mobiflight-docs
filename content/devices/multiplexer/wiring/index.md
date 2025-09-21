@@ -21,4 +21,4 @@ The +5V power can come directly from the connected board. When using the chip di
 > [!TIP]
 > When connecting additional multiplexers to the same board, they must share the **S0--S3** pins. Each multiplexer must use a dedicated **SIG** line.
 >
-> In electrically noisy environments, a pull-up resistor can be connected between **+5V** and **SIG** to increase signal reliability. Use a 10kΩ resistor with +5V data signals, and a 1--5kΩ resistor with +3.3V data signals.
+> In electrically noisy environments, a pull-up resistor can be connected between the microcontroller's supply voltage and **SIG** to increase signal reliability. Use a 10kΩ resistor to **+5V** with 5V data signals, and a 1--5kΩ resistor to **+3.3V** with 3.3V data signals.

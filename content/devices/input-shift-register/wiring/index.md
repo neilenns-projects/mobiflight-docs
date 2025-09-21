@@ -22,6 +22,7 @@ The following components are required to wire buttons to an input shift register
 The 10kΩ resistors are required on every input pin, even if you aren't attaching a button to that pin, to avoid false input events.
 
 {{< schematic image="single-chip.svg" download="single-chip.pdf" title="Schematic for wiring a single 74HC165 chip." >}}
+
 {{< /tab >}}
 
 {{< tab >}}
@@ -30,6 +31,10 @@ MobiFlight supports up to four 74HC165 chips connected in series. When wiring th
 {{< schematic image="multiple-chips.svg" download="multiple-chips.pdf" title="Schematic for wiring four 74HC165 chips in series." >}}
 
 (Buttons and pull-up resistors omitted for clarity)
+
 {{< /tab >}}
 
 {{< /tabs >}}
+
+> [!TIP]
+> For 3.3V microcontrollers like the [Raspberry Pi Pico 1](/boards/recommended/raspberry-pi-pico/), the shift register should be powered from +3.3V instead of +5V unless a level shifter is used.
