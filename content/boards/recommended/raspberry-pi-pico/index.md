@@ -26,8 +26,8 @@ The Raspberry Pi Pico 1 is a compact board with a moderate number of IO pins. It
 > The Raspberry Pi Pico 1 uses 3.3V for its signals. This has the following implications:
 >
 > - Certain output devices, including the MAX7219 7-segment LED driver chip and all LCDs, require 5V digital signals. If you plan to use those devices with the Pico, you will need to add a level shifter to your build.
-> - The inputs are not designed to handle 5V signal levels. To minimize the risk of damage to the microcontroller, it is recommended to run devices like input shift registers on a 3.3V power supply or use level shifters.
-> - Analog inputs expect a voltage in the range from 0V - 3.3V. Therefore, the positive end of a potentiometer should be connected to 3.3V, not 5V, to ensure reliability and accuracy.
+> - IO pins are not 5V-tolerant. To minimize the risk of damage to the microcontroller, run devices like input shift registers on a 3.3V power supply or use level shifters.
+> - Analog inputs expect a voltage in the range from 0V--3.3V. Therefore, the positive end of a potentiometer should be connected to 3.3V, not 5V, to ensure reliability and accuracy.
 
 | Device                                                   | Limit | Notes                                                                                                                                    |
 | -------------------------------------------------------- | :---: | ---------------------------------------------------------------------------------------------------------------------------------------- |

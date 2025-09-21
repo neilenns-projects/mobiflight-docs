@@ -37,4 +37,4 @@ MobiFlight supports up to four 74HC165 chips connected in series. When wiring th
 {{< /tabs >}}
 
 > [!TIP]
-> For 3.3V microcontrollers like the [Raspberry Pi Pico 1](/boards/recommended/raspberry-pi-pico/), consider powering the shift registers from 3.3V instead of 5V.
+> For 3.3V microcontrollers like the [Raspberry Pi Pico 1](/boards/recommended/raspberry-pi-pico/), the shift register should be powered from +3.3V instead of +5V unless a level shifter is used.
