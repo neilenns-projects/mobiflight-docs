@@ -55,6 +55,10 @@ The Behringer X-TOUCH MINI must be configured using the [Behringer X-Touch Edito
 
 {{% steps %}}
 
+### Set the global channel
+
+The **Global Channel** must be set to **1**.
+
 ### Configure the faders
 
 Faders must be set to the **CC** type.
@@ -73,9 +77,14 @@ Encoders must be set to the **CC** type.
 
 {{< screenshot image="behringer-x-touch-mini/encoders.png" title="Screenshot of the Behringer X-Touch Editor with the encoder type set to CC." >}}
 
-### Set the global channel
+Then the encoders must be set to **Relative2** mode.
 
-The **Global Channel** must be set to **1**.
+1. On the **GLOBAL** tab select **Get A**.
+2. In the **ENCODERS** section set the **MIN VALUE** to **Relative2** on all encoders.
+3. Select **Dump A** to save the changes.
+4. Repeat steps 1-3 for the **B** encoders.
+
+{{< screenshot image="behringer-x-touch-mini/encoders-relative2.png" title="Screenshot of the Behringer X-Touch Editor with the encoder mode set to Relative2." >}}
 
 {{% /steps %}}
 
