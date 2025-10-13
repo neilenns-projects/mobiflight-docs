@@ -79,8 +79,8 @@ Encoders must be set to the **CC** type.
 
 Then the encoders must be set to **Relative2** mode.
 
-1. On the **GLOBAL** tab select **Get A**
-2. In the **ENCODERS** section set the **MIN VALUE** to **Relative2** on all encodes.
+1. On the **GLOBAL** tab select **Get A**.
+2. In the **ENCODERS** section set the **MIN VALUE** to **Relative2** on all encoders.
 3. Select **Dump A** to save the changes.
 4. Repeat steps 1-3 for the **B** encoders.
 
