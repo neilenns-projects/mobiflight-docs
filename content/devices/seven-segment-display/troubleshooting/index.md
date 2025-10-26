@@ -21,6 +21,10 @@ MAX7219 displays should not be connected to the +5V pin on a board. The power re
 
 Dupont wires, while popular, are frequently poor quality and do not provide the solid electrical connections MAX7219 boards require. Elegoo Dupont wires are known to work well. Alternatively, soldering hookup wire between the module and board will ensure a strong connection.
 
+## Don't use Arduino shields
+
+[Arduino shields](https://www.amazon.com/ANMBEST-Prototype-Terminal-Pre-soldered-Breakout/dp/B0BY8SHQZS) are often low quality and can lead to MAX7219 display issues. If you are using a shield, try removing it and wire the display directly to the Arduino using high-quality wires or soldered connections.
+
 ## Verify the pin assignments
 
 Boards with double rows of pins commonly lead to incorrect wire connections. Pay close attention to the pins used on the board, then confirm in the [**MobiFlight Modules** dialog](/devices/seven-segment-display/adding-device/) that the pin assignments are correct.
