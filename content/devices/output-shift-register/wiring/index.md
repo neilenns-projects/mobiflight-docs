@@ -28,7 +28,7 @@ Pay close attention to the orientation of the LEDs: the anode (long leg) should 
 > Using a DM13A or other similar LED driver chip is a better choice than using the 74HC595 for driving LEDs.
 
 > [!TIP]
-> Connecting pin 21, {{% overline %}}EN{{% /overline %}}, to a PWM pin on a board enables brightness control of the LEDs as a group from MobiFlight.
+> Connecting pin 13, {{% overline %}}OE{{% /overline %}}, to a PWM pin on a board enables brightness control of the LEDs as a group from MobiFlight.
 
 > [!TIP]
 > To daisy-chain 74HC595 chips, connect the `QH'` pin (9) from one chip to the `SER` pin (14) of the next chip. All other control signals, including `SRCLK` (11) and `RCLK` (12), must be shared across all chained shift registers.
