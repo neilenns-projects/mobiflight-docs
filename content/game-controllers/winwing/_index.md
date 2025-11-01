@@ -12,9 +12,6 @@ weight: 50
 
 MobiFlight supports the WINWING FCU, EFIS, MCDU, PAP 3, PFP 3N, PFP 4, PFP 7, 3N PDC, 3M PDC, Airbus throttle, and Airbus sidestick.
 
-> [!NOTE]
-> The trim LCD display on the Airbus throttle is not supported.
-
 The WINWING CDU requires the MobiFlight 11 beta, and its inputs work like any other [game controller input](/game-controllers/configuring-input/). The display portion of the CDU with MobiFlight requires additional configuration, and is only supported with specific aircraft. See the [WINWING CDU documentation](/game-controllers/winwing/winwing-cdu/) for more information.
 
 WINWING devices are automatically shown in the [input](/game-controllers/configuring-input/) and [output](/game-controllers/configuring-output/) configuration dialogs. They will not appear in the **Modules** tab of the **Settings** dialog as they are not [boards](/boards/).
