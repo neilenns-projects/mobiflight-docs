@@ -17,7 +17,7 @@ When selecting the **Module** and **Device**, select the appropriate game contro
 
 ## Slider and axis inputs
 
-These inputs, including throttle levers and yokes, are configured in MobiFlight using [the potentiometer configuration process](/devices/potentiometer/configuring-input).
+These inputs, including throttle levers and yokes, are configured in MobiFlight using [the potentiometer configuration process](/devices/potentiometer/configuring-device).
 
 When selecting the **Module** and **Device**, select the appropriate game controller and switch. Alternatively, press the **Scan for input** button and move the input to automatically detect and select the axis.
 
