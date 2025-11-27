@@ -7,6 +7,9 @@ aliases:
 weight: 30
 ---
 
+<!-- markdownlint doesn't know about ### being used inside cards, so disable the rule -->
+<!-- markdownlint-disable-file MD001 -->
+
 MobiFlight supports WINWING CDU devices with the MobiFlight 11 beta builds. All buttons are automatically available as [game controller inputs](/game-controllers/configuring-input/); however, using the display for output requires additional setup and is only supported with the following aircraft:
 
 | Platform | Aircraft           | Supported configurations                 | Comment                                                                                                   |
