@@ -27,6 +27,7 @@ MobiFlight supports WINWING CDU devices with the MobiFlight 11 beta builds. All 
 | X-Plane  | FlightFactor 767   | CPT or FO or CPT+FO                      |                                                                                                           |
 | X-Plane  | FlightFactor 777v2 | CPT or FO or Observer or CPT+FO+Observer |                                                                                                           |
 | X-Plane  | LevelUp 737        | CPT or FO or CPT+FO                      |                                                                                                           |
+| X-Plane  | Rotate MD11        | CPT or FO or CPT+FO                      |                                                                                                           |
 | X-Plane  | ToLiss A319        | CPT or FO or CPT+FO                      |                                                                                                           |
 | X-Plane  | ToLiss A320        | CPT or FO or CPT+FO                      |                                                                                                           |
 | X-Plane  | ToLiss A321        | CPT or FO or CPT+FO                      |                                                                                                           |
