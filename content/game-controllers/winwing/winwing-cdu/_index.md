@@ -20,6 +20,7 @@ MobiFlight supports WINWING CDU devices with the MobiFlight 11 beta builds. All 
 | MSFS     | FSLabs A321        | CPT                                      |                                                                                                           |
 | MSFS     | Headwind A339x     | CPT or FO                                | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
 | MSFS     | iFly 737           | CPT or FO or CPT+FO                      | CPT+FO untested so far                                                                                    |
+| MSFS     | iniBuilds A340     | CPT or FO                                |                                                                                                           |
 | MSFS     | Maddog X           | CPT or FO or CPT+FO                      |                                                                                                           |
 | MSFS     | PMDG 737           | CPT or FO or CPT+FO                      | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
 | MSFS     | PMDG 777           | CPT or FO or CPT+FO                      | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
