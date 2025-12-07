@@ -7,6 +7,9 @@ aliases:
 weight: 30
 ---
 
+<!-- markdownlint doesn't know about ### being used inside cards, so disable the rule -->
+<!-- markdownlint-disable-file MD001 -->
+
 MobiFlight supports WINWING CDU devices with the MobiFlight 11 beta builds. All buttons are automatically available as [game controller inputs](/game-controllers/configuring-input/); however, using the display for output requires additional setup and is only supported with the following aircraft:
 
 | Platform | Aircraft           | Supported configurations                 | Comment                                                                                                   |
@@ -17,6 +20,7 @@ MobiFlight supports WINWING CDU devices with the MobiFlight 11 beta builds. All 
 | MSFS     | FSLabs A321        | CPT                                      |                                                                                                           |
 | MSFS     | Headwind A339x     | CPT or FO                                | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
 | MSFS     | iFly 737           | CPT or FO or CPT+FO                      | CPT+FO untested so far                                                                                    |
+| MSFS     | iniBuilds A340     | CPT or FO                                |                                                                                                           |
 | MSFS     | Maddog X           | CPT or FO or CPT+FO                      |                                                                                                           |
 | MSFS     | PMDG 737           | CPT or FO or CPT+FO                      | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
 | MSFS     | PMDG 777           | CPT or FO or CPT+FO                      | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
@@ -27,6 +31,8 @@ MobiFlight supports WINWING CDU devices with the MobiFlight 11 beta builds. All 
 | X-Plane  | FlightFactor 767   | CPT or FO or CPT+FO                      |                                                                                                           |
 | X-Plane  | FlightFactor 777v2 | CPT or FO or Observer or CPT+FO+Observer |                                                                                                           |
 | X-Plane  | LevelUp 737        | CPT or FO or CPT+FO                      |                                                                                                           |
+| X-Plane  | Rotate MD-11       | CPT or FO or Observer or CPT+FO+Observer |                                                                                                           |
+| X-Plane  | Rotate MD-80       | CPT                                      |                                                                                                           |
 | X-Plane  | ToLiss A319        | CPT or FO or CPT+FO                      |                                                                                                           |
 | X-Plane  | ToLiss A320        | CPT or FO or CPT+FO                      |                                                                                                           |
 | X-Plane  | ToLiss A321        | CPT or FO or CPT+FO                      |                                                                                                           |
