@@ -23,7 +23,7 @@ jobs:
           separator: ","
 
       - name: Lint changed markdown files
-        uses: DavidAnson/markdownlint-cli2-action@v21
+        uses: DavidAnson/markdownlint-cli2-action@v22
         if: steps.changed-files.outputs.any_changed == 'true'
         with:
           config: ./.markdownlint.json
