@@ -30,7 +30,7 @@ Open a **Command Prompt**:
 Then run the following command:
 
 ```powershell
-pip install gql websockets simconnect --upgrade --no-warn-script-location
+python -m pip install gql websockets simconnect --upgrade --no-warn-script-location
 ```
 
 {{< screenshot image="pip-install.png" title="Screenshot of Command Prompt with the pip install command entered." >}}
