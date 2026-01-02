@@ -10,7 +10,10 @@ weight: 50
 <!-- Markdownlint doesn't know about consecutive GitHub tip blocks -->
 <!-- markdownlint-disable MD028-->
 
-MobiFlight supports the WINWING FCU, EFIS, MCDU, PAP 3, PFP 3N, PFP 4, PFP 7, 3N PDC, 3M PDC, Airbus throttle, and Airbus sidestick.
+MobiFlight supports the WINWING AGP, ECAM, EFIS, FCU, MCDU, PAP 3, PFP 3N, PFP 4, PFP 7, 3N PDC, 3M PDC, Airbus throttle, and Airbus sidestick.
+
+> [!NOTE]
+> The clock on the AGP is not supported.
 
 The WINWING CDU requires the MobiFlight 11 beta, and its inputs work like any other [game controller input](/game-controllers/configuring-input/). The display portion of the CDU with MobiFlight requires additional configuration, and is only supported with specific aircraft. See the [WINWING CDU documentation](/game-controllers/winwing/winwing-cdu/) for more information.
 
