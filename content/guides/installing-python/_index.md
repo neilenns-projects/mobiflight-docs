@@ -30,10 +30,10 @@ Open a **Command Prompt**:
 Then run the following command:
 
 ```powershell
-pip install gql websockets simconnect --upgrade --no-warn-script-location
+python -m pip install gql websockets simconnect --upgrade --no-warn-script-location
 ```
 
-{{< screenshot image="pip-install.png" title="Screenshot of Command Prompt with the pip install command entered." >}}
+{{< screenshot image="package-install.png" title="Screenshot of Command Prompt with the install command entered." >}}
 
 > [!IMPORTANT]
 > The command must be run from a **Command Prompt**, not from within Python.
@@ -41,6 +41,6 @@ pip install gql websockets simconnect --upgrade --no-warn-script-location
 > If the result of the command is `SyntaxError: invalid syntax`, it means it was run from within Python instead of a command prompt.
 
 > [!TIP]
-> If `pip` gives a warning about adding directories to PATH, you can safely ignore it.
+> If the package installation gives a warning about adding directories to PATH, you can safely ignore it.
 
 {{% /steps %}}
