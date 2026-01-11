@@ -9,10 +9,6 @@ weight: 80
 
 To prevent MobiFlight from taking over the CDU, disable it by following the [disabling game controllers](/game-controllers/disabling/) guide.
 
-## A Python message keeps popping up
-
-Install Python and needed packages exactly as described in the [guide](/guides/installing-python/). Or if no MobiFlight support is needed, disable the CDU by following the [disabling game controllers](/game-controllers/disabling/) guide.
-
 ## Buttons and LEDs do not work
 
 Button and LED support is not automatic. For each plane, a MobiFlight profile needs to be loaded. Use a [pre-made profile](/game-controllers/winwing/premade-profiles/), or [create a custom profile](/game-controllers/winwing/custom-profiles/).
