@@ -51,10 +51,6 @@ Opt in to the MobiFlight beta by selecting **Settings** from the **Extras** menu
 
 {{< screenshot image="beta-opt-in.png" title="Screenshot of the Settings dialog with the Yes, I would like to receive beta version updates option checked." >}}
 
-### Install Python
-
-CDU support in MobiFlight requires Python and additional support libraries. Follow the [Python installation guide](/guides/installing-python/) to install the necessary components, then restart MobiFlight.
-
 ### Configure the aircraft
 
 Some aircraft, such as the PMDG 737 and PMDG 777, require additional configuration. See the [detailed aircraft information](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) and follow the appropriate steps for the relevant airplane.
