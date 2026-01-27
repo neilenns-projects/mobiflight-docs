@@ -1,13 +1,14 @@
 ---
 title: Using pre-made MobiFlight profiles
-description: Step-by-step instructions for using pre-made WINWING profiles with MobiFlight.
-prev: /game-controllers/winwing/
+description: Step-by-step instructions for using pre-made WinCtrl profiles with MobiFlight.
+prev: /game-controllers/winctrl/
 aliases:
   - /joysticks/winwing/premade-profiles/
+  - /game-controllers/winwing/premade-profiles/
 weight: 10
 ---
 
-Many MobiFlight profiles for WINWING devices are available. See [flightsim.to](https://flightsim.to/discover/winwing) for Microsoft Flight Simulator profiles, and the [X-Plane forums](https://forums.x-plane.org/index.php?/search/&q=winwing&quick=1) for X-Plane profiles.
+Many MobiFlight profiles for WinCtrl devices are available. See [flightsim.to](https://flightsim.to/discover/winwing) for Microsoft Flight Simulator profiles, and the [X-Plane forums](https://forums.x-plane.org/index.php?/search/&q=winwing&quick=1) for X-Plane profiles.
 
 Take the following steps to use the pre-made profile:
 
@@ -36,20 +37,20 @@ In the resulting file dialog, select the extracted .mcc file, then click **Open*
 
 When the profile is opened in MobiFlight, the following warning dialog will show. Click **Ok**.
 
-{{< screenshot image="orphaned-warning.png" title="Screenshot of the orphaned device warning dialog indicating the WINWING joystick in the profile is not found." >}}
+{{< screenshot image="orphaned-warning.png" title="Screenshot of the orphaned device warning dialog indicating the WinCtrl joystick in the profile is not found." >}}
 
-### Map the missing WINWING device to an available device
+### Map the missing WinCtrl device to an available device
 
 After clicking **OK** in the previous step, MobiFlight displays a dialog to map the missing device to an available device.
 
-Select the missing WINWING device in the **Select an orphaned serial** list, then select the correct WINWING device to use instead from the **Select a connected module and assign** dropdown.
+Select the missing WinCtrl device in the **Select an orphaned serial** list, then select the correct WinCtrl device to use instead from the **Select a connected module and assign** dropdown.
 
-{{< screenshot image="orphaned-serial-dialog.png" title="Screenshot of the orphaned serials dialog with an orphaned WINWING device highlighted in red, and the appropriate replacement device highlighted in red." >}}
+{{< screenshot image="orphaned-serial-dialog.png" title="Screenshot of the orphaned serials dialog with an orphaned WinCtrl device highlighted in red, and the appropriate replacement device highlighted in red." >}}
 
-After selecting the WINWING joystick to use, click the **Assign** button.
+After selecting the WinCtrl joystick to use, click the **Assign** button.
 
 ### Save the updated profile
 
-Confirm the mapped WINWING joystick works correctly with the profile, then select **Save** from the main window toolbar to ensure the downloaded profile maintains the new joystick mapping.
+Confirm the mapped WinCtrl joystick works correctly with the profile, then select **Save** from the main window toolbar to ensure the downloaded profile maintains the new joystick mapping.
 
 {{% /steps %}}

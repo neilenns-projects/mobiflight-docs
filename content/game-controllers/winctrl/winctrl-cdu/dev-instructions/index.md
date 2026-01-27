@@ -3,6 +3,7 @@ title: Developer instructions
 description: Developer instructions for contributing Python scripts to interface with MobiFlight.
 aliases:
   - /joysticks/winwing/winwing-cdu/dev-instructions/
+  - /game-controllers/winwing/winwing-cdu/dev-instructions/
 weight: 70
 ---
 
