@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       prettier:
-        specifier: ^3.8.1
+        specifier: ^3.4.2
         version: 3.8.1
       prettier-plugin-go-template:
         specifier: ^0.0.15
