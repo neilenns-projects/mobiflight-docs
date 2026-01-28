@@ -9,7 +9,7 @@ weight: 10
 ---
 
 <!-- Markdownlint doesn't understand how ### is used with Hugo shortcodes to show steps in the final markdown -->
-<!-- markdownlint-disable MD001 -->>
+<!-- markdownlint-disable MD001 -->
 
 Many MobiFlight profiles for WinCtrl devices are available. See [flightsim.to](https://flightsim.to/discover/winwing) for Microsoft Flight Simulator profiles, and the [X-Plane forums](https://forums.x-plane.org/index.php?/search/&q=winwing&quick=1) for X-Plane profiles.
 
