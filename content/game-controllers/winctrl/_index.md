@@ -4,7 +4,7 @@ description: How to use WinCtrl devices with MobiFlight.
 aliases:
   - /joysticks/winwing/
   - /game-controllers/winwing/
-next: /game-controllers/win-ctrl/premade-profiles/
+next: /game-controllers/winctrl/premade-profiles/
 weight: 50
 ---
 
