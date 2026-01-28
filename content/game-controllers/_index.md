@@ -31,6 +31,7 @@ For popular devices, MobiFlight displays friendly names during input and output 
 | WinCtrl PFP 3N                                                                                                                    |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                   |
 | WinCtrl PFP 4                                                                                                                     |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                   |
 | WinCtrl PFP 7                                                                                                                     |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                   |
+| WinCtrl PTO 2                                                                                                                     |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                   |
 
 > [!TIP]
 > Other game controllers may work and show generic names for inputs; however their outputs are not supported. Unlisted WinCtrl devices are not supported.
