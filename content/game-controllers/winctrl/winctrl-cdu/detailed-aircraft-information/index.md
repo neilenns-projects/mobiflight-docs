@@ -3,10 +3,11 @@ title: Detailed aircraft information
 description: Additional information regarding setup, restrictions and specialties of certain aircraft.
 aliases:
   - /joysticks/winwing/winwing-cdu/detailed-aircraft-information/
+  - /game-controllers/winwing/winwing-cdu/detailed-aircraft-information/
 weight: 50
 ---
 
-Certain aircraft require additional steps for the WINWING CDU display to work properly. See the section below for the necessary steps for each aircraft.
+Certain aircraft require additional steps for the WinCtrl CDU display to work properly. See the section below for the necessary steps for each aircraft.
 
 {{% details title="FlyByWire A32NX and Headwind A339x" closed="true" %}}
 

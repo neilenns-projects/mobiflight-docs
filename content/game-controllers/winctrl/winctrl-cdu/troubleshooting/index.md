@@ -2,6 +2,7 @@
 title: Troubleshooting
 aliases:
   - /joysticks/winwing/winwing-cdu/troubleshooting/
+  - /game-controllers/winwing/winwing-cdu/troubleshooting/
 weight: 80
 ---
 
@@ -11,7 +12,7 @@ To prevent MobiFlight from taking over the CDU, disable it by following the [dis
 
 ## Buttons and LEDs do not work
 
-Button and LED support is not automatic. For each plane, a MobiFlight profile needs to be loaded. Use a [pre-made profile](/game-controllers/winwing/premade-profiles/), or [create a custom profile](/game-controllers/winwing/custom-profiles/).
+Button and LED support is not automatic. For each plane, a MobiFlight profile needs to be loaded. Use a [pre-made profile](/game-controllers/winwing/premade-profiles/), or [create a custom profile](/game-controllers/winctrl/custom-profiles/).
 
 ## The font on the display is misaligned or display borders are wrong
 

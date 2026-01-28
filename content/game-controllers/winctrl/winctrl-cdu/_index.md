@@ -1,29 +1,30 @@
 ---
-title: WINWING CDU
-description: Instructions on how to use the WINWING CDU with MobiFlight.
-next: /game-controllers/winwing/winwing-cdu/detailed-aircraft-information/
+title: WinCtrl CDU
+description: Instructions on how to use the WinCtrl CDU with MobiFlight.
+next: /game-controllers/winctrl/winctrl-cdu/detailed-aircraft-information/
 aliases:
   - /joysticks/winwing/winwing-cdu/
+  - /game-controllers/winwing/winwing-cdu/
 weight: 30
 ---
 
 <!-- markdownlint doesn't know about ### being used inside cards, so disable the rule -->
 <!-- markdownlint-disable-file MD001 -->
 
-MobiFlight supports WINWING CDU devices with the MobiFlight 11 beta builds. All buttons are automatically available as [game controller inputs](/game-controllers/configuring-input/); however, using the display for output requires additional setup and is only supported with the following aircraft:
+MobiFlight supports WinCtrl CDU devices with the MobiFlight 11 beta builds. All buttons are automatically available as [game controller inputs](/game-controllers/configuring-input/); however, using the display for output requires additional setup and is only supported with the following aircraft:
 
 | Platform   | Aircraft                | Supported configurations                 | Comment                                                                                                   |
 | ---------- | ----------------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | MSFS       | Aerosoft CRJ            | CPT or FO or CPT+FO                      |                                                                                                           |
 | MSFS       | Fenix A3xx              | CPT or FO or CPT+FO                      |                                                                                                           |
-| MSFS       | FlyByWire A32NX         | CPT or FO or CPT+FO                      | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
+| MSFS       | FlyByWire A32NX         | CPT or FO or CPT+FO                      | [Requires additional configuration](/game-controllers/winctrl/winctrl-cdu/detailed-aircraft-information/) |
 | MSFS       | FSLabs A321             | CPT or FO or CPT+FO                      |                                                                                                           |
-| MSFS       | Headwind A339x          | CPT or FO                                | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
+| MSFS       | Headwind A339x          | CPT or FO                                | [Requires additional configuration](/game-controllers/winctrl/winctrl-cdu/detailed-aircraft-information/) |
 | MSFS       | iFly 737                | CPT or FO or CPT+FO                      | CPT+FO untested so far                                                                                    |
 | MSFS       | iniBuilds A340          | CPT or FO                                |                                                                                                           |
 | MSFS       | Maddog X                | CPT or FO or CPT+FO                      |                                                                                                           |
-| MSFS       | PMDG 737                | CPT or FO or CPT+FO                      | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
-| MSFS       | PMDG 777                | CPT or FO or CPT+FO                      | [Requires additional configuration](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) |
+| MSFS       | PMDG 737                | CPT or FO or CPT+FO                      | [Requires additional configuration](/game-controllers/winctrl/winctrl-cdu/detailed-aircraft-information/) |
+| MSFS       | PMDG 777                | CPT or FO or CPT+FO                      | [Requires additional configuration](/game-controllers/winctrl/winctrl-cdu/detailed-aircraft-information/) |
 | MSFS       | TFDi MD-11              | CPT or FO or CPT+FO                      |                                                                                                           |
 | Prosim     | A320                    | CPT or FO or CPT+FO                      |                                                                                                           |
 | Prosim     | 737                     | CPT or FO or CPT+FO                      |                                                                                                           |
@@ -53,13 +54,13 @@ Opt in to the MobiFlight beta by selecting **Settings** from the **Extras** menu
 
 ### Configure the aircraft
 
-Some aircraft, such as the PMDG 737 and PMDG 777, require additional configuration. See the [detailed aircraft information](/game-controllers/winwing/winwing-cdu/detailed-aircraft-information/) and follow the appropriate steps for the relevant airplane.
+Some aircraft, such as the PMDG 737 and PMDG 777, require additional configuration. See the [detailed aircraft information](/game-controllers/winctrl/winctrl-cdu/detailed-aircraft-information/) and follow the appropriate steps for the relevant airplane.
 
 ### Verify the CDU is detected
 
 Run MobiFlight, then check the CDU display. If MobiFlight detects the CDU on startup, the CDU display will show **-->MobiFlight<--**.
 
-{{< screenshot image="cdu-display.png" title="Photo of a WINWING CDU with -->MobiFlight<-- showing on the display." >}}
+{{< screenshot image="cdu-display.png" title="Photo of a WinCtrl CDU with -->MobiFlight<-- showing on the display." >}}
 
 {{% /steps %}}
 
