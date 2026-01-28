@@ -3,7 +3,7 @@ title: Creating custom profiles
 next: /game-controllers/winctrl/winctrl-cdu/
 aliases:
   - /joysticks/winwing/custom-profiles/
-  - /game-controllers/winwing/winwing-cdu/
+  - /game-controllers/winwing/custom-profiles/
 weight: 20
 ---
 
