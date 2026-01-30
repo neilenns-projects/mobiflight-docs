@@ -3,11 +3,17 @@ title: Supported simulators
 description: List of simulators supported by MobiFlight.
 ---
 
-The following simulators are supported by MobiFlight:
+MobiFlight supports the following simulators:
 
 - Microsoft Flight Simulator 2020 (MSFS2020)
 - Microsoft Flight Simulator 2024 (MSFS2024)
-- Microsoft Flight Simulator X
-- Prepar3D
-- X-Plane 11 (WINWING MCDU/FMC displays are not supported)
+- Prepar3D (Requires the free version of [FSUIPC6](https://fsuipc.com/))
+- X-Plane 11
 - X-Plane 12
+
+MobiFlight also works with the following older simulators:
+
+- Microsoft Flight Simulator X (Requires the free version of [FSUIPC4](https://fsuipc.com/))
+- Microsoft Flight Simulator 2004 (Requires the free version of [FSUIPC3](https://fsuipc.com/))
+- X-Plane 9
+- X-Plane 10

@@ -15,5 +15,6 @@ cascade:
 {{< card link="/features/file-types/" title="File types" icon="document" >}}
 {{< card link="/features/modifiers/" title="Output value modifiers" icon="adjustments" >}}
 {{< card link="/features/output-variable-types/" title="Output variable types" icon="information" >}}
+{{< card link="/features/supported-simulators/" title="Supported simulators" icon="information" >}}
 
 {{< /cards >}}
