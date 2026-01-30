@@ -7,7 +7,7 @@ cascade:
   type: docs
 ---
 
-Welcome to MobiFlight, the open-source solution for building custom cockpit hardware without coding! MobiFlight supports a wide range of [boards](/boards/), [devices](/devices/), [game controllers](/game-controllers/) and [MIDI devices](/midi-devices/).
+Welcome to MobiFlight, the open-source solution for building custom cockpit hardware without coding! MobiFlight connects a wide range of [boards](/boards/), [devices](/devices/), [game controllers](/game-controllers/) and [MIDI devices](/midi-devices/) to [supported simulators](/features/supported-simulators/).
 
 See the [getting started guide](/getting-started/) to set up your first input and output, then read the following guides to continue your cockpit build.
 
