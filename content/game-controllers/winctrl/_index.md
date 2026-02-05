@@ -13,9 +13,6 @@ weight: 50
 
 MobiFlight supports the WinCtrl AGP, ECAM, EFIS, FCU, MCDU, PAP 3, PFP 3N, PFP 4, PFP 7, 3N PDC, 3M PDC, PTO 2, Airbus throttle, and Airbus sidestick.
 
-> [!NOTE]
-> The clock on the AGP is not supported.
-
 The WinCtrl CDU requires the MobiFlight 11 beta, and its inputs work like any other [game controller input](/game-controllers/configuring-input/). The display portion of the CDU with MobiFlight requires additional configuration, and is only supported with specific aircraft. See the [WinCtrl CDU documentation](/game-controllers/winctrl/winctrl-cdu/) for more information.
 
 WinCtrl devices are automatically shown in the [input](/game-controllers/configuring-input/) and [output](/game-controllers/configuring-output/) configuration dialogs. They will not appear in the **Modules** tab of the **Settings** dialog as they are not [boards](/boards/).
