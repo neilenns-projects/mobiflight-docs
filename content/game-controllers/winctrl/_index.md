@@ -11,7 +11,7 @@ weight: 50
 <!-- Markdownlint doesn't know about consecutive GitHub tip blocks -->
 <!-- markdownlint-disable MD028-->
 
-MobiFlight supports the WinCtrl AGP, ECAM, EFIS, FCU, MCDU, PAP 3, PFP 3N, PFP 4, PFP 7, 3N PDC, 3M PDC, Airbus throttle, and Airbus sidestick.
+MobiFlight supports the WinCtrl AGP, ECAM, EFIS, FCU, MCDU, PAP 3, PFP 3N, PFP 4, PFP 7, 3N PDC, 3M PDC, PTO 2, Airbus throttle, and Airbus sidestick.
 
 > [!NOTE]
 > The clock on the AGP is not supported.
