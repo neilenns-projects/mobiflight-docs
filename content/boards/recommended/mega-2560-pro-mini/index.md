@@ -51,5 +51,4 @@ but in a smaller package. If you need many IO pins, this is the recommended boar
 
 - [Buy from the MobiFlight shop and help support the project](https://shop.mobiflight.com/product/arduino-mega-2560-pro-mini-usb-c)
 - [3D model](https://grabcad.com/library/arduino-mega-2560-pro-3)
-- [Datasheet](https://www.enmindustry.de/WebRoot/Store31/Shops/88169453/5FFE/0DC7/1617/A559/78B1/0A0C/6D12/6D9F/Mega2650PRO-Datasheet.pdf)
 - [Pinout diagram (PDF)](pinout.pdf)
