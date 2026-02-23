@@ -8,21 +8,15 @@ weight: 30
 Buttons are typically mapped to simulator variables that expect either `0` (for off) or `1` (for on). The following steps demonstrate how to configure a button to toggle the parking brake in a Cessna 172 in Microsoft Flight Simulator 2020 and Microsoft Flight Simulator 2024.
 
 > [!TIP]
-> The steps for using a button with X-Plane are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
+> The steps for using a button in an X-Plane project are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
 
 {{% steps %}}
 
-### Create a new row in the inputs tab of the main window
+### Add a new input config
 
-Double-click on the bottom row where the description says **Double-click row to add new config...** and enter a description for the input. For example, enter **Parking brake** for a button that will control the parking brake.
+Click the **Add Input Config** button in the main MobiFlight window to open the input configuration dialog.
 
-{{< screenshot image="input-config-highlight-new.png" title="Screenshot of the input tab in the main window with the bottom row highlighted in red." >}}
-
-### Open the input configuration dialog
-
-Click the button with three dots in the **Edit** column for the row created in the previous step.
-
-{{< screenshot image="input-config-highlight-edit.png" title="Screenshot of the input tab in the main window with the edit button highlighted in red." >}}
+{{< screenshot image="new-input-config.png" title="Screenshot of the main window with the Add Input Config button highlighted." >}}
 
 ### Select the board and device for the input
 
@@ -44,11 +38,19 @@ Use the **Select Preset** dropdown to select the **PARKING BRAKES TOGGLE** prese
 
 {{< screenshot image="input-event-parking-brakes-toggle.png" title="Screenshot of the input tab on press event with the PARKING BRAKES TOGGLE preset selected." >}}
 
-### Close the dialog and try it out
+### Close the dialog and name the config
 
-Click the **OK** button to close the dialog, then spawn an airplane in Microsoft Flight Simulator.
+Click the **OK** button to close the dialog, then double-click on the **New Input Event** name in the main window.
 
-Make sure the MobiFlight **Run** button is clicked in the toolbar, then try toggling the parking brake with the BUTTON. The parking brake in the simulator should toggle.
+{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the New Input Event row text highlighted." >}}
+
+Type in a meaningful name for the new config, for example **Parking brake**, and press enter to apply the change.
+
+{{< screenshot image="input-config-custom-name.png" title="Screenshot of the main window with Parking brake entered as a custom name." >}}
+
+### Try out the event
+
+Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try toggling the parking brake with the BUTTON. The parking brake in the simulator should toggle.
 
 {{% /steps %}}
 
