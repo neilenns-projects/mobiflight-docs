@@ -16,7 +16,7 @@ Encoders are typically mapped to simulator variables that increase and decrease 
 
 Click the **Add Input Config** button in the main MobiFlight window to open the input configuration dialog.
 
-{{< figure src="/app/new-input-config.png" alt="Screenshot of the main window with the Add Input Config button highlighted." >}}
+{{< screenshot src="/app/new-input-config.png" title="Screenshot of the main window with the Add Input Config button highlighted." >}}
 
 ### Select the board and device for the input
 

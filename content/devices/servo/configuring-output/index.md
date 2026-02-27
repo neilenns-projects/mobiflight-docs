@@ -18,7 +18,7 @@ The following steps demonstrate how to use a servo and MobiFlight value modifier
 
 Click the **Add Output Config** button in the main MobiFlight window to open the output configuration dialog.
 
-{{< figure src="/app/new-output-config.png" alt="Screenshot of the main window with the Add Output Config button highlighted." >}}
+{{< screenshot src="/app/new-output-config.png" title="Screenshot of the main window with the Add Output Config button highlighted." >}}
 
 ### Filter the output presets
 

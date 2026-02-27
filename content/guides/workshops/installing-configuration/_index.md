@@ -17,11 +17,11 @@ Use the following steps to upload the configuration to a board.
 
 Click on the **Extras** menu and select **Settings** to open the settings dialog.
 
-{{< figure src="/app/extras-settings-menu-item.png" alt="Screenshot of the main window with the Settings menu item in the Extras menu highlighted." >}}
+{{< screenshot image="/app/extras-settings-menu-item.png" title="Screenshot of the Extras menu with the Settings menu item selected." >}}
 
 Then click on the **MobiFlight Modules** tab to display the modules.
 
-{{< figure src="/app/settings-modules-tab.png" alt="Screenshot of the Settings dialog with the MobiFlight Modules tab highlighted." >}}
+{{< screenshot src="/app/settings-modules-tab.png" title="Screenshot of the Settings dialog with the MobiFlight Modules tab highlighted." >}}
 
 ### Select the board
 
