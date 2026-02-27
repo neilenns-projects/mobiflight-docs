@@ -50,11 +50,19 @@ Repeat steps 4 and 5 for the **On Right** tab, selecting **AP_HDG_VAR_INC** for 
 
 {{< screenshot image="input-event-heading-increment.png" title="Screenshot of the input tab on release event with the AP_HDG_VAR_INC preset selected." >}}
 
-### Close the dialog and try it out
+### Close the dialog and name the config
 
-Click the **OK** button to close the dialog, then spawn an airplane in Microsoft Flight Simulator.
+Click the **OK** button to close the dialog, then double-click on the **AP - Heading** name in the main window.
 
-Make sure the MobiFlight **Run** button is clicked in the toolbar, then try adjusting the autopilot heading with the encoder. The heading value in the simulator should increment and decrement.
+{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the AP - Heading row text highlighted." >}}
+
+Type in a meaningful name for the new config, for example **AP - Heading**, and press enter to apply the change.
+
+{{< screenshot image="input-config-custom-name.png" title="Screenshot of the main window with AP - Heading entered as a custom name." >}}
+
+### Try out the event
+
+Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try adjusting the autopilot heading with the encoder. The heading value in the simulator should increment and decrement.
 
 {{% /steps %}}
 

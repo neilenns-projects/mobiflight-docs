@@ -63,6 +63,16 @@ Repeat steps 4 and 5 for the **On Release** tab, selecting **Standby battery - O
 
 {{< screenshot image="input-event-standby-battery-off-up.png" title="Screenshot of the input tab on release event with the Standby battery - off preset selected." >}}
 
+### Close the dialog and name the config
+
+Click the **OK** button to close the dialog, then double-click on the **Standby battery - up** name in the main window.
+
+{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the Standby battery - up row text highlighted." >}}
+
+Type in a meaningful name for the new config, for example **Standby battery - up**, and press enter to apply the change.
+
+{{< screenshot image="input-config-custom-name.png" title="Screenshot of the main window with Standby battery - up entered as a custom name." >}}
+
 {{% /steps %}}
 
 {{< /tab >}}
@@ -110,13 +120,23 @@ Repeat steps 4 and 5 for the **On Release** tab, selecting **Standby battery - O
 
 {{< screenshot image="input-event-standby-battery-off-down.png" title="Screenshot of the input tab on release event with the Standby battery - off preset selected." >}}
 
+### Close the dialog and name the config
+
+Click the **OK** button to close the dialog, then double-click on the **Standby battery - down** name in the main window.
+
+{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the Standby battery - down row text highlighted." >}}
+
+Type in a meaningful name for the new config, for example **Standby battery - down**, and press enter to apply the change.
+
+{{< screenshot image="input-config-custom-name.png" title="Screenshot of the main window with Standby battery - down entered as a custom name." >}}
+
 {{% /steps %}}
 
 {{< /tab >}}
 
 {{< /tabs >}}
 
-## Try it out
+## Try out the event
 
 After configuring both inputs, spawn an airplane in Microsoft Flight Simulator.
 
