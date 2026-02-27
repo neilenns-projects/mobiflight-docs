@@ -53,7 +53,7 @@ Use the **Select Preset** dropdown to select the **THROTTLE1_SET** preset.
 
 ### Close the dialog and name the config
 
-Click the **OK** button to close the dialog, then double-click on the **Throttle** name in the main window.
+Click the **OK** button to close the dialog, then double-click on the **New Input Event** name in the main window.
 
 {{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the Throttle row text highlighted." >}}
 
