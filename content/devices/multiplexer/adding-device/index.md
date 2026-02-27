@@ -7,11 +7,15 @@ weight: 20
 
 {{% steps %}}
 
-### Open the MobiFlight Modules dialog
+### Open the settings dialog to edit modules
 
-Click on the **MobiFlight Modules** button in the main window toolbar.
+Click on the **Extras** menu and select **Settings** to open the settings dialog.
 
-{{< screenshot image="/main-window-toolbar-modules.png" title="Screenshot of the MobiFlight Modules button in the main window toolbar." >}}
+{{< figure src="/app/extras-settings-menu-item.png" alt="Screenshot of the main window with the Settings menu item in the Extras menu highlighted." >}}
+
+Then click on the **MobiFlight Modules** tab to display the modules.
+
+{{< figure src="/app/settings-modules-tab.png" alt="Screenshot of the Settings dialog with the MobiFlight Modules tab highlighted." >}}
 
 ### Add the multiplexer
 
