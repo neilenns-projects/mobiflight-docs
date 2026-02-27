@@ -116,7 +116,17 @@ Repeat steps 4 and 5 for the **On Release** tab, selecting **Standby battery - O
 
 {{< /tabs >}}
 
-## Try it out
+### Close the dialog and name the config
+
+Click the **OK** button to close the dialog, then double-click on the **New Input Event** name in the main window.
+
+{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the Standby battery - down row text highlighted." >}}
+
+Type in a meaningful name for the new config, for example **Standby battery - down**, and press enter to apply the change.
+
+{{< screenshot image="input-config-custom-name.png" title="Screenshot of the main window with Standby battery - down entered as a custom name." >}}
+
+## Try out the event
 
 After configuring both inputs, spawn an airplane in Microsoft Flight Simulator.
 

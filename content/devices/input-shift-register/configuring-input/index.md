@@ -50,11 +50,19 @@ Repeat steps 4 and 5 for the **On Release** tab, selecting **PARKING_BRAKES_OFF*
 
 {{< screenshot image="input-event-parking-brakes-off.png" title="Screenshot of the input tab on release event with the PARKING_BRAKES_OFF preset selected." >}}
 
-### Close the dialog and try it out
+### Close the dialog and name the config
 
-Click the **OK** button to close the dialog, then spawn an airplane in Microsoft Flight Simulator.
+Click the **OK** button to close the dialog, then double-click on the **New Input Event** name in the main window.
 
-Make sure the MobiFlight **Run** button is clicked in the toolbar, then try toggling the parking brake with the switch. The parking brake in the simulator should toggle.
+{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the Parking brake row text highlighted." >}}
+
+Type in a meaningful name for the new config, for example **Parking brake**, and press enter to apply the change.
+
+{{< screenshot image="input-config-custom-name.png" title="Screenshot of the main window with Parking brake entered as a custom name." >}}
+
+### Try out the event
+
+Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try toggling the parking brake with the switch. The parking brake in the simulator should toggle.
 
 {{% /steps %}}
 

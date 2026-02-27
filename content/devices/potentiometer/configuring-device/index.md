@@ -51,11 +51,19 @@ Use the **Select Preset** dropdown to select the **THROTTLE1_SET** preset.
 >
 > If the simulator event expects a different range, use the [HubHop potentiometer tool](https://hubhop.mobiflight.com/tools/) to generate the correct custom input event.
 
-### Close the dialog and try it out
+### Close the dialog and name the config
 
-Click the **OK** button to close the dialog, then spawn an airplane in Microsoft Flight Simulator.
+Click the **OK** button to close the dialog, then double-click on the **New Input Event** name in the main window.
 
-Make sure the MobiFlight **Run** button is clicked in the toolbar, then try adjusting the throttle by turning the potentiometer. The throttle in the simulator should move.
+{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the Throttle row text highlighted." >}}
+
+Type in a meaningful name for the new config, for example **Throttle**, and press enter to apply the change.
+
+{{< screenshot image="input-config-custom-name.png" title="Screenshot of the main window with Throttle entered as a custom name." >}}
+
+### Try out the event
+
+Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try adjusting the throttle by turning the potentiometer. The throttle in the simulator should move.
 
 {{% /steps %}}
 
