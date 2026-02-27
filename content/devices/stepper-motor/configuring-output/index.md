@@ -65,10 +65,18 @@ To set the zero position, use the **Move steps** slider and **Move** button to r
 
 {{< screenshot image="display-tab-set-zero.png" title="Screenshot of the display tab in the output dialog with the Move Steps slider, Move button, and Set Zero button highlighted." >}}
 
-### Close the dialog and try it out
+### Close the dialog and name the config
 
-Click the **OK** button to close the dialog, then spawn an airplane in Microsoft Flight Simulator.
+Click the **OK** button to close the dialog, then double-click on the **New Output Event** name in the main window.
 
-Make sure the MobiFlight **Run** button is clicked in the toolbar. The stepper motor should move to match the compass heading in the simulator.
+{{< screenshot image="output-config-default-name.png" title="Screenshot of the main window with the New Output Event row text highlighted." >}}
+
+Type in a meaningful name for the new config, for example **Compass**, and press enter to apply the change.
+
+{{< screenshot image="output-config-custom-name.png" title="Screenshot of the main window with Compass entered as a custom name." >}}
+
+### Try out the event
+
+Spawn an airplane in Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar. The stepper motor should move to match the compass heading in the simulator.
 
 {{% /steps %}}

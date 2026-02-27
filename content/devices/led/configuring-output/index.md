@@ -48,11 +48,19 @@ Use the **Select Pins** dropdown to select the [LED device](/devices/led/adding-
 
 {{< screenshot image="display-tab-select-pins.png" title="Screenshot of the display tab in the output dialog with an LED output selected in the select pins dropdown." >}}
 
-### Close the dialog and try it out
+### Close the dialog and name the config
 
-Click the **OK** button to close the dialog, then spawn an airplane in Microsoft Flight Simulator.
+Click the **OK** button to close the dialog, then double-click on the **New Output Event** name in the main window.
 
-Make sure the MobiFlight **Run** button is clicked in the toolbar, then try toggling the parking brake in the simulator. The attached LED should light up when the parking brake is applied.
+{{< screenshot image="output-config-default-name.png" title="Screenshot of the main window with the New Output Event row text highlighted." >}}
+
+Type in a meaningful name for the new config, for example **Parking brake**, and press enter to apply the change.
+
+{{< screenshot image="output-config-custom-name.png" title="Screenshot of the main window with Parking brake entered as a custom name." >}}
+
+### Try out the event
+
+Spawn an airplane in Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try toggling the parking brake in the simulator. The attached LED should light up when the parking brake is applied.
 
 > [!TIP]
 > Even though these steps are for a Cessna 172, the same parking brake indicator preset should work for most planes in Microsoft Flight Simulator.

@@ -74,11 +74,19 @@ Use the **Servo** dropdown to select the [servo](/devices/servo/adding-device/) 
 > [!TIP]
 > To reduce the range the servo moves, adjust the **Max. rotation** value.
 
-### Close the dialog and try it out
+### Close the dialog and name the config
 
-Click the **OK** button to close the dialog, then spawn an airplane in Microsoft Flight Simulator.
+Click the **OK** button to close the dialog, then double-click on the **New Output Event** name in the main window.
 
-Make sure the MobiFlight **Run** button is clicked in the toolbar, move the flaps handle in the simulator, and verify the servo changes position.
+{{< screenshot image="output-config-default-name.png" title="Screenshot of the main window with the New Output Event row text highlighted." >}}
+
+Type in a meaningful name for the new config, for example **Flap position**, and press enter to apply the change.
+
+{{< screenshot image="output-config-custom-name.png" title="Screenshot of the main window with Flap position entered as a custom name." >}}
+
+### Try out the event
+
+Spawn an airplane in Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, move the flaps handle in the simulator, and verify the servo changes position.
 
 {{% /steps %}}
 
