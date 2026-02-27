@@ -12,17 +12,11 @@ Switches and buttons connected to multiplexers are typically mapped to simulator
 
 {{% steps %}}
 
-### Create a new row in the inputs tab of the main window
+### Add a new input config
 
-Double-click on the bottom row where the description says **Double-click row to add new config...** and enter a description for the input. For example, enter **Parking brake** for a switch that will control the parking brake.
+Click the **Add Input Config** button in the main MobiFlight window to open the input configuration dialog.
 
-{{< screenshot image="input-config-highlight-new.png" title="Screenshot of the input tab in the main window with the bottom row highlighted in red." >}}
-
-### Open the input configuration dialog
-
-Click the button with three dots in the **Edit** column for the row created in the previous step.
-
-{{< screenshot image="input-config-highlight-edit.png" title="Screenshot of the input tab in the main window with the edit button highlighted in red." >}}
+{{< figure src="/app/new-input-config.png" alt="Screenshot of the main window with the Add Input Config button highlighted." >}}
 
 ### Select the board and device for the input
 
@@ -52,9 +46,9 @@ Repeat steps 4 and 5 for the **On Release** tab, selecting **PARKING_BRAKES_OFF*
 
 ### Close the dialog and name the config
 
-Click the **OK** button to close the dialog, then double-click on the **Parking brake** name in the main window.
+Click the **OK** button to close the dialog, then double-click on the **New Input Event** name in the main window.
 
-{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the Parking brake row text highlighted." >}}
+{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the New Input Event row text highlighted." >}}
 
 Type in a meaningful name for the new config, for example **Parking brake**, and press enter to apply the change.
 
@@ -62,7 +56,7 @@ Type in a meaningful name for the new config, for example **Parking brake**, and
 
 ### Try out the event
 
-Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try toggling the parking brake with the switch. The parking brake in the simulator should toggle.
+Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try toggling the parking brake with the button. The parking brake in the simulator should toggle.
 
 {{% /steps %}}
 
