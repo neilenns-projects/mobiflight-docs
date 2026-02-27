@@ -12,17 +12,11 @@ Potentiometers are typically connected to simulator variables that expect a rang
 
 {{% steps %}}
 
-### Create a new row in the inputs tab of the main window
+### Add a new input config
 
-Double-click on the bottom row where the description says **Double-click row to add new config...** and enter a description for the input. For example, enter **Throttle** for a potentiometer that will control the throttle.
+Click the **Add Input Config** button in the main MobiFlight window to open the input configuration dialog.
 
-{{< screenshot image="input-config-highlight-new.png" title="Screenshot of the input tab in the main window with the bottom row highlighted in red." >}}
-
-### Open the input configuration dialog
-
-Click the button with three dots in the **Edit** column for the row created in the previous step.
-
-{{< screenshot image="input-config-highlight-edit.png" title="Screenshot of the input tab in the main window with the edit button highlighted in red." >}}
+{{< figure src="/app/new-input-config.png" alt="Screenshot of the main window with the Add Input Config button highlighted." >}}
 
 ### Select the board and device for the input
 

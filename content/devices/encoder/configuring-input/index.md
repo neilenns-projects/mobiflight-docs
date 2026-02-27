@@ -12,17 +12,11 @@ Encoders are typically mapped to simulator variables that increase and decrease 
 
 {{% steps %}}
 
-### Create a new row in the inputs tab of the main window
+### Add a new input config
 
-Double-click on the bottom row where the description says **Double-click row to add new config...** and enter a description for the input. For example, enter **AP - Heading** for an encoder that will control the autopilot heading value.
+Click the **Add Input Config** button in the main MobiFlight window to open the input configuration dialog.
 
-{{< screenshot image="input-config-highlight-new.png" title="Screenshot of the input tab in the main window with the bottom row highlighted in red." >}}
-
-### Open the input configuration dialog
-
-Click the button with three dots in the **Edit** column for the row created in the previous step.
-
-{{< screenshot image="input-config-highlight-edit.png" title="Screenshot of the input tab in the main window with the edit button highlighted in red." >}}
+{{< figure src="/app/new-input-config.png" alt="Screenshot of the main window with the Add Input Config button highlighted." >}}
 
 ### Select the board and device for the input
 
@@ -46,7 +40,7 @@ Use the **Select Preset** dropdown to select the **AP_HDG_VAR_DEC** preset.
 
 ### Configure the On Right action
 
-Repeat steps 4 and 5 for the **On Right** tab, selecting **AP_HDG_VAR_INC** for the preset.
+Repeat steps 3 and 4 for the **On Right** tab, selecting **AP_HDG_VAR_INC** for the preset.
 
 {{< screenshot image="input-event-heading-increment.png" title="Screenshot of the input tab on release event with the AP_HDG_VAR_INC preset selected." >}}
 
