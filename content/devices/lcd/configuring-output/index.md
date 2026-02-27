@@ -60,10 +60,18 @@ Replace the **Text** section sample text with `$$$.$$$` to indicate six digits s
 
 {{< screenshot image="display-tab-formatted-output.png" title="Screenshot of the display tab in the output dialog with the Text field filled $$$.$$$." >}}
 
-### Close the dialog and try it out
+### Close the dialog and name the config
 
-Click the **OK** button to close the dialog, then spawn an airplane in Microsoft Flight Simulator.
+Click the **OK** button to close the dialog, then double-click on the **New Output Event** name in the main window.
 
-Make sure the MobiFlight **Run** button is clicked in the toolbar, then verify the display shows the COM1 active frequency.
+{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the New Output Event row text highlighted." >}}
+
+Type in a meaningful name for the new config, for example **COM1 active frequency**, and press enter to apply the change.
+
+{{< screenshot image="input-config-custom-name.png" title="Screenshot of the main window with COM1 active frequency entered as a custom name." >}}
+
+### Try out the event
+
+Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then verify the display shows the COM1 active frequency.
 
 {{% /steps %}}

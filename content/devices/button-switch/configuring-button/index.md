@@ -50,7 +50,7 @@ Type in a meaningful name for the new config, for example **Parking brake**, and
 
 ### Try out the event
 
-Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try toggling the parking brake with the BUTTON. The parking brake in the simulator should toggle.
+Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try toggling the parking brake with the button. The parking brake in the simulator should toggle.
 
 {{% /steps %}}
 
