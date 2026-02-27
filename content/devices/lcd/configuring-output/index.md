@@ -64,11 +64,11 @@ Replace the **Text** section sample text with `$$$.$$$` to indicate six digits s
 
 Click the **OK** button to close the dialog, then double-click on the **New Output Event** name in the main window.
 
-{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the New Output Event row text highlighted." >}}
+{{< screenshot image="output-config-default-name.png" title="Screenshot of the main window with the New Output Event row text highlighted." >}}
 
 Type in a meaningful name for the new config, for example **COM1 active frequency**, and press enter to apply the change.
 
-{{< screenshot image="input-config-custom-name.png" title="Screenshot of the main window with COM1 active frequency entered as a custom name." >}}
+{{< screenshot image="output-config-custom-name.png" title="Screenshot of the main window with COM1 active frequency entered as a custom name." >}}
 
 ### Try out the event
 
