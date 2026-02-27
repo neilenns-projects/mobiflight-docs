@@ -8,7 +8,7 @@ weight: 40
 Switches are typically mapped to simulator variables that expect either `0` (for off) or `1` (for on). The following steps demonstrate how to configure a two-position switch to control the parking brake in a Cessna 172 in Microsoft Flight Simulator 2020 and Microsoft Flight Simulator 2024.
 
 > [!TIP]
-> The steps for using a switch with X-Plane are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
+> The steps for using a switch in an X-Plane project are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
 
 {{% steps %}}
 

@@ -8,7 +8,7 @@ weight: 30
 Encoders are typically mapped to simulator variables that increase and decrease in value. The following steps demonstrate how to configure a single encoder to adjust the Cessna 172 autopilot heading value in Microsoft Flight Simulator 2020 and Microsoft Flight Simulator 2024.
 
 > [!TIP]
-> The steps for using an encoder with X-Plane are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
+> The steps for using an encoder in an X-Plane project are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
 
 {{% steps %}}
 

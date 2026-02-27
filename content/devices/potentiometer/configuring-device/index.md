@@ -8,7 +8,7 @@ weight: 30
 Potentiometers are typically connected to simulator variables that expect a range of values. The following steps demonstrate how to configure a potentiometer to control the throttle in a Cessna 172 in Microsoft Flight Simulator 2020 and Microsoft Flight Simulator 2024.
 
 > [!TIP]
-> The steps for using a potentiometer with X-Plane are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
+> The steps for using a potentiometer in an X-Plane project are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
 
 {{% steps %}}
 

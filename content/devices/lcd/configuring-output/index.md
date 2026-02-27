@@ -8,7 +8,7 @@ weight: 30
 LCDs are typically mapped to simulator variables that output numerical values. The following steps demonstrate how to use a display to show the COM1 active frequency heading in Microsoft Flight Simulator 2020 and Microsoft Flight Simulator 2024. See the [advanced configuration](/devices/lcd/advanced-configuration/) guide for steps to show more than one simulator value on the display at a time.
 
 > [!TIP]
-> The steps for using an LCD with X-Plane are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
+> The steps for using an LCD in an X-Plane project are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
 
 {{% steps %}}
 

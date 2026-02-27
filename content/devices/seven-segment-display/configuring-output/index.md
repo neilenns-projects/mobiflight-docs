@@ -8,7 +8,7 @@ weight: 30
 7-segment display modules are typically mapped to simulator variables that output numerical values. The following steps demonstrate how to use a display module to show the COM1 active frequency with a MAX7219 display module in Microsoft Flight Simulator 2020 and Microsoft Flight Simulator 2024.
 
 > [!TIP]
-> The steps for using a 7-segment display module with X-Plane are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
+> The steps for using a 7-segment display module in an X-Plane project are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
 
 {{% steps %}}
 
