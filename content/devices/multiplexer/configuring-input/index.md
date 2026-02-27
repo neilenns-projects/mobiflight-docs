@@ -16,7 +16,7 @@ Switches and buttons connected to multiplexers are typically mapped to simulator
 
 Click the **Add Input Config** button in the main MobiFlight window to open the input configuration dialog.
 
-{{< screenshot src="/app/new-input-config.png" title="Screenshot of the main window with the Add Input Config button highlighted." >}}
+{{< screenshot image="/app/new-input-config.png" title="Screenshot of the main window with the Add Input Config button highlighted." >}}
 
 ### Select the board and device for the input
 

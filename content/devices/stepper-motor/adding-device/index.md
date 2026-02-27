@@ -15,7 +15,7 @@ Click on the **Extras** menu and select **Settings** to open the settings dialog
 
 Then click on the **MobiFlight Modules** tab to display the modules.
 
-{{< screenshot src="/app/settings-modules-tab.png" title="Screenshot of the Settings dialog with the MobiFlight Modules tab highlighted." >}}
+{{< screenshot image="/app/settings-modules-tab.png" title="Screenshot of the Settings dialog with the MobiFlight Modules tab highlighted." >}}
 
 ### Add the stepper motor
 

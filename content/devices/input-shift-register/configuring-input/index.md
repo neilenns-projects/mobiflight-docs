@@ -16,7 +16,7 @@ Switches and buttons connected to input shift registers are typically mapped to 
 
 Click the **Add Input Config** button in the main MobiFlight window to open the input configuration dialog.
 
-{{< screenshot src="/app/new-input-config.png" title="Screenshot of the main window with the Add Input Config button highlighted." >}}
+{{< screenshot image="/app/new-input-config.png" title="Screenshot of the main window with the Add Input Config button highlighted." >}}
 
 ### Select the board and device for the input
 

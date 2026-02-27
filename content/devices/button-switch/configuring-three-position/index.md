@@ -26,7 +26,7 @@ The following steps demonstrate how to configure a three-position switch to cont
 
 Click the **Add Input Config** button in the main MobiFlight window to open the input configuration dialog.
 
-{{< screenshot src="/app/new-input-config.png" title="Screenshot of the main window with the Add Input Config button highlighted." >}}
+{{< screenshot image="/app/new-input-config.png" title="Screenshot of the main window with the Add Input Config button highlighted." >}}
 
 ### Select the board and device for the input
 
@@ -79,7 +79,7 @@ Type in a meaningful name for the new config, for example **Standby battery - up
 
 Click the **Add Input Config** button in the main MobiFlight window to open the input configuration dialog.
 
-{{< screenshot src="/app/new-input-config.png" title="Screenshot of the main window with the Add Input Config button highlighted." >}}
+{{< screenshot image="/app/new-input-config.png" title="Screenshot of the main window with the Add Input Config button highlighted." >}}
 
 ### Select the board and device for the input
 
