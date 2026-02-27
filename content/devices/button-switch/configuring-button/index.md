@@ -40,9 +40,9 @@ Use the **Select Preset** dropdown to select the **PARKING BRAKES TOGGLE** prese
 
 ### Close the dialog and name the config
 
-Click the **OK** button to close the dialog, then double-click on the **New Input Event** name in the main window.
+Click the **OK** button to close the dialog, then double-click on the **New Input Config** name in the main window.
 
-{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the New Input Event row text highlighted." >}}
+{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the New Input Config row text highlighted." >}}
 
 Type in a meaningful name for the new config, for example **Parking brake**, and press enter to apply the change.
 

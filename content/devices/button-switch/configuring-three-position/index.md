@@ -59,13 +59,13 @@ Repeat steps 3 and 4 for the **On Release** tab, selecting **Standby battery - O
 
 ### Close the dialog and name the config
 
-Click the **OK** button to close the dialog, then double-click on the **New Input Event** name in the main window.
+Click the **OK** button to close the dialog, then double-click on the **New Input Config** name in the main window.
 
-{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the Standby battery - down row text highlighted." >}}
+{{< screenshot image="input-config-default-name-one-entry.png" title="Screenshot of the main window with the New Input Config text highlighted." >}}
 
 Type in a meaningful name for the new config, for example **Standby battery - up**, and press enter to apply the change.
 
-{{< screenshot image="input-config-custom-name.png" title="Screenshot of the main window with Standby battery - up entered as a custom name." >}}
+{{< screenshot image="input-config-custom-name-up.png" title="Screenshot of the main window with Standby battery - up entered as a custom name." >}}
 
 {{% /steps %}}
 
@@ -112,13 +112,13 @@ Repeat steps 3 and 4 for the **On Release** tab, selecting **Standby battery - O
 
 ### Close the dialog and name the config
 
-Click the **OK** button to close the dialog, then double-click on the **New Input Event** name in the main window.
+Click the **OK** button to close the dialog, then double-click on the **New Input Config** name in the main window.
 
-{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the Standby battery - down row text highlighted." >}}
+{{< screenshot image="input-config-default-name-two-entries.png" title="Screenshot of the main window with the New Input Config row text highlighted." >}}
 
 Type in a meaningful name for the new config, for example **Standby battery - down**, and press enter to apply the change.
 
-{{< screenshot image="input-config-custom-name.png" title="Screenshot of the main window with Standby battery - down entered as a custom name." >}}
+{{< screenshot image="input-config-custom-name-down.png" title="Screenshot of the main window with Standby battery - down entered as a custom name." >}}
 
 {{% /steps %}}
 
@@ -126,7 +126,7 @@ Type in a meaningful name for the new config, for example **Standby battery - do
 
 {{< /tabs >}}
 
-## Try out the event
+## Try out the events
 
 After configuring both inputs, spawn an airplane in Microsoft Flight Simulator.
 

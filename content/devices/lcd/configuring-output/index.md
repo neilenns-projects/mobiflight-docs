@@ -56,9 +56,9 @@ Replace the **Text** section sample text with `$$$.$$$` to indicate six digits s
 
 ### Close the dialog and name the config
 
-Click the **OK** button to close the dialog, then double-click on the **New Output Event** name in the main window.
+Click the **OK** button to close the dialog, then double-click on the **New Output Config** name in the main window.
 
-{{< screenshot image="output-config-default-name.png" title="Screenshot of the main window with the New Output Event row text highlighted." >}}
+{{< screenshot image="output-config-default-name.png" title="Screenshot of the main window with the New Output Config row text highlighted." >}}
 
 Type in a meaningful name for the new config, for example **COM1 active frequency**, and press enter to apply the change.
 
