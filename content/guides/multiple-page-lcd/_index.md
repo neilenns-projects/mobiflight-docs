@@ -102,8 +102,8 @@ This will ensure the **COM2 display** output configuration is only active when t
 
 Spawn an airplane in Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar. The LCD should display the active and standby frequencies for COM1. Pressing the **Page up** and **Page down** buttons should cycle through the COM1 and COM2 display pages.
 
-MobiFlight will indicate which output configuration is disabled by the precondition by showing a red exclamation point at the start of the row. In the following screenshot, **COM1 display** is active and **COM2 display** is disabled.
+MobiFlight will indicate which output configuration is disabled by the precondition by showing a purple exclamation point in the status column. In the following screenshot, **COM1 display** is active and **COM2 display** is disabled.
 
-{{< screenshot image="com2-disabled.png" title="Screenshot of the main MobiFlight window output tab with a red exclamation mark next to the COM2 display row." >}}
+{{< screenshot image="com2-disabled.png" title="Screenshot of the main MobiFlight window output tab with a purple exclamation mark in the status column of the COM2 display row." >}}
 
 {{% /steps %}}
