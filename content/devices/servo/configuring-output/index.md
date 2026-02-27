@@ -14,17 +14,11 @@ The following steps demonstrate how to use a servo and MobiFlight value modifier
 
 {{% steps %}}
 
-### Create a new row in the outputs tab of the main window
+### Add a new output config
 
-Double-click on the bottom row where the description says **Double-click row to add new config...** and enter a description for the output. For example, enter **Flap position** for a servo that will show the current flap position.
+Click the **Add Output Config** button in the main MobiFlight window to open the output configuration dialog.
 
-{{< screenshot image="output-config-highlight-new.png" title="Screenshot of the output tab in the main window with the bottom row highlighted in red." >}}
-
-### Open the output configuration dialog
-
-Click the button with three dots in the **Edit** column for the row created in the previous step.
-
-{{< screenshot image="output-config-highlight-edit.png" title="Screenshot of the output tab in the main window with the edit button highlighted in red." >}}
+{{< figure src="/app/new-output-config.png" alt="Screenshot of the main window with the Add Output Config button highlighted." >}}
 
 ### Filter the output presets
 
