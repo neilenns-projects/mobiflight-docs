@@ -11,9 +11,9 @@ weight: 40
 
 You may want to disable MobiFlight's game controller support in certain situations. This can be done either for all game controllers or for specific devices. Disabling game controller support is useful when other software controls these devices, and MobiFlight should ignore them.
 
-{{< tabs items="Disable all game controllers,Disable specific game controllers" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="Disable all game controllers" >}}
 
 {{% steps %}}
 
@@ -33,7 +33,7 @@ On the **Peripherals** tab, uncheck the **Enable joystick support** checkbox.
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="Disable specific game controllers" >}}
 
 {{% steps %}}
 

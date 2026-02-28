@@ -9,9 +9,9 @@ prev: /devices/seven-segment-display/
 <!-- Two GitHub info blocks in a row trigger this markdownlint warning. -->
 <!-- markdownlint-disable MD028 -->
 
-{{< tabs items="MAX7219 modules,TM1637 modules" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="MAX7219 modules" >}}
 
 The **DIN**, **CS**, and **CLK** pins can be connected to any digital or analog input pin on the board.
 
@@ -27,7 +27,7 @@ The **DIN**, **CS**, and **CLK** pins can be connected to any digital or analog 
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="TM1637 modules" >}}
 
 The **DIO** and **CLK** pins can be connected to any digital or analog input pin on the board. TM1637 modules cannot be connected in series.
 

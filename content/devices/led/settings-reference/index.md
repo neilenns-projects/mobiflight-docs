@@ -16,15 +16,15 @@ weight: 40
 
 ## Output display configuration
 
-{{< tabs items="Single output,Multiple outputs" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="Single output" >}}
 
 {{< screenshot image="single-output.png" title="Screenshot of the Display tab with the LED output type selected for a single output." >}}
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="Multiple outputs" >}}
 
 {{< screenshot image="multiple-outputs.png" title="Screenshot of the Display tab with the LED output type selected for multiple outputs." >}}
 
