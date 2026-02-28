@@ -8,21 +8,15 @@ weight: 30
 Stepper motors are typically mapped to simulator variables that output numerical values. The following steps demonstrate how to use a 28BYJ-48 stepper motor with a ULN2003 driver to show the compass heading in Microsoft Flight Simulator 2020 and Microsoft Flight Simulator 2024.
 
 > [!TIP]
-> The steps for using a stepper motor with X-Plane are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
+> The steps for using a stepper motor in an X-Plane project are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
 
 {{% steps %}}
 
-### Create a new row in the outputs tab of the main window
+### Add a new output config
 
-Double-click on the bottom row where the description says **Double-click row to add new config...** and enter a description for the output. For example, enter **Compass** for a stepper motor that will show the compass heading.
+Click the **Add Output Config** button in the main MobiFlight window to open the output configuration dialog.
 
-{{< screenshot image="output-config-highlight-new.png" title="Screenshot of the output tab in the main window with the bottom row highlighted in red." >}}
-
-### Open the output configuration dialog
-
-Click the button with three dots in the **Edit** column for the row created in the previous step.
-
-{{< screenshot image="output-config-highlight-edit.png" title="Screenshot of the output tab in the main window with the edit button highlighted in red." >}}
+{{< screenshot image="/app/new-output-config.png" title="Screenshot of the main window with the Add Output Config button highlighted." >}}
 
 ### Filter the output presets
 
@@ -65,10 +59,18 @@ To set the zero position, use the **Move steps** slider and **Move** button to r
 
 {{< screenshot image="display-tab-set-zero.png" title="Screenshot of the display tab in the output dialog with the Move Steps slider, Move button, and Set Zero button highlighted." >}}
 
-### Close the dialog and try it out
+### Close the dialog and name the config
 
-Click the **OK** button to close the dialog, then spawn an airplane in Microsoft Flight Simulator.
+Click the **OK** button to close the dialog, then double-click on the **New Output Config** name in the main window.
 
-Make sure the MobiFlight **Run** button is clicked in the toolbar. The stepper motor should move to match the compass heading in the simulator.
+{{< screenshot image="output-config-default-name.png" title="Screenshot of the main window with the New Output Config row text highlighted." >}}
+
+Type in a meaningful name for the new config, for example **Compass**, and press enter to apply the change.
+
+{{< screenshot image="output-config-custom-name.png" title="Screenshot of the main window with Compass entered as a custom name." >}}
+
+### Try out the event
+
+Spawn an airplane in Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar. The stepper motor should move to match the compass heading in the simulator.
 
 {{% /steps %}}

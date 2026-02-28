@@ -8,21 +8,15 @@ weight: 30
 Encoders are typically mapped to simulator variables that increase and decrease in value. The following steps demonstrate how to configure a single encoder to adjust the Cessna 172 autopilot heading value in Microsoft Flight Simulator 2020 and Microsoft Flight Simulator 2024.
 
 > [!TIP]
-> The steps for using an encoder with X-Plane are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
+> The steps for using an encoder in an X-Plane project are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
 
 {{% steps %}}
 
-### Create a new row in the inputs tab of the main window
+### Add a new input config
 
-Double-click on the bottom row where the description says **Double-click row to add new config...** and enter a description for the input. For example, enter **AP - Heading** for an encoder that will control the autopilot heading value.
+Click the **Add Input Config** button in the main MobiFlight window to open the input configuration dialog.
 
-{{< screenshot image="input-config-highlight-new.png" title="Screenshot of the input tab in the main window with the bottom row highlighted in red." >}}
-
-### Open the input configuration dialog
-
-Click the button with three dots in the **Edit** column for the row created in the previous step.
-
-{{< screenshot image="input-config-highlight-edit.png" title="Screenshot of the input tab in the main window with the edit button highlighted in red." >}}
+{{< screenshot image="/app/new-input-config.png" title="Screenshot of the main window with the Add Input Config button highlighted." >}}
 
 ### Select the board and device for the input
 
@@ -46,15 +40,23 @@ Use the **Select Preset** dropdown to select the **AP_HDG_VAR_DEC** preset.
 
 ### Configure the On Right action
 
-Repeat steps 4 and 5 for the **On Right** tab, selecting **AP_HDG_VAR_INC** for the preset.
+Repeat steps 3 and 4 for the **On Right** tab, selecting **AP_HDG_VAR_INC** for the preset.
 
 {{< screenshot image="input-event-heading-increment.png" title="Screenshot of the input tab on release event with the AP_HDG_VAR_INC preset selected." >}}
 
-### Close the dialog and try it out
+### Close the dialog and name the config
 
-Click the **OK** button to close the dialog, then spawn an airplane in Microsoft Flight Simulator.
+Click the **OK** button to close the dialog, then double-click on the **New Input Config** name in the main window.
 
-Make sure the MobiFlight **Run** button is clicked in the toolbar, then try adjusting the autopilot heading with the encoder. The heading value in the simulator should increment and decrement.
+{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the AP - Heading row text highlighted." >}}
+
+Type in a meaningful name for the new config, for example **AP - Heading**, and press enter to apply the change.
+
+{{< screenshot image="input-config-custom-name.png" title="Screenshot of the main window with AP - Heading entered as a custom name." >}}
+
+### Try out the event
+
+Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try adjusting the autopilot heading with the encoder. The heading value in the simulator should increment and decrement.
 
 {{% /steps %}}
 

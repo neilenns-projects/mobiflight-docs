@@ -8,21 +8,15 @@ weight: 30
 Devices connected to output shift registers are typically mapped to simulator variables that output either `0` (for off) or `1` (for on). The following steps demonstrate how to use an LED attached to an output shift register to show the current state of the parking brake in a Cessna 172 in Microsoft Flight Simulator 2020 and Microsoft Flight Simulator 2024.
 
 > [!TIP]
-> The steps for using an output shift register with X-Plane are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
+> The steps for using an output shift register in an X-Plane project are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
 
 {{% steps %}}
 
-### Create a new row in the outputs tab of the main window
+### Add a new output config
 
-Double-click on the bottom row where the description says **Double-click row to add new config...** and enter a description for the output. For example, enter **Parking brake** for an LED that will show the state of the parking brake.
+Click the **Add Output Config** button in the main MobiFlight window to open the output configuration dialog.
 
-{{< screenshot image="output-config-highlight-new.png" title="Screenshot of the output tab in the main window with the bottom row highlighted in red." >}}
-
-### Open the output configuration dialog
-
-Click the button with three dots in the **Edit** column for the row created in the previous step.
-
-{{< screenshot image="output-config-highlight-edit.png" title="Screenshot of the output tab in the main window with the edit button highlighted in red." >}}
+{{< screenshot image="/app/new-output-config.png" title="Screenshot of the main window with the Add Output Config button highlighted." >}}
 
 ### Filter the output presets
 
@@ -48,10 +42,18 @@ Use the **Shift Register** dropdown to select the [output shift register](/devic
 
 {{< screenshot image="display-tab-select-pins.png" title="Screenshot of the display tab in the output dialog with an output shift register selected in the Shift Register dropdown and Output 0 selected in the Select Pins dropdown." >}}
 
-### Close the dialog and try it out
+### Close the dialog and name the config
 
-Click the **OK** button to close the dialog, then spawn an airplane in Microsoft Flight Simulator.
+Click the **OK** button to close the dialog, then double-click on the **New Output Config** name in the main window.
 
-Make sure the MobiFlight **Run** button is clicked in the toolbar, then try toggling the parking brake in the simulator. The attached LED should light up when the parking brake is applied.
+{{< screenshot image="output-config-default-name.png" title="Screenshot of the main window with the New Output Config row text highlighted." >}}
+
+Type in a meaningful name for the new config, for example **Parking brake**, and press enter to apply the change.
+
+{{< screenshot image="output-config-custom-name.png" title="Screenshot of the main window with Parking brake entered as a custom name." >}}
+
+### Try out the event
+
+Spawn an airplane in Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try toggling the parking brake in the simulator. The attached LED should light up when the parking brake is applied.
 
 {{% /steps %}}

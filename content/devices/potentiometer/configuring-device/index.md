@@ -8,21 +8,15 @@ weight: 30
 Potentiometers are typically connected to simulator variables that expect a range of values. The following steps demonstrate how to configure a potentiometer to control the throttle in a Cessna 172 in Microsoft Flight Simulator 2020 and Microsoft Flight Simulator 2024.
 
 > [!TIP]
-> The steps for using a potentiometer with X-Plane are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
+> The steps for using a potentiometer in an X-Plane project are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
 
 {{% steps %}}
 
-### Create a new row in the inputs tab of the main window
+### Add a new input config
 
-Double-click on the bottom row where the description says **Double-click row to add new config...** and enter a description for the input. For example, enter **Throttle** for a potentiometer that will control the throttle.
+Click the **Add Input Config** button in the main MobiFlight window to open the input configuration dialog.
 
-{{< screenshot image="input-config-highlight-new.png" title="Screenshot of the input tab in the main window with the bottom row highlighted in red." >}}
-
-### Open the input configuration dialog
-
-Click the button with three dots in the **Edit** column for the row created in the previous step.
-
-{{< screenshot image="input-config-highlight-edit.png" title="Screenshot of the input tab in the main window with the edit button highlighted in red." >}}
+{{< screenshot image="/app/new-input-config.png" title="Screenshot of the main window with the Add Input Config button highlighted." >}}
 
 ### Select the board and device for the input
 
@@ -51,11 +45,19 @@ Use the **Select Preset** dropdown to select the **THROTTLE1_SET** preset.
 >
 > If the simulator event expects a different range, use the [HubHop potentiometer tool](https://hubhop.mobiflight.com/tools/) to generate the correct custom input event.
 
-### Close the dialog and try it out
+### Close the dialog and name the config
 
-Click the **OK** button to close the dialog, then spawn an airplane in Microsoft Flight Simulator.
+Click the **OK** button to close the dialog, then double-click on the **New Input Config** name in the main window.
 
-Make sure the MobiFlight **Run** button is clicked in the toolbar, then try adjusting the throttle by turning the potentiometer. The throttle in the simulator should move.
+{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the Throttle row text highlighted." >}}
+
+Type in a meaningful name for the new config, for example **Throttle**, and press enter to apply the change.
+
+{{< screenshot image="input-config-custom-name.png" title="Screenshot of the main window with Throttle entered as a custom name." >}}
+
+### Try out the event
+
+Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try adjusting the throttle by turning the potentiometer. The throttle in the simulator should move.
 
 {{% /steps %}}
 

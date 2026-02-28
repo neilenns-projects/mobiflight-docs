@@ -13,11 +13,15 @@ Use the following steps to upload the configuration to a board.
 
 {{% steps %}}
 
-### Open the Modules dialog
+### Open the settings dialog to edit modules
 
-Click the **MobiFlight Modules** button on the toolbar of the main MobiFlight window.
+Click on the **Extras** menu and select **Settings** to open the settings dialog.
 
-{{< screenshot image="main-window-toolbar.png" title="Screenshot of the MobiFlight main window with the MobiFlight Modules button highlighted." >}}
+{{< screenshot image="/app/extras-settings-menu-item.png" title="Screenshot of the Extras menu with the Settings menu item selected." >}}
+
+Then click on the **MobiFlight Modules** tab to display the modules.
+
+{{< screenshot image="/app/settings-modules-tab.png" title="Screenshot of the Settings dialog with the MobiFlight Modules tab highlighted." >}}
 
 ### Select the board
 

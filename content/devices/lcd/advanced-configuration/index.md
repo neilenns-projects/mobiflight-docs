@@ -22,9 +22,7 @@ Each output should have the **Sim Variable** tab configured for the desired valu
 
 ### Create an LCD output configuration
 
-Add an output configuration for the LCD with a description of the output, for example **Radio value display**. Click the button with three dots in the **Edit** column for the row to edit the configuration.
-
-{{< screenshot image="output-config-highlight-edit.png" title="Screenshot of the output tab in the main window with the edit button highlighted in red." >}}
+Click the **Add Output Config** button to add a fifth output, which will display the values on the LCD.
 
 ### Add config references to an LCD output configuration
 
@@ -61,10 +59,14 @@ Replace the **Text** section sample text with the values to show on the display.
 
 {{< screenshot image="display-tab-formatted-output.png" title="Screenshot of the display tab in the output dialog with the Text field filled with COM1 active: ###.###, COM1 stby: !!!.!!!, COM2 active: ???.???, COM2 stby: @@@.@@@." >}}
 
-### Close the dialog and try it out
+### Close the dialog and name the config
 
-Click the **OK** button to close the dialog, then spawn an airplane in Microsoft Flight Simulator.
+Click the **OK** button to close the dialog, then double-click on the **New Output Config** name in the main window. Type in a meaningful name for the new config, for example **Radio value display**, and press enter to apply the change.
 
-Make sure the MobiFlight **Run** button is clicked in the toolbar, then verify the display shows the four frequencies.
+{{< screenshot image="output-config-custom-name.png" title="Screenshot of the main window with Radio value display entered as a custom name." >}}
+
+### Try out the event
+
+Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then verify the display shows the four frequencies.
 
 {{% /steps %}}
