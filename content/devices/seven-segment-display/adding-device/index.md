@@ -21,9 +21,9 @@ Click on the board the device is connected to, then select **LED 7-Segment** fro
 
 ### Configure the display
 
-{{< tabs items="MAX7219,TM1637 4-digit,TM1637 6-digit" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="MAX7219" >}}
 
 Select **MAX7219 / MAX7221** from the **Type** dropdown.
 
@@ -35,7 +35,7 @@ Provide a meaningful name for the display module in the **Name** field. This nam
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="TM1637 4-digit" >}}
 
 Select **TM1637 - 4 digits** from the **Type** dropdown.
 
@@ -47,7 +47,7 @@ Provide a meaningful name for the display module in the **Name** field. This nam
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="TM1637 6-digit" >}}
 
 Select **TM1637 - 6 digits** from the **Type** dropdown.
 

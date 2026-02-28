@@ -21,9 +21,9 @@ Click on the board the device is connected to, then select **Stepper** from the 
 
 ### Configure the stepper motor
 
-{{< tabs items="28BYJ-48 with ULN2003 driver,Nema 17 with TB6600 driver" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="28BYJ-48 with ULN2003 driver" >}}
 
 In the **Additional settings** section, select the **28BYJ - Half-step mode (recommended)** preset.
 
@@ -35,7 +35,7 @@ Provide a meaningful name for the stepper in the **Name** field. This name is sh
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="Nema 17 with TB6600 driver" >}}
 
 In the **Additional settings** section, select the **Generic - EasyDriver** preset.
 

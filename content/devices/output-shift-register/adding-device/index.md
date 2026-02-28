@@ -23,9 +23,9 @@ Click on the board the device is connected to, then select **Shift Register** fr
 
 Use the **Latch**, **Clock**, and **Data** dropdowns to specify the board pins used. The pin names can vary depending on the chip variant used. Use the following mapping for the most common names:
 
-{{< tabs items="74HC595 DIP-8,DM13A DIP-16,TLC5917 DIP-8" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="74HC595 DIP-8" >}}
 
 | MobiFlight setting | Pin name | Pin number |
 | ------------------ | -------- | ---------- |
@@ -35,7 +35,7 @@ Use the **Latch**, **Clock**, and **Data** dropdowns to specify the board pins u
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="DM13A DIP-16" >}}
 
 | MobiFlight setting | Pin name | Pin number |
 | ------------------ | -------- | ---------- |
@@ -45,7 +45,7 @@ Use the **Latch**, **Clock**, and **Data** dropdowns to specify the board pins u
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="TLC5917 DIP-8" >}}
 
 | MobiFlight setting | Pin name | Pin number |
 | ------------------ | -------- | ---------- |

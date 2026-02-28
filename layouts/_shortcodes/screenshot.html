@@ -1,0 +1,34 @@
+<!-- Image zoom support based on the Hextra implementation at -->
+<!-- https://github.com/imfing/hextra/blob/792c750dec1c0ab6b4c5029624f37bed4c76b584/layouts/_markup/render-image.html -->
+
+{{- $title := .Get "title" -}}
+{{- $image := .Get "image" -}}
+{{- $enableImageZoom := .Page.Site.Params.imageZoom.enable | default false -}}
+{{- if not (eq .Page.Params.imageZoom nil) -}}
+  {{- $enableImageZoom = .Page.Params.imageZoom -}}
+{{- end -}}
+{{- if $enableImageZoom -}}
+  {{- .Page.Store.Set "hasImageZoom" true -}}
+{{- end -}}
+<div class="screenshot-container">
+  {{- if hasPrefix $image "/" -}}
+    {{- $image := printf "/screenshots/%s" $image -}}
+    <img
+      class="screenshot"
+      src="{{ $image }}"
+      alt="{{ $title }}"
+      {{ if $enableImageZoom }}data-zoomable{{ end }}
+    />
+  {{ else }}
+    {{- $image := printf "screenshots/%s" $image -}}
+    {{- with .Page.Resources.Get $image -}}
+      {{- $image := .RelPermalink }}
+      <img
+        class="screenshot"
+        src="{{ $image }}"
+        alt="{{ $title }}"
+        {{ if $enableImageZoom }}data-zoomable{{ end }}
+      />
+    {{ end }}
+  {{ end }}
+</div>

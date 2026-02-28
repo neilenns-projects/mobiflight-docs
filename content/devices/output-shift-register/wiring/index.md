@@ -17,9 +17,9 @@ The following components are required for an output shift register or LED driver
 - Assorted resistors.
 - 0.1µF capacitors.
 
-{{< tabs items="74HC595 DIP-16,DM13A DIP-24,TLC5917 DIP-16">}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="74HC595 DIP-16" >}}
 Pay close attention to the orientation of the LEDs: the anode (long leg) should be connected to the chip and the cathode (short leg) should be connected to GND. This is the opposite of how LEDs are connected to LED driver chips. The 200Ω resistors are required on every output pin with an LED attached.
 
 {{< schematic image="74hc595.svg" download="74hc595.pdf" title="Schematic for wiring a single 74HC595 chip." >}}
@@ -35,7 +35,7 @@ Pay close attention to the orientation of the LEDs: the anode (long leg) should 
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="DM13A DIP-24" >}}
 Pay close attention to the orientation of the LEDs: the anode (long leg) should be connected to +5V and the cathode (short leg) should be connected to the chip. This is the opposite of how LEDs are connected to a 74HC595.
 
 {{< schematic image="dm13a.svg" download="dm13a.pdf" title="Schematic for wiring a single DM13A chip." >}}
@@ -50,7 +50,7 @@ The value of $R_{\text{ext}}$ determines the amount of current for the LEDs. A 5
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="TLC5917 DIP-16" >}}
 Pay close attention to the orientation of the LEDs: the anode (long leg) should be connected to +5V and the cathode (short leg) should be connected to the chip. This is the opposite of how LEDs are connected to a 74HC165.
 
 {{< schematic image="tlc5917.svg" download="tlc5917.pdf" title="Schematic for wiring a single TLC5917 chip." >}}

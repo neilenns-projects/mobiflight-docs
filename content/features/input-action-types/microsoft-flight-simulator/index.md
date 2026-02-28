@@ -11,15 +11,15 @@ The **Microsoft Flight Simulator** action type is the preferred way to send even
 > [!TIP]
 > To update the HubHop event list, select the **Download Latest Presets** menu item from the **Extras** > **HubHop** menu.
 
-{{< tabs items="Default view,Custom preset code view" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="Default view" >}}
 
 {{< screenshot image="msfs-default.png" title="Screenshot of a button input with the Microsoft Flight Simulator action type selected." >}}
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="Custom preset code view" >}}
 
 {{< screenshot image="msfs-show-preset-code.png" title="Screenshot of a button input with the Microsoft Flight Simulator action type selected and the Show Preset Code checkbox checked." >}}
 
