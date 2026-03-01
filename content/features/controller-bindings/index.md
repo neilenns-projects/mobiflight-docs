@@ -5,9 +5,9 @@ description: Mapping controllers to profile configurations.
 
 MobiFlight projects contain input and output configurations that are bound to physical [boards](/boards/), [game controllers](/game-controllers/), and [MIDI devices](/midi-devices/).
 
-If a connected device is removed, replaced, or has its serial number updated, the project file will no longer be connected to the device. If a device is missing, MobiFlight will attempt to bind to another connected device of the same type.
+If a connected device is removed, replaced, or has its serial number updated, the project file will no longer be bound to the device. If a device is missing, MobiFlight will attempt to bind to another connected device of the same type.
 
-In situations where MobiFlight fails to automatically re-bind, the **Controller Bindings** dialog enables manually updating the device bindings.
+In situations where MobiFlight fails to automatically re-bind, the **Controller Bindings** dialog allows you to manually update the device bindings.
 
 {{% steps %}}
 
@@ -19,7 +19,7 @@ From the **Extras** menu select **Controller Bindings**.
 
 ### Map the missing device
 
-Each missing device is listed under the **Missing** filter. For each device, use the **Select a controller** dropdown to select a replacement connected device to use with the profile.
+Each missing device is listed under the **Missing** filter. For each device, use the **Select a controller** dropdown to select a replacement connected device.
 
 {{< screenshot image="select-new-device.png" title="Screenshot of the Controller Bindings dialog with a replacement MobiFlight Mega device highlighted." >}}
 
