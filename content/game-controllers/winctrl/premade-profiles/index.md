@@ -38,16 +38,19 @@ In the resulting file dialog, select the extracted .mcc file, then click **Open*
 
 MobiFlight will open the project and automatically map connected WinCtrl controllers to the input and output configurations in the project file.
 
+> [!TIP]
+> To open multiple profiles at the same time, see the [adding additional profiles](/features/combining-profiles/) to a project documentation.
+
 ### View the project configuration
 
 To view the project input and output configurations, click on the `>` button in the project card.
 
 {{< screenshot image="view-project.png" title="Screenshot of the main MobiFlight window with the > button highlighted." >}}
 
+The project will open and display the input and output configurations.
+
+{{< screenshot image="project-details.png" title="Screenshot of an open MobiFlight project." >}}
 {{% /steps %}}
 
 > [!TIP]
 > If MobiFlight is unable to automatically map connected WinCtrl devices to the ones used in the profile, use the **[Controller Bindings](/features/controller-bindings/)** dialog to manually map the devices.
-
-> [!TIP]
-> To open multiple profiles at the same time, see the [adding additional profiles](/features/combining-profiles/) to a project documentation.
