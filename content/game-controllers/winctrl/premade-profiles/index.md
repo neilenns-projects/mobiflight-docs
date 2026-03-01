@@ -36,24 +36,18 @@ In the resulting file dialog, select the extracted .mcc file, then click **Open*
 
 {{< screenshot image="file-dialog.png" title="Screenshot of the Windows file dialog with a downloaded .mcc file and the Open button highlighted." >}}
 
-### Acknowledge the orphaned device warning
+MobiFlight will open the project and automatically map connected WinCtrl controllers to the input and output configurations in the project file.
 
-When the profile is opened in MobiFlight, the following warning dialog will show. Click **Ok**.
+### View the project configuration
 
-{{< screenshot image="orphaned-warning.png" title="Screenshot of the orphaned device warning dialog indicating the WinCtrl joystick in the profile is not found." >}}
+To view the project input and output configurations, click on the `>` button in the project card.
 
-### Map the missing WinCtrl device to an available device
-
-After clicking **OK** in the previous step, MobiFlight displays a dialog to map the missing device to an available device.
-
-Select the missing WinCtrl device in the **Select an orphaned serial** list, then select the correct WinCtrl device to use instead from the **Select a connected module and assign** dropdown.
-
-{{< screenshot image="orphaned-serial-dialog.png" title="Screenshot of the orphaned serials dialog with an orphaned WinCtrl device highlighted in red, and the appropriate replacement device highlighted in red." >}}
-
-After selecting the WinCtrl joystick to use, click the **Assign** button.
-
-### Save the updated profile
-
-Confirm the mapped WinCtrl joystick works correctly with the profile, then select **Save** from the main window toolbar to ensure the downloaded profile maintains the new joystick mapping.
+{{< screenshot image="view-project.png" title="Screenshot of the main MobiFlight window with the > button highlighted." >}}
 
 {{% /steps %}}
+
+> [!TIP]
+> If MobiFlight is unable to automatically map connected WinCtrl devices to the ones used in the profile, use the **[Controller Bindings](/features/controller-bindings/)** dialog to manually map the devices.
+
+> [!TIP]
+> To open multiple profiles at the same time, see the [adding additional profiles](/features/combining-profiles/) to a project documentation.
