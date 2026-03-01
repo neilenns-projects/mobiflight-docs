@@ -7,7 +7,11 @@ MobiFlight projects contain input and output configurations that are bound to ph
 
 If a connected device is removed, replaced, or has its serial number updated, the project file will no longer be bound to the device. If a device is missing, MobiFlight will attempt to bind to another connected device of the same type.
 
-In situations where MobiFlight fails to automatically re-bind, the **Controller Bindings** dialog allows you to manually update the device bindings.
+In situations where MobiFlight fails to automatically re-bind, the profile will show with a warning icon in the main app screen:
+
+{{< screenshot image="missing-device-icon.png" title="Screenshot of the main MobiFlight window with the missing device warning highlighted." >}}
+
+Use the **Controller Bindings** dialog to manually update the device bindings.
 
 {{% steps %}}
 
