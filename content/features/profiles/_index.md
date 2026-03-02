@@ -3,7 +3,7 @@ title: Profiles
 description: Using profiles in MobiFlight.
 aliases:
   - /guides/mobiflight-eleven/
-ogimage: card-images/guides/mobiflight-eleven.png
+ogimage: card-images/features/profiles.png
 ---
 
 Profiles provide a way to group related input and output configurations together inside a [project](/features/projects/). They are typically used to group configurations for a device, or specific panel on an airplane.
