@@ -3,7 +3,7 @@ title: Projects
 description: Overview of MobiFlight projects.
 ---
 
-MobiFlight projects (.mfproj) are the core files that define the input and output configurations for your MobiFlight setup, and connect those configurations to physical hardware.
+MobiFlight projects (.mfproj) are the core files that define the input and output configurations for your MobiFlight setup, and connect those configurations to physical hardware. Each project contains one or more [profiles](/features/profiles/) that map the physical hardware to simulator events.
 
 ## Creating projects
 
