@@ -52,6 +52,12 @@ Rows can be re-ordered by dragging the row using the handle on the left edge of 
 
 {{< screenshot image="reorder-configuration.gif" title="Animated screenshot of a configuration being dragged to a new position in the list." >}}
 
+## Selecting multiple configurations
+
+Multiple configurations can be selected at once by holding down the `SHIFT` key (to select a range) or the `CTRL` key (to select non-adjacent rows).
+
+{{< screenshot image="selecting-multiple.png" title="Animated screenshot of mulitple configurations being selected with the SHIFT and CTRL key." >}}
+
 ## Adding an additional profile
 
 To add an additional, empty, profile to the current project use the **+** button in the tabs list and select the **Add new profile** item.
