@@ -32,9 +32,9 @@ In the MobiFlight application, go to the **File** menu and select **Open...**.
 
 {{< screenshot image="file-menu.png" title="Screenshot of the MobiFlight main window with the File menu open and the Open...menu item highlighted." >}}
 
-In the resulting file dialog, select the extracted .mcc file, then click **Open**.
+In the resulting file dialog, select the extracted .mfproj file, then click **Open**.
 
-{{< screenshot image="file-dialog.png" title="Screenshot of the Windows file dialog with a downloaded .mcc file and the Open button highlighted." >}}
+{{< screenshot image="file-dialog.png" title="Screenshot of the Windows file dialog with a downloaded .mfproj file and the Open button highlighted." >}}
 
 MobiFlight will open the project and automatically map connected WinCtrl controllers to the input and output configurations in the project file.
 
