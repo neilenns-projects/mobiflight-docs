@@ -64,15 +64,6 @@ In the resulting file dialog, select the .mfproj file for the project you want t
 
 {{% /steps %}}
 
-## Removing a project from recent projects
-
-To remove a project from the recent projects list, click the trash can icon.
-
-{{< screenshot image="remove-from-recent.png" title="Screenshot of the MobiFlight main window with the trash can icon highlighted on a recent project." >}}
-
-> [!TIP]
-> This only removes the project from the recent projects list. It does not delete the project from your computer.
-
 ## Merging profiles from other projects
 
 Profiles from multiple projects can be merged, creating a single project containing all the inputs and outputs from the separate files. This is particularly useful when downloading pre-made profiles for specific hardware devices.
@@ -106,3 +97,12 @@ Use the **Save** item in the **File** menu to save the changes to the primary pr
 > These steps **merge** the secondary files into the primary file. To make modifications to the configurations in the secondary files, be sure to edit the primary file after merging.
 >
 > Changes to the secondary files will not automatically appear in the primary file.
+
+## Removing a project from recent projects
+
+To remove a project from the recent projects list, click the trash can icon.
+
+{{< screenshot image="remove-from-recent.png" title="Screenshot of the MobiFlight main window with the trash can icon highlighted on a recent project." >}}
+
+> [!TIP]
+> This only removes the project from the recent projects list. It does not delete the project from your computer.
