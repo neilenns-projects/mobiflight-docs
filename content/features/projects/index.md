@@ -54,7 +54,7 @@ Give the project file a name in a meaningful location, such as a **MobiFlight Pr
 
 ### Open the profile in MobiFlight
 
-In the MobiFlight application, go to the **File** menu and select **Open...**.
+In MobiFlight, go to the **File** menu and select **Open...**.
 
 {{< screenshot image="file-menu.png" title="Screenshot of the MobiFlight main window with the File menu open and the Open...menu item highlighted." >}}
 
