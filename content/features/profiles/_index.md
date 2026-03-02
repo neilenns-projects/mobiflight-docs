@@ -56,7 +56,7 @@ Rows can be re-ordered by dragging the row using the handle on the left edge of 
 
 Multiple configurations can be selected at once by holding down the `SHIFT` key (to select a range) or the `CTRL` key (to select non-adjacent rows).
 
-{{< screenshot image="selecting-multiple.png" title="Animated screenshot of mulitple configurations being selected with the SHIFT and CTRL key." >}}
+{{< screenshot image="select-multiple.gif" title="Animated screenshot of mulitple configurations being selected with the SHIFT and CTRL key." >}}
 
 ## Adding an additional profile
 
