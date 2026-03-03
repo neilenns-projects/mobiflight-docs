@@ -2,6 +2,7 @@
   "image": "mcr.microsoft.com/devcontainers/go:1",
   "features": {
     "ghcr.io/devcontainers/features/hugo:1": {
+      "version": "0.140.2",
       "extended": true
     },
     "ghcr.io/devcontainers/features/node:1": {},
