@@ -28,6 +28,8 @@ Click the **Add Output Config** button to add a fifth output, which will display
 
 Add a new output configuration for the LCD, but do not select a variable on the **Sim Variable** tab. Instead, click the **Add Reference** button on the **Modify** tab.
 
+{{< screenshot image="modify-tab.png" title="Screenshot of the output configuration dialog with the Modify tab selected and the Add Reference button highlighted." >}}
+
 A new reference to an existing output configuration will be added. If the selected reference is not one of the radio values configured in the previous step use the dropdown to select the correct output.
 
 {{< screenshot image="com1-active-reference.png" title="Screenshot of the output tab in the main window with one output configuration defined for the COM1 - Active output configuration." >}}
