@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  HUGO_VERSION: 0.140.2
+  HUGO_VERSION: 0.146.0
 
 # From https://github.com/aaseper/portfolio-hugo-ci-cd/blob/main/.github/workflows/deploy.yml
 jobs:
