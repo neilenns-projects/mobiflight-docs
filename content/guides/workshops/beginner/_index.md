@@ -21,9 +21,9 @@ There are two versions of the workshop kit, which differ in the included LED pus
 
 The following components are required for the project:
 
-{{< tabs items="Separate Buttons,Circuit Board" defaultIndex="1" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="Separate Buttons" >}}
 
 | Part                                                                                       | Quantity |
 | ------------------------------------------------------------------------------------------ | -------- |
@@ -41,7 +41,7 @@ The following components are required for the project:
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="Circuit Board" >}}
 
 | Part                                                                                       | Quantity |
 | ------------------------------------------------------------------------------------------ | -------- |
@@ -93,9 +93,9 @@ Use the [installing configuration guide](/guides/workshops/installing-configurat
 
 {{< screenshot image="led-assembly.png" title="Photo of the beginner project with the two square LED buttons highlighted." >}}
 
-{{< tabs items="Separate Buttons,Circuit Board" defaultIndex="1" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="Separate Buttons" >}}
 
 Take the red LED button. Remove the plastic nut and the metal plate. Put the metal plate away, it is not needed for this assembly.
 
@@ -121,7 +121,7 @@ With all wires connected, push the lid into the case such that the red button is
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="Circuit Board" >}}
 
 Place the circuit board into the lid such that both the text on the lid (if present) and the labels on the board are facing upwards. The buttons should be aligned with the holes in the lid.
 

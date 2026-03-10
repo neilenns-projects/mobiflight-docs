@@ -16,9 +16,9 @@ weight: 60
 
 ## Input configuration
 
-{{< tabs items="On Press, On Release, On Hold, On Long Release" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="On Press" >}}
 
 The **On Press** event fires immediately after the button is pressed.
 
@@ -26,7 +26,7 @@ The **On Press** event fires immediately after the button is pressed.
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="On Release" >}}
 
 The **On Release** event fires when the button is released.
 
@@ -36,7 +36,7 @@ If **On Long Release** is configured, **On Release** will only fire when the but
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="On Hold" >}}
 
 The **On Hold** event fires while the button is held for longer than the millisecond count specified in the **Delay** field.
 
@@ -46,7 +46,7 @@ If the **repeat every** value is non-zero, the event will fire repeatedly at the
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="On Long Release" >}}
 
 The **On Long Release** event fires when the button is released after being held for longer than the millisecond count specified in the **Delay** field, instead of the **On Release** event firing.
 

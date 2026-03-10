@@ -20,9 +20,9 @@ weight: 40
 
 ## Input configuration
 
-{{< tabs items="On Change" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="On Change" >}}
 
 The **On Change** event fires when the new value from the potentiometer exceeds the previous value by the sensitivity set in the [**Modules** dialog](#modules-dialog).
 

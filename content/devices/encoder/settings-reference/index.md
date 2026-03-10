@@ -22,9 +22,9 @@ weight: 50
 
 ## Input configuration
 
-{{< tabs items="On Left, On Left (Fast), On Right, On Right (Fast)" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="On Left" >}}
 
 The **On Left** event fires when the encoder is turned to the left.
 
@@ -32,7 +32,7 @@ The **On Left** event fires when the encoder is turned to the left.
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="On Left (Fast)" >}}
 
 The **On Left (Fast)** event fires when the encoder is turned to the left quickly.
 
@@ -40,7 +40,7 @@ The **On Left (Fast)** event fires when the encoder is turned to the left quickl
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="On Right" >}}
 
 The **On Right** event fires when the encoder is turned to the right.
 
@@ -48,7 +48,7 @@ The **On Right** event fires when the encoder is turned to the right.
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="On Right (Fast)" >}}
 
 The **On Right (Fast)** event fires when the encoder is turned to the right quickly.
 

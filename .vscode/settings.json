@@ -72,6 +72,7 @@
     "KTIW",
     "KUAO",
     "Liss",
+    "llms",
     "localappdata",
     "Maddog",
     "MCDU",
@@ -124,7 +125,8 @@
     "vjoy",
     "WinCtrl",
     "winwing",
-    "winwwing"
+    "winwwing",
+    "zoomable"
   ],
   "cSpell.enabledFileTypes": {
     ".svg.html": false,

@@ -16,9 +16,9 @@ The following steps demonstrate how to configure a three-position switch to cont
 > [!TIP]
 > The steps for using a switch with X-Plane are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
 
-{{< tabs items="Switch up position,Switch down position" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="Switch up position" >}}
 
 {{% steps %}}
 
@@ -67,7 +67,7 @@ Repeat steps 4 and 5 for the **On Release** tab, selecting **Standby battery - O
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="Switch down position" >}}
 
 {{% steps %}}
 
