@@ -54,3 +54,8 @@ The **On Long Release** event fires when the button is released after being held
 
 {{< /tab >}}
 {{< /tabs >}}
+
+> [!TIP]
+> To set a button up with separate commands for short and long press, add one command to the **On Release** action and the other to the **On Hold** action. Leave **On Press** blank, and add an **On Long Release** action that has a command with empty code configured.
+>
+> Alternatively, map **On Release** and **On Long Release** to the commands, and leave **On Press** and **On Hold** un-configured.
