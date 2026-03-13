@@ -7,17 +7,15 @@ weight: 20
 
 {{% steps %}}
 
-### Open the MobiFlight Modules dialog
+### Open the settings dialog to edit modules
 
-Click on the **MobiFlight Modules** button in the main window toolbar.
+Click on the **Extras** menu and select **Settings** to open the settings dialog.
 
-{{< screenshot image="/main-window-toolbar-modules.png" title="Screenshot of the MobiFlight Modules button in the main window toolbar." >}}
+{{< screenshot image="/app/extras-settings-menu-item.png" title="Screenshot of the Extras menu with the Settings menu item selected." >}}
 
-### Add the output shift register
+Then click on the **MobiFlight Modules** tab to display the modules.
 
-Click on the board the device is connected to, then select **Shift Register** from the **Add device** menu.
-
-{{< screenshot image="add-device-menu.png" title="Screenshot of the menu open with the Shift Register item highlighted." >}}
+{{< screenshot image="/app/settings-modules-tab.png" title="Screenshot of the Settings dialog with the MobiFlight Modules tab highlighted." >}}
 
 ### Configure the output shift register
 
