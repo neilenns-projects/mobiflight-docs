@@ -1,7 +1,7 @@
 ---
 title: Advanced workshop
 description: Step-by-step guide to configuring the advanced workshop project with MobiFlight.
-ogimage: card-images/guides/workshop-advanced.png
+images: [card-images/guides/workshop-advanced.png]
 weight: 30
 ---
 

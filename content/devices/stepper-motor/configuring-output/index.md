@@ -1,7 +1,7 @@
 ---
 title: Configuring the output
 description: Step-by-step guide for configuring an output to a stepper motor in MobiFlight.
-ogimage: card-images/devices/stepper-motor.png
+images: [card-images/devices/stepper-motor.png]
 weight: 30
 ---
 

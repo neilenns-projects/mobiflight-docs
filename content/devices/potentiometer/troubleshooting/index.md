@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting
 description: Troubleshooting potentiometer issues.
-ogimage: card-images/devices/potentiometer.png
+images: [card-images/devices/potentiometer.png]
 weight: 40
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Adding the device
 description: Step-by-step guide for configuring a board with an output shift register in MobiFlight.
-ogimage: card-images/devices/output-shift-register-dm13a.png
+images: [card-images/devices/output-shift-register-dm13a.png]
 weight: 20
 ---
 
@@ -21,9 +21,9 @@ Then click on the **MobiFlight Modules** tab to display the modules.
 
 Use the **Latch**, **Clock**, and **Data** dropdowns to specify the board pins used. The pin names can vary depending on the chip variant used. Use the following mapping for the most common names:
 
-{{< tabs items="74HC595 DIP-8,DM13A DIP-16,TLC5917 DIP-8" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="74HC595 DIP-8" >}}
 
 | MobiFlight setting | Pin name | Pin number |
 | ------------------ | -------- | ---------- |
@@ -33,7 +33,7 @@ Use the **Latch**, **Clock**, and **Data** dropdowns to specify the board pins u
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="DM13A DIP-16" >}}
 
 | MobiFlight setting | Pin name | Pin number |
 | ------------------ | -------- | ---------- |
@@ -43,7 +43,7 @@ Use the **Latch**, **Clock**, and **Data** dropdowns to specify the board pins u
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="TLC5917 DIP-8" >}}
 
 | MobiFlight setting | Pin name | Pin number |
 | ------------------ | -------- | ---------- |

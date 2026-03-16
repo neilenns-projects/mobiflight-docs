@@ -1,7 +1,7 @@
 ---
 title: Rotary encoders
 description: How to use rotary encoders with MobiFlight.
-ogimage: card-images/devices/encoder-both.png
+images: [card-images/devices/encoder-both.png]
 next: /devices/encoder/wiring/
 ---
 

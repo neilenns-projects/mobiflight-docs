@@ -1,7 +1,7 @@
 ---
 title: Using a single encoder to tune COM1
 description: Step-by-step guide to using a single encoder with integrated button to set the standby COM1 frequency.
-ogimage: card-images/devices/encoder-single.png
+images: [card-images/devices/encoder-single.png]
 ---
 
 Single rotary encoders with an integrated button are widely available and inexpensive, which makes them a popular option when building radio panels. Since radio frequencies consist of two parts, MHz and KHz, many people use the encoder push button to toggle whether the encoder controls the MHz or KHZ portion of the frequency.

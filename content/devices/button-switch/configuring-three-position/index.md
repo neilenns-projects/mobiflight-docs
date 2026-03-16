@@ -1,7 +1,7 @@
 ---
 title: Configuring three-position switch input
 description: Step-by-step guide for configuring a three-position switch as an input in MobiFlight.
-ogimage: card-images/devices/switch-three-position.png
+images: [card-images/devices/switch-three-position.png]
 weight: 50
 ---
 
@@ -16,9 +16,9 @@ The following steps demonstrate how to configure a three-position switch to cont
 > [!TIP]
 > The steps for using a switch in an X-Plane project are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
 
-{{< tabs items="Switch up position,Switch down position" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="Switch up position" >}}
 
 {{% steps %}}
 
@@ -71,7 +71,7 @@ Type in a meaningful name for the new config, for example **Standby battery - up
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="Switch down position" >}}
 
 {{% steps %}}
 

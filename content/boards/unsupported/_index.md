@@ -1,7 +1,7 @@
 ---
 title: Unsupported
 description: Details on unsupported boards and the issues with them.
-ogimage: card-images/boards/arduino-nano-esp32.png
+images: [card-images/boards/arduino-nano-esp32.png]
 weight: 1000
 ---
 

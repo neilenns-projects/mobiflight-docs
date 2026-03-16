@@ -1,7 +1,7 @@
 ---
 title: 7-segment display modules
 description: How to use 7-segment LED displays using the MAX7219 or TM1637 driver with MobiFlight.
-ogimage: card-images/devices/seven-segment-max7219.png
+images: [card-images/devices/seven-segment-max7219.png]
 next: /devices/seven-segment-display/wiring/
 ---
 

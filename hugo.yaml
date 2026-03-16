@@ -1,4 +1,8 @@
 title: "MobiFlight documentation"
+
+outputs:
+  home: [html, llms]
+
 module:
   imports:
     - path: github.com/imfing/hextra
@@ -27,6 +31,9 @@ params:
       link: /
       width: 30
       height: 30
+
+  imageZoom:
+    enable: true
 
   footer:
     displayCopyright: true

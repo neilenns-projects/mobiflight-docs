@@ -1,7 +1,7 @@
 ---
 title: Wiring
 description: Step-by-step guide for wiring buttons and switches to multiplexers.
-ogimage: card-images/devices/multiplexer.png
+images: [card-images/devices/multiplexer.png]
 weight: 10
 prev: /devices/multiplexer
 ---

@@ -1,7 +1,7 @@
 ---
 title: Wiring
 description: Step-by-step instructions for wiring potentiometers.
-ogimage: card-images/devices/potentiometer.png
+images: [card-images/devices/potentiometer.png]
 weight: 10
 prev: /devices/potentiometer/
 ---

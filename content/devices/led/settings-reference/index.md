@@ -1,7 +1,7 @@
 ---
 title: Settings reference
 description: Description of all available settings for LED devices and output configurations using LEDs.
-ogimage: card-images/devices/led.png
+images: [card-images/devices/led.png]
 weight: 40
 ---
 
@@ -16,15 +16,15 @@ weight: 40
 
 ## Output display configuration
 
-{{< tabs items="Single output,Multiple outputs" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="Single output" >}}
 
 {{< screenshot image="single-output.png" title="Screenshot of the Display tab with the LED output type selected for a single output." >}}
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="Multiple outputs" >}}
 
 {{< screenshot image="multiple-outputs.png" title="Screenshot of the Display tab with the LED output type selected for multiple outputs." >}}
 

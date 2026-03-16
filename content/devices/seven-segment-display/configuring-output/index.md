@@ -1,7 +1,7 @@
 ---
 title: Configuring the output
 description: Step-by-step guide for configuring an output to a 7-segment display module in MobiFlight.
-ogimage: card-images/devices/seven-segment-all-three.png
+images: [card-images/devices/seven-segment-all-three.png]
 weight: 30
 ---
 

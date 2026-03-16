@@ -1,7 +1,7 @@
 ---
 title: Arduino Nano Every
 description: Details on MobiFlight incompatibility with the Arduino Nano Every.
-ogimage: card-images/boards/arduino-nano-every.png
+images: [card-images/boards/arduino-nano-every.png]
 ---
 
 > [!IMPORTANT]

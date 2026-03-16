@@ -1,7 +1,7 @@
 ---
 title: Configuring the input
 description: Step-by-step guide for configuring a potentiometer as an input in MobiFlight.
-ogimage: card-images/devices/potentiometer.png
+images: [card-images/devices/potentiometer.png]
 weight: 30
 ---
 

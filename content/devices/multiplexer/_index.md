@@ -1,7 +1,7 @@
 ---
 title: Multiplexers
 description: How to use multiplexers with MobiFlight.
-ogimage: card-images/devices/multiplexer.png
+images: [card-images/devices/multiplexer.png]
 next: /devices/multiplexer/wiring/
 ---
 

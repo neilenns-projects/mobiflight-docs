@@ -1,7 +1,7 @@
 ---
 title: Raspberry Pi Pico 1
 description: Details on MobiFlight support for the Raspberry Pi Pico.
-ogimage: card-images/boards/raspberry-pi-pico.png
+images: [card-images/boards/raspberry-pi-pico.png]
 weight: 40
 ---
 

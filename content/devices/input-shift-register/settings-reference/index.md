@@ -1,7 +1,7 @@
 ---
 title: Settings reference
 description: Description of all available settings for input shift register devices and input configurations using shift registers.
-ogimage: card-images/devices/input-shift-register.png
+images: [card-images/devices/input-shift-register.png]
 weight: 40
 ---
 

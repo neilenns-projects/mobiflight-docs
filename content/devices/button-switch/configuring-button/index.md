@@ -1,7 +1,7 @@
 ---
 title: Configuring button input
 description: Step-by-step guide for configuring a button as an input in MobiFlight.
-ogimage: card-images/devices/tactile-buttons.png
+images: [card-images/devices/tactile-buttons.png]
 weight: 30
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: MOSFETs
 description: How to use MOSFETs with MobiFlight.
-ogimage: card-images/devices/mosfet.png
+images: [card-images/devices/mosfet.png]
 next: /devices/mosfet/wiring/
 ---
 

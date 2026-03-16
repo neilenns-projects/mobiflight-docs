@@ -1,7 +1,7 @@
 ---
 title: Settings reference
 description: Description of all available settings for potentiometer devices and input configurations using potentiometers.
-ogimage: card-images/devices/potentiometer.png
+images: [card-images/devices/potentiometer.png]
 weight: 40
 ---
 
@@ -20,9 +20,9 @@ weight: 40
 
 ## Input configuration
 
-{{< tabs items="On Change" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="On Change" >}}
 
 The **On Change** event fires when the new value from the potentiometer exceeds the previous value by the sensitivity set in the [**Modules** dialog](#modules-dialog).
 

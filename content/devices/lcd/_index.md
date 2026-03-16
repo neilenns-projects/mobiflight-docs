@@ -1,7 +1,7 @@
 ---
 title: LCDs
 description: How to use LCDs with MobiFlight.
-ogimage: card-images/devices/lcd-20x4.png
+images: [card-images/devices/lcd-20x4.png]
 next: /devices/lcd/wiring/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Settings reference
 description: Description of all available settings for multiplexer devices and input configurations using multiplexers.
-ogimage: card-images/devices/multiplexer.png
+images: [card-images/devices/multiplexer.png]
 weight: 40
 ---
 

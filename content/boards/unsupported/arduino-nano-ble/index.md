@@ -1,7 +1,7 @@
 ---
 title: Arduino Nano 33 BLE
 description: Details on MobiFlight incompatibility with the Arduino Nano 33 BLE.
-ogimage: card-images/boards/arduino-nano-ble.png
+images: [card-images/boards/arduino-nano-ble.png]
 ---
 
 > [!IMPORTANT]

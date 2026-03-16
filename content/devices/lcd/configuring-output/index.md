@@ -1,7 +1,7 @@
 ---
 title: Configuring the output
 description: Step-by-step guide for configuring an output to an LCD in MobiFlight.
-ogimage: card-images/devices/lcd-20x4.png
+images: [card-images/devices/lcd-20x4.png]
 weight: 30
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Settings reference
 description: Description of all available settings for output shift register devices and output configurations using shift registers.
-ogimage: card-images/devices/output-shift-register.png
+images: [card-images/devices/output-shift-register.png]
 weight: 40
 ---
 
@@ -19,15 +19,15 @@ weight: 40
 
 ## Output display configuration
 
-{{< tabs items="Single output,Multiple outputs" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="Single output" >}}
 
 {{< screenshot image="single-output.png" title="Screenshot of the Display tab with the ShiftRegister output type selected for a single output." >}}
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="Multiple outputs" >}}
 
 {{< screenshot image="multiple-outputs.png" title="Screenshot of the Display tab with the ShiftRegister output type selected for multiple outputs." >}}
 

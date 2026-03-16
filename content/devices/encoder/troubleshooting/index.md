@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting
 description: Troubleshooting encoder issues.
-ogimage: card-images/devices/encoder-both.png
+images: [card-images/devices/encoder-both.png]
 weight: 40
 ---
 

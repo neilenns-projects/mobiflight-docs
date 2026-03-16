@@ -1,7 +1,7 @@
 ---
 title: Adding the device
 description: Step-by-step guide for configuring a board with an LED in MobiFlight.
-ogimage: card-images/devices/led.png
+images: [card-images/devices/led.png]
 weight: 20
 ---
 

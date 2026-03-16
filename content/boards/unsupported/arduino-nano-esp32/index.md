@@ -1,7 +1,7 @@
 ---
 title: Arduino Nano ESP32
 description: Details on MobiFlight incompatibility with the Arduino Nano ESP32.
-ogimage: card-images/boards/arduino-nano-esp32.png
+images: [card-images/boards/arduino-nano-esp32.png]
 ---
 
 > [!IMPORTANT]

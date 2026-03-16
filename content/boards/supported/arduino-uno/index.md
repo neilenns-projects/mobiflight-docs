@@ -1,7 +1,7 @@
 ---
 title: Arduino Uno R3
 description: Details on MobiFlight support for the Arduino Uno.
-ogimage: card-images/boards/arduino-uno.png
+images: [card-images/boards/arduino-uno.png]
 weight: 20
 ---
 

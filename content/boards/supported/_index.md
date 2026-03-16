@@ -1,7 +1,7 @@
 ---
 title: Supported
 description: Details on supported, but not recommended, boards for use with MobiFlight.
-ogimage: card-images/boards/mega-2560-rev3.png
+images: [card-images/boards/mega-2560-rev3.png]
 weight: 200
 ---
 

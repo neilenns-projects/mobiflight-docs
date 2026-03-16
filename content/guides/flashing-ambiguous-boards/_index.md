@@ -1,7 +1,7 @@
 ---
 title: Flashing ambiguous boards
 description: Step-by-step guide to flashing ambiguous boards with MobiFlight.
-ogimage: screenshots/ambiguous-board-warning.png
+images: [screenshots/ambiguous-board-warning.png]
 ---
 
 When connecting a new board, MobiFlight prompts to install the software on the board to make it work with MobiFlight. In some cases

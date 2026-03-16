@@ -9,15 +9,15 @@ The **X-Plane DataRef** output variable type is the preferred way to read values
 > [!TIP]
 > To update the HubHop event list, select the **Download Latest Presets** menu item from the **Extras** > **HubHop** menu.
 
-{{< tabs items="Default view,Custom preset code view" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="Default view" >}}
 
 {{< screenshot image="x-plane-dataref.png" title="Screenshot of an output configuration with the X-Plane DataRef output variable type selected." >}}
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="Custom preset code view" >}}
 
 {{< screenshot image="x-plane-dataref-show-preset-code.png" title="Screenshot of an output configuration with the X-Plane DataRef output variable type selected and the Show Preset Code checkbox checked." >}}
 
