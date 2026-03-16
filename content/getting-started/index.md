@@ -7,6 +7,10 @@ weight: 10
 
 MobiFlight is a powerful tool to control your flight simulator with a [board](/boards/) and [wide range of devices](/devices/). The choices can be overwhelming at first, so we recommend getting started with a simple parking brake switch and indicator LED.
 
+MobiFlight v11 brings a new project system and updates to the main interface. For an overview of the changes see the release video:
+
+{{< youtube id="k8ujiDwko_c" title="MobiFlight v11 release">}}
+
 The following video provides complete instructions for those two projects using the prior version of MobiFlight. While the process to create a new project changed in Mobiflight v11, the steps to create configurations are still applicable.
 
 {{< youtube id="pS8KGfYRNrY" title="Getting started with MobiFlight" >}}
