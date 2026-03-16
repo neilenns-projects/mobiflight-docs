@@ -6,9 +6,9 @@ weight: 10
 prev: /devices/encoder/
 ---
 
-{{< tabs items="Single encoder with button,Dual encoder with button" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="Single encoder with button" >}}
 
 A single encoder with an integrated button has three legs on one side that connect the encoder and two legs on the other side that connect the button. The outer legs of the encoder side are connected to digital inputs on the board. The middle pin is connected to ground.
 
@@ -18,7 +18,7 @@ One leg on the button side is connected to a digital input on the board. The oth
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="Dual encoder with button" >}}
 
 A dual encoder with an integrated button is similar to a single encoder, with an extra set of three pins on the button side for the outer encoder.
 

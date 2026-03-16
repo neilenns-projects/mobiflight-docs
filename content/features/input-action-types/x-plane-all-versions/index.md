@@ -11,15 +11,15 @@ The **X-Plane (all versions)** action type is the preferred way to send events t
 > [!TIP]
 > To update the HubHop event list, select the **Download Latest Presets** menu item from the **Extras** > **HubHop** menu.
 
-{{< tabs items="Default view,Custom preset code view" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="Default view" >}}
 
 {{< screenshot image="x-plane-all-versions.png" title="Screenshot of a button input with the X-Plane (all versions) action type selected." >}}
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="Custom preset code view" >}}
 
 {{< screenshot image="x-plane-show-preset-code.png" title="Screenshot of a button input with the X-Plane (all versions) action type selected." >}}
 

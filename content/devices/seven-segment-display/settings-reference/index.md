@@ -7,9 +7,9 @@ weight: 50
 
 ## Modules dialog
 
-{{< tabs items="MAX 7219 driver, TM1637 driver" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="MAX 7219 driver" >}}
 
 {{< screenshot image="max7219-configuration.png" title="Screenshot of the Modules dialog with the MAX7219 7-segment display configuration showing." >}}
 
@@ -24,7 +24,7 @@ weight: 50
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="TM1637 driver" >}}
 
 {{< screenshot image="tm1637-configuration.png" title="Screenshot of the Modules dialog with the TM1637 7-segment display configuration showing." >}}
 

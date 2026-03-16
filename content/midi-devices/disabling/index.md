@@ -9,9 +9,9 @@ weight: 40
 
 You may want to disable MobiFlight's MIDI support in certain situations. This can be done either for all MIDI devices or for specific devices. Disabling support is useful when other software controls these devices and MobiFlight should ignore them.
 
-{{< tabs items="Disable all devices,Disable specific devices" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="Disable all devices" >}}
 
 {{% steps %}}
 
@@ -31,7 +31,7 @@ On the **Peripherals** tab, uncheck the **Enable MIDI support** checkbox.
 
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="Disable specific devices" >}}
 
 {{% steps %}}
 
