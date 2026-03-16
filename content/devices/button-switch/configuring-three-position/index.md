@@ -14,7 +14,7 @@ Three-position switches are typically mapped to three different simulator variab
 The following steps demonstrate how to configure a three-position switch to control the STBY BATT switch in a Cessna 172 in Microsoft Flight Simulator 2024.
 
 > [!TIP]
-> The steps for using a switch with X-Plane are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
+> The steps for using a switch in an X-Plane project are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
 
 {{< tabs items="Switch up position,Switch down position" >}}
 
@@ -22,17 +22,11 @@ The following steps demonstrate how to configure a three-position switch to cont
 
 {{% steps %}}
 
-### Create a new row in the inputs tab of the main window
+### Add a new input config
 
-Double-click on the bottom row where the description says **Double-click row to add new config...** and enter a description for the input. For example, enter **Standby battery - up** for a switch that will control the standby battery switch up position.
+Click the **Add Input Config** button in the main MobiFlight window to open the input configuration dialog.
 
-{{< screenshot image="input-config-highlight-new.png" title="Screenshot of the input tab in the main window with the bottom row highlighted in red." >}}
-
-### Open the input configuration dialog
-
-Click the button with three dots in the **Edit** column for the row created in the previous step.
-
-{{< screenshot image="input-config-highlight-edit-up.png" title="Screenshot of the input tab in the main window with the edit button highlighted in red." >}}
+{{< screenshot image="/app/new-input-config.png" title="Screenshot of the main window with the Add Input Config button highlighted." >}}
 
 ### Select the board and device for the input
 
@@ -56,12 +50,22 @@ Use the **Select Preset** dropdown to select the **Standby battery - Arm** prese
 
 ### Configure the On Release action
 
-Repeat steps 4 and 5 for the **On Release** tab, selecting **Standby battery - Off** for the preset.
+Repeat steps 3 and 4 for the **On Release** tab, selecting **Standby battery - Off** for the preset.
 
 > [!NOTE]
 > For three-position switches, the **On Release** event is always set to the event that maps to the middle switch position.
 
 {{< screenshot image="input-event-standby-battery-off-up.png" title="Screenshot of the input tab on release event with the Standby battery - off preset selected." >}}
+
+### Close the dialog and name the config
+
+Click the **OK** button to close the dialog, then double-click on the **New Input Config** name in the main window.
+
+{{< screenshot image="input-config-default-name-one-entry.png" title="Screenshot of the main window with the New Input Config text highlighted." >}}
+
+Type in a meaningful name for the new config, for example **Standby battery - up**, and press enter to apply the change.
+
+{{< screenshot image="input-config-custom-name-up.png" title="Screenshot of the main window with Standby battery - up entered as a custom name." >}}
 
 {{% /steps %}}
 
@@ -71,15 +75,11 @@ Repeat steps 4 and 5 for the **On Release** tab, selecting **Standby battery - O
 
 {{% steps %}}
 
-### Create a new row in the inputs tab of the main window
+### Add a new input config
 
-Double-click on the bottom row where the description says **Double-click row to add new config...** and enter a description for the input. For example, enter **Standby battery - down** for a switch that will control the standby battery switch down position.
+Click the **Add Input Config** button in the main MobiFlight window to open the input configuration dialog.
 
-### Open the input configuration dialog
-
-Click the button with three dots in the **Edit** column for the row created in the previous step.
-
-{{< screenshot image="input-config-highlight-edit-down.png" title="Screenshot of the input tab in the main window with the edit button highlighted in red." >}}
+{{< screenshot image="/app/new-input-config.png" title="Screenshot of the main window with the Add Input Config button highlighted." >}}
 
 ### Select the board and device for the input
 
@@ -103,12 +103,22 @@ Use the **Select Preset** dropdown to select the **Standby battery - Test** pres
 
 ### Configure the On Release action
 
-Repeat steps 4 and 5 for the **On Release** tab, selecting **Standby battery - Off** for the preset.
+Repeat steps 3 and 4 for the **On Release** tab, selecting **Standby battery - Off** for the preset.
 
 > [!NOTE]
 > For three-position switches, the **On Release** event is always set to the event that maps to the middle switch position.
 
 {{< screenshot image="input-event-standby-battery-off-down.png" title="Screenshot of the input tab on release event with the Standby battery - off preset selected." >}}
+
+### Close the dialog and name the config
+
+Click the **OK** button to close the dialog, then double-click on the **New Input Config** name in the main window.
+
+{{< screenshot image="input-config-default-name-two-entries.png" title="Screenshot of the main window with the New Input Config row text highlighted." >}}
+
+Type in a meaningful name for the new config, for example **Standby battery - down**, and press enter to apply the change.
+
+{{< screenshot image="input-config-custom-name-down.png" title="Screenshot of the main window with Standby battery - down entered as a custom name." >}}
 
 {{% /steps %}}
 
@@ -116,7 +126,7 @@ Repeat steps 4 and 5 for the **On Release** tab, selecting **Standby battery - O
 
 {{< /tabs >}}
 
-## Try it out
+## Try out the events
 
 After configuring both inputs, spawn an airplane in Microsoft Flight Simulator.
 

@@ -13,9 +13,9 @@ MobiFlight logs make it easier for people to answer support questions in [Discor
 
 ### Open the settings dialog
 
-Go to the **Extras** menu and select **Settings**.
+Click on the **Extras** menu and select **Settings** to open the settings dialog.
 
-{{< screenshot image="/extras-settings.png" title="Screenshot of the Extras menu with the Settings menu item selected." >}}
+{{< screenshot image="/app/extras-settings-menu-item.png" title="Screenshot of the Extras menu with the Settings menu item selected." >}}
 
 ### Enable logging
 

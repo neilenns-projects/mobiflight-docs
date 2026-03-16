@@ -15,11 +15,11 @@ To link a profile to an aircraft, do the following steps:
 
 Launch the flight simulator and spawn the aircraft.
 
-### Open the configuration file
+### Open the profile
 
-Open the appropriate configuration file using the **File** > **Open...** menu item.
+Open the appropriate profile using the **File** > **Open...** menu item.
 
-### Link the configuration file
+### Link the profile
 
 Select the down arrow next to the aircraft name in the main window status bar and click **Link current config**.
 

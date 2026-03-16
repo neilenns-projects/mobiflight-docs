@@ -40,14 +40,7 @@ reviews:
           - uF should use the µ symbol (µF).
           - All files under the boards and devices folders should have an ogimage specified in the front matter.
           - "WINWING" should be "WinCtrl" instead.
-    - path: "**/*.png"
-      instructions: |
-        Review all PNGs that are screenshots and ensure that:
-          - They are 800px wide.
-          - They are stored under the assets/screenshots folder.
-        Review all PNGs that are board or device images and ensure that:
-          - They are 800x600px.
-          - They are stored under the assets/card-images folder.
+          - "file" shouldn't be used to refer to MobiFlight configuration files. Instead, use "profile" or "project".
     - path: "**/*.svg"
       instructions: |
         Review all SVG files and ensure that:
