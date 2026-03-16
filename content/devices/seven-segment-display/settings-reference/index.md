@@ -1,7 +1,7 @@
 ---
 title: Settings reference
 description: Description of all available settings for 7-segment devices and output configurations using them.
-ogimage: card-images/devices/seven-segment-max7219.png
+images: [card-images/devices/seven-segment-max7219.png]
 weight: 50
 ---
 

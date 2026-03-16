@@ -1,7 +1,7 @@
 ---
 title: Arduino Mega 2560 Rev3
 description: Details on MobiFlight support for the Arduino Mega 2560 Rev3.
-ogimage: card-images/boards/mega-2560-rev3.png
+images: [card-images/boards/mega-2560-rev3.png]
 weight: 10
 ---
 

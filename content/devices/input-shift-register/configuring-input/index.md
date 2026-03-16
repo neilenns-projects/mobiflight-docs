@@ -1,7 +1,7 @@
 ---
 title: Configuring the input
 description: Step-by-step guide for configuring switches connected to an input shift register as an input in MobiFlight.
-ogimage: card-images/devices/switch.png
+images: [card-images/devices/switch.png]
 weight: 30
 ---
 

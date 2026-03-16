@@ -1,7 +1,7 @@
 ---
 title: Adding the device
 description: Step-by-step guide for configuring an LCD with MobiFlight.
-ogimage: card-images/devices/lcd-20x4.png
+images: [card-images/devices/lcd-20x4.png]
 weight: 20
 ---
 

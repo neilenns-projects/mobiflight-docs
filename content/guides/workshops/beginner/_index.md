@@ -1,7 +1,7 @@
 ---
 title: Beginner workshop
 description: Step-by-step guide to configuring the beginner workshop project with MobiFlight.
-ogimage: card-images/guides/workshop-beginner.png
+images: [card-images/guides/workshop-beginner.png]
 weight: 20
 ---
 

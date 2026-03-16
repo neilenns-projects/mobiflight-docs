@@ -1,7 +1,7 @@
 ---
 title: Settings reference
 description: Description of all available settings for LED devices and output configurations using LEDs.
-ogimage: card-images/devices/led.png
+images: [card-images/devices/led.png]
 weight: 40
 ---
 

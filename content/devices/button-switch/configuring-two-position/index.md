@@ -1,7 +1,7 @@
 ---
 title: Configuring two-position switch input
 description: Step-by-step guide for configuring a two-position switch as an input in MobiFlight.
-ogimage: card-images/devices/switch.png
+images: [card-images/devices/switch.png]
 weight: 40
 ---
 

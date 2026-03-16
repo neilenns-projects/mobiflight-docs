@@ -1,7 +1,7 @@
 ---
 title: Wiring
 description: Step-by-step guide to wiring MOSFETs to control an LED light strip.
-ogimage: card-images/devices/mosfet.png
+images: [card-images/devices/mosfet.png]
 weight: 10
 prev: /devices/mosfet/
 ---

@@ -1,7 +1,7 @@
 ---
 title: Settings reference
 description: Description of all available settings for stepper motors and output configurations using them.
-ogimage: card-images/devices/stepper-motor.png
+images: [card-images/devices/stepper-motor.png]
 weight: 40
 ---
 

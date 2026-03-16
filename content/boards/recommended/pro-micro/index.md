@@ -1,7 +1,7 @@
 ---
 title: Pro Micro (16MHz)
 description: Details on MobiFlight support for the Pro Micro (16MHz).
-ogimage: card-images/boards/pro-micro.png
+images: [card-images/boards/pro-micro.png]
 weight: 30
 ---
 

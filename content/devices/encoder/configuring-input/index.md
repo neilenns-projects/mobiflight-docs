@@ -1,7 +1,7 @@
 ---
 title: Configuring the input
 description: Step-by-step guide for configuring an encoder as an input in MobiFlight.
-ogimage: card-images/devices/encoder-single.png
+images: [card-images/devices/encoder-single.png]
 weight: 30
 ---
 

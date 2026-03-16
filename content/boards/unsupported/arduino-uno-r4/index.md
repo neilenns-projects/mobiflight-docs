@@ -1,7 +1,7 @@
 ---
 title: Arduino Uno R4
 description: Details on MobiFlight incompatibility with the Arduino Uno R4.
-ogimage: card-images/boards/arduino-uno-r4-minima.png
+images: [card-images/boards/arduino-uno-r4-minima.png]
 ---
 
 > [!IMPORTANT]

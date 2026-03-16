@@ -1,7 +1,7 @@
 ---
 title: Settings reference
 description: Description of all available settings for potentiometer devices and input configurations using potentiometers.
-ogimage: card-images/devices/potentiometer.png
+images: [card-images/devices/potentiometer.png]
 weight: 40
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Solving flashing errors
 description: Step-by-step guide to solving errors when flashing supported MobiFlight boards.
-ogimage: screenshots/flashing-error.png
+images: [screenshots/flashing-error.png]
 ---
 
 When connecting a new board, MobiFlight prompts to install the software on the board to make it work with MobiFlight. In some cases, that installation fails and MobiFlight will display an error dialog.

@@ -1,7 +1,7 @@
 ---
 title: Wiring
 description: Step-by-step instructions for wiring stepper motors.
-ogimage: card-images/devices/stepper-motor.png
+images: [card-images/devices/stepper-motor.png]
 weight: 10
 prev: /devices/stepper-motor/
 ---

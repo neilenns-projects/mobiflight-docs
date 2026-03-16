@@ -1,7 +1,7 @@
 ---
 title: Mega 2560 Pro Mini
 description: Details on MobiFlight support for the Mega 2560 Pro Mini.
-ogimage: card-images/boards/mega-2560-pro-mini.png
+images: [card-images/boards/mega-2560-pro-mini.png]
 weight: 10
 ---
 

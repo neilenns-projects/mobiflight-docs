@@ -1,7 +1,7 @@
 ---
 title: Settings reference
 description: Description of all available settings for rotary encoder devices and input configurations using encoders.
-ogimage: card-images/devices/encoder-single.png
+images: [card-images/devices/encoder-single.png]
 weight: 50
 ---
 

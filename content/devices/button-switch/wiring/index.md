@@ -1,7 +1,7 @@
 ---
 title: Wiring
 description: Step-by-step guide to wiring buttons and switches.
-ogimage: card-images/devices/switch.png
+images: [card-images/devices/switch.png]
 weight: 10
 prev: /devices/button-switch/
 ---

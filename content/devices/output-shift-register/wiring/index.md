@@ -1,7 +1,7 @@
 ---
 title: Wiring
 description: Step-by-step instructions for wiring LEDs to output shift registers and LED driver chips.
-ogimage: card-images/devices/output-shift-register-dm13a.png
+images: [card-images/devices/output-shift-register-dm13a.png]
 weight: 10
 math: true
 prev: /devices/output-shift-register/

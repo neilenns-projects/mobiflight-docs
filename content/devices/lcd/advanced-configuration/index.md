@@ -1,7 +1,7 @@
 ---
 title: Advanced configuration
 description: Step-by-step guide for displaying multiple values on an LCD in MobiFlight.
-ogimage: card-images/devices/lcd-20x4.png
+images: [card-images/devices/lcd-20x4.png]
 weight: 40
 ---
 

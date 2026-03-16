@@ -1,7 +1,7 @@
 ---
 title: Adding the device
 description: Step-by-step guide for configuring a board with an encoder in MobiFlight.
-ogimage: card-images/devices/encoder-both.png
+images: [card-images/devices/encoder-both.png]
 weight: 20
 ---
 

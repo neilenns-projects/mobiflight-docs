@@ -2,7 +2,7 @@
 title: Workshops
 description: Step-by-step guides to MobiFlight workshop projects.
 next: /guides/workshops/installing-configuration/
-ogimage: card-images/guides/workshop-beginner.png
+images: [card-images/guides/workshop-beginner.png]
 ---
 
 MobiFlight offers beginner and advanced workshops at flight simulator events throughout the year. Register for upcoming workshops in the [MobiFlight shop](https://shop.mobiflight.com/category/events).

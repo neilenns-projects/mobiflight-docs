@@ -1,7 +1,7 @@
 ---
 title: Wiring
 description: How to wire other output devices with MobiFlight.
-ogimage: card-images/devices/relay.png
+images: [card-images/devices/relay.png]
 prev: /devices/relay/
 ---
 

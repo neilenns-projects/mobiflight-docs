@@ -1,7 +1,7 @@
 ---
 title: Settings reference
 description: Description of all available settings for servo devices and output configurations using servos.
-ogimage: card-images/devices/servo.png
+images: [card-images/devices/servo.png]
 weight: 40
 ---
 

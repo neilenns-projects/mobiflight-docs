@@ -1,7 +1,7 @@
 ---
 title: Wiring
 description: Step-by-step instructions for wiring a seven segment display module.
-ogimage: card-images/devices/seven-segment-display-max7219.png
+images: [card-images/devices/seven-segment-display-max7219.png]
 weight: 10
 prev: /devices/seven-segment-display/
 ---

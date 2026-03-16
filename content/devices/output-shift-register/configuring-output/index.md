@@ -1,7 +1,7 @@
 ---
 title: Configuring the output
 description: Step-by-step guide for configuring an output to use an LED attached to an output shift register or LED driver in MobiFlight.
-ogimage: card-images/devices/output-shift-register-dm13a.png
+images: [card-images/devices/output-shift-register-dm13a.png]
 weight: 30
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Adding the device
 description: Step-by-step guide for adding an LED display module in MobiFlight.
-ogimage: card-images/devices/seven-segment-all-three.png
+images: [card-images/devices/seven-segment-all-three.png]
 weight: 20
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Settings reference
 description: Description of all available settings for output shift register devices and output configurations using shift registers.
-ogimage: card-images/devices/output-shift-register.png
+images: [card-images/devices/output-shift-register.png]
 weight: 40
 ---
 

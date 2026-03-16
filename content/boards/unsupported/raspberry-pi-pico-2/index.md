@@ -1,7 +1,7 @@
 ---
 title: Raspberry Pi Pico 2
 description: Details on MobiFlight incompatibility with the Raspberry Pi Pico 2.
-ogimage: card-images/boards/raspberry-pi-pico2.png
+images: [card-images/boards/raspberry-pi-pico2.png]
 ---
 
 > [!IMPORTANT]

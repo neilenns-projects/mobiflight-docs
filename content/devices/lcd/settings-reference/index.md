@@ -1,7 +1,7 @@
 ---
 title: Settings reference
 description: Description of all available settings for LCDs and output configurations using LCDs.
-ogimage: card-images/devices/lcd.png
+images: [card-images/devices/lcd.png]
 weight: 60
 ---
 

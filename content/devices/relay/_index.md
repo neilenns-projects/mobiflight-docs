@@ -1,7 +1,7 @@
 ---
 title: Relays
 description: How to use relays with MobiFlight.
-ogimage: card-images/devices/relay.png
+images: [card-images/devices/relay.png]
 next: /devices/relay/wiring/
 ---
 

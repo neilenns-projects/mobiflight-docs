@@ -1,7 +1,7 @@
 ---
 title: Potentiometers
 description: How to use potentiometers with MobiFlight.
-ogimage: card-images/devices/potentiometer.png
+images: [card-images/devices/potentiometer.png]
 next: /devices/potentiometer/wiring/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Configuring three-position switch input
 description: Step-by-step guide for configuring a three-position switch as an input in MobiFlight.
-ogimage: card-images/devices/switch-three-position.png
+images: [card-images/devices/switch-three-position.png]
 weight: 50
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Adding the device
 description: Step-by-step guide for configuring a board with an output shift register in MobiFlight.
-ogimage: card-images/devices/output-shift-register-dm13a.png
+images: [card-images/devices/output-shift-register-dm13a.png]
 weight: 20
 ---
 

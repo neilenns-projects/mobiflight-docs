@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting
 description: Troubleshooting 7-segment display modules in MobiFlight.
-ogimage: card-images/devices/seven-segment-max7219.png
+images: [card-images/devices/seven-segment-max7219.png]
 weight: 40
 ---
 
