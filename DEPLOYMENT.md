@@ -14,38 +14,30 @@ hugo -b https://docs.mobiflight.com/
 
 The static pages for deployment are placed in the `./public` folder after the build completes.
 
-## Deploying to CloudFlare Pages: Production
+## Deploying to Cloudflare Workers
 
-The site is deployed to the CloudFlare Pages production environment with the following settings:
+The site is deployed to Cloudflare Workers using [Wrangler](https://developers.cloudflare.com/workers/wrangler/). The deployment configuration is stored in `wrangler.toml` at the root of the repository.
 
-| Setting              | Sub-setting           | Value                               |
-| -------------------- | --------------------- | ----------------------------------- |
-| Git repository       |                       | `neilenns-projects/mobiflight-docs` |
-| Build configuration  | Build command         | `hugo -b $CF_PAGES_URL`             |
-| Build configuration  | Output directory      | `public`                            |
-| Build configuration  | Root directory        | *leave empty*                       |
-| Build configuration  | Build comments        | Enabled                             |
-| Build cache          |                       | Disabled                            |
-| Branch control       | Production branch     | `main`                              |
-| Branch control       | Automatic deployments | Enabled                             |
-| Build watch paths    | Include paths         | `*`                                 |
-| Build system version |                       | `2`                                 |
-| Deploy hooks         |                       | *leave empty*                       |
+### Prerequisites
 
-Use the following variables and secrets:
+- [Node.js](https://nodejs.org/) installed
+- A Cloudflare account with Workers enabled
+- A Cloudflare API token with `Workers Scripts:Edit` and `Workers Assets:Edit` permissions
 
-| Type      | Name         | Value   |
-| --------- | ------------ | ------- |
-| Plaintext | HUGO_VERSION | 0.140.2 |
+### GitHub Actions deployment
 
-Failing to set the `HUGO_VERSION` variable will result in the deployments failing.
+The site is deployed automatically via GitHub Actions on every push to `main`. The workflow requires the following repository secrets:
 
-## Deploying to CloudFlare Pages: Preview
+| Secret                  | Description                                    |
+| ----------------------- | ---------------------------------------------- |
+| `CLOUDFLARE_API_TOKEN`  | A Cloudflare API token with deploy permissions |
+| `CLOUDFLARE_ACCOUNT_ID` | The Cloudflare account ID                      |
 
-CloudFlare Pages automatically deploys a preview version of the site for each pull request. The settings are identical to the production environment, with the following exceptions:
+### Manual deployment
 
-| Setting        | Sub-setting    | Value                       |
-| -------------- | -------------- | --------------------------- |
-| Branch control | Preview branch | All non-production branches |
+To deploy manually, run the following commands from the repository root:
 
-Remember to set the `HUGO_VERSION` variable on the preview environment as well, otherwise the deployments will fail.
+```bash
+hugo --gc --minify -b https://docs.mobiflight.com/
+npx wrangler deploy
+```
