@@ -8,6 +8,13 @@ cascade:
   type: docs
 ---
 
+## Boards
+
+{{< cards >}}
+{{< card link="/guides/compatible-only/" title="Solving compatible-only boards" icon="cpu-chip" >}}
+{{< card link="/guides/solving-flashing-errors/" title="Solving flashing errors" icon="cpu-chip" >}}
+{{< /cards >}}
+
 ## Devices
 
 {{< cards >}}
@@ -27,7 +34,6 @@ cascade:
 
 {{< cards >}}
 {{< card link="/guides/sharing-logs/" title="Sharing logs" icon="clipboard-document-list" >}}
-{{< card link="/guides/solving-flashing-errors/" title="Solving flashing errors" icon="cpu-chip" >}}
 {{< card link="/guides/taking-screenshots/" title="Taking screenshots" icon="camera" >}}
 {{< card link="/guides/wasm-module/" title="WASM module installation" icon="download" >}}
 {{< /cards >}}
