@@ -11,6 +11,9 @@ weight: 30
 <!-- markdownlint doesn't know about ### being used inside cards, so disable the rule -->
 <!-- markdownlint-disable-file MD001 -->
 
+> [!WARNING]
+> MobiFlight and SimAppPro cannot be used with a CDU at the same time. If using MobiFlight with the CDU, SimAppPro must be completely exited.
+
 MobiFlight supports WinCtrl CDU devices with the MobiFlight 11 beta builds. All buttons are automatically available as [game controller inputs](/game-controllers/configuring-input/); however, using the display for output requires additional setup and is only supported with the following aircraft:
 
 | Platform   | Aircraft                | Supported configurations                 | Comment                                                                                                   |
@@ -41,9 +44,6 @@ MobiFlight supports WinCtrl CDU devices with the MobiFlight 11 beta builds. All 
 | X-Plane 12 | ToLiss A330             | CPT or FO or CPT+FO                      |                                                                                                           |
 | X-Plane 12 | ToLiss A340             | CPT or FO or CPT+FO                      |                                                                                                           |
 | X-Plane 12 | Zibo 737                | CPT or FO or CPT+FO                      |                                                                                                           |
-
-> [!WARNING]
-> MobiFlight and SimAppPro cannot be used with a CDU at the same time. If using MobiFlight with the CDU, SimAppPro must be completely exited.
 
 To use MobiFlight with a WinFlex CDU, take the following steps:
 
