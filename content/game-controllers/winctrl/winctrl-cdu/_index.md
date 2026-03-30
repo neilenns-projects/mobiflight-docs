@@ -45,7 +45,7 @@ MobiFlight supports WinCtrl CDU devices with the MobiFlight 11 beta builds. All 
 | X-Plane 12 | ToLiss A340             | CPT or FO or CPT+FO                      |                                                                                                           |
 | X-Plane 12 | Zibo 737                | CPT or FO or CPT+FO                      |                                                                                                           |
 
-To use MobiFlight with a WinFlex CDU, take the following steps:
+To use MobiFlight with a WinCtrl CDU, take the following steps:
 
 {{% steps %}}
 
