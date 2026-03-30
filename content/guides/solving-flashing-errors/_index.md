@@ -32,6 +32,7 @@ Common apps causing this issue include:
 - CURA
 - Joystick configuration software
 - Sim Racing Studio
+- WingFlex
 
 Close any of these applications that may be running. A PC reboot may be necessary to ensure the conflicting applications are fully closed. Then, try flashing the board again.
 
