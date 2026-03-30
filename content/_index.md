@@ -19,4 +19,5 @@ See the [getting started guide](/getting-started/) to set up your first input an
 {{< card link="/midi-devices/" title="MIDI devices" subtitle="Supported MIDI devices" icon="book-open" >}}
 {{< card link="/features/" title="Features" subtitle="Information on specific MobiFlight features" icon="book-open" >}}
 {{< card link="/guides/" title="Guides" subtitle="Step-by-step walkthroughs" icon="book-open" >}}
+{{< card link="/troubleshooting/" title="Troubleshooting" subtitle="Troubleshooting guides" icon="book-open" >}}
 {{< /cards >}}
