@@ -42,15 +42,16 @@ MobiFlight supports WinCtrl CDU devices with the MobiFlight 11 beta builds. All 
 | X-Plane 12 | ToLiss A340             | CPT or FO or CPT+FO                      |                                                                                                           |
 | X-Plane 12 | Zibo 737                | CPT or FO or CPT+FO                      |                                                                                                           |
 
-To get the beta build and install pre-requisites for CDU display support, take the following steps:
+> [!WARNING]
+> MobiFlight and SimAppPro cannot be used with a CDU at the same time. If using MobiFlight with the CDU, SimAppPro must be completely exited.
+
+To use MobiFlight with a WinFlex CDU, take the following steps:
 
 {{% steps %}}
 
-### Install the beta build
+### Install the latest version of MobiFlight
 
-Opt in to the MobiFlight beta by selecting **Settings** from the **Extras** menu, then checking the **Yes, I would like to receive beta version updates** option. Click **OK** to close the dialog, then restart MobiFlight. The app will prompt to download and install the latest beta.
-
-{{< screenshot image="beta-opt-in.png" title="Screenshot of the Settings dialog with the Yes, I would like to receive beta version updates option checked." >}}
+MobiFlight version 11 or later is required to use the WinFlex CDU.
 
 ### Configure the aircraft
 
