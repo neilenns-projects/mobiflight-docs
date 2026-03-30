@@ -10,6 +10,8 @@ weight: 10
 
 <!-- Markdownlint doesn't understand how ### is used with Hugo shortcodes to show steps in the final markdown -->
 <!-- markdownlint-disable MD001 -->
+<!-- markdownlint doesn't know about two tip boxes in a row. -->
+<!-- markdownlint-disable MD028 -->
 
 Many MobiFlight profiles for WinCtrl devices are available. See [flightsim.to](https://flightsim.to/miscellaneous/mobiflight-profiles) for Microsoft Flight Simulator profiles, and the [X-Plane forums](https://forums.x-plane.org/index.php?/search/&q=winwing&quick=1) for X-Plane profiles.
 
@@ -32,11 +34,16 @@ In the MobiFlight application, go to the **File** menu and select **Open...**.
 
 {{< screenshot image="file-menu.png" title="Screenshot of the MobiFlight main window with the File menu open and the Open...menu item highlighted." >}}
 
-In the resulting file dialog, select the extracted .mfproj file, then click **Open**.
+In the resulting file dialog, select the extracted **.mfproj** or **.mcc** file, then click **Open**.
 
 {{< screenshot image="file-dialog.png" title="Screenshot of the Windows file dialog with a downloaded .mfproj file and the Open button highlighted." >}}
 
 MobiFlight will open the project and automatically map connected WinCtrl controllers to the input and output configurations in the project file.
+
+> [!TIP]
+> MobiFlight automatically maps devices to downloaded profiles. The "orphaned serials" dialog mentioned in older documentation is no longer used. If
+> MobiFlight is unable to automatically map the devices, use the **[Controller Bindings](/features/controller-bindings/)** dialog to
+> configure the mapping.
 
 > [!TIP]
 > To open multiple profiles at the same time, see the [adding additional profiles](/features/combining-profiles/) to a project documentation.
@@ -51,6 +58,3 @@ The project will open and display the input and output configurations.
 
 {{< screenshot image="project-details.png" title="Screenshot of an open MobiFlight project." >}}
 {{% /steps %}}
-
-> [!TIP]
-> If MobiFlight is unable to automatically map connected WinCtrl devices to the ones used in the profile, use the **[Controller Bindings](/features/controller-bindings/)** dialog to manually map the devices.
