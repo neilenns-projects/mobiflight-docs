@@ -58,6 +58,3 @@ The project will open and display the input and output configurations.
 
 {{< screenshot image="project-details.png" title="Screenshot of an open MobiFlight project." >}}
 {{% /steps %}}
-
-> [!TIP]
-> If MobiFlight is unable to automatically map connected WinCtrl devices to the ones used in the profile, use the **[Controller Bindings](/features/controller-bindings/)** dialog to manually map the devices.
