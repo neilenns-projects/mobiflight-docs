@@ -15,7 +15,7 @@ aliases:
 
 Many community profiles are available for MobiFlight. See [flightsim.to](https://flightsim.to/miscellaneous/mobiflight-profiles) for Microsoft Flight Simulator profiles, and the [X-Plane forums](https://forums.x-plane.org/index.php?/search/&q=winwing&quick=1) for X-Plane profiles.
 
-Take the following steps to use the pre-made profile:
+Take the following steps to use the community profile:
 
 {{% steps %}}
 

@@ -19,11 +19,11 @@ them.
 For X-Plane profiles, profiles are shared in [their forum](https://forums.x-plane.org/index.php). Use the forum search feature
 to find them.
 
-To steps to use community profile, see the [using community profiles guide](/guides/using-community-profiles/).
+To use community profiles, see the [using community profiles guide](/guides/using-community-profiles/).
 
 > [!IMPORTANT]
 > Profiles are specific to each aircraft. For example, a profile designed for the FlyByWire A320 will only work
-> with that plane. It will not work A320 aircraft from other sim vendors.
+> with that plane. It will not work with A320 aircraft from other sim vendors.
 
 ## Creating custom profiles
 
