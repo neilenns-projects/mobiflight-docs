@@ -1,11 +1,11 @@
 ---
-title: Using pre-made MobiFlight profiles
-description: Step-by-step instructions for using pre-made WinCtrl profiles with MobiFlight.
+title: Using community MobiFlight profiles
+description: Step-by-step instructions for using community profiles with MobiFlight.
 prev: /game-controllers/winctrl/
 aliases:
   - /joysticks/winwing/premade-profiles/
   - /game-controllers/winwing/premade-profiles/
-weight: 10
+  - /game-controllers/winctrl/premade-profiles/
 ---
 
 <!-- Markdownlint doesn't understand how ### is used with Hugo shortcodes to show steps in the final markdown -->
@@ -13,7 +13,7 @@ weight: 10
 <!-- markdownlint doesn't know about two tip boxes in a row. -->
 <!-- markdownlint-disable MD028 -->
 
-Many MobiFlight profiles for WinCtrl devices are available. See [flightsim.to](https://flightsim.to/miscellaneous/mobiflight-profiles) for Microsoft Flight Simulator profiles, and the [X-Plane forums](https://forums.x-plane.org/index.php?/search/&q=winwing&quick=1) for X-Plane profiles.
+Many community profiles are available for MobiFlight. See [flightsim.to](https://flightsim.to/miscellaneous/mobiflight-profiles) for Microsoft Flight Simulator profiles, and the [X-Plane forums](https://forums.x-plane.org/index.php?/search/&q=winwing&quick=1) for X-Plane profiles.
 
 Take the following steps to use the pre-made profile:
 
