@@ -11,9 +11,13 @@ MobiFlight v11 brings a new project system and updates to the main interface. Fo
 
 {{< youtube id="Nm7twnZsqIo" title="MobiFlight v11 release">}}
 
-The following video provides complete instructions for those two projects using the prior version of MobiFlight. While the process to create a new project changed in Mobiflight v11, the steps to create configurations are still applicable.
+The following video provides complete instructions for those two projects in Microsoft Flight Simulator using the prior version of MobiFlight. While the process to create a new project changed in Mobiflight v11, the steps to create configurations are still applicable.
 
 {{< youtube id="pS8KGfYRNrY" title="Getting started with MobiFlight" >}}
+
+For X-Plane, see the following video. While the process to create a new project changed in Mobiflight v11, the steps to create configurations are still applicable.
+
+{{< youtube id="EtZm6YZVPrE" title="Getting started with MobiFlight" >}}
 
 Here are the basic steps:
 
