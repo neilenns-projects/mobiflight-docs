@@ -27,6 +27,7 @@ These boards are all widely available, inexpensive, and are popular with MobiFli
 {{< card link="recommended/arduino-nano" title="Arduino Nano" subtitle="ATmega328P microcontroller" image="card-images/boards/nano.png" >}}
 {{< card link="recommended/pro-micro" title="Pro Micro (16MHz)" subtitle="ATmega32U4 microcontroller" image="card-images/boards/pro-micro.png" >}}
 {{< card link="recommended/raspberry-pi-pico" title="Raspberry Pi Pico 1" subtitle="RP2040 microcontroller" image="card-images/boards/raspberry-pi-pico.png" >}}
+{{< card link="recommended/raspberry-pi-pico-2" title="Raspberry Pi Pico 2" subtitle="RP2350/RP2354 microcontroller" image="card-images/boards/raspberry-pi-pico-2.png" >}}
 {{< /cards >}}
 
 ## Other supported boards
@@ -56,6 +57,5 @@ in MobiFlight setups. Use a [recommended board](/boards/recommended) instead.
 {{< card link="unsupported/arduino-nano-every" title="Arduino Nano Every" subtitle="ATMega4809 microcontroller" tag="Unsupported" tagType="error" image="card-images/boards/arduino-nano-every.png" >}}
 {{< card link="unsupported/arduino-uno-r4" title="Arduino Uno R4" subtitle="Renesas RA4M1 microcontroller" tag="Unsupported" tagType="error" image="card-images/boards/arduino-uno-r4-minima.png" >}}
 {{< card link="unsupported/pro-micro-8mhz" title="Pro Micro (8 MHz)" subtitle="ATmega32U4 microcontroller" tag="Unsupported" tagType="error" image="card-images/boards/pro-micro-8.png" >}}
-{{< card link="unsupported/raspberry-pi-pico-2" title="Raspberry Pi Pico 2" subtitle="RP2350 microcontroller" tag="Unsupported" tagType="error" image="card-images/boards/raspberry-pi-pico2.png" >}}
 
 {{</ cards >}}
