@@ -30,7 +30,7 @@ For example, the following log entry indicates a **Note** message type on channe
 
 Create a new text file ending with `.midiboard.json` and save it in the `%LOCALAPPDATA%\MobiFlight\MobiFlight Connector\MidiBoards` folder.
 
-Using the [`mpd218.midiboard.json`](https://github.com/MobiFlight/MobiFlight-Connector/blob/main/MidiBoards/mpd218.midiboard.json) file as an example, create a new configuration file using the values identified in the previous step.
+Using the [`mpd218.midiboard.json`](https://github.com/MobiFlight/MobiFlight-Connector/blob/main/src/MobiFlightConnector/MidiBoards/akai/mpd218.midiboard.json) file as an example, create a new configuration file using the values identified in the previous step.
 
 Make sure to set `InstanceName` to the **Midi device** name detected by MobiFlight at launch.
 

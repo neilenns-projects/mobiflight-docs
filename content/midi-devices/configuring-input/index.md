@@ -6,7 +6,7 @@ weight: 20
 
 ## Key, button and pad inputs
 
-These inputs are configured in MobiFlight using [the button and switch configuration process](/devices/button-switch/configuring-input).
+These inputs are configured in MobiFlight using [the button and switch configuration process](/devices/button-switch/configuring-button).
 
 When selecting the **Module** and **Device**, select the appropriate MIDI device and key. Alternatively, press the **Scan for input** button and press the key to automatically detect and select the input.
 
@@ -14,7 +14,7 @@ When selecting the **Module** and **Device**, select the appropriate MIDI device
 
 ## Knob, slider and joystick inputs
 
-These inputs are configured in MobiFlight using [the potentiometer configuration process](/devices/potentiometer/configuring-input).
+These inputs are configured in MobiFlight using [the potentiometer configuration process](/devices/potentiometer/configuring-device).
 
 When selecting the **Module** and **Device**, select the appropriate MIDI device and knob. Alternatively, press the **Scan for input** button and move the knob to automatically detect and select the input.
 
