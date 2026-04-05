@@ -44,6 +44,5 @@ The Raspberry Pi Pico 2 is a compact board with a moderate number of IO pins. It
 
 ## Additional resources
 
-- [3D model](https://datasheets.raspberrypi.com/pico/Pico-R3-step.zip)
-- [Official technical documentation](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#pico-1-technical-specification)
+- [Official technical documentation](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#pico2)
 - [Pinout diagram (PDF)](pinout.pdf)
