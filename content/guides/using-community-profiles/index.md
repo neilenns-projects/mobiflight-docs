@@ -46,7 +46,7 @@ MobiFlight will open the project and automatically map connected WinCtrl control
 > configure the mapping.
 
 > [!TIP]
-> To open multiple profiles at the same time, see the [adding additional profiles](/features/combining-profiles/) to a project documentation.
+> To open multiple profiles at the same time, see the [adding additional profiles to a project documentation](/features/profiles/#adding-an-additional-profile).
 
 ### View the project configuration
 
