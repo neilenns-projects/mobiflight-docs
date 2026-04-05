@@ -43,7 +43,7 @@ For cases where the HubHop presets do not have what you need, the [DataRefTool p
 **To install DataRefTool:**
 
 1. Download the zip file from the [DataRefTool website](https://datareftool.com/download).
-2. Extract the contents to your X-Plane `Resources\Plugins` folder, ensuring the DataRefTool plugin directory contains a `64` folder.
+2. Extract the contents to your X-Plane `Resources/Plugins` folder, ensuring the DataRefTool plugin directory contains a `64` folder.
 3. Restart X-Plane and load into a flight.
 4. Click **Plugins** > **DataRefTool** > **Search** to open the DataRefTool window.
 
@@ -81,4 +81,4 @@ To migrate an XPUIPC configuration:
 - **Custom offsets in `XpuipcOffsetConfig.cfg`**: Look up the DataRef or command name in your configuration file.
 
 > [!NOTE]
-> To continue using XPUIPC instead of migrating, see the [legacy XPUIPC documentation](https://github.com/MobiFlight/MobiFlight-Connector/wiki/X-Plane---Using-XPUIPC-\(DEPRECATED\)).
+> To continue using XPUIPC instead of migrating, see the [legacy XPUIPC documentation](https://github.com/MobiFlight/MobiFlight-Connector/wiki/X-Plane---Using-XPUIPC-(DEPRECATED)).
