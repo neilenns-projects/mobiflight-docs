@@ -17,8 +17,8 @@ The Raspberry Pi Pico 2 is a compact board with a moderate number of IO pins. It
 
 ## Specifications
 
-- 26 digital IO pins, 24 with PWM support.
-- 4 analog inputs (can be used as digital IO pins).
+- 23 digital IO pins, 16 with PWM support.
+- 3 analog inputs (can be used as digital IO pins).
 
 > [!TIP]
 > Unlike the [Raspberry Pi Pico 1](/boards/raspberry-pi-pico/), the Pico 2 uses +5V data signals and does not need level converters when working
