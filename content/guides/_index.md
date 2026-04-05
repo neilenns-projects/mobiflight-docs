@@ -24,6 +24,13 @@ cascade:
 
 {{< /cards >}}
 
+## Profiles
+
+{{< cards >}}
+{{< card link="/guides/finding-creating-profiles/" title="Finding or creating profiles" icon="document" >}}
+{{< card link="/guides/using-community-profiles/" title="Using community profiles" icon="document" >}}
+{{< /cards >}}
+
 ## Advanced device tutorials
 
 {{< cards >}}
