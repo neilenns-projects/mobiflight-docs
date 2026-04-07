@@ -19,5 +19,6 @@ cascade:
 {{< card link="/features/profiles/" title="Profiles" icon="folder" >}}
 {{< card link="/features/projects/" title="Projects" icon="folder" >}}
 {{< card link="/features/supported-simulators/" title="Supported simulators" icon="information" >}}
+{{< card link="/features/x-plane-datarefs-and-commands/" title="X-Plane DataRefs and commands" icon="information" >}}
 
 {{< /cards >}}
