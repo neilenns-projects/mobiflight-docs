@@ -20,7 +20,7 @@ The Raspberry Pi Pico 2 is a compact board with a moderate number of IO pins. It
 - 23 digital IO pins, 16 with PWM support.
 - 3 analog inputs (can be used as digital IO pins).
 
-> [!TIP]
+> [!WARNING]
 > The Pico 2 uses 3.3V for its signals. While 5V is tolerated for digital inputs, this has the following implications:
 >
 > - Certain output devices, including the [MAX7219 display driver](/devices/seven-segment-display) and all [LCDs](/devices/lcd/), require 5V digital signals. If you plan to use those devices with the Pico, you will need to add a level shifter to your build.
