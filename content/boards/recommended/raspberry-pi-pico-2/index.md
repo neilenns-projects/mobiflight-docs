@@ -23,7 +23,7 @@ The Raspberry Pi Pico 2 is a compact board with a moderate number of IO pins. It
 > [!WARNING]
 > The Pico 2 uses 3.3V for its signals. While 5V is tolerated for digital inputs, this has the following implications:
 >
-> - Certain output devices, including the [MAX7219 display driver](/devices/seven-segment-display) and all [LCDs](/devices/lcd/), require 5V digital signals. If you plan to use those devices with the Pico, you will need to add a level shifter to your build.
+> - Certain output devices, including the [MAX7219 display driver](/devices/seven-segment-display), require 5V digital signals. If you plan to use those devices with the Pico, you will need to add a level shifter to your build.
 > - Analog inputs expect a voltage in the range from 0V--3.3V. Therefore, the positive end of a potentiometer should be connected to 3.3V, not 5V, to ensure reliability and accuracy.
 
 | Device                                                   | Limit | Notes                                                                                                                                    |
