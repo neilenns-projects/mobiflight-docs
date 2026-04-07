@@ -11,7 +11,7 @@ The Raspberry Pi Pico 2 is a compact board with a moderate number of IO pins. It
 
 {{< cards >}}
 
-{{< card title="Raspberry Pi Pico 2" subtitle="RP2350/RP2354 microcontroller" image="card-images/boards/raspberry-pi-pico2.png" >}}
+{{< card title="Raspberry Pi Pico 2" subtitle="RP2350A microcontroller" image="card-images/boards/raspberry-pi-pico-2.png" >}}
 
 {{</ cards >}}
 
