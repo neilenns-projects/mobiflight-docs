@@ -27,10 +27,11 @@ ws://localhost:8320/winwing/cdu-observer
 
 JSON structure with a list of 336 elements in the Data section for the 336 possible characters on the CDU.
 
-- Each list element is a triplet.
+- Each list element is a quadruplet.
   1. The character to be shown as UTF-8 string.
   2. The color as UTF-8 string.
   3. The size as a number (0 large, 1 small).
+  4. The style denoting reverse video/inverted text (0 normal, 1 inverse) (Optional: defaults to 0).
 - For the empty character "SPACE", also an empty list element [] can be used, instead of [" ", "w", 0].
 
 ## Color identifiers
@@ -43,7 +44,7 @@ JSON structure with a list of 336 elements in the Data section for the 336 possi
 "m" // magenta
 "r" // red
 "y" // yellow
-"o" // brown
+"o" // blue
 "e" // grey
 "k" // khaki
 ```
