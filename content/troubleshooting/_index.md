@@ -36,4 +36,5 @@ cascade:
 {{< card link="/guides/sharing-logs/" title="Sharing logs" icon="clipboard-document-list" >}}
 {{< card link="/guides/taking-screenshots/" title="Taking screenshots" icon="camera" >}}
 {{< card link="/guides/wasm-module/" title="WASM module installation" icon="download" >}}
+{{< card link="/guides/wasm-module/wasm-disconnect/" title="WASM module disconnecting" icon="information" >}}
 {{< /cards >}}
