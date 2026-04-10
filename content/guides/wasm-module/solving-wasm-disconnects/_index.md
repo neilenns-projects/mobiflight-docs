@@ -1,5 +1,5 @@
 ---
-title: WASM module disconnecting
+title: Solving WASM module disconnects
 description: Troubleshooting a constantly disconnecting WASM module caused by noisy inputs.
 weight: 10
 ---
@@ -7,7 +7,7 @@ weight: 10
 The WASM module can disconnect repeatedly when an input is sending a continuous stream of updates to MobiFlight, even when the input is not being touched. This is most commonly caused by:
 
 - A noisy potentiometer connected to an Arduino board.
-- An uncalibrated USB HID device, such as a game controller with analog inputs like the centering potentiometer in a WinCtrl EFIS or the photosensors in a WinCtrl autopilot panel.
+- An uncalibrated game controller input, like the centering potentiometer in a WinCtrl EFIS or the photosensors in a WinCtrl autopilot panel.
 
 ## Identifying the noisy input
 
@@ -19,17 +19,23 @@ Enabling logging and watching the log output makes it easy to spot an input that
 
 Follow the [logging guide](/guides/sharing-logs/) to enable **Info** logging.
 
-### Open the log window
-
-In the main MobiFlight window, click **View** then **Log** to open the log window.
-
 ### Watch for unexpected input events
 
 Without touching any inputs, watch the log for entries showing input values changing on their own. A noisy input will produce a steady stream of log entries even when nothing is being moved.
 
 ### Identify the device
 
-Note the module name and device listed in the log entries. This is the noisy input that needs to be addressed.
+Note the board or game controller name and device listed in the log entries. This is the noisy input that needs to be addressed. In the following example, both **Light Sensor 1** and **Light Sensor 2** on the WinCtrl PFP game controller are causing the issue.
+
+```text
+04/09/2026 12:41:14(963): WINCTRL 4 PFP CAPTAIN => Light Sensor 2 => CHANGE => 5024
+04/09/2026 12:41:15(57): WINCTRL 4 PFP CAPTAIN => Light Sensor 2 => CHANGE => 5056
+04/09/2026 12:41:15(151): WINCTRL 4 PFP CAPTAIN => Light Sensor 1 => CHANGE => 4416
+04/09/2026 12:41:15(584): WINCTRL 4 PFP CAPTAIN => Light Sensor 2 => CHANGE => 5040
+04/09/2026 12:41:15(647): WINCTRL 4 PFP CAPTAIN => Light Sensor 1 => CHANGE => 4400
+04/09/2026 12:41:15(677): WINCTRL 4 PFP CAPTAIN => Light Sensor 2 => CHANGE => 5008
+04/09/2026 12:41:15(771): WINCTRL 4 PFP CAPTAIN => Light Sensor 2 => CHANGE => 4976
+```
 
 {{% /steps %}}
 
@@ -56,15 +62,15 @@ If reducing sensitivity is not sufficient, the following hardware improvements c
 
 {{% /steps %}}
 
-## Reducing noise from USB HID devices
+## Reducing noise from game controllers
 
-For USB HID devices such as game controllers, use the device's configuration software or Windows joystick calibration to add a dead zone to the noisy axis.
+For game controllers, use the device's configuration software or Windows joystick calibration to add a dead zone to the noisy axis.
 
 {{% steps %}}
 
 ### Use the manufacturer software
 
-If the device has dedicated configuration software, use it to set a dead zone and calibrate the endpoints of the noisy axis. For WinCtrl devices, use SimAppPro to calibrate the axis.
+If the device has dedicated configuration software, use it to set a dead zone and calibrate the endpoints of the noisy axis. For WinCtrl devices, use **SimAppPro** to calibrate the axis.
 
 ### Use Windows joystick calibration
 
@@ -76,7 +82,3 @@ If no manufacturer software is available, use the Windows joystick calibration t
 4. On the **Settings** tab, click **Calibrate** and follow the wizard to set the dead zone and endpoint values for the axis.
 
 {{% /steps %}}
-
-## Adding a software dead zone
-
-If calibration alone does not stop the noise, use the [interpolation modifier](/features/modifiers/interpolation/) in the output configuration to map the noisy input range to a fixed output value, creating a software dead zone at the center or endpoints of the axis.
