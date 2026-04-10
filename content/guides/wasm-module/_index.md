@@ -9,6 +9,8 @@ The WASM module is the component MobiFlight uses to send and receive events from
 
 In most cases, this problem can be resolved by [reinstalling the module](/guides/wasm-module/wasm-reinstall/). For Microsoft Flight Simulator 2024, also [verify the module is enabled](/guides/wasm-module/enable-in-msfs2024). If that fails, the module can be [installed manually](/guides/wasm-module/wasm-manual-install/).
 
+If the module connects successfully but then disconnects repeatedly during use, a noisy input is likely the cause. Follow the [WASM module disconnecting](/guides/wasm-module/wasm-disconnect/) guide to identify and fix the problem.
+
 > [!TIP]
 > A project must have at least one input or output configuration that uses Microsoft Flight Simulator (SimConnect) events
 > for the sim status menu to show the WASM module status.
