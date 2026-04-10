@@ -74,11 +74,11 @@ If the device has dedicated configuration software, use it to set a dead zone an
 
 ### Use Windows joystick calibration
 
-If no manufacturer software is available, use the Windows joystick calibration tool to set a dead zone for the noisy axis:
+If no manufacturer software is available, use the Windows game controllers control panel to set a deadzone for the noisy axis:
 
-1. Open **Control Panel** and navigate to **Devices and Printers**.
-2. Right-click the game controller and select **Game controller settings**.
-3. Select the controller and click **Properties**.
-4. On the **Settings** tab, click **Calibrate** and follow the wizard to set the dead zone and endpoint values for the axis.
+1. Search for and open **Setup USB game controllers** from the Windows start menu.
+2. Double-click on the game controller causing the noisy inputs.
+3. Use the **Deadzones** tab to add a small deadzone at the center point of the range for the noisy inputs.
+4. Click **OK** to apply the settings.
 
 {{% /steps %}}
