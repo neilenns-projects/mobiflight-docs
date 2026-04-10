@@ -1,15 +1,17 @@
 ---
-title: Raspberry Pi Pico 1
-description: Details on MobiFlight support for the Raspberry Pi Pico.
-images: [card-images/boards/raspberry-pi-pico.png]
-weight: 40
+title: Raspberry Pi Pico 2
+description: Details on MobiFlight support for the Raspberry Pi Pico 2.
+images: [card-images/boards/raspberry-pi-pico-2.png]
+weight: 50
+aliases:
+  - /boards/unsupported/raspberry-pi-pico-2/
 ---
 
-The Raspberry Pi Pico 1 is a compact board with a moderate number of IO pins. It is a popular choice in builds where space is at a premium.
+The Raspberry Pi Pico 2 is a compact board with a moderate number of IO pins. It is a popular choice in builds where space is at a premium. Both the **Pico 2** and **Pico 2 W** are supported, however the wireless capabilities of the Pico 2 W are not used by MobiFlight.
 
 {{< cards >}}
 
-{{< card title="Raspberry Pi Pico 1" subtitle="RP2040 microcontroller" image="card-images/boards/raspberry-pi-pico.png" >}}
+{{< card title="Raspberry Pi Pico 2" subtitle="RP2350A microcontroller" image="card-images/boards/raspberry-pi-pico-2.png" >}}
 
 {{</ cards >}}
 
@@ -19,10 +21,9 @@ The Raspberry Pi Pico 1 is a compact board with a moderate number of IO pins. It
 - 3 analog inputs (can be used as digital IO pins).
 
 > [!WARNING]
-> The Raspberry Pi Pico 1 uses 3.3V for its signals. This has the following implications:
+> The Pico 2 uses 3.3V for its signals. While 5V is tolerated for digital inputs, this has the following implications:
 >
-> - Certain output devices, including the [MAX7219 display driver](/devices/seven-segment-display) and all [LCDs](/devices/lcd/), require 5V digital signals. If you plan to use those devices with the Pico, you will need to add a level shifter to your build.
-> - IO pins are not 5V-tolerant. To minimize the risk of damage to the microcontroller, run devices like input shift registers on a 3.3V power supply or use level shifters.
+> - Certain output devices, including the [MAX7219 display driver](/devices/seven-segment-display), require 5V digital signals. If you plan to use those devices with the Pico, you will need to add a level shifter to your build.
 > - Analog inputs expect a voltage in the range from 0V--3.3V. Therefore, the positive end of a potentiometer should be connected to 3.3V, not 5V, to ensure reliability and accuracy.
 
 | Device                                                   | Limit | Notes                                                                                                                                    |
@@ -45,6 +46,5 @@ The Raspberry Pi Pico 1 is a compact board with a moderate number of IO pins. It
 
 ## Additional resources
 
-- [3D model](https://datasheets.raspberrypi.com/pico/Pico-R3-step.zip)
-- [Official technical documentation](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#pico-1-technical-specification)
+- [Official technical documentation](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#pico2)
 - [Pinout diagram (PDF)](pinout.pdf)

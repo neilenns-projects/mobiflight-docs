@@ -20,6 +20,5 @@ in MobiFlight setups. Use a [recommended board](/boards/recommended) instead.
 {{< card link="arduino-nano-every" title="Arduino Nano Every" subtitle="ATMega4809 microcontroller" tag="Unsupported" tagType="error" image="card-images/boards/arduino-nano-every.png" >}}
 {{< card link="arduino-uno-r4" title="Arduino Uno R4" subtitle="Renesas RA4M1 microcontroller" tag="Unsupported" tagType="error" image="card-images/boards/arduino-uno-r4-minima.png" >}}
 {{< card link="pro-micro-8mhz" title="Pro Micro (8 MHz)" subtitle="ATmega32U4 microcontroller" tag="Unsupported" tagType="error" image="card-images/boards/pro-micro-8.png" >}}
-{{< card link="raspberry-pi-pico-2" title="Raspberry Pi Pico 2" subtitle="RP2350 microcontroller" tag="Unsupported" tagType="error" image="card-images/boards/raspberry-pi-pico2.png" >}}
 
 {{</ cards >}}
