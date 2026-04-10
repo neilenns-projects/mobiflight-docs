@@ -38,7 +38,7 @@ reviews:
           - Page descriptions are in sentence case and must end in a period.
           - Page titles are in sentence case and do not end in a period.
           - uF should use the µ symbol (µF).
-          - All files under the boards and devices folders should have an ogimage specified in the front matter.
+          - All files under the boards and devices folders should have images specified in the front matter.
           - "WINWING" should be "WinCtrl" instead.
           - "file" shouldn't be used to refer to MobiFlight configuration files. Instead, use "profile" or "project".
     - path: "**/*.svg"
