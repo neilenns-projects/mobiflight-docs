@@ -48,7 +48,7 @@ weight: 50
 
 {{< tab name="MAX 7219 driver" >}}
 
-{{< screenshot image="max7219-output-configuration.png" title="Screenshot of the Display tab with the Display Module type and MAX7129 and configured to use display digits 1--6 with a decimal point at position 3." >}}
+{{< screenshot image="max7219-output-configuration.png" title="Screenshot of the Display tab with the Display Module type set to MAX7219 and configured to use display digits 1--6 with a decimal point at position 3." >}}
 
 | Setting           | Description                                                                                                                                                                                                                                                                                                           |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
