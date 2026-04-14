@@ -63,9 +63,9 @@ weight: 50
 
 {{< /tab >}}
 
-{{< tab name="TM1397 driver" >}}
+{{< tab name="TM1637 driver" >}}
 
-{{< screenshot image="tm1637-output-configuration.png" title="Screenshot of the Display tab with the Display Module type and TM1397 and configured to use display digits 1--6 with a decimal point at position 3." >}}
+{{< screenshot image="tm1637-output-configuration.png" title="Screenshot of the Display tab with the Display Module type set to TM1637 and configured to use display digits 1--6 with a decimal point at position 3." >}}
 
 | Setting           | Description                                                                                                                                                                                                                                                                                                           |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
