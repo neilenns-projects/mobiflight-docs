@@ -24,6 +24,7 @@ MobiFlight supports WinCtrl CDU devices. All buttons are automatically available
 | MSFS       | FSLabs A321             | CPT or FO or CPT+FO                      |                                                                                                           |
 | MSFS       | Headwind A339x          | CPT or FO                                | [Requires additional configuration](/game-controllers/winctrl/winctrl-cdu/detailed-aircraft-information/) |
 | MSFS       | iFly 737                | CPT or FO or CPT+FO                      | CPT+FO untested so far                                                                                    |
+| MSFS       | iniBuilds A330          | CPT or FO                                | Requires beta 11.0.1.1 or later                                                                           |
 | MSFS       | iniBuilds A340          | CPT or FO                                |                                                                                                           |
 | MSFS       | Maddog X                | CPT or FO or CPT+FO                      |                                                                                                           |
 | MSFS       | PMDG 737                | CPT or FO or CPT+FO                      | [Requires additional configuration](/game-controllers/winctrl/winctrl-cdu/detailed-aircraft-information/) |
