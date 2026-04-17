@@ -14,7 +14,7 @@ weight: 30
 > [!WARNING]
 > MobiFlight and SimAppPro cannot be used with a CDU at the same time. If using MobiFlight with the CDU, SimAppPro must be completely exited.
 
-MobiFlight supports WinCtrl CDU devices with the MobiFlight 11 beta builds. All buttons are automatically available as [game controller inputs](/game-controllers/configuring-input/); however, using the display for output requires additional setup and is only supported with the following aircraft:
+MobiFlight supports WinCtrl CDU devices. All buttons are automatically available as [game controller inputs](/game-controllers/configuring-input/); however, using the display for output requires additional setup and is only supported with the following aircraft:
 
 | Platform   | Aircraft                | Supported configurations                 | Comment                                                                                                   |
 | ---------- | ----------------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------- |
