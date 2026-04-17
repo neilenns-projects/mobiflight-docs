@@ -8,7 +8,7 @@ The MobiFlight team produces regular beta versions that include new features, ap
 > [!WARNING]
 > Beta releases may contain bugs, and identifying those issues before a broader release is a key goal of the beta program. They may also include features incompatible with prior releases. Before joining the beta, ensure you have backups of project files and board configurations.
 
-To provide beta feedback join the [MobiFlight Discord](https://discord.gg/yUaBqMbz) and post in the [#beta channel](https://discord.com/channels/608690978081210392/635953880122785824).
+To provide beta feedback, join the [MobiFlight Discord](https://discord.gg/yUaBqMbz) and post in the [#beta channel](https://discord.com/channels/608690978081210392/635953880122785824).
 
 ## Joining the beta program
 
