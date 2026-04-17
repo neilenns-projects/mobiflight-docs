@@ -15,6 +15,7 @@ cascade:
 {{< card link="/guides/input-events-2024/" title="Finding input events in MSFS2024" icon="search" >}}
 {{< card link="/guides/installation-path/" title="Finding the MobiFlight installation location" icon="document" >}}
 {{< card link="/guides/flashing-ambiguous-boards/" title="Flashing ambiguous boards" icon="cpu-chip" >}}
+{{< card link="/guides/joining-the-beta-program/" title="Joining the beta program" icon="document" >}}
 {{< card link="/guides/soldering/" title="Making good solder connections" icon="cpu-chip" >}}
 {{< card link="/guides/modifying-values-with-ncalc/" title="Modifying values with NCalc" icon="calculator" >}}
 {{< card link="/guides/compatible-only/" title="Solving compatible-only boards" icon="cpu-chip" >}}
