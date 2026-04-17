@@ -20,7 +20,7 @@ To join the MobiFlight beta program, select **Settings** from the **Extras** men
 
 To leave the beta program:
 
-{{ steps }}
+{{% steps %}}
 
 ### Opt out of beta builds
 
@@ -28,10 +28,10 @@ Select **Settings** from the **Extras menu**, then un-check the **Yes, I would l
 
 ### Uninstall the beta version of MobiFlight
 
-Use the Windows **Installed apps** control panel to uninstall the beta version.
+Use the Windows **[Installed apps](ms-settings:appsfeatures)** control panel to uninstall the beta version.
 
 ### Install the released version of MobiFlight
 
 [Download the latest released version](https://mobiflight.com/download/) and install it.
 
-{{ /steps }}
+{{% /steps %}}
