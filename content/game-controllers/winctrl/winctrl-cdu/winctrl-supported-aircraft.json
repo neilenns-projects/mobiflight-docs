@@ -130,7 +130,7 @@
   {
     "platform": "X-Plane 12",
     "aircraft": "Laminar Boeing 747-400",
-    "configs": "CPT or FO or CPT+FO",
+    "configs": "CPT or FO or Observer or CPT+FO+Observer",
     "comment": "Requires [beta 11.0.1.1 or later](/guides/joining-the-beta-program/)"
   },
   {
