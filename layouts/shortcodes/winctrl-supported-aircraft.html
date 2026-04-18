@@ -15,10 +15,10 @@
   <tbody>
     {{- range $sorted }}
       <tr>
-        <td>{{ .platform }}</td>
-        <td>{{ .aircraft }}</td>
-        <td>{{ .configs }}</td>
-        <td>{{ .comment | safeHTML }}</td>
+        <td>{{ .platform | markdownify | safeHTML }}</td>
+        <td>{{ .aircraft | markdownify | safeHTML }}</td>
+        <td>{{ .configs | markdownify | safeHTML }}</td>
+        <td>{{ .comment | markdownify | safeHTML }}</td>
       </tr>
     {{- end }}
   </tbody>
