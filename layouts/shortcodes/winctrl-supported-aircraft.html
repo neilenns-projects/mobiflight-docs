@@ -1,0 +1,25 @@
+<!-- Loads the winctrl-supported-aircraft.json file and displays it in a sorted table -->
+{{ $json := .Page.Resources.Get "winctrl-supported-aircraft.json" }}
+{{ $data := transform.Unmarshal $json }}
+{{ $sorted := sort $data "aircraft" "asc" }}
+{{ $sorted = sort $sorted "platform" "asc" }}
+<table>
+  <thead>
+    <tr>
+      <th>Platform</th>
+      <th>Aircraft</th>
+      <th>Supported configurations</th>
+      <th>Comment</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{- range $sorted }}
+      <tr>
+        <td>{{ .platform }}</td>
+        <td>{{ .aircraft }}</td>
+        <td>{{ .configs }}</td>
+        <td>{{ .comment | safeHTML }}</td>
+      </tr>
+    {{- end }}
+  </tbody>
+</table>

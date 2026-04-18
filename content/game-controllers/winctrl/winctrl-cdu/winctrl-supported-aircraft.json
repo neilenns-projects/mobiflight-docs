@@ -1,0 +1,190 @@
+[
+  {
+    "platform": "MSFS",
+    "aircraft": "Aerosoft CRJ",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": ""
+  },
+  {
+    "platform": "MSFS",
+    "aircraft": "Fenix A3xx",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": ""
+  },
+  {
+    "platform": "MSFS",
+    "aircraft": "FlyByWire A32NX",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": "[Requires additional configuration](/game-controllers/winctrl/winctrl-cdu/detailed-aircraft-information/)"
+  },
+  {
+    "platform": "MSFS",
+    "aircraft": "FSLabs A321",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": ""
+  },
+  {
+    "platform": "MSFS",
+    "aircraft": "Headwind A339x",
+    "configs": "CPT or FO",
+    "comment": "[Requires additional configuration](/game-controllers/winctrl/winctrl-cdu/detailed-aircraft-information/)"
+  },
+  {
+    "platform": "MSFS",
+    "aircraft": "iFly 737",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": "CPT+FO untested so far"
+  },
+  {
+    "platform": "MSFS",
+    "aircraft": "iniBuilds A330",
+    "configs": "CPT or FO",
+    "comment": "Requires [beta 11.0.1.1 or later](/guides/joining-the-beta-program/)"
+  },
+  {
+    "platform": "MSFS",
+    "aircraft": "iniBuilds A340",
+    "configs": "CPT or FO",
+    "comment": ""
+  },
+  {
+    "platform": "MSFS",
+    "aircraft": "Maddog X",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": ""
+  },
+  {
+    "platform": "MSFS",
+    "aircraft": "PMDG 737",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": "[Requires additional configuration](/game-controllers/winctrl/winctrl-cdu/detailed-aircraft-information/)"
+  },
+  {
+    "platform": "MSFS",
+    "aircraft": "PMDG 777",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": "[Requires additional configuration](/game-controllers/winctrl/winctrl-cdu/detailed-aircraft-information/)"
+  },
+  {
+    "platform": "MSFS",
+    "aircraft": "TFDi MD-11",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": ""
+  },
+
+  {
+    "platform": "Prosim",
+    "aircraft": "A320",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": ""
+  },
+  {
+    "platform": "Prosim",
+    "aircraft": "737",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": ""
+  },
+
+  {
+    "platform": "X-Plane 12",
+    "aircraft": "Default MD-82",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": "Requires [beta 11.0.1.1 or later](/guides/joining-the-beta-program/)"
+  },
+  {
+    "platform": "X-Plane 12",
+    "aircraft": "Default A330",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": "Requires [beta 11.0.1.1 or later](/guides/joining-the-beta-program/)"
+  },
+  {
+    "platform": "X-Plane 12",
+    "aircraft": "FlightFactor 757",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": ""
+  },
+  {
+    "platform": "X-Plane 12",
+    "aircraft": "Zibo 737",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": ""
+  },
+  {
+    "platform": "X-Plane 12",
+    "aircraft": "FlightFactor 767",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": ""
+  },
+  {
+    "platform": "X-Plane 12",
+    "aircraft": "FlightFactor 777v2",
+    "configs": "CPT or FO or Observer or CPT+FO+Observer",
+    "comment": ""
+  },
+  {
+    "platform": "X-Plane 12",
+    "aircraft": "Hotstart Challenger 650",
+    "configs": "CPT or FO or Observer or CPT+FO+Observer",
+    "comment": ""
+  },
+  {
+    "platform": "X-Plane 12",
+    "aircraft": "Laminar Boeing 747-400",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": "Requires [beta 11.0.1.1 or later](/guides/joining-the-beta-program/)"
+  },
+  {
+    "platform": "X-Plane 12",
+    "aircraft": "LevelUp 737",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": ""
+  },
+  {
+    "platform": "X-Plane 12",
+    "aircraft": "Rotate MD-11",
+    "configs": "CPT or FO or Observer or CPT+FO+Observer",
+    "comment": ""
+  },
+  {
+    "platform": "X-Plane 12",
+    "aircraft": "Rotate MD-80",
+    "configs": "CPT",
+    "comment": ""
+  },
+  {
+    "platform": "X-Plane 12",
+    "aircraft": "ToLiss A319",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": ""
+  },
+  {
+    "platform": "X-Plane 12",
+    "aircraft": "ToLiss A320",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": ""
+  },
+  {
+    "platform": "X-Plane 12",
+    "aircraft": "ToLiss A321",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": ""
+  },
+  {
+    "platform": "X-Plane 12",
+    "aircraft": "ToLiss A330",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": ""
+  },
+  {
+    "platform": "X-Plane 12",
+    "aircraft": "ToLiss A340",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": ""
+  },
+  {
+    "platform": "X-Plane 12",
+    "aircraft": "Manky / Riviere Dash 8 100 / Q100 / Q200",
+    "configs": "CPT or FO or CPT+FO",
+    "comment": "Requires [beta 11.0.1.1 or later](/guides/joining-the-beta-program/)"
+  }
+]

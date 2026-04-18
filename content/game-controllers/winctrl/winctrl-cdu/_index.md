@@ -16,35 +16,10 @@ weight: 30
 
 MobiFlight supports WinCtrl CDU devices. All buttons are automatically available as [game controller inputs](/game-controllers/configuring-input/); however, using the display for output requires additional setup and is only supported with the following aircraft:
 
-| Platform   | Aircraft                | Supported configurations                 | Comment                                                                                                   |
-| ---------- | ----------------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| MSFS       | Aerosoft CRJ            | CPT or FO or CPT+FO                      |                                                                                                           |
-| MSFS       | Fenix A3xx              | CPT or FO or CPT+FO                      |                                                                                                           |
-| MSFS       | FlyByWire A32NX         | CPT or FO or CPT+FO                      | [Requires additional configuration](/game-controllers/winctrl/winctrl-cdu/detailed-aircraft-information/) |
-| MSFS       | FSLabs A321             | CPT or FO or CPT+FO                      |                                                                                                           |
-| MSFS       | Headwind A339x          | CPT or FO                                | [Requires additional configuration](/game-controllers/winctrl/winctrl-cdu/detailed-aircraft-information/) |
-| MSFS       | iFly 737                | CPT or FO or CPT+FO                      | CPT+FO untested so far                                                                                    |
-| MSFS       | iniBuilds A330          | CPT or FO                                | Requires beta 11.0.1.1 or later                                                                           |
-| MSFS       | iniBuilds A340          | CPT or FO                                |                                                                                                           |
-| MSFS       | Maddog X                | CPT or FO or CPT+FO                      |                                                                                                           |
-| MSFS       | PMDG 737                | CPT or FO or CPT+FO                      | [Requires additional configuration](/game-controllers/winctrl/winctrl-cdu/detailed-aircraft-information/) |
-| MSFS       | PMDG 777                | CPT or FO or CPT+FO                      | [Requires additional configuration](/game-controllers/winctrl/winctrl-cdu/detailed-aircraft-information/) |
-| MSFS       | TFDi MD-11              | CPT or FO or CPT+FO                      |                                                                                                           |
-| Prosim     | A320                    | CPT or FO or CPT+FO                      |                                                                                                           |
-| Prosim     | 737                     | CPT or FO or CPT+FO                      |                                                                                                           |
-| X-Plane 12 | FlightFactor 757        | CPT or FO or CPT+FO                      |                                                                                                           |
-| X-Plane 12 | FlightFactor 767        | CPT or FO or CPT+FO                      |                                                                                                           |
-| X-Plane 12 | FlightFactor 777v2      | CPT or FO or Observer or CPT+FO+Observer |                                                                                                           |
-| X-Plane 12 | Hotstart Challenger 650 | CPT or FO or Observer or CPT+FO+Observer |                                                                                                           |
-| X-Plane 12 | LevelUp 737             | CPT or FO or CPT+FO                      |                                                                                                           |
-| X-Plane 12 | Rotate MD-11            | CPT or FO or Observer or CPT+FO+Observer |                                                                                                           |
-| X-Plane 12 | Rotate MD-80            | CPT                                      |                                                                                                           |
-| X-Plane 12 | ToLiss A319             | CPT or FO or CPT+FO                      |                                                                                                           |
-| X-Plane 12 | ToLiss A320             | CPT or FO or CPT+FO                      |                                                                                                           |
-| X-Plane 12 | ToLiss A321             | CPT or FO or CPT+FO                      |                                                                                                           |
-| X-Plane 12 | ToLiss A330             | CPT or FO or CPT+FO                      |                                                                                                           |
-| X-Plane 12 | ToLiss A340             | CPT or FO or CPT+FO                      |                                                                                                           |
-| X-Plane 12 | Zibo 737                | CPT or FO or CPT+FO                      |                                                                                                           |
+<!-- The list of supported aircraft is in the winctrl-supported-aircraft.json file. Add new aircraft there -->
+<!-- and they will automatically get inserted into the page here. -->
+
+{{< winctrl-supported-aircraft >}}
 
 To use MobiFlight with a WinCtrl CDU, take the following steps:
 
