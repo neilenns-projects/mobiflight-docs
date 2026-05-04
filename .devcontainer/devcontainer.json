@@ -5,7 +5,7 @@
       "version": "0.159.1",
       "extended": true
     },
-    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/devcontainers/features/node:2": {},
     "ghcr.io/nils-geistmann/devcontainers-features/zsh:0": {
       "theme": "agnoster"
     },
