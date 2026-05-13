@@ -1,0 +1,6 @@
+{{- $data := getJSON "supported-aircraft.json" -}}
+| Platform   | Aircraft                | Supported configurations                 | Comment                                                                                                   |
+| ---------- | ----------------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+{{- range $data.aircraft }}
+| {{ .platform }} | {{ .aircraft }} | {{ .configurations }} | {{ .comment }} |
+{{- end }}
