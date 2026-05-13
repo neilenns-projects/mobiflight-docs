@@ -1,6 +1,7 @@
 {{- $jsonFile := .Page.Resources.GetMatch "supported-aircraft.json" -}}
 {{- if $jsonFile -}}
 {{- $data := $jsonFile.Content | unmarshal -}}
+{{- $sorted := sort $data.aircraft "platform" "aircraft" -}}
 <table>
   <thead>
     <tr>
@@ -11,7 +12,7 @@
     </tr>
   </thead>
   <tbody>
-    {{- range $data.aircraft }}
+    {{- range $sorted }}
     <tr>
       <td>{{ .platform }}</td>
       <td>{{ .aircraft }}</td>
