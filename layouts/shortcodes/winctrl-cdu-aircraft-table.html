@@ -16,7 +16,7 @@
       <td>{{ .platform }}</td>
       <td>{{ .aircraft }}</td>
       <td>{{ .configurations }}</td>
-      <td>{{ .comment | .Page.RenderString }}</td>
+      <td>{{ $.Page.RenderString .comment }}</td>
     </tr>
     {{- end }}
   </tbody>
