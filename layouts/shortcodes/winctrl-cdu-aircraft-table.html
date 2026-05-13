@@ -1,0 +1,9 @@
+{{- $jsonFile := .Page.Resources.GetMatch "supported-aircraft.json" -}}
+{{- if $jsonFile -}}
+{{- $data := $jsonFile.Content | unmarshal -}}
+| Platform   | Aircraft                | Supported configurations                 | Comment                                                                                                   |
+| ---------- | ----------------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+{{- range $data.aircraft }}
+| {{ .platform }} | {{ .aircraft }} | {{ .configurations }} | {{ .comment }} |
+{{- end }}
+{{- end }}
