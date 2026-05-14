@@ -1,25 +1,23 @@
 {{- $jsonFile := .Page.Resources.GetMatch "supported-aircraft.json" -}}
 {{- if $jsonFile -}}
-{{- $data := $jsonFile.Content | unmarshal -}}
-{{- $sorted := sort $data.aircraft "platform" "aircraft" -}}
-<table>
-  <thead>
-    <tr>
-      <th>Platform</th>
-      <th>Aircraft</th>
-      <th>Supported configurations</th>
-      <th>Comment</th>
-    </tr>
-  </thead>
-  <tbody>
-    {{- range $sorted }}
-    <tr>
-      <td>{{ .platform }}</td>
-      <td>{{ .aircraft }}</td>
-      <td>{{ .configurations }}</td>
-      <td>{{ $.Page.RenderString .comment }}</td>
-    </tr>
-    {{- end }}
-  </tbody>
-</table>
+  {{- $data := $jsonFile.Content | unmarshal -}}
+  {{- $sorted := sort $data.aircraft "platform" "aircraft" -}}
+  <table>
+    <thead>
+      <tr>
+        <th>Platform</th>
+        <th>Aircraft</th>
+        <th>Comment</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{- range $sorted }}
+        <tr>
+          <td>{{ .platform }}</td>
+          <td>{{ .aircraft }}</td>
+          <td>{{ $.Page.RenderString .comment }}</td>
+        </tr>
+      {{- end }}
+    </tbody>
+  </table>
 {{- end }}
