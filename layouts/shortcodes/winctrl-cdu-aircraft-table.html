@@ -1,7 +1,7 @@
 {{- $jsonFile := .Page.Resources.GetMatch "supported-aircraft.json" -}}
 {{- if $jsonFile -}}
   {{- $data := $jsonFile.Content | unmarshal -}}
-  {{- $sorted := sort $data.aircraft "platform" "aircraft" -}}
+  {{- $sorted := sort (sort $data.aircraft "aircraft") "platform" -}}
   <table>
     <thead>
       <tr>
