@@ -28,11 +28,16 @@
     {
       "platform": "MSFS",
       "aircraft": "iFly 737",
-      "comment": "CPT+FO untested so far"
+      "comment": ""
     },
     {
       "platform": "MSFS",
       "aircraft": "iniBuilds A340",
+      "comment": ""
+    },
+    {
+      "platform": "MSFS",
+      "aircraft": "iniBuilds A300",
       "comment": ""
     },
     {
@@ -128,6 +133,37 @@
     {
       "platform": "X-Plane 12",
       "aircraft": "Zibo 737",
+      "comment": ""
+    },
+    {
+      "platform": "X-Plane 12",
+      "aircraft": "Default MD-82",
+      "comment": ""
+    },
+
+    {
+      "platform": "X-Plane 12",
+      "aircraft": "Default A330",
+      "comment": ""
+    },
+    {
+      "platform": "X-Plane 12",
+      "aircraft": "Manky/Riviere Dash 8 100/Q100/Q200",
+      "comment": ""
+    },
+    {
+      "platform": "X-Plane 12",
+      "aircraft": "IXEG 737",
+      "comment": ""
+    },
+    {
+      "platform": "X-Plane 12",
+      "aircraft": "Laminar Boeing 747-400",
+      "comment": ""
+    },
+    {
+      "platform": "X-Plane 12",
+      "aircraft": "Leonardo Fly The Maddog 20th Anniversary Edition",
       "comment": ""
     }
   ]
