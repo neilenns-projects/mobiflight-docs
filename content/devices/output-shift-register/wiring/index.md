@@ -51,7 +51,7 @@ The value of $R_{\text{ext}}$ determines the amount of current for the LEDs. A 5
 {{< /tab >}}
 
 {{< tab name="TLC5917 DIP-16" >}}
-Pay close attention to the orientation of the LEDs: the anode (long leg) should be connected to +5V and the cathode (short leg) should be connected to the chip. This is the opposite of how LEDs are connected to a 74HC165.
+Pay close attention to the orientation of the LEDs: the anode (long leg) should be connected to +5V and the cathode (short leg) should be connected to the chip. This is the opposite of how LEDs are connected to a 74HC595.
 
 {{< schematic image="tlc5917.svg" download="tlc5917.pdf" title="Schematic for wiring a single TLC5917 chip." >}}
 
