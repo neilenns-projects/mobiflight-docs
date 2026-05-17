@@ -13,5 +13,5 @@ MobiFlight supports the following command line parameters:
 To load a specific project and automatically start `Run` mode when the flight simulator is detected, combine the parameters:
 
 ```powershell
-MobiFlight-Connector.exe /cfg "C:\MobiFlight\Cessna 172.mfproj" /autoRun
+MFConnector.exe /cfg "C:\MobiFlight\Cessna 172.mfproj" /autoRun
 ```
