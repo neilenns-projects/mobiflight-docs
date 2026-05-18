@@ -18,6 +18,8 @@ MobiFlight supports WinCtrl CDU devices. All buttons are automatically available
 
 ## Supported aircraft
 
+All aircraft support all cockpit positions (captain, first officer, and observer as appropriate) unless otherwise indicated.
+
 {{< winctrl-cdu-aircraft-table >}}
 
 ## Setup instructions
