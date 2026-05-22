@@ -5,6 +5,6 @@ aliases:
   - /guides/modifiers/transform/
 ---
 
-The transform modifier provides advanced value changes using [NCalc expressions](https://ncalc.github.io/ncalc/articles/index.html). The specified expression is applied to the current value, which is represented by the **$** character.
+The transform modifier provides advanced value changes using [NCalc expressions](/guides/modifying-values-with-ncalc/). The specified expression is applied to the current value, which is represented by the **$** character.
 
 {{< screenshot image="transform.png" title="Screenshot of an output configuration with the Modify tab selected and a transform modifier in edit mode." >}}
