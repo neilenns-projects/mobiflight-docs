@@ -35,9 +35,10 @@ cascade:
 ## Advanced device tutorials
 
 {{< cards >}}
+{{< card link="/guides/honeycomb-bravo-selector-knob/" title="Using the selector knob on a Honeycomb Bravo" icon="information" >}}
+{{< card link="/guides/single-encoder-com-tuning/" title="Using a single encoder to tune COM1" icon="information" >}}
 {{< card link="/guides/seven-segment-brightness/" title="Controlling 7-Segment display brightness" icon="information" >}}
 {{< card link="/guides/multiple-page-lcd/" title="Showing multiple display pages on an LCD" icon="information" >}}
-{{< card link="/guides/single-encoder-com-tuning/" title="Using a single encoder to tune COM1" icon="information" >}}
 
 {{< /cards >}}
 
