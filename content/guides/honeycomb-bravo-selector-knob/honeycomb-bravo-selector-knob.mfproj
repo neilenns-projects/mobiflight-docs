@@ -1,0 +1,584 @@
+{
+  "Name": "Honeycomb Bravo Selector Knob",
+  "ConfigFiles": [
+    {
+      "Label": "Honeycomb Bravo Selector Knob",
+      "FileName": "F:\\Honeycomb Bravo Selector Knob.mcc",
+      "ReferenceOnly": false,
+      "EmbedContent": true,
+      "ConfigItems": [
+        {
+          "Source": {
+            "MobiFlightVariable": {
+              "TYPE": "number",
+              "Name": "Selector",
+              "Number": 0.0,
+              "Text": "",
+              "Expression": "$"
+            },
+            "Type": "VariableSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0,
+            "String": null
+          },
+          "DeviceType": "-",
+          "DeviceName": null,
+          "GUID": "b5769929-7a57-4290-b0fd-aa18100e9d85",
+          "Active": true,
+          "Name": "Selector position",
+          "Type": "OutputConfigItem",
+          "Controller": null
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "VariableInputAction",
+              "Variable": {
+                "TYPE": "number",
+                "Name": "Selector",
+                "Number": 0.0,
+                "Text": "",
+                "Expression": "1"
+              }
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 21"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 21",
+          "GUID": "2e0b501e-2a06-4d1e-8cca-5e458f439d04",
+          "Active": true,
+          "Name": "Selector - ALT",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "Bravo Throttle Quadrant",
+            "Serial": "JS-47b53820-95fc-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "VariableInputAction",
+              "Variable": {
+                "TYPE": "number",
+                "Name": "Selector",
+                "Number": 0.0,
+                "Text": "",
+                "Expression": "1"
+              }
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 20"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 20",
+          "GUID": "f55a4d71-f0af-41ee-af4b-6a2e491462f0",
+          "Active": true,
+          "Name": "Selector - VS",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "Bravo Throttle Quadrant",
+            "Serial": "JS-47b53820-95fc-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "VariableInputAction",
+              "Variable": {
+                "TYPE": "number",
+                "Name": "Selector",
+                "Number": 0.0,
+                "Text": "",
+                "Expression": "2"
+              }
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 19"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 19",
+          "GUID": "ed1f1102-aca0-45ae-9d47-af551c7b0fd4",
+          "Active": true,
+          "Name": "Selector - HDG",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "Bravo Throttle Quadrant",
+            "Serial": "JS-47b53820-95fc-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "VariableInputAction",
+              "Variable": {
+                "TYPE": "number",
+                "Name": "Selector",
+                "Number": 0.0,
+                "Text": "",
+                "Expression": "3"
+              }
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 18"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 18",
+          "GUID": "a03b2b77-8155-4504-8a47-96fc10e28307",
+          "Active": true,
+          "Name": "Selector - CRS",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "Bravo Throttle Quadrant",
+            "Serial": "JS-47b53820-95fc-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "VariableInputAction",
+              "Variable": {
+                "TYPE": "number",
+                "Name": "Selector",
+                "Number": 0.0,
+                "Text": "",
+                "Expression": "4"
+              }
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 17"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 17",
+          "GUID": "b4e21dff-b04f-46d4-9709-e896a9212a70",
+          "Active": true,
+          "Name": "Selector - IAS",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "Bravo Throttle Quadrant",
+            "Serial": "JS-47b53820-95fc-11ee-8001-444553540000"
+          }
+        },
+        {
+          "button": {
+            "onPress": null,
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 14"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 14",
+          "GUID": "b0ea8b76-6fae-4ce5-9e3f-c1dc37614ae4",
+          "Active": true,
+          "Name": "Right knob - ALT decrement",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "Bravo Throttle Quadrant",
+            "Serial": "JS-47b53820-95fc-11ee-8001-444553540000"
+          },
+          "Preconditions": [
+            {
+              "Type": "variable",
+              "Ref": "Selector",
+              "Serial": null,
+              "Pin": null,
+              "Operand": "=",
+              "Value": "0",
+              "Logic": "and",
+              "Active": true
+            }
+          ]
+        },
+        {
+          "button": {
+            "onPress": null,
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 13"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 13",
+          "GUID": "c6bd7640-d138-4530-a9d2-217844b3b634",
+          "Active": true,
+          "Name": "Right knob - ALT increment",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "Bravo Throttle Quadrant",
+            "Serial": "JS-47b53820-95fc-11ee-8001-444553540000"
+          },
+          "Preconditions": [
+            {
+              "Type": "variable",
+              "Ref": "Selector",
+              "Serial": null,
+              "Pin": null,
+              "Operand": "=",
+              "Value": "0",
+              "Logic": "and",
+              "Active": true
+            }
+          ]
+        },
+        {
+          "button": {
+            "onPress": null,
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 14"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 14",
+          "GUID": "2db6b8e7-7ca9-4678-92d8-42c25f2bff5c",
+          "Active": true,
+          "Name": "Right knob - VS decrement",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "Bravo Throttle Quadrant",
+            "Serial": "JS-47b53820-95fc-11ee-8001-444553540000"
+          },
+          "Preconditions": [
+            {
+              "Type": "variable",
+              "Ref": "Selector",
+              "Serial": null,
+              "Pin": null,
+              "Operand": "=",
+              "Value": "1",
+              "Logic": "and",
+              "Active": true
+            }
+          ]
+        },
+        {
+          "button": {
+            "onPress": null,
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 13"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 13",
+          "GUID": "5f6aec5c-a681-43aa-b506-91bca3719aa9",
+          "Active": true,
+          "Name": "Right knob - VS increment",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "Bravo Throttle Quadrant",
+            "Serial": "JS-47b53820-95fc-11ee-8001-444553540000"
+          },
+          "Preconditions": [
+            {
+              "Type": "variable",
+              "Ref": "Selector",
+              "Serial": null,
+              "Pin": null,
+              "Operand": "=",
+              "Value": "1",
+              "Logic": "and",
+              "Active": true
+            }
+          ]
+        },
+        {
+          "button": {
+            "onPress": null,
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 14"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 14",
+          "GUID": "08c0d0f0-4291-42f3-a26a-d8676cedc597",
+          "Active": true,
+          "Name": "Right knob - HDG decrement",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "Bravo Throttle Quadrant",
+            "Serial": "JS-47b53820-95fc-11ee-8001-444553540000"
+          },
+          "Preconditions": [
+            {
+              "Type": "variable",
+              "Ref": "Selector",
+              "Serial": null,
+              "Pin": null,
+              "Operand": "=",
+              "Value": "2",
+              "Logic": "and",
+              "Active": true
+            }
+          ]
+        },
+        {
+          "button": {
+            "onPress": null,
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 13"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 13",
+          "GUID": "5aa8ad88-f6d4-474c-9ac4-b93370e552fc",
+          "Active": true,
+          "Name": "Right knob - HDG increment",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "Bravo Throttle Quadrant",
+            "Serial": "JS-47b53820-95fc-11ee-8001-444553540000"
+          },
+          "Preconditions": [
+            {
+              "Type": "variable",
+              "Ref": "Selector",
+              "Serial": null,
+              "Pin": null,
+              "Operand": "=",
+              "Value": "2",
+              "Logic": "and",
+              "Active": true
+            }
+          ]
+        },
+        {
+          "button": {
+            "onPress": null,
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 14"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 14",
+          "GUID": "4a72571a-5281-4e03-b353-29eef249a041",
+          "Active": true,
+          "Name": "Right knob - CRS decrement",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "Bravo Throttle Quadrant",
+            "Serial": "JS-47b53820-95fc-11ee-8001-444553540000"
+          },
+          "Preconditions": [
+            {
+              "Type": "variable",
+              "Ref": "Selector",
+              "Serial": null,
+              "Pin": null,
+              "Operand": "=",
+              "Value": "3",
+              "Logic": "and",
+              "Active": true
+            }
+          ]
+        },
+        {
+          "button": {
+            "onPress": null,
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 13"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 13",
+          "GUID": "9af5ece6-d055-469c-8b73-e7723f66bc7b",
+          "Active": true,
+          "Name": "Right knob - CRS increment",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "Bravo Throttle Quadrant",
+            "Serial": "JS-47b53820-95fc-11ee-8001-444553540000"
+          },
+          "Preconditions": [
+            {
+              "Type": "variable",
+              "Ref": "Selector",
+              "Serial": null,
+              "Pin": null,
+              "Operand": "=",
+              "Value": "3",
+              "Logic": "and",
+              "Active": true
+            }
+          ]
+        },
+        {
+          "button": {
+            "onPress": null,
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 14"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 14",
+          "GUID": "2bbd76e5-9041-4937-85bd-59e47a5ac0d6",
+          "Active": true,
+          "Name": "Right knob - IAS decrement",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "Bravo Throttle Quadrant",
+            "Serial": "JS-47b53820-95fc-11ee-8001-444553540000"
+          },
+          "Preconditions": [
+            {
+              "Type": "variable",
+              "Ref": "Selector",
+              "Serial": null,
+              "Pin": null,
+              "Operand": "=",
+              "Value": "4",
+              "Logic": "and",
+              "Active": true
+            }
+          ]
+        },
+        {
+          "button": {
+            "onPress": null,
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 13"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 13",
+          "GUID": "6731381a-3bb2-43fc-9008-75f55cc58d53",
+          "Active": true,
+          "Name": "Right knob - IAS increment",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "Bravo Throttle Quadrant",
+            "Serial": "JS-47b53820-95fc-11ee-8001-444553540000"
+          },
+          "Preconditions": [
+            {
+              "Type": "variable",
+              "Ref": "Selector",
+              "Serial": null,
+              "Pin": null,
+              "Operand": "=",
+              "Value": "4",
+              "Logic": "and",
+              "Active": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Sim": "msfs",
+  "Aircraft": [],
+  "Features": {
+    "FSUIPC": false,
+    "ProSim": false
+  },
+  "_version": "0.9"
+}
