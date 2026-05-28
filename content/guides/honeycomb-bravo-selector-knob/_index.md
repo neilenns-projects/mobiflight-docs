@@ -5,11 +5,13 @@ description: Step-by-step guide to using the Honeycomb Bravo selector knob with 
 
 The Honeycomb Bravo's autopilot inputs rely on a selector knob to indicate what autopilot feature the right knob controls. MobiFlight pre-conditions can be used to configure the appropriate events for the right knob based on the selector knob position.
 
-A sample file that implements this is available. It provides all the input configs necessary to make this work, however you'll have to edit all the knob inputs to specify what events you actually want to have happen when the knob is turned.
+<!-- Need to directly inline the HTML for the hyperlink to be able to specify the download option -->
+<!-- markdownlint-disable-next-line MD033 -->
+<a href="honeycomb-bravo-selector-knob.mfproj" download>A sample project that implements this is available</a>. It provides all the input configs necessary to make this work, however you'll have to edit all the knob inputs to specify what events you actually want to have happen when the knob is turned.
 
 This same technique can be used to do things like display different radios on a 7-segment display based on a knob position, or to use a single encoder with a toggle button to change different radio frequencies.
 
-Want to build the file yourself and understand how it works? Here's how to do it.
+Want to build the profile yourself and understand how it works? Here's how to do it.
 
 {{% steps %}}
 
@@ -48,7 +50,7 @@ Start by adding the precondition:
 1. Create a new input config called `Right knob - ALT decrement`
 2. On the `Precondition` tab click on `<none>` in the precondition list
 3. Set the `Use type of` dropdown to `MobiFlight Variable`
-4. Set the `Choose variable` dropdown to `Selector
+4. Set the `Choose variable` dropdown to `Selector`
 5. Set the value to 0
 
 The precondition tab should look like this:
@@ -88,7 +90,7 @@ To assist with debugging it can be helpful to have an output config that referen
 
 {{< screenshot image="output-config.png" title="Screenshot of an output config set up to display the value of the selector knob variable." >}}
 
-There's no need to actually display it on any output device. This basic output config will show the value in the main Mobiflight window:
+There's no need to actually display it on any output device. This basic output config will show the value in the main MobiFlight window:
 
 {{< screenshot image="main-window-output-config.png" title="Screenshot showing the main MobiFlight window with the selector output configuration highlighted and showing a current value of 1." >}}
 
