@@ -39,6 +39,8 @@ Repeat step 1 four more times, updating the name to and device to reflect the sw
 
 Your input config tab should look like this:
 
+{{< screenshot image="main-window-selector-knob-configs.png" title="Screenshot of the main MobiFlight window with the selector knob configs added." >}}
+
 ### Create an input config for a left turn of the right knob when ALT mode is active
 
 Start by adding the precondition:
@@ -61,9 +63,12 @@ Then add the input device:
 4. Configure the `On Press` event to do whatever event you want
 5. Save the config
 
-The input tab should look like this, with whatever action type configured you decide to use:
+The input tab should look like this:
 
 {{< screenshot image="alt-device-assignment.png" title="Screenshot of the device tab for the right knob - ALT decrement input config." >}}
+
+> [!TIP]
+> The above example illustrates mapping the ALT decrement action to the Cessna CJ4 autopilot ALT decrement event in Microsoft Flight Simulator 2024. When building your own profile, adjust the selected event to match the appropriate one for your aircraft.
 
 ### Create an input config for a right turn of the right knob when ALT mode is active
 
@@ -75,16 +80,18 @@ Repeat everything in step 3 and 4 except when configuring the precondition use t
 
 When you are done your input config tab should look like this:
 
+{{< screenshot image="all-configs.png" title="Screenshot of the main MobiFlight window with all the input configs created." >}}
+
 ### Create an output config for the selector (optional)
 
 To assist with debugging it can be helpful to have an output config that references the `Selector` variable. To do this create an output config that looks like this:
 
-There's no need to actually display it on any output device: this basic output config will show the value in the main Mobiflight window:
+{{< screenshot image="output-config.png" title="Screenshot of an output config set up to display the value of the selector knob variable." >}}
 
-### Use the config with your flight simulator
+There's no need to actually display it on any output device. This basic output config will show the value in the main Mobiflight window:
 
-After `Run` mode is enabled in MobiFlight **you will need to rotate the left knob one position**. There is no way for MobiFlight to know what position the left knob is in when you start so moving it once will ensure MobiFlight knows where it is set.
+{{< screenshot image="main-window-output-config.png" title="Screenshot showing the main MobiFlight window with the selector output configuration highlighted and showing a current value of 1." >}}
 
-From there you can see in the input config list which configuration is active. All disabled configs will have a red `!` next to them, while the two active configs won't. Here's an example of what the input config list looks like when the left knob was turned to the `HDG` position;
+MobiFlight also indicates which of the input configs are inactive by showing a purple `!` icon next to configs that are disabled by the precondition value. In the above screenshot, the `VS` inputs are active and the rest are disabled.
 
 {{% /steps %}}
