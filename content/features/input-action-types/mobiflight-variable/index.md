@@ -6,7 +6,7 @@ aliases:
 weight: 30
 ---
 
-The **MobiFlight - Variable** action type sets a MobiFlight variable when triggered. This action type is often used to set variables used in pre-conditions for other input configurations, for example when using [a single encoder to tune radio frequencies](/guides/single-encoder-com-tuning/).
+The **MobiFlight - Variable** action type sets a MobiFlight variable when triggered. This action type is often used to set variables used in [preconditions](/features/preconditions/) for other input configurations, for example when using [a single encoder to tune radio frequencies](/guides/single-encoder-com-tuning/).
 
 {{< screenshot image="mobiflight-variable.png" title="Screenshot of a button input with the MobiFlight - Variable input action type selected." >}}
 

@@ -41,6 +41,7 @@ reviews:
           - All files under the boards and devices folders should have images specified in the front matter.
           - "WINWING" should be "WinCtrl" instead.
           - "file" shouldn't be used to refer to MobiFlight configuration files. Instead, use "profile" or "project".
+          - "precondition" should be used instead of "pre-condition"
     - path: "**/*.svg"
       instructions: |
         Review all SVG files and ensure that:

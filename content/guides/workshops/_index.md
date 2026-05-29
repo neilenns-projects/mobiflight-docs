@@ -15,7 +15,7 @@ The beginner workshop covers MobiFlight fundamentals, including:
 The advanced workshop covers MobiFlight in more detail, including:
 
 - Using [dual encoders](/devices/encoder/) and [LCDs](/devices/lcd).
-- Leveraging [pre-conditions to change input device behavior](/guides/single-encoder-com-tuning/).
+- Leveraging [preconditions to change input device behavior](/guides/single-encoder-com-tuning/).
 - Adding [config references to show multiple output values on an LCD](/devices/lcd/advanced-configuration/).
 
 {{< cards >}}
