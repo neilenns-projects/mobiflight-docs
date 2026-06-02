@@ -9,7 +9,7 @@ weight: 10
 
 ## Button, switch, encoder, and 4-way hat inputs
 
-These inputs are configured in MobiFlight using [the button and switch configuration process](/devices/button-switch/configuring-input).
+These inputs are configured in MobiFlight using [the button and switch configuration process](/devices/button-switch/configuring-button).
 
 When selecting the **Module** and **Device**, select the appropriate game controller and switch. Alternatively, press the **Scan for input** button and toggle the input to automatically detect and select the button.
 
