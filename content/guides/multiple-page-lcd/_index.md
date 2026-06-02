@@ -7,7 +7,7 @@ images: [card-images/guides/multiple-page-lcd.png]
 <!-- markdownlint thinks <none>, which is a value in MobiFlight UI, is inline HTML, so disable the rule in this file. -->
 <!-- markdownlint-disable MD033 -->
 
-MobiFlight preconditions, when combined with two buttons and an LCD, can be used to page between different screens of content on the display. This tutorial demonstrates how to use two buttons to page up and down through two pages, showing COM1 frequencies and COM2 frequencies for a Cessna 172 on an LCD.
+MobiFlight [preconditions](/features/preconditions/), when combined with two buttons and an LCD, can be used to page between different screens of content on the display. This tutorial demonstrates how to use two buttons to page up and down through two pages, showing COM1 frequencies and COM2 frequencies for a Cessna 172 on an LCD.
 
 > [!NOTE]
 > This guide assumes the buttons and LCD are already added as MobiFlight devices, following the [button](/devices/button-switch/) and [LCD](/devices/LCD/) guides. It also assumes basic familiarity with creating MobiFlight input and output configurations.

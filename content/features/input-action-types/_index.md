@@ -10,7 +10,7 @@ MobiFlight supports several different methods to map inputs to a flight simulato
 
 - [Microsoft Flight Simulator](/features/input-action-types/microsoft-flight-simulator/), for controlling aircraft in Microsoft Flight Simulator 2020 and 2024.
 - [X-Plane (all versions)](/features/input-action-types/x-plane-all-versions/), for controlling aircraft in all versions of X-Plane.
-- [MobiFlight - Variable](/features/input-action-types/mobiflight-variable), for setting variables used in configuration pre-conditions.
+- [MobiFlight - Variable](/features/input-action-types/mobiflight-variable), for setting variables used in [preconditions](/features/preconditions/).
 
 The other action types are only used in the specific situations, described on the associated reference page.
 

@@ -6,7 +6,7 @@ images: [card-images/devices/encoder-single.png]
 
 Single rotary encoders with an integrated button are widely available and inexpensive, which makes them a popular option when building radio panels. Since radio frequencies consist of two parts, MHz and KHz, many people use the encoder push button to toggle whether the encoder controls the MHz or KHZ portion of the frequency.
 
-The following steps show how to configure this in MobiFlight, using a MobiFlight variable to control which portion of the COM1 standby frequency gets adjusted by the encoder in a Cessna 172.
+The following steps show how to configure this in MobiFlight, using a MobiFlight variable and [preconditions](/features/preconditions/) to control which portion of the COM1 standby frequency gets adjusted by the encoder in a Cessna 172.
 
 > [!NOTE]
 > This guide assumes the encoder and button are already added as MobiFlight devices following the [encoder](/devices/encoder/) and [button](/devices/button-switch/) guides. It also assumes basic familiarity with creating MobiFlight input configurations.
