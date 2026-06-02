@@ -7,7 +7,6 @@ The Honeycomb Bravo's autopilot inputs rely on a selector knob to indicate what 
 
 <!-- Need to directly inline the HTML for the hyperlink to be able to specify the download option -->
 <!-- markdownlint-disable-next-line MD033 -->
-
 <a href="honeycomb-bravo-selector-knob.mfproj" download>A sample project that implements this is available</a>. It provides all the input configs necessary to make this work, however you'll have to edit all the knob inputs to specify what events you actually want to have happen when the knob is turned.
 
 This same technique can be used to do things like display different radios on a 7-segment display based on a knob position, or to use a single encoder with a toggle button to change different radio frequencies.
