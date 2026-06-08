@@ -33,6 +33,12 @@ In many cases, the default **Info** log level is sufficient for troubleshooting.
 
 Click **OK** to close the dialog.
 
+### Show the log panel (optional)
+
+From the **View** menu select **Show Log Panel** to display the logs in real time.
+
+{{< screenshot image="show-log-panel.png" title="Screenshot of the main MobiFlight window with the View menu open and the Show Log Panel menu item highlighted." >}}
+
 ### Re-create the issue
 
 With logging enabled, re-create the issue. Depending on the problem, this may include:
