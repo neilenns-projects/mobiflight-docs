@@ -35,7 +35,7 @@ Click **OK** to close the dialog.
 
 ### Show the log panel (optional)
 
-From the **View** menu select **Show Log Panel** to display the logs in real time.
+From the **View** menu, select **Show Log Panel** to display the logs in real time.
 
 {{< screenshot image="show-log-panel.png" title="Screenshot of the main MobiFlight window with the View menu open and the Show Log Panel menu item highlighted." >}}
 
