@@ -46,6 +46,6 @@ jobs:
           args: >-
             --verbose
             --no-progress
-            --base "http://localhost:1313"
+            --base-url "http://localhost:1313"
             "http://localhost:1313/"
           fail: true

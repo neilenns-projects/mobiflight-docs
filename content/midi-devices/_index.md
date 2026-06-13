@@ -20,4 +20,4 @@ MobiFlight supports several popular MIDI devices. While no drivers are required,
 
 ## Other devices
 
-MobiFlight supports other MIDI devices via [custom configuration files](/midi-devices/adding-custom-device/).
+MobiFlight supports other MIDI devices via [custom configuration files](/midi/adding-custom-device/).
