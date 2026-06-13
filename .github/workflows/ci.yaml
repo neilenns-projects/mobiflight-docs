@@ -28,3 +28,14 @@ jobs:
           hugo \
           --gc \
           --minify
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --root-dir "${{ github.workspace }}"
+            --verbose
+            --no-progress
+            --offline
+            './public/**/*.html'
+          fail: true
