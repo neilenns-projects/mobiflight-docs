@@ -18,4 +18,4 @@ To use MOSFETs with MobiFlight, follow the [LED guide](/devices/led/) to configu
 [Breakout boards](https://www.amazon.com/HiLetgo-IRF520-MOSFET-Arduino-Raspberry/dp/B01I1J14MO) with the MOSFET installed and screw terminals for 12V power are a good starting option. These typically use the IFR520 MOSFET.
 
 > [!TIP]
-> Be careful of the operating voltage and current for the MOSFET. There is a wide range of options, not all of which are suitable for use with MobiFlight supported boards. The IFR520 breakout board, for example, should not be used with the 3.3V data signals of the [Raspberry Pi Pico 1](/boards/raspberry-pi-pico/).
+> Be careful of the operating voltage and current for the MOSFET. There is a wide range of options, not all of which are suitable for use with MobiFlight supported boards. The IFR520 breakout board, for example, should not be used with the 3.3V data signals of the [Raspberry Pi Pico 1](/boards/recommended/raspberry-pi-pico/).

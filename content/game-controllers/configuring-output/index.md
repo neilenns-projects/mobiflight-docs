@@ -6,7 +6,7 @@ aliases:
 weight: 20
 ---
 
-MobiFlight supports using game controller LEDs as output devices for a [select set of devices](/game-controllers/). Game controller outputs are configured in MobiFlight using [the LED device configuration process](/devices/led/configuring-input).
+MobiFlight supports using game controller LEDs as output devices for a [select set of devices](/game-controllers/). Game controller outputs are configured in MobiFlight using [the LED device configuration process](/devices/led/configuring-output).
 
 {{% steps %}}
 
