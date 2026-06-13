@@ -36,7 +36,7 @@ For popular devices, MobiFlight displays friendly names during input and output 
 | WinCtrl TCAS                                                                                                                      |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | WingFlex FCU                                                                                                                      |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 
-For detailed information on using WinCtrl devices with MobiFlight, see the [WinCtrl documentation](/game-controllers/winctrl/). The WinCtrl CDU display is only supported with [select aircraft](/game-controllers/winctrl/winctrl-cdu/). The WinCtrl RMP device provides [specific input and output devices](/game-controllers/winctrl/winctrl-rmp/) when creating profiles.
+For detailed information on using WinCtrl devices with MobiFlight, see the [WinCtrl documentation](/game-controllers/winctrl/). The WinCtrl CDU display is only supported with [select aircraft](/game-controllers/winctrl/winctrl-cdu/). The WinCtrl RMP displays and LEDs are controlled using [specific output devices](/game-controllers/winctrl/winctrl-rmp/).
 
 > [!TIP]
 > Other game controllers may work and show generic names for inputs; however their outputs are not supported. Unlisted WinCtrl devices are not supported.
