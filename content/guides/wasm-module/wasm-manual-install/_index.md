@@ -7,7 +7,7 @@ weight: 30
 <!-- markdownlint doesn't know about steps and duplicate headings within that are fine, Hugo gives them unique links. -->
 <!-- markdownlint-disable MD024 -->
 
-[Reinstalling the WASM module](/guides/wasm-reinstall/) is the preferred method of installing the module. However, in some cases MobiFlight cannot determine the correct install location for the module. In that situation, the module can be manually installed into the flight simulator community folder.
+[Reinstalling the WASM module](/guides/wasm-module/wasm-reinstall/) is the preferred method of installing the module. However, in some cases MobiFlight cannot determine the correct install location for the module. In that situation, the module can be manually installed into the flight simulator community folder.
 
 Before installing the WASM module, determine the location of the community folder.
 

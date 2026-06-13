@@ -21,7 +21,7 @@ You may want to disable MobiFlight's game controller support in certain situatio
 
 Click on the **Extras** menu and select **Settings** to open the settings dialog.
 
-{{< screenshot image="/app/extras-settings-menu-item.png" title="Screenshot of the Extras menu with the Settings menu item selected." >}}
+{{< screenshot image="extras-settings-menu-item.png" title="Screenshot of the Extras menu with the Settings menu item selected." >}}
 
 ### Disable joystick support
 
@@ -41,7 +41,7 @@ On the **Peripherals** tab, uncheck the **Enable joystick support** checkbox.
 
 Go to the **Extras** menu and select **Settings**.
 
-{{< screenshot image="/app/extra-settings-menu-item.png" title="Screenshot of the Extras menu with the Settings menu item selected." >}}
+{{< screenshot image="extra-settings-menu-item.png" title="Screenshot of the Extras menu with the Settings menu item selected." >}}
 
 ### Disable specific game controllers
 
