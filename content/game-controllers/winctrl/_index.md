@@ -11,9 +11,11 @@ weight: 50
 <!-- Markdownlint doesn't know about consecutive GitHub tip blocks -->
 <!-- markdownlint-disable MD028-->
 
-MobiFlight supports the WinCtrl AGP, ECAM, EFIS, FCU, MCDU, PAP 3, PFP 3N, PFP 4, PFP 7, 3N PDC, 3M PDC, PTO 2, TCAS, Airbus throttle, and Airbus sidestick.
+MobiFlight supports the WinCtrl AGP, ECAM, EFIS, FCU, MCDU, PAP 3, PFP 3N, PFP 4, PFP 7, 3N PDC, 3M PDC, PTO 2, RMP, TCAS, Airbus throttle, and Airbus sidestick.
 
 The WinCtrl CDU inputs work like any other [game controller input](/game-controllers/configuring-input/). The display portion of the CDU with MobiFlight requires additional configuration, and is only supported with specific aircraft. See the [WinCtrl CDU documentation](/game-controllers/winctrl/winctrl-cdu/) for more information.
+
+The WinCtrl RMP displays and LEDs are controlled using [specific output devices](/game-controllers/winctrl/winctrl-rmp/).
 
 WinCtrl devices are automatically shown in the [input](/game-controllers/configuring-input/) and [output](/game-controllers/configuring-output/) configuration dialogs. They will not appear in the **Modules** tab of the **Settings** dialog as they are not [boards](/boards/).
 
