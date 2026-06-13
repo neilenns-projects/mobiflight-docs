@@ -37,17 +37,6 @@ jobs:
           --minify \
           --baseURL "/"
 
-      - name: Serve site
-        run: hugo server --port 1313 --bind 0.0.0.0 &
-        # Wait for the server to be ready
-
-      - name: Wait for server
-        run: |
-          for i in $(seq 1 10); do
-            curl -sf http://localhost:1313/ && break
-            sleep 1
-          done
-
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
@@ -55,7 +44,7 @@ jobs:
             --verbose
             --no-progress
             --offline
-            --index-files "index.html"
+            --index-files index.html
             --root-dir "${{ github.workspace }}/public"
             './public/**/*.html'
           fail: true
