@@ -43,7 +43,7 @@ Use the [getting started guide](/getting-started/) to install MobiFlight.
 
 ### Upload the firmware
 
-Follow the [flashing ambiguous boards guide](/guides/flashing-ambiguous/boards/) to upload the correct firmware to the Mega 2560 Pro Mini.
+Follow the [flashing ambiguous boards guide](/guides/flashing-ambiguous-boards/) to upload the correct firmware to the Mega 2560 Pro Mini.
 
 ### Upload the board configuration
 
