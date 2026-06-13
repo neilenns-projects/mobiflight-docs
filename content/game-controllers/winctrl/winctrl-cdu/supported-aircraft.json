@@ -165,6 +165,10 @@
       "platform": "X-Plane 12",
       "aircraft": "Leonardo Fly The Maddog 20th Anniversary Edition",
       "comment": ""
+    },
+    {
+      "platform": "MSFS",
+      "aircraft": "Aerosoft A340-600 Pro"
     }
   ]
 }
