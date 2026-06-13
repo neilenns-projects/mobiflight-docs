@@ -34,7 +34,7 @@ jobs:
         run: |
           hugo \
           --gc \
-          --minify
+          --minify \
           --baseURL "/"
 
       - name: Serve site
