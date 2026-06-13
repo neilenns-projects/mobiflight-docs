@@ -41,7 +41,7 @@ On the **Peripherals** tab, uncheck the **Enable joystick support** checkbox.
 
 Go to the **Extras** menu and select **Settings**.
 
-{{< screenshot image="/app/extra-settings-menu-item.png" title="Screenshot of the Extras menu with the Settings menu item selected." >}}
+{{< screenshot image="extra-settings-menu-item.png" title="Screenshot of the Extras menu with the Settings menu item selected." >}}
 
 ### Disable specific game controllers
 
