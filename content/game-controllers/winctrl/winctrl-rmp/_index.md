@@ -51,6 +51,6 @@ The following outputs control the device indicator LEDs:
 - `HF2`
 - `AM`
 - `NAV`
-- `VORILS`
+- `VOR/ILS`
 - `GLS`
 - `ADF`
