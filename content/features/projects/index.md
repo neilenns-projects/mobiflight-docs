@@ -90,7 +90,7 @@ The selected project will have its profiles merged with the currently open proje
 
 {{< screenshot image="merged-tab.png" title="Screenshot of an open MobiFlight project with an additional profile tab highlighted." >}}
 
-Use the **Save** item in the **File** menu to save the changes to the primary profile.
+Use the **Save** item in the **File** menu to save the changes to the primary project.
 {{% /steps %}}
 
 > [!IMPORTANT]
