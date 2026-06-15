@@ -9,6 +9,9 @@ Input events for Microsoft Flight Simulator 2024 are documented in [HubHop](http
 
 The following steps illustrate how to find the input event for the parking brake in a Cessna 172 for use with a [toggle switch](/devices/button-switch/).
 
+> [!TIP]
+> The steps for finding events in Microsoft Flight Simulator 2020 are different. See the [dedicated 2020 guide](/guides/input-events-2020/) for MSFS2020 steps.
+
 {{% steps %}}
 
 ### Enable developer mode
