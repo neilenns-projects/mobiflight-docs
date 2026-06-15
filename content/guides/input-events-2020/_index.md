@@ -46,7 +46,7 @@ The InputEvents tab will look like this after minimizing data on load, reloading
 {{< screenshot image="input-events-after-reload.png" title="Screenshot of the behavior dialog after reloading the user container." >}}
 
 > [!TIP]
-> If no events are listed, check and make sure the correct XML file from the dropdown. If it doesn’t say `INTERIOR` then the wrong one is selected.
+> If no events are listed, check and make sure the correct XML file is selected in the dropdown. If it doesn’t say `INTERIOR` then the wrong one is selected.
 
 ### Find the relevant event
 
@@ -62,7 +62,7 @@ The expanded section includes a `LANDING_GEAR_ParkingBrake` event, which is the 
 
 To view the code associated with the parking brake, click the **Add to control panel** button.
 
-{{< screenshot image="add-to-control-panel.png" title="Screenshot of the behavior dialog with teh Add to control panel button highlighted." >}}
+{{< screenshot image="add-to-control-panel.png" title="Screenshot of the behavior dialog with the Add to control panel button highlighted." >}}
 
 Then click the triangle next to the `LANDING_GEAR_ParkingBrake` event.
 
