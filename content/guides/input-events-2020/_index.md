@@ -10,7 +10,7 @@ Event codes for Microsoft Flight Simulator 2020 are documented in [HubHop](https
 The following steps illustrate how to find the input event code for the parking brake in a Cessna 172 Skyhawk (G1000) for use with a [toggle switch](/devices/button-switch/).
 
 > [!TIP]
-> The steps for finding events in Microsoft Flight Simulator 2024 are different. See the [dedicated guide](/guides/input-events-2024/) for MSFS2024 steps.
+> The steps for finding events in Microsoft Flight Simulator 2024 are different. See the [dedicated 2024 guide](/guides/input-events-2024/) for MSFS2024 steps.
 
 {{% steps %}}
 
