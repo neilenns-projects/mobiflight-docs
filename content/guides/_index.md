@@ -12,6 +12,7 @@ cascade:
 {{< cards >}}
 
 {{< card link="/guides/installing-drivers/" title="Installing board drivers" icon="download" >}}
+{{< card link="/guides/input-events-2020/" title="Finding input events in MSFS2020" icon="search" >}}
 {{< card link="/guides/input-events-2024/" title="Finding input events in MSFS2024" icon="search" >}}
 {{< card link="/guides/installation-path/" title="Finding the MobiFlight installation location" icon="document" >}}
 {{< card link="/guides/flashing-ambiguous-boards/" title="Flashing ambiguous boards" icon="cpu-chip" >}}
