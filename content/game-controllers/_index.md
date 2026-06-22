@@ -34,6 +34,7 @@ For popular devices, MobiFlight displays friendly names during input and output 
 | WinCtrl PTO 2                                                                                                                     |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | WinCtrl TCAS                                                                                                                      |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | WingFlex FCU                                                                                                                      |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
+| WingFlex RMP cube                                                                                                                 |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 
 For detailed information on using WinCtrl devices with MobiFlight, see the [WinCtrl documentation](/game-controllers/winctrl/). The WinCtrl CDU display is only supported with [select aircraft](/game-controllers/winctrl/winctrl-cdu/).
 
