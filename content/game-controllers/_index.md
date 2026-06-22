@@ -12,6 +12,10 @@ cascade:
 
 MobiFlight supports joysticks, yokes, throttle quadrants, and other devices that show in Windows as USB game controllers. No additional drivers are required.
 
+> [!TIP]
+> Looking to purchase a game controller? Many companies partner with MobiFlight. [Purchasing through our links](/donate/) helps support the project
+> at no additional cost to you.
+
 For popular devices, MobiFlight displays friendly names during input and output configuration. These devices include:
 
 | Game controller                                                                                                                   | Supports [inputs](/game-controllers/configuring-input/) | Supports [outputs](/game-controllers/configuring-output/) |
