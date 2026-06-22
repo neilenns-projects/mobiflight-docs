@@ -22,8 +22,4 @@ In addition to monetary donations consider supporting the project by helping new
 
 The [MobiFlight shop](https://shop.mobiflight.com/) is a great source to get supported [boards](https://shop.mobiflight.com/category/boards/?v=7885444af42e), [input devices](https://shop.mobiflight.com/category/input-devices/?v=0b3b97fa6688), and [output devices](https://shop.mobiflight.com/category/output-devices/?v=0b3b97fa6688).
 
-Popular hardware vendors also help support MobiFlight through affiliate programs. Using the links below to purchase your devices will help support the project at no additional cost to you.
-
-{{< cards >}}
-{{< card link="https://www.wingflex.com/?sca_ref=11453765.OPCgaGgkUj" title="WingFlex" subtitle="" image="card-images/partners/wingflex.png" >}}
-{{</ cards >}}
+We also partner with [popular hardware companies](https://shop.mobiflight.com/partner-products/?v=5f02f0889301). Purchasing through our links helps support the project at no additional cost to you, and in many cases provides a discount off the base price.
