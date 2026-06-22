@@ -6,7 +6,11 @@ sidebar:
   exclude: true
 ---
 
-MobiFlight is an all-volunteer project. If you enjoy it, please consider donating or purchasing hardware through our partner links to help support ongoing development.
+MobiFlight is an all-volunteer project. If you enjoy it, please consider joining the club, donating, or purchasing hardware through our partner links to help support ongoing development.
+
+## MobiFlight Club
+
+Join the [MobiFlight Club](https://mobiflight.com/club/) and help keep MobiFlight free and open source. A monthly contribution fuels development and ensures sustainability. As a thank-you, you'll get a voice in feature priorities, exclusive coupons, and early access to our newsletter.
 
 ## Donations
 
