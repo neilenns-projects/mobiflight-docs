@@ -10,9 +10,6 @@ cascade:
   type: docs
 ---
 
-<!-- Markdownlint doesn't understand consecutive GitHub-style info blocks -->
-<!-- markdownlint-disable-file MD028 -->
-
 MobiFlight supports joysticks, yokes, throttle quadrants, and other devices that show in Windows as USB game controllers. No additional drivers are required.
 
 > [!TIP]
@@ -40,14 +37,12 @@ For popular devices, MobiFlight displays friendly names during input and output 
 | WinCtrl PTO 2                                                                                                                     |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | WinCtrl TCAS                                                                                                                      |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | WingFlex DAP500                                                                                                                   |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
+| WingFlex ECAM cube                                                                                                                |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | WingFlex FCU                                                                                                                      |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | WingFlex overhead panel                                                                                                           |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | WingFlex RMP cube                                                                                                                 |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 
 For detailed information on using WinCtrl devices with MobiFlight, see the [WinCtrl documentation](/game-controllers/winctrl/). The WinCtrl CDU display is only supported with [select aircraft](/game-controllers/winctrl/winctrl-cdu/).
-
-> [!TIP]
-> Looking to buy a WingFlex device? Help support MobiFlight by [purchasing through our affiliate link](https://www.wingflex.com?sca_ref=11453765.OPCgaGgkUj), at no additional cost to you.
 
 > [!TIP]
 > Other game controllers may work and show generic names for inputs; however their outputs are not supported. Unlisted WinCtrl devices are not supported.
