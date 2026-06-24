@@ -20,7 +20,7 @@ weight: 100
 {{< card link="https://store.arduino.cc/products/uno-r4-minima" title="Arduino Uno R4 Minima" subtitle="arduino.cc CC BY-SA 4.0" image="card-images/boards/arduino-uno-r4-minima.png" >}}
 {{< card link="https://store.arduino.cc/products/uno-r4-wifi" title="Arduino Uno R4 WiFi" subtitle="arduino.cc CC BY-SA 4.0" image="card-images/boards/arduino-uno-r4-wifi.png" >}}
 {{< card link="https://www.sparkfun.com/pro-micro-3-3v-8mhz.html" title="Pro Micro (8MHz)" subtitle="SparkFun CC BY-SA 4.0" image="card-images/boards/pro-micro-8.png" >}}
-{{< card link="https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#pico-2-family" title="Raspberry Pi Pico 2" subtitle="Raspberry Pi Ltd CC BY-SA 4.0" image="card-images/boards/raspberry-pi-pico2.png" >}}
+{{< card link="https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#pico-2-family" title="Raspberry Pi Pico 2" subtitle="Raspberry Pi Ltd CC BY-SA 4.0" image="card-images/boards/raspberry-pi-pico-2.png" >}}
 {{< /cards >}}
 
 ## Device image licenses
