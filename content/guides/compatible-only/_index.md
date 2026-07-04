@@ -14,6 +14,7 @@ Many other applications open the COM port to connected boards automatically, pre
 - Arduino IDE
 - CURA
 - Joystick configuration software
+- RowsfireApp
 - Sim Racing Studio
 - WingFlex
 
