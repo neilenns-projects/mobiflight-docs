@@ -18,9 +18,15 @@ Click the **Add Input Config** button in the main MobiFlight window to open the 
 
 {{< screenshot image="/app/new-input-config.png" title="Screenshot of the main window with the Add Input Config button highlighted." >}}
 
+## Name the config
+
+Type in a meaningful name for the new config in the header of the dialog, for example **AP - Heading**, and press enter to apply the change.
+
+{{< screenshot image="input-config-custom-name.png" title="Screenshot of the main window with AP - Heading entered as a custom name." >}}
+
 ### Select the board and device for the input
 
-On the **Input** tab, use the **Module** and **Device** dropdowns to select your connected board and encoder.
+In the **Trigger** section, use the **Select controller...** and **Select device...** dropdowns to select your connected board and encoder.
 
 Alternatively, press the **Scan for input** button and rotate the encoder to automatically detect and select the correct encoder.
 
@@ -28,33 +34,25 @@ Alternatively, press the **Scan for input** button and rotate the encoder to aut
 
 ### Set the On Left action type and filter the presets list
 
-On the **Input** tab, select the **On Left** input setting tab. Use the **Action Type** dropdown to select **Microsoft Flight Simulator**. Then use the **Filter Preset List** dropdowns to filter by **Microsoft**, **Generic**, and **Controls**.
+In the **Actions** section, select the **On Left** button. Use the **Action Type** dropdown to select **Microsoft Flight Simulator (all versions)**. Then use the dropdowns to filter by **Microsoft**, **Generic**, and **Autopilot**.
 
-{{< screenshot image="sim-events-filtered-list.png" title="Screenshot of the on press filter preset list filtered by Microsoft / Generic / Controls." >}}
+{{< screenshot image="sim-events-filtered-list.png" title="Screenshot of the on press filter preset list filtered by Microsoft / Generic / Autopilot." >}}
 
 ### Select the heading decrement preset
 
-Use the **Select Preset** dropdown to select the **AP_HDG_VAR_DEC** preset.
+Use the **Select Preset** dropdown to select the **AP_HDG_VAR_DEC** preset, then click **Go back**
 
 {{< screenshot image="input-event-heading-decrement.png" title="Screenshot of the input tab on press event with the AP_HDG_VAR_DEC preset selected." >}}
 
 ### Configure the On Right action
 
-Repeat steps 3 and 4 for the **On Right** tab, selecting **AP_HDG_VAR_INC** for the preset.
+Repeat steps 3 and 4 for the **On Right** action, selecting **AP_HDG_VAR_INC** for the preset.
 
 {{< screenshot image="input-event-heading-increment.png" title="Screenshot of the input tab on release event with the AP_HDG_VAR_INC preset selected." >}}
 
-### Close the dialog and name the config
+### Close the dialog and try out the event
 
-Click the **OK** button to close the dialog, then double-click on the **New Input Config** name in the main window.
-
-{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the AP - Heading row text highlighted." >}}
-
-Type in a meaningful name for the new config, for example **AP - Heading**, and press enter to apply the change.
-
-{{< screenshot image="input-config-custom-name.png" title="Screenshot of the main window with AP - Heading entered as a custom name." >}}
-
-### Try out the event
+Click the **Save** button to close the dialog.
 
 Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try adjusting the autopilot heading with the encoder. The heading value in the simulator should increment and decrement.
 
