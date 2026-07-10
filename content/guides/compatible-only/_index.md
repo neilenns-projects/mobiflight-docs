@@ -22,7 +22,7 @@ Close any of these applications that may be running. A PC reboot may be necessar
 
 If it still fails, try moving the board to a different COM port, or uninstall it using Windows Device Manager then plug it in again.
 
-### Try removing all connected hats and devices removed
+### Try removing all connected hats and devices
 
 Low-quality Arduino screw terminal hats may interfere with board detection. Incorrectly connected devices can also cause shorts, preventing the board from being used. Try removing all hats and disconnecting all devices from the board, then run MobiFlight again.
 
