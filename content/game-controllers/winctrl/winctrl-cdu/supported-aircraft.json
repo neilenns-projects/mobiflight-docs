@@ -170,6 +170,11 @@
       "platform": "MSFS",
       "aircraft": "Aerosoft A340-600 Pro",
       "comment": "Requires aircraft version v1.0.3 or later and Microsoft Flight Simulator 2024."
+    },
+    {
+      "platform": "MSFS",
+      "aircraft": "Contrail FA50",
+      "comment": ""
     }
   ]
 }

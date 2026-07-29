@@ -47,9 +47,9 @@ Move the potentiometer from one end to the other.
 
 The log will show the values from the potentiometer. Write down the minimum and maximum values from the log.
 
-In the example below, the lowest value produced by the potentiometer is 13. The highest value, not shown, is 1023.
+In the example below, the lowest value produced by the potentiometer is 4. The highest value, not shown, is 1020.
 
-{{< screenshot image="analog-input-log.png" title="Screenshot of the main MobiFlight window with the log window open and a potentiometer with a minimum value of 13 showing." >}}
+{{< screenshot image="analog-input-log.png" title="Screenshot of the main MobiFlight window with the log window open and a potentiometer with a minimum value of 4 showing." >}}
 
 {{% /steps %}}
 
@@ -66,7 +66,7 @@ If the range of your potentiometer is different from the standard 0--1023, use t
 
 Set the **Device output range** preset to **Arduino** and enter the minimum and maximum values from the log. Set the **MSFS2020 event input range** to the desired input.
 
-{{< screenshot image="hubhop-settings.png" title="Screenshot of the HubHop potentiometer tool with the values set for a 23 to 1023 potentiometer and a throttle input." >}}
+{{< screenshot image="hubhop-settings.png" title="Screenshot of the HubHop potentiometer tool with the values set for a 4 to 1020 potentiometer and a throttle input." >}}
 
 ### Use the event code
 
