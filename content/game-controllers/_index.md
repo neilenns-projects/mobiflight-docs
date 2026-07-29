@@ -12,6 +12,9 @@ cascade:
 
 MobiFlight supports joysticks, yokes, throttle quadrants, and other devices that show in Windows as USB game controllers. No additional drivers are required.
 
+> [!TIP]
+> Looking to purchase a game controller? Many companies partner with MobiFlight. [Purchasing through our links](https://shop.mobiflight.com/partner-products/?v=5f02f0889301) helps support the project at no additional cost to you, and in many cases provides a discount off the base price.
+
 For popular devices, MobiFlight displays friendly names during input and output configuration. These devices include:
 
 | Game controller                                                                                                                   | Supports [inputs](/game-controllers/configuring-input/) | Supports [outputs](/game-controllers/configuring-output/) |
@@ -27,6 +30,7 @@ For popular devices, MobiFlight displays friendly names during input and output 
 | WinCtrl Flight Control Unit (FCU)                                                                                                 |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | WinCtrl EFIS Left display                                                                                                         |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | WinCtrl MCDU                                                                                                                      |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
+| WinCtrl NWS                                                                                                                       |                  {{< icon "check" >}}                   |                                                           |
 | WinCtrl PAP 3                                                                                                                     |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | WinCtrl PFP 3N                                                                                                                    |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | WinCtrl PFP 4                                                                                                                     |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
@@ -34,7 +38,11 @@ For popular devices, MobiFlight displays friendly names during input and output 
 | WinCtrl PTO 2                                                                                                                     |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | WinCtrl RMP                                                                                                                       |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | WinCtrl TCAS                                                                                                                      |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
+| WingFlex DAP500                                                                                                                   |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
+| WingFlex ECAM cube                                                                                                                |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | WingFlex FCU                                                                                                                      |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
+| WingFlex overhead panel                                                                                                           |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
+| WingFlex RMP cube                                                                                                                 |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 
 For detailed information on using WinCtrl devices with MobiFlight, see the [WinCtrl documentation](/game-controllers/winctrl/). The WinCtrl CDU display is only supported with [select aircraft](/game-controllers/winctrl/winctrl-cdu/). The WinCtrl RMP displays and LEDs are controlled using [specific output devices](/game-controllers/winctrl/winctrl-rmp/).
 
