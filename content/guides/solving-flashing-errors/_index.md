@@ -31,6 +31,7 @@ Common apps causing this issue include:
 - Arduino IDE
 - CURA
 - Joystick configuration software
+- RGB light controllers (e.g. iCUE, Signal RGB)
 - RowsfireApp
 - Sim Racing Studio
 - WingFlex
