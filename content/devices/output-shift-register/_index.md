@@ -49,6 +49,7 @@ There are many chips that function as an output shift register, including many d
 - TLC5927
 - TLC5928
 - TLC59283
+- TPIC6B595N [datasheet](https://www.ti.com/lit/ds/symlink/tpic6b595.pdf) - requires resistors, but can sink up to 80mA per pin.
 
 ## Additional resources
 
