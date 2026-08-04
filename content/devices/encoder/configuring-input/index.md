@@ -8,7 +8,7 @@ weight: 30
 Encoders are typically mapped to simulator variables that increase and decrease in value. The following steps demonstrate how to configure a single encoder to adjust the Cessna 172 autopilot heading value in Microsoft Flight Simulator 2020 and Microsoft Flight Simulator 2024.
 
 > [!TIP]
-> The steps for using an encoder in an X-Plane project are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
+> The steps for using an encoder in an X-Plane project are similar. Use the **X-Plane (all versions)** type when configuring the **Action type**.
 
 {{% steps %}}
 
@@ -48,13 +48,13 @@ Use the **Select preset** dropdowns to filter by **Microsoft**, **Generic**, and
 
 Use the **Select Preset** dropdown to select the **AP_HDG_VAR_DEC** preset, then click **Go back**.
 
-{{< screenshot image="input-event-heading-decrement.png" title="Screenshot of the input tab on press event with the AP_HDG_VAR_DEC preset selected." >}}
+{{< screenshot image="input-event-heading-decrement.png" title="Screenshot of preset list with the AP_HDG_VAR_DEC preset selected." >}}
 
 ### Configure the On Right action
 
 Repeat steps 4 through 6 for the **On Right** action, selecting **AP_HDG_VAR_INC** for the preset.
 
-{{< screenshot image="input-event-heading-increment.png" title="Screenshot of the input tab on release event with the AP_HDG_VAR_INC preset selected." >}}
+{{< screenshot image="input-event-heading-increment.png" title="Screenshot of the preset list with the AP_HDG_VAR_INC preset selected." >}}
 
 ### Close the dialog and try out the event
 

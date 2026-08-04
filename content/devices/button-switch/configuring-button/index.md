@@ -8,7 +8,7 @@ weight: 30
 Buttons are typically mapped to simulator variables that expect either `0` (for off) or `1` (for on). The following steps demonstrate how to configure a button to toggle the parking brake in a Cessna 172 in Microsoft Flight Simulator 2020 and Microsoft Flight Simulator 2024.
 
 > [!TIP]
-> The steps for using a button in an X-Plane project are similar. Use the **X-Plane DataRef** type when configuring the **Sim Variable** tab.
+> The steps for using a button in an X-Plane project are similar. Use the **X-Plane (all versions)** type when configuring the **Action type**.
 
 {{% steps %}}
 
@@ -48,7 +48,7 @@ Use the **Select preset** dropdowns to filter by **Microsoft**, **Generic**, and
 
 Use the **Select Preset** dropdown to select the **PARKING BRAKES TOGGLE** preset, then click **Go back**.
 
-{{< screenshot image="input-event-parking-brakes-toggle.png" title="Screenshot of the input tab on press event with the PARKING BRAKES TOGGLE preset selected." >}}
+{{< screenshot image="input-event-parking-brakes-toggle.png" title="Screenshot of the preset list with the PARKING BRAKES TOGGLE preset selected." >}}
 
 ### Close the dialog and try out the event
 
