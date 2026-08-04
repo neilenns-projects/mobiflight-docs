@@ -32,15 +32,21 @@ Alternatively, press the **Scan for input** button and rotate the encoder to aut
 
 {{< screenshot image="input-selected.png" title="Screenshot of the input configuration dialog with a board and encoder selected." >}}
 
-### Set the On Left action type and filter the presets list
+### Set the On Left action type
 
-In the **Actions** section, select the **On Left** button. Use the **Action Type** dropdown to select **Microsoft Flight Simulator (all versions)**. Then use the dropdowns to filter by **Microsoft**, **Generic**, and **Autopilot**.
+In the **Actions** section, select the **On Left** button. Use the **Action Type** dropdown to select **Microsoft Flight Simulator (all versions)**.
+
+{{< screenshot image="action-type.png" title="Screenshot of the input config dialog with the action type set to Microsoft Flight Simulator (all versions)." >}}
+
+### Filter the presets list
+
+Use the **Select preset** dropdowns to filter by **Microsoft**, **Generic**, and **Autopilot**.
 
 {{< screenshot image="sim-events-filtered-list.png" title="Screenshot of the on press filter preset list filtered by Microsoft / Generic / Autopilot." >}}
 
 ### Select the heading decrement preset
 
-Use the **Select Preset** dropdown to select the **AP_HDG_VAR_DEC** preset, then click **Go back**
+Use the **Select Preset** dropdown to select the **AP_HDG_VAR_DEC** preset, then click **Go back**.
 
 {{< screenshot image="input-event-heading-decrement.png" title="Screenshot of the input tab on press event with the AP_HDG_VAR_DEC preset selected." >}}
 
