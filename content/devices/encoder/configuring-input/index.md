@@ -58,7 +58,7 @@ Repeat steps 3 and 4 for the **On Right** action, selecting **AP_HDG_VAR_INC** f
 
 ### Close the dialog and try out the event
 
-Click the **Save** button to close the dialog.
+Click the **Apply changes** button to close the dialog.
 
 Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try adjusting the autopilot heading with the encoder. The heading value in the simulator should increment and decrement.
 
