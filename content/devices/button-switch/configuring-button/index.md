@@ -26,9 +26,9 @@ Type in a meaningful name for the new config in the header of the dialog, for ex
 
 ### Select the board and device for the input
 
-In the **Trigger** section, use the **Select controller...** and **Select device...** dropdowns to select your connected board and switch.
+In the **Trigger** section, use the **Select controller...** and **Select device...** dropdowns to select your connected board and button.
 
-Alternatively, press the **Scan for input** button and toggle the switch to automatically detect and select the correct switch.
+Alternatively, press the **Scan for input** button and press the button to automatically detect and select the correct button.
 
 {{< screenshot image="input-selected.png" title="Screenshot of the input configuration dialog with a board and button selected." >}}
 
@@ -44,7 +44,7 @@ Use the **Select preset** dropdowns to filter by **Microsoft**, **Generic**, and
 
 {{< screenshot image="sim-events-filtered-list.png" title="Screenshot of the on press filter preset list filtered by Microsoft / Generic / Controls." >}}
 
-### Select the parking brake toggle
+### Select the PARKING BRAKES TOGGLE preset
 
 Use the **Select Preset** dropdown to select the **PARKING BRAKES TOGGLE** preset, then click **Go back**.
 

@@ -52,7 +52,7 @@ Use the **Select Preset** dropdown to select the **AP_HDG_VAR_DEC** preset, then
 
 ### Configure the On Right action
 
-Repeat steps 3 and 4 for the **On Right** action, selecting **AP_HDG_VAR_INC** for the preset.
+Repeat steps 4 through 6 for the **On Right** action, selecting **AP_HDG_VAR_INC** for the preset.
 
 {{< screenshot image="input-event-heading-increment.png" title="Screenshot of the input tab on release event with the AP_HDG_VAR_INC preset selected." >}}
 
