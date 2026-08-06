@@ -44,6 +44,10 @@ If it still fails, try moving the board to a different COM port, or uninstall it
 
 Low-quality Arduino screw terminal hats may interfere with flashing. Flashing problems can also be caused by incorrectly connected devices that cause shorts. Try removing all hats and disconnecting all devices from the board, then flash again.
 
+### Remove devices connected to pins D0 and D1
+
+The Arduino [Nano](/boards/recommended/arduino-nano/), [Mega 2560](/boards/supported/arduino-mega-2560/), [Mega 2560 Pro Mini](/boards/recommended/mega-2560-pro-mini/) and [Uno](/boards/supported/arduino-uno/) use pins **D0** and **D1** internally for communication with the desktop. Connecting devices to these pins can lead to connection issues. Try removing any devices connected to pins D0 and D1, then flash again.
+
 ### Collect logs for additional support
 
 If the previous steps do not resolve the flashing error, start a thread in the [#MobiFlight](https://discord.com/channels/608690978081210392/1028767888242376794) support channel in [Discord](https://discord.gg/yUaBqMbz). Include the following information:

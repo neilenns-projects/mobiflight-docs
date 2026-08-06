@@ -1,5 +1,5 @@
 ---
-title: Boards only show as compatible
+title: Solving compatible-only boards
 description: Step-by-step guide to solving boards that only appear as compatible in MobiFlight.
 ---
 
@@ -26,6 +26,10 @@ If it still fails, try moving the board to a different COM port, or uninstall it
 ### Try removing all connected hats and devices
 
 Low-quality Arduino screw terminal hats may interfere with board detection. Incorrectly connected devices can also cause shorts, preventing the board from being used. Try removing all hats and disconnecting all devices from the board, then run MobiFlight again.
+
+### Remove devices connected to pins D0 and D1
+
+The Arduino [Nano](/boards/recommended/arduino-nano/), [Mega 2560](/boards/supported/arduino-mega-2560/), [Mega 2560 Pro Mini](/boards/recommended/mega-2560-pro-mini/) and [Uno](/boards/supported/arduino-uno/) use pins **D0** and **D1** internally for communication with the desktop. Connecting devices to these pins can lead to connection issues. Try removing any devices connected to pins D0 and D1, then flash again.
 
 ### Collect logs for additional support
 
