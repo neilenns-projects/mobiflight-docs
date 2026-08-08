@@ -48,7 +48,7 @@ In the **Actions** section, select the **On Press** button. Use the **Action Typ
 
 ### Filter the presets list
 
-Use the **Select preset** dropdowns to filter by **Microsoft**, **Generic**, and **Controls**.
+Use the **Select preset** dropdowns to filter by **Microsoft**, **C172 (2024)**, and **Electrical**.
 
 {{< screenshot image="sim-events-filtered-list-up.png" title="Screenshot of the on press filter preset list filtered by Microsoft / C172 (2024) / Electrical." >}}
 
@@ -56,7 +56,7 @@ Use the **Select preset** dropdowns to filter by **Microsoft**, **Generic**, and
 
 Use the **Select Preset** dropdown to select the **Standby battery - Arm** preset, then click **Go back**.
 
-{{< screenshot image="input-event-standby-battery-arm.png" title="Screenshot of the input tab on press event with the Standby battery - Arm preset selected." >}}
+{{< screenshot image="input-event-standby-battery-arm.png" title="Screenshot of the input config on press event with the Standby battery - Arm preset selected." >}}
 
 ### Configure the On Release action
 
@@ -65,7 +65,7 @@ Repeat steps 4 through 6 for the **On Release** action, selecting **Standby batt
 > [!NOTE]
 > For three-position switches, the **On Release** event is always set to the event that maps to the middle switch position.
 
-{{< screenshot image="input-event-standby-battery-off-up.png" title="Screenshot of the input tab on release event with the Standby battery - off preset selected." >}}
+{{< screenshot image="input-event-standby-battery-off-up.png" title="Screenshot of the input config on release event with the Standby battery - off preset selected." >}}
 
 ### Close the dialog
 
@@ -83,44 +83,50 @@ Click the **Add Input Config** button in the main MobiFlight window to open the 
 
 {{< screenshot image="/app/new-input-config.png" title="Screenshot of the main window with the Add Input Config button highlighted." >}}
 
+### Name the config
+
+Type in a meaningful name for the new config in the header of the dialog, for example **Standby battery - down**, and press enter to apply the change.
+
+{{< screenshot image="input-config-custom-name-down.png" title="Screenshot of the input config window with Standby battery - down entered as a custom name." >}}
+
 ### Select the board and device for the input
 
-On the **Input** tab, use the **Module** and **Device** dropdowns to select your connected board and switch.
+In the **Trigger** section, use the **Select controller...** and **Select device...** dropdowns to select your connected board and switch.
 
-Alternatively, press the **Scan for input** button and toggle the connected switch to automatically detect and select the correct switch.
+Alternatively, press the **Scan for input** button and toggle the switch to automatically detect and select the correct switch.
 
 {{< screenshot image="input-selected-down.png" title="Screenshot of the input configuration dialog with a board and switch selected." >}}
 
-### Set the On Press action type and filter the presets list
+### Set the On Press action type
 
-On the **Input** tab, select the **On Press** input setting tab. Use the **Action Type** dropdown to select **Microsoft Flight Simulator**. Then use the **Filter Preset List** dropdowns to filter by **Microsoft**, **C172 (2024)**, and **Electrical**.
+In the **Actions** section, select the **On Press** button. Use the **Action Type** dropdown to select **Microsoft Flight Simulator (all versions)**.
+
+{{< screenshot image="action-type-down.png" title="Screenshot of the input config dialog with the action type set to Microsoft Flight Simulator (all versions)." >}}
+
+### Filter the presets list
+
+Use the **Select preset** dropdowns to filter by **Microsoft**, **C172 (2024)**, and **Electrical**.
 
 {{< screenshot image="sim-events-filtered-list-down.png" title="Screenshot of the on press filter preset list filtered by Microsoft / C172 (2024) / Electrical." >}}
 
 ### Select the standby battery test preset
 
-Use the **Select Preset** dropdown to select the **Standby battery - Test** preset.
+Use the **Select Preset** dropdown to select the **Standby battery - Test** preset, then click **Go back**.
 
-{{< screenshot image="input-event-standby-battery-test.png" title="Screenshot of the input tab on press event with the Standby battery - Test preset selected." >}}
+{{< screenshot image="input-event-standby-battery-test.png" title="Screenshot of the input config on press event with the Standby battery - Test preset selected." >}}
 
 ### Configure the On Release action
 
-Repeat steps 4 through 6 for the **On Release** tab, selecting **Standby battery - Off** for the preset.
+Repeat steps 4 through 6 for the **On Release** action, selecting **Standby battery - Off** for the preset.
 
 > [!NOTE]
 > For three-position switches, the **On Release** event is always set to the event that maps to the middle switch position.
 
-{{< screenshot image="input-event-standby-battery-off-down.png" title="Screenshot of the input tab on release event with the Standby battery - off preset selected." >}}
+{{< screenshot image="input-event-standby-battery-off-down.png" title="Screenshot of the input config on release event with the Standby battery - off preset selected." >}}
 
-### Close the dialog and name the config
+### Close the dialog
 
-Click the **OK** button to close the dialog, then double-click on the **New Input Config** name in the main window.
-
-{{< screenshot image="input-config-default-name-two-entries.png" title="Screenshot of the main window with the New Input Config row text highlighted." >}}
-
-Type in a meaningful name for the new config, for example **Standby battery - down**, and press enter to apply the change.
-
-{{< screenshot image="input-config-custom-name-down.png" title="Screenshot of the main window with Standby battery - down entered as a custom name." >}}
+Click the **Apply changes** button to close the dialog.
 
 {{% /steps %}}
 
