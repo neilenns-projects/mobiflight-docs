@@ -22,7 +22,7 @@ Click the **Add Input Config** button in the main MobiFlight window to open the 
 
 Type in a meaningful name for the new config in the header of the dialog, for example **AP - Heading**, and press enter to apply the change.
 
-{{< screenshot image="input-config-custom-name.png" title="Screenshot of the main window with AP - Heading entered as a custom name." >}}
+{{< screenshot image="input-config-custom-name.png" title="Screenshot of the input config with AP - Heading entered as a custom name." >}}
 
 ### Select the board and device for the input
 
