@@ -18,25 +18,37 @@ Click the **Add Input Config** button in the main MobiFlight window to open the 
 
 {{< screenshot image="/app/new-input-config.png" title="Screenshot of the main window with the Add Input Config button highlighted." >}}
 
+## Name the config
+
+Type in a meaningful name for the new config in the header of the dialog, for example **Throttle**, and press enter to apply the change.
+
+{{< screenshot image="input-config-custom-name.png" title="Screenshot of the input config with trottle entered as a custom name." >}}
+
 ### Select the board and device for the input
 
-On the **Input** tab, use the **Module** and **Device** dropdowns to select your connected board and potentiometer.
+In the **Trigger** section, use the **Select controller...** and **Select device...** dropdowns to select your connected board and potentiometer.
 
-Alternatively, press the **Scan for input** button and turn the potentiometer to automatically detect and select the correct device.
+Alternatively, press the **Scan for input** button and rotate the potentiometer to automatically detect and select the correct potentiometer.
 
-{{< screenshot image="input-selected.png" title="Screenshot of the input configuration dialog with a board and potentiometer selected." >}}
+{{< screenshot image="input-selected.png" title="Screenshot of the input configuration dialog with a board and analog input selected." >}}
 
-### Set the On Change action type and filter the presets list
+### Set the On Change action type
 
-On the **Input** tab, select the **On Change** input setting tab. Use the **Action Type** dropdown to select **Microsoft Flight Simulator**. Then use the **Filter Preset List** dropdowns to filter by **Microsoft**, **Generic**, and **Engines**.
+In the **Actions** section, select the **On Change** button. Use the **Action Type** dropdown to select **Microsoft Flight Simulator (all versions)**.
+
+{{< screenshot image="action-type.png" title="Screenshot of the input config dialog with the action type set to Microsoft Flight Simulator (all versions)." >}}
+
+### Filter the presets list
+
+Use the **Select preset** dropdowns to filter by **Microsoft**, **Generic**, and **Engines**.
 
 {{< screenshot image="sim-events-filtered-list.png" title="Screenshot of the on press filter preset list filtered by Microsoft / Generic / Engines." >}}
 
-### Select the throttle preset
+### Select the THROTTLE1_SET preset
 
-Use the **Select Preset** dropdown to select the **THROTTLE1_SET** preset.
+Use the preset list to select the **THROTTLE1_SET** preset, then click **Go back**.
 
-{{< screenshot image="input-event-throttle.png" title="Screenshot of the input tab on press event with the THROTTLE1_SET preset selected." >}}
+{{< screenshot image="input-event-throttle.png" title="Screenshot of the preset list with the THROTTLE1_SET preset selected." >}}
 
 > [!TIP]
 > The `@` symbol in the event is the placeholder that gets filled with the current potentiometer value.
@@ -45,17 +57,9 @@ Use the **Select Preset** dropdown to select the **THROTTLE1_SET** preset.
 >
 > If the simulator event expects a different range, use the [HubHop potentiometer tool](https://hubhop.mobiflight.com/tools/) to generate the correct custom input event.
 
-### Close the dialog and name the config
+### Close the dialog and try out the event
 
-Click the **OK** button to close the dialog, then double-click on the **New Input Config** name in the main window.
-
-{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the Throttle row text highlighted." >}}
-
-Type in a meaningful name for the new config, for example **Throttle**, and press enter to apply the change.
-
-{{< screenshot image="input-config-custom-name.png" title="Screenshot of the main window with Throttle entered as a custom name." >}}
-
-### Try out the event
+Click the **Apply changes** button to close the dialog.
 
 Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try adjusting the throttle by turning the potentiometer. The throttle in the simulator should move.
 
