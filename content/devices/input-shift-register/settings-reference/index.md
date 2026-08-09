@@ -21,6 +21,6 @@ weight: 40
 
 Input shift registers have the same input setting events as [buttons and switches](/devices/button-switch/settings-reference/#input-configuration).
 
-Use the **Device** dropdowns to select the input shift register and specific input on the chain of shift registers to use.
+Use the **Trigger** dropdowns to select the input shift register and specific input on the chain of shift registers to use.
 
 {{< screenshot image="input-configuration.png" title="Screenshot of the input configuration wizard for an input shift register, with the InputShifter register and input 0 selected." >}}

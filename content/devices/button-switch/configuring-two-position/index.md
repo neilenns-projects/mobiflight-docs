@@ -46,7 +46,7 @@ Use the **Select preset** dropdowns to filter by **Microsoft**, **Generic**, and
 
 ### Select the PARKING_BRAKES_ON preset
 
-Use the **Select Preset** dropdown to select the **PARKING_BRAKES_ON** preset, then click **Go back**.
+Use the preset list to select the **PARKING_BRAKES_ON** preset, then click **Go back**.
 
 {{< screenshot image="input-event-parking-brakes-on.png" title="Screenshot of preset list with the PARKING_BRAKES_ON preset selected." >}}
 

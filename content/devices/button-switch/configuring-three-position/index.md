@@ -54,7 +54,7 @@ Use the **Select preset** dropdowns to filter by **Microsoft**, **C172 (2024)**,
 
 ### Select the standby battery arm preset
 
-Use the **Select Preset** dropdown to select the **Standby battery - Arm** preset, then click **Go back**.
+Use the preset list to select the **Standby battery - Arm** preset, then click **Go back**.
 
 {{< screenshot image="input-event-standby-battery-arm.png" title="Screenshot of the input config on press event with the Standby battery - Arm preset selected." >}}
 
