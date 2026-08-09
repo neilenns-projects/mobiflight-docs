@@ -26,9 +26,9 @@ Type in a meaningful name for the new config in the header of the dialog, for ex
 
 ### Select the board and device for the input
 
-In the **Trigger** section, use the **Select controller...** and **Select device...** dropdowns to select your connected board and shift register pin with the connected button. Each shift register pin appears as a separate entry in the dropdown, with the pin number separated from the shift register name by a `:`.
+In the **Trigger** section, use the **Select controller...** and **Select device...** dropdowns to select your connected board and shift register pin with the connected switch. Each shift register pin appears as a separate entry in the dropdown, with the pin number separated from the shift register name by a `:`.
 
-Alternatively, press the **Scan for input** button and press the button to automatically detect and select the correct button.
+Alternatively, press the **Scan for input** button and toggle the switch to automatically detect and select the correct switch.
 
 {{< screenshot image="input-selected.png" title="Screenshot of the input configuration dialog with a board and shift register pin InputShifter:0 selected." >}}
 
@@ -60,7 +60,7 @@ Repeat steps 4 through 6 for the **On Release** action, selecting **PARKING_BRAK
 
 Click the **Apply changes** button to close the dialog.
 
-Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try toggling the parking brake with the button. The parking brake in the simulator should toggle.
+Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try setting the parking brake with the switch. The parking brake in the simulator should set when the switch is in the on position, and release when the switch is in the off position.
 
 ### Try out the event
 
