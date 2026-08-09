@@ -13,10 +13,12 @@ The **MobiFlight - Virtual Joystick input (vJoy)** action type triggers a vJoy i
 
 {{< screenshot image="mobiflight-vjoy.png" title="Screenshot of a button input with the MobiFlight - Virtual Joystick input (vJoy) action type selected." >}}
 
-| Setting     | Description                                                                                                  |
-| ----------- | ------------------------------------------------------------------------------------------------------------ |
-| Joystick ID | The virtual joystick to trigger.                                                                             |
-| Button Nr   | The virtual button to trigger.                                                                               |
-| Axis        | The virtual axis to set.                                                                                     |
-| Button      | The state to set the button to, either **on** or **off**.                                                    |
-| Value       | The value to set the axis to. Supports value modification with [NCalc](/guides/modifying-values-with-ncalc/) |
+| Setting               | Description                                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Select vJoy device... | Selects the vJoy device to trigger with the action.                                                          |
+| Button                | Sends a button event when the action is triggered.                                                           |
+| Axis                  | Sends an axis position when the action is triggered.                                                         |
+| Button Number         | The virtual button to trigger.                                                                               |
+| Select axis           | The virtual axis to set.                                                                                     |
+| Button state          | When enabled, sends a **Released** state. When disabled, sends a **Pressed** state.                          |
+| Axis value            | The value to set the axis to. Supports value modification with [NCalc](/guides/modifying-values-with-ncalc/) |

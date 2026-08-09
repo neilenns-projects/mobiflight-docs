@@ -10,11 +10,14 @@ The **MobiFlight - Variable** action type sets a MobiFlight variable when trigge
 
 {{< screenshot image="mobiflight-variable.png" title="Screenshot of a button input with the MobiFlight - Variable input action type selected." >}}
 
-| Setting | Description                                                                                                                 |
-| ------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Type    | The type of data stored by the variable, either **Number** or **String**.                                                   |
-| Name    | The name for the variable, used when referencing the variable in other configurations.                                      |
-| Value   | Specifies the value to set the variable to. Supports value modification with [NCalc](/guides/modifying-values-with-ncalc/). |
+| Setting               | Description                                                                                                                 |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Use existing variable | Displays a list of existing MobiFlight variables to use.                                                                    |
+| Type                  | The type of data stored by the variable, either **Number** or **String**.                                                   |
+| Name                  | The name for the variable, used when referencing the variable in other configurations.                                      |
+| Value                 | Specifies the value to set the variable to. Supports value modification with [NCalc](/guides/modifying-values-with-ncalc/). |
+
+To create a new variable select the type, enter a name, and an expression. To use an existing variable select it from the dropdown.
 
 > [!TIP]
 > To view the current value of a variable, create an [output configuration that displays the variable](/features/output-variable-types/mobiflight-variable/), then look at the **Output Value** column in the main MobiFlight window.
