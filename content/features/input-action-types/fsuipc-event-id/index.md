@@ -13,9 +13,8 @@ The **FSUIPC - Event ID** action type provides a way to trigger SimConnect event
 
 {{< screenshot image="fsuipc-event-id.png" title="Screenshot of a button input with the FSUIPC - Event ID action type selected." >}}
 
-| Setting    | Description                                                                                                            |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------- |
-| Use preset | Selects a preset for common aircraft variables.                                                                        |
-| Use        | When clicked, loads the preset from the **Use preset** dropdown.                                                       |
-| Event ID   | The Event ID to invoke.                                                                                                |
-| Para       | The parameter to send to the Event ID. Supports value modification with [NCalc](/guides/modifying-values-with-ncalc/). |
+| Setting       | Description                                                                                                            |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Select preset | Selects a preset for common aircraft variables.                                                                        |
+| Event ID      | The Event ID to invoke.                                                                                                |
+| Custom Param  | The parameter to send to the Event ID. Supports value modification with [NCalc](/guides/modifying-values-with-ncalc/). |

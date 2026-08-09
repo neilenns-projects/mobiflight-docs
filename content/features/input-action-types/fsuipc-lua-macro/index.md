@@ -13,7 +13,7 @@ The **FSUIPC - Lua Macro** action type provides a way to run a Lua script config
 
 {{< screenshot image="fsuipc-lua-macro.png" title="Screenshot of a button input with the FSUIPC - Lua Macro action type selected." >}}
 
-| Setting    | Description                                                                                                     |
-| ---------- | --------------------------------------------------------------------------------------------------------------- |
-| Macro Name | The name of the macro to invoke.                                                                                |
-| Value      | The value to send to the macro. Supports value modification with [NCalc](/guides/modifying-values-with-ncalc/). |
+| Setting     | Description                                                                                                     |
+| ----------- | --------------------------------------------------------------------------------------------------------------- |
+| Macro Name  | The name of the macro to invoke.                                                                                |
+| Macro Value | The value to send to the macro. Supports value modification with [NCalc](/guides/modifying-values-with-ncalc/). |
