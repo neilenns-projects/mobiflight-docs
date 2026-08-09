@@ -13,7 +13,7 @@ The **FSUIPC - Jeehell - Events** action type provides a way to set values in Je
 
 {{< screenshot image="fsuipc-jeehell.png" title="Screenshot of a button input with the FSUIPC - Jeehell - Events action type selected." >}}
 
-| Setting  | Description                                                                                                        |
-| -------- | ------------------------------------------------------------------------------------------------------------------ |
-| Function | Selects the function to trigger.                                                                                   |
-| Value    | The value to send to the function. Supports value modification with [NCalc](/guides/modifying-values-with-ncalc/). |
+| Setting          | Description                                                                                                        |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Jeehell Function | Selects the function to trigger.                                                                                   |
+| Value            | The value to send to the function. Supports value modification with [NCalc](/guides/modifying-values-with-ncalc/). |

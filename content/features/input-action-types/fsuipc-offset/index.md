@@ -13,14 +13,11 @@ The **FSUIPC - Offset** action type provides a way to set simulator values via [
 
 {{< screenshot image="fsuipc-offset.png" title="Screenshot of a button input with the FSUIPC - Offset action type selected." >}}
 
-| Setting         | Description                                                                                                                       |
-| --------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Use preset      | Selects a preset for common aircraft variables.                                                                                   |
-| Use             | When clicked, loads the preset from the **Use preset** button.                                                                    |
-| Offset          | The FSUIPC offset to set.                                                                                                         |
-| Value Type      | The type of offset, either **Int**, **Float** or **String**.                                                                      |
-| Size in Bytes   | The size of the value, in bytes. Either **1**, **2**, **4** or **8** for **Int** values, and **4** or **8** for **Float** values. |
-| Mask value with | The mask to apply to the value before setting via FSUIPC. Useful when the same offset is used to store more than one state.       |
-| ...             | Opens a bit mask editor for visual editing of the mask value.                                                                     |
-| BCD mode        | Enables binary coded decimal mode for the value.                                                                                  |
-| Set Value       | The value to set the offset to. Supports value modification with [NCalc](/guides/modifying-values-with-ncalc/).                   |
+| Setting  | Description                                                                                                                       |
+| -------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Type     | The type of offset, either **Int**, **Float** or **String**.                                                                      |
+| Size     | The size of the value, in bytes. Either **1**, **2**, **4** or **8** for **Int** values, and **4** or **8** for **Float** values. |
+| Offset   | The offset to set.                                                                                                                |
+| Mask     | The mask to apply to the value before setting via FSUIPC. Useful when the same offset is used to store more than one state.       |
+| BCD mode | Enables binary coded decimal mode for the value.                                                                                  |
+| Value    | The value to set the offset to. Supports value modification with [NCalc](/guides/modifying-values-with-ncalc/).                   |
