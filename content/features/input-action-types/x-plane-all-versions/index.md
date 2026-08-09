@@ -25,4 +25,4 @@ The **X-Plane (all versions)** action type is the preferred way to send events t
 | Value                  | Specifies the value to send to the simulator. Supports value modification with [NCalc](/guides/modifying-values-with-ncalc/). |
 
 > [!TIP]
-> To enter custom code, check the **Show Preset Code** box, select the code type from the dropdown, and enter the code in the text box. There is no need to select any values from the HubHop filtering dropdowns.
+> To enter custom event code, use the **Input Type**, **Path** and **Value** fields in **Step 3 - Customize preset**. There is no need to select any values from the HubHop filtering dropdowns.
