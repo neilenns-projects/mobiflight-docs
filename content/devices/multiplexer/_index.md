@@ -18,7 +18,7 @@ When building panels, you may encounter situations where you have more buttons f
 For information on how many multiplexers can be connected to a board, see the [boards](/boards/) documentation.
 
 > [!IMPORTANT]
-> MobiFlight only supports connecting buttons to multiplexers. Encoders must be connected directly to a board.
+> MobiFlight only supports connecting buttons to multiplexers. Encoders and potentiometers must be connected directly to a board.
 
 ## Popular options
 
