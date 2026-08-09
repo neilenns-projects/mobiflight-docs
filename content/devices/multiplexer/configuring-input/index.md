@@ -18,45 +18,49 @@ Click the **Add Input Config** button in the main MobiFlight window to open the 
 
 {{< screenshot image="/app/new-input-config.png" title="Screenshot of the main window with the Add Input Config button highlighted." >}}
 
+## Name the config
+
+Type in a meaningful name for the new config in the header of the dialog, for example **Parking brake**, and press enter to apply the change.
+
+{{< screenshot image="input-config-custom-name.png" title="Screenshot of the input config with parking brake entered as a custom name." >}}
+
 ### Select the board and device for the input
 
-On the **Input** tab, use the **Module** and **Device** dropdowns to select your connected board and multiplexer. Use the dropdown next to the **Device** dropdown to select the pin on the multiplexer the switch is connected to.
+In the **Trigger** section, use the **Select controller...** and **Select device...** dropdowns to select your connected board and multiplexer pin with the connected switch. Each multiplexer pin appears as a separate entry in the dropdown, with the pin number separated from the multiplexer name by a `:`.
 
-Alternatively, press the **Scan for input** button and toggle the connected switch to automatically detect and select the correct switch.
+Alternatively, press the **Scan for input** button and toggle the switch to automatically detect and select the correct switch.
 
-{{< screenshot image="input-selected.png" title="Screenshot of the input configuration dialog with a board and switch selected." >}}
+{{< screenshot image="input-selected.png" title="Screenshot of the input configuration dialog with a board and multiplexer pin Multiplexer:0 selected." >}}
 
-### Set the On Press action type and filter the presets list
+### Set the On Press action type
 
-On the **Input** tab, select the **On Press** input setting tab. Use the **Action Type** dropdown to select **Microsoft Flight Simulator**. Then use the **Filter Preset List** dropdowns to filter by **Microsoft**, **Generic**, and **Controls**.
+In the **Actions** section, select the **On Press** button. Use the **Action Type** dropdown to select **Microsoft Flight Simulator (all versions)**.
+
+{{< screenshot image="action-type.png" title="Screenshot of the input config dialog with the action type set to Microsoft Flight Simulator (all versions)." >}}
+
+### Filter the presets list
+
+Use the **Select preset** dropdowns to filter by **Microsoft**, **Generic**, and **Controls**.
 
 {{< screenshot image="sim-events-filtered-list.png" title="Screenshot of the on press filter preset list filtered by Microsoft / Generic / Controls." >}}
 
-### Select the parking brake on preset
+### Select the PARKING_BRAKES_ON preset
 
-Use the **Select Preset** dropdown to select the **PARKING_BRAKES_ON** preset.
+Use the preset list to select the **PARKING_BRAKES_ON** preset, then click **Go back**.
 
-{{< screenshot image="input-event-parking-brakes-on.png" title="Screenshot of the input tab on press event with the PARKING_BRAKES_ON preset selected." >}}
+{{< screenshot image="input-event-parking-brakes-on.png" title="Screenshot of preset list with the PARKING_BRAKES_ON preset selected." >}}
 
 ### Configure the On Release action
 
-Repeat steps 4 and 5 for the **On Release** tab, selecting **PARKING_BRAKES_OFF** for the preset.
+Repeat steps 4 through 6 for the **On Release** action, selecting **PARKING_BRAKES_OFF** for the preset.
 
 {{< screenshot image="input-event-parking-brakes-off.png" title="Screenshot of the input tab on release event with the PARKING_BRAKES_OFF preset selected." >}}
 
-### Close the dialog and name the config
+### Close the dialog and try out the event
 
-Click the **OK** button to close the dialog, then double-click on the **New Input Config** name in the main window.
+Click the **Apply changes** button to close the dialog.
 
-{{< screenshot image="input-config-default-name.png" title="Screenshot of the main window with the New Input Config row text highlighted." >}}
-
-Type in a meaningful name for the new config, for example **Parking brake**, and press enter to apply the change.
-
-{{< screenshot image="input-config-custom-name.png" title="Screenshot of the main window with Parking brake entered as a custom name." >}}
-
-### Try out the event
-
-Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try toggling the parking brake with the button. The parking brake in the simulator should toggle.
+Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try setting the parking brake with the switch. The parking brake in the simulator should set when the switch is in the on position, and release when the switch is in the off position.
 
 {{% /steps %}}
 

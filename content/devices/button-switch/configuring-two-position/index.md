@@ -60,7 +60,7 @@ Repeat steps 4 through 6 for the **On Release** action, selecting **PARKING_BRAK
 
 Click the **Apply changes** button to close the dialog.
 
-Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try toggling the parking brake with the switch. The parking brake in the simulator should toggle.
+Launch Microsoft Flight Simulator. Make sure the MobiFlight **Run** button is clicked in the toolbar, then try setting the parking brake with the switch. The parking brake in the simulator should set when the switch is in the on position, and release when the switch is in the off position.
 
 {{% /steps %}}
 
