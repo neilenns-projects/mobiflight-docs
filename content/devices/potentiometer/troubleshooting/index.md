@@ -74,8 +74,8 @@ The generated event code will be shown in the **Generated RPN code** box.
 
 {{< screenshot image="hubhop-generated-code.png" title="Screenshot of the HubHop potentiometer tool with the generated RPN code highlighted." >}}
 
-Copy and paste the code as the preset code when **Show Preset Code** is checked in the [input configuration dialog](/devices/potentiometer/configuring-device/).
+Copy and paste the code as the preset code in the **Customize preset** section of the [input configuration dialog](/devices/potentiometer/configuring-device/).
 
-{{< screenshot image="custom-preset-code.png" title="Screenshot of the input configuration dialog with the Show Preset Code checkbox checked and the custom event code inserted." >}}
+{{< screenshot image="custom-preset-code.png" title="Screenshot of the input configuration dialog with the customize preset section highlighted and the custom event code inserted." >}}
 
 {{% /steps %}}
