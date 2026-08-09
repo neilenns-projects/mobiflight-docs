@@ -46,7 +46,7 @@ Use the **Select preset** dropdowns to filter by **Microsoft**, **Generic**, and
 
 ### Select the heading decrement preset
 
-Use the **Select Preset** dropdown to select the **AP_HDG_VAR_DEC** preset, then click **Go back**.
+Use the preset list to select the **AP_HDG_VAR_DEC** preset, then click **Go back**.
 
 {{< screenshot image="input-event-heading-decrement.png" title="Screenshot of preset list with the AP_HDG_VAR_DEC preset selected." >}}
 
