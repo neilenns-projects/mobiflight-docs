@@ -20,7 +20,7 @@ Preconditions are added to configurations using the **Precondition** button.
 
 {{< screenshot image="add-precondition-button.png" title="Screenshot of an input config with the Precondition button highlighted." >}}
 
-In the preconditions tab use the **Add precondition** button to select the precondition type and add it to the config.
+In the preconditions pane use the **Add precondition** button to select the precondition type and add it to the config.
 
 {{< screenshot image="add-precondition-types.png" title="Screenshot of the preconditions pane with the list of precondition types highlighted." >}}
 
@@ -34,17 +34,29 @@ After selecting the type, use the dropdowns to specify the source value and comp
 
 {{< screenshot image="variable-precondition.png" title="Screenshot of the preconditions pane with a variable precondition configured." >}}
 
+## Changing the logic operator
+
+When multiple preconditions are defined on a single config, logical operators indicate how the conditions should combine. By default each condition is added as an `AND` condition. To change the condition to an `OR` condition, use the logical operator dropdown.
+
+{{< screenshot image="logical-operators.png" title="Screenshot of a precondition with the context menu open to the Logical Operators menu item." >}}
+
 ## Editing a precondition
 
 To edit existing preconditions, click the edit icon in the **Preconditions** section of the input config.
 
 {{< screenshot image="edit-from-config.png" title="Screenshot of an input config with the precondition edit button highlighted." >}}
 
-## Changing the logic operator
+## Re-ordering preconditions
 
-When multiple preconditions are defined on a single config, logical operators indicate how the conditions should combine. By default each condition is added as an `AND` condition. To change the condition to an `OR` condition, use the logical operator dropdown.
+To re-order preconditions, use the up and down arrows next to each precondition to change their position.
 
-{{< screenshot image="logical-operators.png" title="Screenshot of a precondition with the context menu open to the Logical Operators menu item." >}}
+{{< screenshot image="reorder-preconditions.png" title="Screenshot of the preconditions pane with the re-order arrows highlighted." >}}
+
+## Disabling a precondition
+
+To disable a precondition, use the toggle switch on the precondition.
+
+{{< screenshot image="disable-precondition.png" title="Screenshot of the preconditions pane with the toggle switch highlighted." >}}
 
 ## Removing a precondition
 
