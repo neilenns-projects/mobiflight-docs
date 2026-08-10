@@ -38,12 +38,12 @@ Repeat the prior step for the second button, naming the configuration **Page dow
 
 On the **Output** tab of the main MobiFlight window, create entries for each of the four COM frequencies to display:
 
-| Description  | Preset category             | Preset name                   | Index |
-| ------------ | --------------------------- | ----------------------------- | ----- |
-| COM1 active  | Microsoft / Generic / Radio | `COM ACTIVE FREQUENCY:index`  | 1     |
-| COM1 standby | Microsoft / Generic / Radio | `COM STANDBY FREQUENCY:index` | 1     |
-| COM2 active  | Microsoft / Generic / Radio | `COM ACTIVE FREQUENCY:index`  | 2     |
-| COM2 standby | Microsoft / Generic / Radio | `COM STANDBY FREQUENCY:index` | 2     |
+| Description    | Preset category             | Preset name                   | Index |
+| -------------- | --------------------------- | ----------------------------- | ----- |
+| COM1 - active  | Microsoft / Generic / Radio | `COM ACTIVE FREQUENCY:index`  | 1     |
+| COM1 - standby | Microsoft / Generic / Radio | `COM STANDBY FREQUENCY:index` | 1     |
+| COM2 - active  | Microsoft / Generic / Radio | `COM ACTIVE FREQUENCY:index`  | 2     |
+| COM2 - standby | Microsoft / Generic / Radio | `COM STANDBY FREQUENCY:index` | 2     |
 
 The output configurations are not mapped to any output device. Only the **Sim Variable** tab values need to be set.
 
