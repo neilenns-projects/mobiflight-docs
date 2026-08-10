@@ -33,9 +33,9 @@ Set the **On Left** action to **Microsoft Flight Simulator** and the preset to *
 
 ### Add a precondition to the MHz input configuration
 
-On the **Precondition** tab for the **COM1 standby - MHz** config, click on **\<none\>** and change **Use type of** to **MobiFlight Variable**.
+In the **Precondition** section for the **COM1 standby - MHz** config, create a **Variable** precondition.
 
-The variable created in step 1 should automatically be selected in the **Choose variable** dropdown. Use `0` for the **If current value is** comparison.
+Select the **COM1 KHz mode** variable created in step 1 in the **Choose variable** dropdown. Enter `0` in the **Value** field.
 
 This will ensure the input configuration only runs when the **COM1 KHz mode** variable is set to `0`.
 
@@ -51,9 +51,9 @@ Set the **On Left** action to **Microsoft Flight Simulator** and the preset to *
 
 ### Add a precondition to the KHz input configuration
 
-On the **Precondition** tab for the **COM1 standby - KHz** config, click on **\<none\>** and change **Use type of** to **MobiFlight Variable**.
+In the **Precondition** section for the **COM1 standby - KHz** config, create a **Variable** precondition.
 
-The variable created in step 1 should automatically be selected in the **Choose variable** dropdown. Use `1` for the **If current value is** comparison.
+Select the **COM1 KHz mode** variable created in step 1 in the **Choose variable** dropdown. Enter `1` in the **Value** field.
 
 This will ensure the input configuration only runs when the **COM1 KHz mode** variable is set to `1`.
 
