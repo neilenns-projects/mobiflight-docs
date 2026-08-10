@@ -6,7 +6,7 @@ description: Step-by-step guide to using the Honeycomb Bravo selector knob with 
 The Honeycomb Bravo's autopilot inputs rely on a selector knob to indicate what autopilot feature the right knob controls. MobiFlight [preconditions](/features/preconditions/) can be used to configure the appropriate events for the right knob based on the selector knob position.
 
 <!-- Need to directly inline the HTML for the hyperlink to be able to specify the download option -->
-<!-- markdownlint-disable-next-line MD033 -->
+<!-- markdownlint-disable-file MD033 -->
 
 <a href="honeycomb-bravo-selector-knob.mfproj" download>A sample project that implements this is available</a>. It provides all the input configs necessary to make this work, however you'll have to edit all the knob inputs to specify what events you actually want to have happen when the knob is turned.
 
