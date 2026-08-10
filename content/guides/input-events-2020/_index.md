@@ -89,25 +89,23 @@ For the case of the parking brake, `(>K:PARKING_BRAKE_SET)` is the important pie
 
 ### Using the event in MobiFlight
 
-In MobiFlight, create a new input configuration and select the appropriate switch as the device. Set the **Action Type** for **On Press** to **Microsoft Flight Simulator** and check the **Show Preset Code** box. The preset code box is where the event will go.
+In MobiFlight, create a new input configuration and select the appropriate switch as the device. Set the **Action Type** for **On Press** to **Microsoft Flight Simulator (All Versions)**
 
-{{< screenshot image="input-config-show-preset-code.png" title="Screenshot of a MobiFlight input configuration with the Show Preset Code option checked and highlighted." >}}
-
-The event needs to be converted to [RPN](https://docs.flightsimulator.com/html/Additional_Information/Reverse_Polish_Notation.htm) format for use as a custom preset. For the **On Press** event, where the input event gets set to `1`, use the following custom code:
+The event needs to be converted to [RPN](https://docs.flightsimulator.com/html/Additional_Information/Reverse_Polish_Notation.htm) format for use as a custom preset. For the **On Press** event, where the input event gets set to `1`, use the following code in the **Customize preset** section:
 
 ```RPN
 1 (>K:PARKING_BRAKE_SET)
 ```
 
-{{< screenshot image="input-config-on-press.png" title="Screenshot of a MobiFlight input configuration with the custom code for applying the parking brake." >}}
+{{< screenshot image="input-config-on-press.png" title="Screenshot of a MobiFlight input configuration with the code for applying the parking brake." >}}
 
-For the **On Release** event, use the following custom code:
+For the **On Release** event, use the following code in the **Customize preset** section:
 
 ```RPN
 0 (>K:PARKING_BRAKE_SET)
 ```
 
-{{< screenshot image="input-config-on-release.png" title="Screenshot of a MobiFlight input configuration with the custom code for releasing the parking brake." >}}
+{{< screenshot image="input-config-on-release.png" title="Screenshot of a MobiFlight input configuration with the code for releasing the parking brake." >}}
 
 ### Close the dialog and try it out
 

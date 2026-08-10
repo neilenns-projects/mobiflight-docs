@@ -93,11 +93,9 @@ With the event tested and working, it can now be converted to the correct format
 
 {{< screenshot image="copy-to-clipboard.png" title="Screenshot of the Behaviors dialog InputEvents tab with the context menu open on the LANDING_GEAR_PARKINGBRAKE_Set binding and Copy to Clipboard highlighted." >}}
 
-In MobiFlight, create a new input configuration and select the appropriate switch as the device. Set the **Action Type** for **On Press** to **Microsoft Flight Simulator** and check the **Show Preset Code** box. The preset code box is where the event will go.
+In MobiFlight, create a new input configuration and select the appropriate switch as the device. Set the **Action Type** for **On Press** to **Microsoft Flight Simulator (All Versions)**
 
-{{< screenshot image="input-config-show-preset-code.png" title="Screenshot of a MobiFlight input configuration with the Show Preset Code checkbox checked." >}}
-
-The event needs to be converted to [RPN](https://docs.flightsimulator.com/html/Additional_Information/Reverse_Polish_Notation.htm) format for use as a custom preset. For the **On Press** event, where the input event gets set to `1`, use the following custom code:
+The event needs to be converted to [RPN](https://docs.flightsimulator.com/html/Additional_Information/Reverse_Polish_Notation.htm) format for use as a custom preset. For the **On Press** event, where the input event gets set to `1`, use the following code in the **Customize preset** section:
 
 ```RPN
 1 (>B:LANDING_GEAR_PARKINGBRAKE_Set)
@@ -105,11 +103,13 @@ The event needs to be converted to [RPN](https://docs.flightsimulator.com/html/A
 
 {{< screenshot image="input-config-on-press.png" title="Screenshot of a MobiFlight input configuration with the custom code for setting the parking brake." >}}
 
-For the **On Release** event, use the following custom code:
+For the **On Release** event, use the following code in the **Customize preset** section:
 
 ```RPN
 0 (>B:LANDING_GEAR_PARKINGBRAKE_Set)
 ```
+
+{{< screenshot image="input-config-on-release.png" title="Screenshot of a MobiFlight input configuration with the code for releasing the parking brake." >}}
 
 Notice how the event name discovered in the previous steps is wrapped with `(>B:` and `)`, and `1` and `0` are used to set and release the parking brake. This pattern applies to any input event that takes a value.
 
