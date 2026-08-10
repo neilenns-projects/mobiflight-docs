@@ -7,6 +7,7 @@ The Honeycomb Bravo's autopilot inputs rely on a selector knob to indicate what 
 
 <!-- Need to directly inline the HTML for the hyperlink to be able to specify the download option -->
 <!-- markdownlint-disable-next-line MD033 -->
+
 <a href="honeycomb-bravo-selector-knob.mfproj" download>A sample project that implements this is available</a>. It provides all the input configs necessary to make this work, however you'll have to edit all the knob inputs to specify what events you actually want to have happen when the knob is turned.
 
 This same technique can be used to do things like display different radios on a 7-segment display based on a knob position, or to use a single encoder with a toggle button to change different radio frequencies.
@@ -18,7 +19,12 @@ Want to build the profile yourself and understand how it works? Here's how to do
 ### Create input configurations for the ALT selector knob position
 
 1. Create a new input config called `Selector - ALT`
-2. Set the module to `Bravo Throttle Quadrant` and the device to `Mode - ALT`
+2. Set the controller to `Bravo Throttle Quadrant` and the device to `Mode - ALT`
+
+{{< screenshot image="input-selector-alt.png" title="Screenshot of an input config with the trigger set to the Mode - Alt input on a Bravo Throttle Quadrant." >}}
+
+<!-- markdownlint-disable-file MD029-->
+
 3. For the `On Press` event select `MobiFlight - Variable` for the `Action Type`
 4. Set the variable name to `Selector`
 5. Set the value to `0`
