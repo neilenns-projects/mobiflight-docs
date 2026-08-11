@@ -15,13 +15,13 @@ Modifiers provide a way to adjust input values from a [device](/devices/) before
 
 ## Adding a modifier
 
-Modifiers are added to input configurations using the **Modifiers** button. Click the button, then select the modifier to add by clicking the **Add modifier** button.
+Modifiers are added to input configurations using the **Modifiers** button. Click the **Modifiers**, then click the **Add modifier** button and select the modifier type.
 
 {{< screenshot image="add-modifier.png" title="Screenshot of an input configuration with the Modify pane open and the Add Modifier menu button open." >}}
 
 ## Editing modifier settings
 
-Every modifier has settings that control how the input value is changed. To edit modifier settings, click open arrow next to the modifier in the **Modifiers** pane to expand the options.
+Every modifier has settings that control how the input value is changed. To edit modifier settings, click the expand arrow next to the modifier in the **Modifiers** pane to expand the options.
 
 {{< screenshot image="edit-modifier.png" title="Screenshot of an input configuration with the Modify pane open and a Transformation modifier highlighted." >}}
 

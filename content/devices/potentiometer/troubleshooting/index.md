@@ -64,7 +64,7 @@ If the range of your potentiometer is different from the standard 0--1023, use t
 
 ### Add an interpolation modifier to the input config
 
-Click the **Modifiers** button, then the _Add modifier_* button and select **Interpolation** for the modifier type.
+Click the **Modifiers** button, then the **Add modifier** button and select **Interpolation** for the modifier type.
 
 Set the **Device output range** preset to **Arduino** and enter the minimum and maximum values from the log. Set the **MSFS2020 event input range** to the desired input.
 

@@ -15,4 +15,4 @@ In the following screenshot, input values from 0--65535, like those from a joyst
 {{< screenshot image="interpolation.png" title="Screenshot of an input configuration with the Modify pane open and an interpolation modifier in edit mode." >}}
 
 > [!TIP]
-> The interpolation modifier can also reverse the direction of a value. For example, if the first interpolation is 0 and 1024, and the second interpolation is 100 and 0, the output value will be scaled linearly to an output range of 1024--0.
+> The interpolation modifier can also reverse the direction of a value. For example, if the first interpolation is from 0 to 1024, and the second interpolation from 100 to 0, the output value will be scaled linearly to an output range of 1024--0.
