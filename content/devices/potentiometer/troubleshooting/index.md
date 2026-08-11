@@ -76,10 +76,10 @@ Put the lowest logged potentiometer value in the **From** field of the first int
 
 For the **To** fields, use the lowest and highest values expected by the simulator for the event. Typically, this will be 0 at the low end and 16383 at the high end for axis inputs like throttles.
 
+{{< screenshot image="completed-interpolation-modifier.png" title="Screenshot of an interpolation modifier configured with an input range of 4--1020 and an ouptut range of 0--16383." >}}
+
 > [!TIP]
 > The [HubHop potentiometer tool](https://hubhop.mobiflight.com/tools/) has a list of common input events with their minimum and maximum values.
-
-{{< screenshot image="completed-interpolation-modifier.png" title="Screenshot of an interpolation modifier configured with an input range of 4--1020 and an ouptut range of 0--16383." >}}
 
 ### Select the simulator event
 
