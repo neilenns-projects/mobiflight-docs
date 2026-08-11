@@ -1,12 +1,14 @@
 ---
-title: Preconditions
+title: Preconditions - output configs
 description: Overview of preconditions in MobiFlight configs.
 ---
 
+> [!TIP]
+> See the [Precondition - input configs](/features/preconditions-input/) documentation for information on using preconditions
+> with input configs.
+
 Preconditions control whether an input or output config is active based on a value. They are an advanced feature, and are best understood by following existing guides for common use cases:
 
-- [Using a single encoder to tune COM1](/guides/single-encoder-com-tuning) demonstrates using preconditions on input configurations.
-- [Using the selector knob on a Honeycomb Bravo](/guides/honeycomb-bravo-selector-knob/) demonstrates using preconditions on input configurations with a game controller.
 - [Showing multiple display pages on an LCD](/guides/multiple-page-lcd/) demonstrates using preconditions on output configurations.
 
 The following sections provide reference information for the features of the precondition tab.
