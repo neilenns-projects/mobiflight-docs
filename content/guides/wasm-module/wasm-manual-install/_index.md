@@ -78,7 +78,7 @@ A File Explorer window will open to the community folder location.
 
 ### Open the MobiFlight install folder
 
-MobiFlight is installed in the `%localappdata%\MobiFlight\MobiFlight Connector\MSFS2020-module` folder. Open that location using File Explorer.
+MobiFlight is installed in the `%localappdata%\MobiFlight\MobiFlight Connector` folder. Open that location using File Explorer.
 
 The same WASM module is used for both versions of Microsoft Flight Simulator even though the folder is named `MSFS2020-module`.
 
