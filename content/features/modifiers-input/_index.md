@@ -7,11 +7,11 @@ next: /features/modifiers-input/blink/
 Modifiers provide a way to adjust input values from a [device](/devices/) before they are used in a simulator event. The following modifiers are supported:
 
 - [Blink](/features/modifiers-input/blink/)
-- [Comparison](/features/modifiers-input/compare/)
+- [Comparison](/features/modifiers-input/comparison/)
 - [Interpolation](/features/modifiers-input/interpolation/)
 - [Padding](/features/modifiers-input/padding/)
 - [Substring](/features/modifiers-input/substring/)
-- [Transform](/features/modifiers-input/transform/)
+- [Transformation](/features/modifiers-input/transformation/)
 
 ## Adding a modifier
 
