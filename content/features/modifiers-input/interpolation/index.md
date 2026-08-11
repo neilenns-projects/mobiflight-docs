@@ -12,7 +12,7 @@ Each row defines a point on the scale for interpolation. The input value is mapp
 
 In the following screenshot, input values from 0--65535, like those from a joystick axis, are scaled linearly to an output range of 0--16383, like those for a simulator throttle event.
 
+{{< screenshot image="interpolation.png" title="Screenshot of an input configuration with the Modify pane open and an interpolation modifier in edit mode." >}}
+
 > [!TIP]
 > The interpolation modifier can also reverse the direction of a value. For example, if the first interpolation is 0 and 1024, and the second interpolation is 100 and 0, the output value will be scaled linearly to an output range of 1024--0.
-
-{{< screenshot image="interpolation.png" title="Screenshot of an input configuration with the Modify pane open and an interpolation modifier in edit mode." >}}
