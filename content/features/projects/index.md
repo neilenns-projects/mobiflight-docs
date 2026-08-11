@@ -30,6 +30,20 @@ Optionally, enable additional features. For Microsoft Flight Simulator projects 
 > [!TIP]
 > The FSUIPC option is only required for profiles targeting PMDG aircraft.
 
+### Specify the aircraft type
+
+MobiFlight filters the available simulator events in input and output configs by the aircraft specified in the project. By default only `Microsoft Generic` events are displayed. To add additional aircraft to the event list click the edit button.
+
+{{< screenshot image="edit-aircraft.png" title="Screenshot of the new project dialog with aircraft edit button highlighted." >}}
+
+Then, use the aircraft pane to filter for the aircraft.
+
+{{< screenshot image="filter-aircraft.png" title="Screenshot of the aircraft pane with the list filtered by Cessna 172." >}}
+
+Finally, select the appropriate aircraft then click **Go Back**.
+
+{{< screenshot image="select-aircraft.png" title="Screenshot of the aircraft pane with Cessna 172 selected." >}}
+
 ### Create the project
 
 Click the **Create project** button to create the project and open the project editor.
@@ -52,7 +66,7 @@ Give the project file a name in a meaningful location, such as a **MobiFlight Pr
 
 {{% steps %}}
 
-### Open the profile in MobiFlight
+### Open the project in MobiFlight
 
 In MobiFlight, go to the **File** menu and select **Open...**.
 
@@ -106,3 +120,22 @@ To remove a project from the recent projects list, click the trash can icon.
 
 > [!TIP]
 > This only removes the project from the recent projects list. It does not delete the project from your computer.
+
+## Editing project settings
+
+To edit the settings on an existing project, for example to change the aircraft in the project, click the **...** menu next to the project name and select **Settings**.
+
+{{< screenshot image="project-settings-menu.png" title="Screenshot of the MobiFlight main window with the project menu opened and the Settings item highlighted." >}}
+
+## Renaming a project
+
+To rename a project, click the **...** menu next to the project name and select **Rename**.
+
+{{< screenshot image="project-rename-menu.png" title="Screenshot of the MobiFlight main window with the project menu opened and the Rename item highlighted." >}}
+
+Then, type a new project name and press **Enter** to apply the change.
+
+{{< screenshot image="renamed-project.png" title="Screenshot of the MobiFlight main window with the project name edited to Cessna 172 (2024)." >}}
+
+> [!IMPORTANT]
+> Renaming a project only changes the name of the project shown in the MobiFlight tab. It does not change the filename of the `.mfproj` file saved on your computer.
