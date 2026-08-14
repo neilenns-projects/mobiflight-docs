@@ -29,7 +29,7 @@ If the potentiometer is still affected by noise, move the 7-segment displays to 
 
 {{% /steps %}}
 
-## Adjusting the potentiometer range
+## Determining the potentiometer range
 
 While most 10kΩ linear potentiometers have a range of 0--1023, some may have a slightly different range. To verify the range of your potentiometer, [connect it to your board](/devices/potentiometer/wiring/), then take these steps.
 
@@ -56,26 +56,56 @@ In the example below, the lowest value produced by the potentiometer is 4. The h
 > [!TIP]
 > Don't forget to disable logging after obtaining the potentiometer values. Logging can slow MobiFlight down during normal use.
 
-## Adjust the event range
+## Scaling the potentiometer range to the event range
 
-If the range of your potentiometer is different from the standard 0--1023, use the [HubHop potentiometer tool](https://hubhop.mobiflight.com/tools/) to generate the correct custom input event.
+If the range of your potentiometer is different from the standard 0--1023, use the [Interpolation modifier](/features/modifiers-input/interpolation/) to adjust the value before using it with a simulator event.
 
 {{% steps %}}
 
-### Generate the event code
+### Add an interpolation modifier to the input config
+
+Click the **Modifiers** button, then the **Add modifier** button and select **Interpolation** for the modifier type.
 
 Set the **Device output range** preset to **Arduino** and enter the minimum and maximum values from the log. Set the **MSFS2020 event input range** to the desired input.
 
-{{< screenshot image="hubhop-settings.png" title="Screenshot of the HubHop potentiometer tool with the values set for a 4 to 1020 potentiometer and a throttle input." >}}
+{{< screenshot image="add-interpolation-modifier.png" title="Screenshot of an input config with the Modifiers pane open and the Interpolation modifier type selected in the Add modifier dropdown." >}}
 
-### Use the event code
+### Add the potentiometer values to adjust the range
 
-The generated event code will be shown in the **Generated RPN code** box.
+Put the lowest logged potentiometer value in the **From** field of the first interpolation line. Put the highest logged potentiometer value in the **From** field of the second interpolation line.
 
-{{< screenshot image="hubhop-generated-code.png" title="Screenshot of the HubHop potentiometer tool with the generated RPN code highlighted." >}}
+For the **To** fields, use the lowest and highest values expected by the simulator for the event. Typically, this will be 0 at the low end and 16383 at the high end for axis inputs like throttles.
 
-Copy and paste the code as the preset code in the **Customize preset** section of the [input configuration dialog](/devices/potentiometer/configuring-device/).
+{{< screenshot image="completed-interpolation-modifier.png" title="Screenshot of an interpolation modifier configured with an input range of 4--1020 and an output range of 0--16383." >}}
 
-{{< screenshot image="custom-preset-code.png" title="Screenshot of the input configuration dialog with the customize preset section highlighted and the custom event code inserted." >}}
+> [!TIP]
+> The [HubHop potentiometer tool](https://hubhop.mobiflight.com/tools/) has a list of common input events with their minimum and maximum values.
+
+### Select the simulator event
+
+In the input config dialog, use the **On Change** button to specify the simulator event. For example, to set the throttle position on a Cessna 172 in Microsoft Flight Simulator, filter by **Microsoft** / **Generic** / **Engines** and select the **THROTTLE_SET** event.
+
+{{< screenshot image="throttle-set-event.png" title="Screenshot of an input config with the THROTTLE_SET event selected." >}}
+
+### Modify the event code
+
+Most HubHop events for analog inputs are written to interpolate the values as part of the event code. This is not necessary when using an interpolation modifier, so the code must be modified to remove the unnecessary calculation.
+
+For example, the **THROTTLE_SET** code in HubHop is:
+
+```RPN
+@ 16.0147 * 0 max 16383 min (>K:THROTTLE_SET)
+```
+
+Since the interpolation modifier handles the range adjustment, this should be simplified by editing the code in the **Customize preset** section to:
+
+```RPN
+@ (>K:THROTTLE_SET)
+```
+
+{{< screenshot image="customized-throttle-code.png" title="Screenshot of an input config with the THROTTLE_SET event code customized." >}}
+
+> [!TIP]
+> You may need to scroll the On Change pane to see the customize preset code textbox.
 
 {{% /steps %}}

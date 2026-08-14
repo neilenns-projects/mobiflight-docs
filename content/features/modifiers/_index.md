@@ -1,5 +1,5 @@
 ---
-title: Modifiers
+title: Modifiers - output configs
 description: How to use modifiers to change output values in MobiFlight.
 aliases:
   - /guides/modifiers/

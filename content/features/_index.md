@@ -14,7 +14,8 @@ cascade:
 {{< card link="/features/controller-bindings/" title="Controller bindings" icon="information" >}}
 {{< card link="/features/input-action-types/" title="Input action types" icon="information" >}}
 {{< card link="/features/file-types/" title="File types" icon="document" >}}
-{{< card link="/features/modifiers/" title="Output value modifiers" icon="adjustments" >}}
+{{< card link="/features/modifiers-input/" title="Modifiers - input configs" icon="adjustments" >}}
+{{< card link="/features/modifiers/" title="Modifiers - output configs" icon="adjustments" >}}
 {{< card link="/features/output-variable-types/" title="Output variable types" icon="information" >}}
 {{< card link="/features/preconditions-input/" title="Preconditions - input configs" icon="information" >}}
 {{< card link="/features/preconditions/" title="Preconditions - output configs" icon="information" >}}
