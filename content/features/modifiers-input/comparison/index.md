@@ -9,4 +9,4 @@ The **Operator** dropdown specifies the comparison operator to use. The **Value*
 
 [NCalc expressions](https://ncalc.github.io/ncalc/articles/index.html) are supported in all three boxes. The current value is represented by the **$** character.
 
-{{< screenshot image="comparison.png" title="Screenshot of an output configuration with the Modify pane open and a compare modifier in edit mode." >}}
+{{< screenshot image="comparison.png" title="Screenshot of an input configuration with the Modify pane open and a compare modifier in edit mode." >}}
