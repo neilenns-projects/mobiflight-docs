@@ -175,6 +175,16 @@
       "platform": "MSFS",
       "aircraft": "Contrail FA50",
       "comment": ""
+    },
+    {
+      "platform": "MSFS",
+      "aircraft": "ATR 42",
+      "comment": ""
+    },
+    {
+      "platform": "MSFS",
+      "aircraft": "ATR 72",
+      "comment": ""
     }
   ]
 }
