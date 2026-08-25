@@ -41,6 +41,8 @@ Unless you already own one, we recommend purchasing a different board, either th
 
 > [!NOTE]
 > Pins D0 and D1 are not available for use, as they are reserved for USB serial communication.
+>
+> Pins D9 and D10 cannot be used for PWM output if a [servo motor](/devices/servo/) is configured.
 
 ## Additional resources
 
