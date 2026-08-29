@@ -5,6 +5,10 @@ images: [card-images/devices/servo.png]
 weight: 20
 ---
 
+> [!IMPORTANT]
+> Adding a servo to an [Arduino Uno](/boards/supported/arduino-uno/) or [Arduino Nano](/boards/recommended/arduino-nano/)
+> disables the PWM capability of pin D9 and D10.
+
 {{% steps %}}
 
 ### Open the settings dialog to edit modules
