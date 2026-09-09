@@ -185,6 +185,16 @@
       "platform": "MSFS",
       "aircraft": "ATR 72",
       "comment": ""
+    },
+    {
+      "platform": "X-Plane 12",
+      "aircraft": "FlyJSim Q4XP",
+      "comment": ""
+    },
+    {
+      "platform": "X-Plane 12",
+      "aircraft": "FlyJSim 737-200",
+      "comment": ""
     }
   ]
 }
