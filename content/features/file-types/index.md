@@ -15,7 +15,7 @@ These files are specific to MobiFlight 11, and replace `.mcc` files from prior r
 
 ## MobiFlight module configuration (.mfmc)
 
-These files contain the device configuration for a specific board and are saved from the MobiFlight Modules dialog. Typically used to create backups, these files define device-to-board connections without providing simulator event mappings.
+These files contain the device configuration for a specific board and are saved from the Controller Management dialog. Typically used to create backups, these files define device-to-board connections without providing simulator event mappings.
 
 ## MobiFlight configuration (.mcc)
 
