@@ -13,6 +13,12 @@ Click on the **Extras** menu and select **Controller Management** to open the Co
 
 {{< screenshot image="/app/extras-controller-management-menu-item.png" title="Screenshot of the Extras menu with the Controller Management menu item selected." >}}
 
+### Add the LCD
+
+Click on the board the device is connected to, then select **LCD Display** from the **Add device** menu.
+
+{{< screenshot image="add-device-menu.png" title="Screenshot of the menu open with the LCD Display item highlighted." >}}
+
 ### Configure the display
 
 Use the **Display settings** to set the address for the display. Use the **Columns** and **Lines** fields to specify the number of columns and rows for the connected display.
