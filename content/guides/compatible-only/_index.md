@@ -3,7 +3,7 @@ title: Solving compatible-only boards
 description: Step-by-step guide to solving boards that only appear as compatible in MobiFlight.
 ---
 
-Sometimes boards that were previously flashed with MobiFlight will only show as **Compatible** in the MobiFlight modules dialog. To resolve this, try the following.
+Sometimes boards that were previously flashed with MobiFlight will only show as **Compatible** in the Controller Management dialog. To resolve this, try the following.
 
 {{% steps %}}
 

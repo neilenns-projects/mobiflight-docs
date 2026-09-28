@@ -7,15 +7,11 @@ weight: 20
 
 {{% steps %}}
 
-### Open the settings dialog to edit modules
+### Open the Controller Management dialog
 
-Click on the **Extras** menu and select **Settings** to open the settings dialog.
+Click on the **Extras** menu and select **Controller Management** to open the Controller Management dialog.
 
-{{< screenshot image="/app/extras-settings-menu-item.png" title="Screenshot of the Extras menu with the Settings menu item selected." >}}
-
-Then click on the **MobiFlight Modules** tab to display the modules.
-
-{{< screenshot image="/app/settings-modules-tab.png" title="Screenshot of the Settings dialog with the MobiFlight Modules tab highlighted." >}}
+{{< screenshot image="/app/extras-controller-management-menu-item.png" title="Screenshot of the Extras menu with the Controller Management menu item selected." >}}
 
 ### Add the display module
 

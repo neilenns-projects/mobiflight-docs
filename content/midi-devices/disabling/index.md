@@ -15,11 +15,11 @@ You may want to disable MobiFlight's MIDI support in certain situations. This ca
 
 {{% steps %}}
 
-### Open the settings dialog
+### Open the Controller Management dialog
 
-Click on the **Extras** menu and select **Settings** to open the settings dialog.
+Click on the **Extras** menu and select **Controller Management** to open the Controller Management dialog.
 
-{{< screenshot image="/app/extras-settings-menu-item.png" title="Screenshot of the Extras menu with the Settings menu item selected." >}}
+{{< screenshot image="/app/extras-controller-management-menu-item.png" title="Screenshot of the Extras menu with the Controller Management menu item selected." >}}
 
 ### Disable MIDI device support
 
@@ -35,11 +35,11 @@ On the **Peripherals** tab, uncheck the **Enable MIDI support** checkbox.
 
 {{% steps %}}
 
-### Open the settings dialog
+### Open the Controller Management dialog
 
-Go to the **Extras** menu and select **Settings**.
+Click on the **Extras** menu and select **Controller Management** to open the Controller Management dialog.
 
-{{< screenshot image="extras-settings-menu-item.png" title="Screenshot of the Extras menu with the Settings menu item selected." >}}
+{{< screenshot image="/app/extras-controller-management-menu-item.png" title="Screenshot of the Extras menu with the Controller Management menu item selected." >}}
 
 ### Disable specific MIDI devices
 

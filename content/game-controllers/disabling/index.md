@@ -17,17 +17,17 @@ You may want to disable MobiFlight's game controller support in certain situatio
 
 {{% steps %}}
 
-### Open the settings dialog
+### Open the Controller Management dialog
 
-Click on the **Extras** menu and select **Settings** to open the settings dialog.
+Click on the **Extras** menu and select **Controller Management** to open the Controller Management dialog.
 
-{{< screenshot image="extras-settings-menu-item.png" title="Screenshot of the Extras menu with the Settings menu item selected." >}}
+{{< screenshot image="/app/extras-controller-management-menu-item.png" title="Screenshot of the Extras menu with the Controller Management menu item selected." >}}
 
 ### Disable joystick support
 
 On the **Peripherals** tab, uncheck the **Enable joystick support** checkbox.
 
-{{< screenshot image="disable-all.png" title="Screenshot of the Peripherals tab in Settings with Enable joystick support unchecked." >}}
+{{< screenshot image="disable-all.png" title="Screenshot of the Peripherals tab of the Controller Management dialog with Enable joystick support unchecked." >}}
 
 {{% /steps %}}
 
@@ -37,17 +37,17 @@ On the **Peripherals** tab, uncheck the **Enable joystick support** checkbox.
 
 {{% steps %}}
 
-### Open the settings dialog
+### Open the Controller Management dialog
 
-Go to the **Extras** menu and select **Settings**.
+Click on the **Extras** menu and select **Controller Management** to open the Controller Management dialog.
 
-{{< screenshot image="extra-settings-menu-item.png" title="Screenshot of the Extras menu with the Settings menu item selected." >}}
+{{< screenshot image="/app/extras-controller-management-menu-item.png" title="Screenshot of the Extras menu with the Controller Management menu item selected." >}}
 
 ### Disable specific game controllers
 
 On the **Peripherals** tab, uncheck the specific game controller to disable.
 
-{{< screenshot image="disable-specific.png" title="Screenshot of the Peripherals tab in Settings with three FootSwitch game controllers disabled." >}}
+{{< screenshot image="disable-specific.png" title="Screenshot of the Peripherals tab of the Controller Management dialog with three FootSwitch game controllers disabled." >}}
 
 {{% /steps %}}
 

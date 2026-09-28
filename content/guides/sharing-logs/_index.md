@@ -11,31 +11,9 @@ MobiFlight logs make it easier for people to answer support questions in [Discor
 
 {{% steps %}}
 
-### Open the settings dialog
-
-Click on the **Extras** menu and select **Settings** to open the settings dialog.
-
-{{< screenshot image="/app/extras-settings-menu-item.png" title="Screenshot of the Extras menu with the Settings menu item selected." >}}
-
-### Enable logging
-
-Check the **enabled** checkbox in the **Logging** section.
-
-{{< screenshot image="settings-logging-enabled.png" title="Screenshot of the Settings dialog with the Logging checkbox enabled." >}}
-
-### Set the log level
-
-In many cases, the default **Info** log level is sufficient for troubleshooting. If the request was for debug logging, change the **Log Level** dropdown to **Debug**.
-
-{{< screenshot image="settings-log-level.png" title="Screenshot of the Settings dialog with the Log Level dropdown open and Info selected." >}}
-
-### Close settings
-
-Click **OK** to close the dialog.
-
 ### Re-create the issue
 
-With logging enabled, re-create the issue. Depending on the problem, this may include:
+Re-create the issue. Depending on the problem, this may include:
 
 - Closing and running MobiFlight.
 - Attempting to update the board firmware.
@@ -56,6 +34,25 @@ Switch to Discord and click in the message box for the support thread, then pres
 
 {{% /steps %}}
 
-> [!TIP]
-> After the issue is resolved, disable logging by going to the **Settings** dialog and unchecking the **enabled** checkbox for **Logging**.
-> Logging can slow MobiFlight down and should only be enabled when troubleshooting.
+## Changing the log level
+
+In some instances you may be asked to adjust the log level to ensure additional debugging information is captured. To adjust the log level:
+
+{{% steps %}}
+
+### Open the settings dialog
+
+Click on the **Extras** menu and select **Settings** to open the settings dialog.
+
+{{< screenshot image="/app/extras-settings-menu-item.png" title="Screenshot of the Extras menu with the Settings menu item selected." >}}
+
+### Change the log level
+
+Set the **Log Level** dropdown to the requested level, then click **Save** to apply the change.
+
+{{< screenshot image="settings-log-level.png" title="Screenshot of the Settings dialog with the Log Level dropdown open and highlighted." >}}
+
+> [!IMPORTANT]
+> After the issue is resolved, set the log level back to **Info**.
+
+{{% /steps %}}

@@ -15,21 +15,21 @@ This is most common when using Arduino clones that have a CH340G chip for serial
 
 ### Acknowledge the ambiguous warning dialog
 
-Click **OK** in the warning dialog to close it. The **MobiFlight Modules** dialog will open automatically.
+Click **OK** in the warning dialog to close it. The **Controller Management** dialog will open automatically.
 
-{{< screenshot image="compatible-module.png" title="Screenshot of the MobiFlight Modules dialog with a compatible module showing in the list." >}}
+{{< screenshot image="compatible-module.png" title="Screenshot of the Controller Management dialog with a compatible module showing in the list." >}}
 
 ### Install the firmware that matches the device
 
 Right-click on the compatible module and open the **Update Firmware** menu. Select the board that matches your device.
 
-{{< screenshot image="update-firmware-menu.png" title="Screenshot of the MobiFlight Modules dialog with the Update Firmware menu open." >}}
+{{< screenshot image="update-firmware-menu.png" title="Screenshot of the MobiFlight Controller Management with the Update Firmware menu open." >}}
 
 ### Wait for the firmware upload to complete
 
-MobiFlight will display a progress dialog during the flashing process. After it completes, the MobiFlight Modules dialog will
+MobiFlight will display a progress dialog during the flashing process. After it completes, the Controller Management dialog will
 show the board as recognized and ready for devices.
 
-{{< screenshot image="flash-complete.png" title="Screenshot of the MobiFlight Modules dialog with a MobiFlight Mega showing in the board list." >}}
+{{< screenshot image="flash-complete.png" title="Screenshot of the Controller Management dialog with a MobiFlight Mega showing in the board list." >}}
 
 {{% /steps %}}

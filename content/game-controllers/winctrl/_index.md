@@ -17,7 +17,7 @@ The WinCtrl CDU inputs work like any other [game controller input](/game-control
 
 The WinCtrl RMP displays and LEDs are controlled using [specific output devices](/game-controllers/winctrl/winctrl-rmp/).
 
-WinCtrl devices are automatically shown in the [input](/game-controllers/configuring-input/) and [output](/game-controllers/configuring-output/) configuration dialogs. They will not appear in the **Modules** tab of the **Settings** dialog as they are not [boards](/boards/).
+WinCtrl devices are automatically shown in the [input](/game-controllers/configuring-input/) and [output](/game-controllers/configuring-output/) configuration dialogs. They will not appear in the **MobiFlight Modules** tab of the **Controller Management** dialog as they are not [boards](/boards/).
 
 > [!TIP]
 > Many MobiFlight profiles for WinCtrl devices are available from the community. See [flightsim.to](https://flightsim.to/miscellaneous/mobiflight-profiles) for Microsoft Flight Simulator profiles, and the [X-Plane forums](https://forums.x-plane.org/index.php?/search/&q=winwing&quick=1) for X-Plane profiles. After downloading a profile, see the [Using community MobiFlight profiles](/guides/using-community-profiles/) page for instructions on how to use them.
