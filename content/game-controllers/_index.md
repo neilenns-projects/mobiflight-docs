@@ -24,7 +24,6 @@ For popular devices, MobiFlight displays friendly names during input and output 
 | [Honeycomb Sierra TPM module](https://flyhoneycomb.com/products/sierra-tpm-module)                                                |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | [Honeycomb Bravo Throttle Quadrant controller](https://flyhoneycomb.com/collections/hardware/products/bravo-throttle-quadrant)    |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | [Logitech/Saitek Switch Panel](https://www.logitechg.com/en-us/shop/p/flight-simulator-switch-panel)                              |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
-| MOZA MA3F                                                                                                                         |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | [Octavi flight simulation controls](https://www.octavi.net/)                                                                      |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | [Thrustmaster TCA Sidestick Airbus Edition controller](https://www.thrustmaster.com/en-us/products/tca-sidestick-airbus-edition/) |                  {{< icon "check" >}}                   |                                                           |
 | [VKBsim flight simulation controllers](https://www.vkbcontrollers.com/)                                                           |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
@@ -47,7 +46,7 @@ For popular devices, MobiFlight displays friendly names during input and output 
 | WingFlex overhead panel                                                                                                           |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 | WingFlex RMP cube                                                                                                                 |                  {{< icon "check" >}}                   |                   {{< icon "check" >}}                    |
 
-For detailed information on using WinCtrl devices with MobiFlight, see the [WinCtrl documentation](/game-controllers/winctrl/). The WinCtrl CDU and MOZA MA3F displays are only supported with [select aircraft](/game-controllers/winctrl/winctrl-cdu/). The WinCtrl RMP displays and LEDs are controlled using [specific output devices](/game-controllers/winctrl/winctrl-rmp/).
+For detailed information on using WinCtrl devices with MobiFlight, see the [WinCtrl documentation](/game-controllers/winctrl/). The WinCtrl CDU display is only supported with [select aircraft](/game-controllers/winctrl/winctrl-cdu/). The WinCtrl RMP displays and LEDs are controlled using [specific output devices](/game-controllers/winctrl/winctrl-rmp/).
 
 > [!TIP]
 > Other game controllers may work and show generic names for inputs; however their outputs are not supported. Unlisted WinCtrl devices are not supported.
