@@ -9,7 +9,7 @@ MobiFlight supports all VKB controllers and their axes, buttons and hat switches
 
 MobiFlight also supports advanced functionality like LED control and improved support for rotary encoders. Depending on your controller, this may require preparation.
 
-As with all game controllers, VKB controllers are not MobiFlight [boards](/boards/), and will therefore not appear in the **MobiFlight** tab of the **Controller Management** dialog. Their [inputs](/game-controllers/configuring-input/) are automatically available in the MobiFlight configuration dialog.
+As with all game controllers, VKB controllers are not MobiFlight [boards](/boards/), and will therefore not appear in the **MobiFlight Modules** tab of the **Controller Management** dialog. Their [inputs](/game-controllers/configuring-input/) are automatically available in the MobiFlight configuration dialog.
 
 LED [outputs](/game-controllers/configuring-output/) on VKB controllers are supported where controller definitions are available.
 
