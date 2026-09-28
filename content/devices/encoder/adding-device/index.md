@@ -15,7 +15,7 @@ weight: 20
 
 {{% steps %}}
 
-### Open the Controller Management dialog to edit modules
+### Open the Controller Management dialog
 
 Click on the **Extras** menu and select **Controller Management** to open the Controller Management dialog.
 
