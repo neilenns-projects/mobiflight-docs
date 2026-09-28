@@ -13,15 +13,11 @@ Use the following steps to upload the configuration to a board.
 
 {{% steps %}}
 
-### Open the settings dialog to edit modules
+### Open the Controller Management dialog
 
-Click on the **Extras** menu and select **Settings** to open the settings dialog.
+Click on the **Extras** menu and select **Controller Management** to open the Controller Management dialog.
 
-{{< screenshot image="/app/extras-settings-menu-item.png" title="Screenshot of the Extras menu with the Settings menu item selected." >}}
-
-Then click on the **MobiFlight Modules** tab to display the modules.
-
-{{< screenshot image="/app/settings-modules-tab.png" title="Screenshot of the Settings dialog with the MobiFlight Modules tab highlighted." >}}
+{{< screenshot image="/app/extras-controller-management-menu-item.png" title="Screenshot of the Extras menu with the Controller Management menu item selected." >}}
 
 ### Select the board
 
@@ -31,7 +27,7 @@ Click on the **MobiFlight Mega** board in the list of connected boards.
 
 ### Upload the configuration
 
-Click on the **Upload** button and select **Prototyping Board (Latest Version)**.
+Click on the **Upload** button and select **Prototyping Board**.
 
 {{< screenshot image="upload-default-config.png" title="Screenshot of the MobiFlight Modules dialog with the Upload button selected." >}}
 
