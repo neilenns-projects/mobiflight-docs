@@ -27,7 +27,7 @@ Click on the **Extras** menu and select **Controller Management** to open the Co
 
 On the **Peripherals** tab, uncheck the **Enable joystick support** checkbox.
 
-{{< screenshot image="disable-all.png" title="Screenshot of the Peripherals tab in Settings with Enable joystick support unchecked." >}}
+{{< screenshot image="disable-all.png" title="Screenshot of the Peripherals tab of the Controller Management dialog with Enable joystick support unchecked." >}}
 
 {{% /steps %}}
 
@@ -47,7 +47,7 @@ Click on the **Extras** menu and select **Controller Management** to open the Co
 
 On the **Peripherals** tab, uncheck the specific game controller to disable.
 
-{{< screenshot image="disable-specific.png" title="Screenshot of the Peripherals tab in Settings with three FootSwitch game controllers disabled." >}}
+{{< screenshot image="disable-specific.png" title="Screenshot of the Peripherals tab of the Controller Management dialog with three FootSwitch game controllers disabled." >}}
 
 {{% /steps %}}
 
