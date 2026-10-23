@@ -20,6 +20,9 @@ For popular devices, MobiFlight displays friendly names during input and output 
 <!-- Add additional game controllers by editing supported-game-controllers.json, located in this directory. -->
 {{< supported-game-controllers-table >}}
 
+> [!TIP]
+> Purchasing devices using the links above may help support MobiFlight development at no cost to you.
+
 For detailed information on using WinCtrl devices with MobiFlight, see the [WinCtrl documentation](/game-controllers/winctrl/). The WinCtrl CDU and MOZA MA3F displays are only supported with [select aircraft](/game-controllers/winctrl/winctrl-cdu/). The WinCtrl RMP displays and LEDs are controlled using [specific output devices](/game-controllers/winctrl/winctrl-rmp/).
 
 > [!TIP]

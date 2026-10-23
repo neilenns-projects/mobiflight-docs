@@ -10,19 +10,19 @@
       "name": "Honeycomb Alpha Flight Controls yoke",
       "supportsinputs": true,
       "supportsoutputs": false,
-      "url": "https://flyhoneycomb.com/products/alpha-flight-controls"
+      "url": "https://flyhoneycomb.com/collections/hardware/products/alpha-flight-controls?ref=MOBIFLIGHT"
     },
     {
       "name": "Honeycomb Bravo Throttle Quadrant controller",
       "supportsinputs": true,
       "supportsoutputs": true,
-      "url": "https://flyhoneycomb.com/collections/hardware/products/bravo-throttle-quadrant"
+      "url": "https://flyhoneycomb.com/collections/hardware/products/bravo-throttle-quadrant?ref=MOBIFLIGHT"
     },
     {
       "name": "Honeycomb Sierra TPM module",
       "supportsinputs": true,
       "supportsoutputs": true,
-      "url": "https://flyhoneycomb.com/products/sierra-tpm-module"
+      "url": "https://flyhoneycomb.com/products/sierra-tpm-module?ref=MOBIFLIGHT"
     },
     {
       "name": "Logitech/Saitek Switch Panel",
@@ -33,7 +33,8 @@
     {
       "name": "MOZA MA3F",
       "supportsinputs": true,
-      "supportsoutputs": true
+      "supportsoutputs": true,
+      "url": "https://mozaracing.com/pages/ma3f-airbus-sidestick?ref=MOBIFLIGHT"
     },
     {
       "name": "MOZA MB3F CDU",
@@ -44,17 +45,19 @@
       "name": "Octavi flight simulation controls",
       "supportsinputs": true,
       "supportsoutputs": true,
-      "url": "https://www.octavi.net/"
+      "url": "https://www.octavi.net/?ref=mobiflight"
     },
     {
       "name": "Rowsfire A107 Pro",
       "supportsinputs": true,
-      "supportsoutputs": true
+      "supportsoutputs": true,
+      "url": "https://rowsfire.com/?ref=qkxijpvj&utm_source=mobiflight"
     },
     {
       "name": "Rowsfire A113",
       "supportsinputs": true,
-      "supportsoutputs": true
+      "supportsoutputs": true,
+      "url": "https://rowsfire.com/?ref=qkxijpvj&utm_source=mobiflight"
     },
     {
       "name": "Thrustmaster TCA Sidestick Airbus Edition controller",
@@ -136,27 +139,32 @@
     {
       "name": "WingFlex DAP500",
       "supportsinputs": true,
-      "supportsoutputs": true
+      "supportsoutputs": true,
+      "url": "https://www.wingflex.com/?sca_ref=11453765.OPCgaGgkUj"
     },
     {
       "name": "WingFlex ECAM cube",
       "supportsinputs": true,
-      "supportsoutputs": true
+      "supportsoutputs": true,
+      "url": "https://www.wingflex.com/?sca_ref=11453765.OPCgaGgkUj"
     },
     {
       "name": "WingFlex FCU",
       "supportsinputs": true,
-      "supportsoutputs": true
+      "supportsoutputs": true,
+      "url": "https://www.wingflex.com/?sca_ref=11453765.OPCgaGgkUj"
     },
     {
       "name": "WingFlex overhead panel",
       "supportsinputs": true,
-      "supportsoutputs": true
+      "supportsoutputs": true,
+      "url": "https://www.wingflex.com/?sca_ref=11453765.OPCgaGgkUj"
     },
     {
       "name": "WingFlex RMP cube",
       "supportsinputs": true,
-      "supportsoutputs": true
+      "supportsoutputs": true,
+      "url": "https://www.wingflex.com/?sca_ref=11453765.OPCgaGgkUj"
     }
   ]
 }
