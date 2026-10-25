@@ -195,6 +195,11 @@
       "platform": "X-Plane 12",
       "aircraft": "FlyJSim 737-200",
       "comment": ""
+    },
+    {
+      "platform": "MSFS",
+      "aircraft": "BlueBird 757",
+      "comment": ""
     }
   ]
 }
