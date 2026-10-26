@@ -37,9 +37,16 @@
       "url": "https://mozaracing.com/pages/ma3f-airbus-sidestick?ref=MOBIFLIGHT"
     },
     {
-      "name": "MOZA MB3F CDU",
+      "name": "MOZA MA3F",
       "supportsinputs": true,
-      "supportsoutputs": true
+      "supportsoutputs": true,
+      "url": "https://mozaracing.com/pages/ma3f-airbus-sidestick?ref=MOBIFLIGHT"
+    },
+    {
+      "name": "MOZA MGX1000",
+      "supportsinputs": true,
+      "supportsoutputs": true,
+      "url": "https://mozaracing.com/products/mgx1000?ref=MOBIFLIGHT"
     },
     {
       "name": "Octavi flight simulation controls",
