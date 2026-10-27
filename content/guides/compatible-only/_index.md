@@ -9,7 +9,11 @@ Sometimes boards that were previously flashed with MobiFlight will only show as 
 
 ### Ensure other apps aren't using the COM port
 
-Many other applications open the COM port to connected boards automatically, preventing MobiFlight from communicating with the board. Common apps causing this issue include:
+Many other applications open the COM port to connected boards automatically, preventing MobiFlight from communicating with the board. Boards affected by this issue show as **Busy** in the **Controller Management** dialog.
+
+{{< screenshot image="busy.png" title="Screenshot of the Controller Management dialog showing a board with the Busy icon." >}}
+
+Common apps causing this issue include:
 
 - Arduino IDE
 - CURA
