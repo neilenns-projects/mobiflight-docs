@@ -1,0 +1,183 @@
+{
+  "controllers": [
+    {
+      "name": "FreeJoy",
+      "supportsinputs": true,
+      "supportsoutputs": true,
+      "url": "https://github.com/FreeJoy-Team/FreeJoyWiki"
+    },
+    {
+      "name": "Honeycomb Alpha Flight Controls yoke",
+      "supportsinputs": true,
+      "supportsoutputs": false,
+      "url": "https://flyhoneycomb.com/collections/hardware/products/alpha-flight-controls?ref=MOBIFLIGHT"
+    },
+    {
+      "name": "Honeycomb Bravo Throttle Quadrant controller",
+      "supportsinputs": true,
+      "supportsoutputs": true,
+      "url": "https://flyhoneycomb.com/collections/hardware/products/bravo-throttle-quadrant?ref=MOBIFLIGHT"
+    },
+    {
+      "name": "Honeycomb Sierra TPM module",
+      "supportsinputs": true,
+      "supportsoutputs": true,
+      "url": "https://flyhoneycomb.com/products/sierra-tpm-module?ref=MOBIFLIGHT"
+    },
+    {
+      "name": "Logitech/Saitek Switch Panel",
+      "supportsinputs": true,
+      "supportsoutputs": true,
+      "url": "https://www.logitechg.com/en-us/shop/p/flight-simulator-switch-panel"
+    },
+    {
+      "name": "MOZA MA3F",
+      "supportsinputs": true,
+      "supportsoutputs": true,
+      "url": "https://mozaracing.com/pages/ma3f-airbus-sidestick?ref=MOBIFLIGHT"
+    },
+    {
+      "name": "MOZA MA3F",
+      "supportsinputs": true,
+      "supportsoutputs": true,
+      "url": "https://mozaracing.com/pages/ma3f-airbus-sidestick?ref=MOBIFLIGHT"
+    },
+    {
+      "name": "MOZA MGX1000",
+      "supportsinputs": true,
+      "supportsoutputs": true,
+      "url": "https://mozaracing.com/products/mgx1000?ref=MOBIFLIGHT"
+    },
+    {
+      "name": "Octavi flight simula tion controls",
+      "supportsinputs": true,
+      "supportsoutputs": true,
+      "url": "https://www.octavi.net/?ref=mobiflight"
+    },
+    {
+      "name": "Rowsfire A107 Pro",
+      "supportsinputs": true,
+      "supportsoutputs": true,
+      "url": "https://rowsfire.com/?ref=qkxijpvj&utm_source=mobiflight"
+    },
+    {
+      "name": "Rowsfire A113",
+      "supportsinputs": true,
+      "supportsoutputs": true,
+      "url": "https://rowsfire.com/?ref=qkxijpvj&utm_source=mobiflight"
+    },
+    {
+      "name": "Thrustmaster TCA Sidestick Airbus Edition controller",
+      "supportsinputs": true,
+      "supportsoutputs": false,
+      "url": "https://www.thrustmaster.com/en-us/products/tca-sidestick-airbus-edition/"
+    },
+    {
+      "name": "VKBsim flight simulation controllers",
+      "supportsinputs": true,
+      "supportsoutputs": true,
+      "url": "https://www.vkbcontrollers.com/"
+    },
+    {
+      "name": "WinCtrl AGP",
+      "supportsinputs": true,
+      "supportsoutputs": true
+    },
+    {
+      "name": "WinCtrl ECAM",
+      "supportsinputs": true,
+      "supportsoutputs": true
+    },
+    {
+      "name": "WinCtrl EFIS Left display",
+      "supportsinputs": true,
+      "supportsoutputs": true
+    },
+    {
+      "name": "WinCtrl Flight Control Unit (FCU)",
+      "supportsinputs": true,
+      "supportsoutputs": true
+    },
+    {
+      "name": "WinCtrl MCDU",
+      "supportsinputs": true,
+      "supportsoutputs": true
+    },
+    {
+      "name": "WinCtrl NWS",
+      "supportsinputs": true,
+      "supportsoutputs": false
+    },
+    {
+      "name": "WinCtrl PAP 3",
+      "supportsinputs": true,
+      "supportsoutputs": true
+    },
+    {
+      "name": "WinCtrl PFP 3N",
+      "supportsinputs": true,
+      "supportsoutputs": true
+    },
+    {
+      "name": "WinCtrl PFP 4",
+      "supportsinputs": true,
+      "supportsoutputs": true
+    },
+    {
+      "name": "WinCtrl PFP 7",
+      "supportsinputs": true,
+      "supportsoutputs": true
+    },
+    {
+      "name": "WinCtrl PTO 2",
+      "supportsinputs": true,
+      "supportsoutputs": true
+    },
+    {
+      "name": "WinCtrl RMP",
+      "supportsinputs": true,
+      "supportsoutputs": true
+    },
+    {
+      "name": "WinCtrl TCAS",
+      "supportsinputs": true,
+      "supportsoutputs": true
+    },
+    {
+      "name": "WingFlex DAP500",
+      "supportsinputs": true,
+      "supportsoutputs": true,
+      "url": "https://www.wingflex.com/?sca_ref=11453765.OPCgaGgkUj"
+    },
+    {
+      "name": "WingFlex ECAM cube",
+      "supportsinputs": true,
+      "supportsoutputs": true,
+      "url": "https://www.wingflex.com/?sca_ref=11453765.OPCgaGgkUj"
+    },
+    {
+      "name": "WingFlex FCU",
+      "supportsinputs": true,
+      "supportsoutputs": true,
+      "url": "https://www.wingflex.com/?sca_ref=11453765.OPCgaGgkUj"
+    },
+    {
+      "name": "WingFlex overhead panel",
+      "supportsinputs": true,
+      "supportsoutputs": true,
+      "url": "https://www.wingflex.com/?sca_ref=11453765.OPCgaGgkUj"
+    },
+    {
+      "name": "WingFlex RMP cube",
+      "supportsinputs": true,
+      "supportsoutputs": true,
+      "url": "https://www.wingflex.com/?sca_ref=11453765.OPCgaGgkUj"
+    },
+    {
+      "name": "Logitech Radio Panel",
+      "supportsinputs": true,
+      "supportsoutputs": true,
+      "url": "https://www.logitechg.com/en-us/shop/p/flight-simulator-cockpit-radio-panel"
+    }
+  ]
+}

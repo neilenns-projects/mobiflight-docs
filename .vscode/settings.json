@@ -137,5 +137,8 @@
     ".svg.html": false,
     ".svg": false
   },
-  "svg.preview.background": "white"
+  "svg.preview.background": "white",
+  "chat.tools.terminal.autoApprove": {
+    "go": true
+  }
 }

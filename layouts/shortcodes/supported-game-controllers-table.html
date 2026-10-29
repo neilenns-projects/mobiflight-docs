@@ -1,0 +1,37 @@
+{{- $jsonFile := .Page.Resources.GetMatch "supported-game-controllers.json" -}}
+{{- if $jsonFile -}}
+  {{- $data := $jsonFile.Content | unmarshal -}}
+  {{- $sorted := sort $data.controllers "name" -}}
+  <table>
+    <thead>
+      <tr>
+        <th>Game controller</th>
+        <th style="text-align: center">
+          <a href="configuring-input/">Supports inputs</a>
+        </th>
+        <th style="text-align: center">
+          <a href="configuring-output/">Supports outputs</a>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      {{- range $sorted }}
+        <tr>
+          <td>
+            {{- if .url }}
+              <a href="{{ .url }}">{{ .name }}</a>
+            {{- else -}}
+              {{ .name }}
+            {{- end -}}
+          </td>
+          <td style="text-align: center">
+            {{- if .supportsinputs -}}✅{{ end -}}
+          </td>
+          <td style="text-align: center">
+            {{- if .supportsoutputs -}}✅{{- end -}}
+          </td>
+        </tr>
+      {{- end }}
+    </tbody>
+  </table>
+{{- end }}
