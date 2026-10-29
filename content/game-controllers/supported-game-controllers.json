@@ -49,7 +49,7 @@
       "url": "https://mozaracing.com/products/mgx1000?ref=MOBIFLIGHT"
     },
     {
-      "name": "Octavi flight simulation controls",
+      "name": "Octavi flight simula tion controls",
       "supportsinputs": true,
       "supportsoutputs": true,
       "url": "https://www.octavi.net/?ref=mobiflight"
@@ -172,6 +172,12 @@
       "supportsinputs": true,
       "supportsoutputs": true,
       "url": "https://www.wingflex.com/?sca_ref=11453765.OPCgaGgkUj"
+    },
+    {
+      "name": "Logitech Radio Panel",
+      "supportsinputs": true,
+      "supportsoutputs": true,
+      "url": "https://www.logitechg.com/en-us/shop/p/flight-simulator-cockpit-radio-panel"
     }
   ]
 }
