@@ -39,6 +39,10 @@ params:
     displayCopyright: true
     displayPoweredBy: false
 
+  editURL:
+    enable: true
+    base: "https://github.com/neilenns-projects/mobiflight-docs/edit/main/content"
+
 menu:
   main:
     - name: Donate
