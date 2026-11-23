@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       prettier:
-        specifier: ^3.4.2
-        version: 3.9.10
+        specifier: ^3.10.1
+        version: 3.10.1
       prettier-plugin-go-template:
         specifier: ^0.0.15
-        version: 0.0.15(prettier@3.9.10)
+        version: 0.0.15(prettier@3.10.1)
 
 packages:
 
@@ -23,8 +23,8 @@ packages:
     peerDependencies:
       prettier: ^3.0.0
 
-  prettier@3.9.10:
-    resolution: {integrity: sha512-skGHTH1Yb9QvaTC4hWnRTzEYtCpApF0UMBPz+t/0ZPzP8ihefo/btKd+QA7pUE0fEwA1SbS/NmhyEcstdXOIdA==}
+  prettier@3.10.1:
+    resolution: {integrity: sha512-70vp3ZUYoPlFbF9uiTdXHUUCGEIp7d4+6p+8DYbkm2jP7x/3i/paXVF6dopSI3zd/CEitrZN1rc4i85xWmmXlg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -34,11 +34,11 @@ packages:
 
 snapshots:
 
-  prettier-plugin-go-template@0.0.15(prettier@3.9.10):
+  prettier-plugin-go-template@0.0.15(prettier@3.10.1):
     dependencies:
-      prettier: 3.9.10
+      prettier: 3.10.1
       ulid: 2.4.0
 
-  prettier@3.9.10: {}
+  prettier@3.10.1: {}
 
   ulid@2.4.0: {}
