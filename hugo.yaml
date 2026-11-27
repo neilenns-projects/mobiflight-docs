@@ -1,11 +1,16 @@
 title: "MobiFlight documentation"
 
 outputs:
-  home: [html, llms]
+  home: [html, llms, llmsfull, md]
+  page: [html, llms, md]
+  section: [html, llms, md]
+  taxonomy: [html, llms, md]
+  term: [html, llms, md]
 
 module:
   imports:
     - path: github.com/imfing/hextra
+    - path: github.com/gethugothemes/hugo-modules/llms-txt
 
 markup:
   # allow raw html
@@ -58,3 +63,9 @@ menu:
       url: "https://github.com/mobiflight"
       params:
         icon: github
+
+llms:
+  generate_llms_txt: true
+  generate_llms_full_txt: true
+  include: []
+  exclude: []
