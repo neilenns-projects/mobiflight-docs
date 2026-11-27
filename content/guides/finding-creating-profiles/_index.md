@@ -11,13 +11,14 @@ MobiFlight profiles are created by the community, for the community.
 
 ## Finding community profiles
 
+MobiFlight maintains a [list of known community profiles](https://hubhop.mobiflight.com/profiles/) on HubHop. It updates daily with profiles published to flightsim.to.
+
 For Microsoft Flight Simulator, profiles are shared
 on [flightsim.to in the MobiFlight category](https://flightsim.to/miscellaneous/mobiflight-profiles). Additional profiles
 are occasionally posted in the [MobiFlight Discord](https://mobiflight.com/discord). Use the Discord search feature to find
 them.
 
-For X-Plane profiles, profiles are shared in [their forum](https://forums.x-plane.org/index.php). Use the forum search feature
-to find them.
+For X-Plane profiles, profiles are shared in [their forum](https://forums.x-plane.org/index.php). Use the forum search feature to find them.
 
 To use community profiles, see the [using community profiles guide](/guides/using-community-profiles/).
 
